@@ -12,66 +12,50 @@ from nltk.tokenize import word_tokenize
 import json
 
 
-def load_env()
-    # Load environment variables from .env file
-    load_dotenv()
-    print("Loaded environment variables.")
+load_dotenv()
+print("Loaded environment variables.")
 
-    # Retrieve environment variables
-    try:
-        api_id = int(os.getenv('TELEGRAM_API_ID'))
-        api_hash = os.getenv('TELEGRAM_API_HASH')
-        phone = os.getenv('TELEGRAM_PHONE')
-        openai_api_key = os.getenv('OPENAI_API_KEY')
-
-        client = OpenAI(api_key=openai_api_key)
-
-        # Check for missing environment variables
-        required_vars = {
-            'TELEGRAM_API_ID': api_id,
-            'TELEGRAM_API_HASH': api_hash,
-            'TELEGRAM_PHONE': phone,
-            'OPENAI_API_KEY': openai_api_key
-        }
-
-        for var_name, var_value in required_vars.items():
-            if not var_value:
-                raise EnvironmentError(f"The environment variable {var_name} is missing.")
-
-        print("Environment variables loaded successfully.")
-
-    except Exception as e:
-        print(f"Error loading environment variables: {e}")
-        exit(1)
-
-# Read the prompt from prompt.ini
+# Retrieve environment variables
 try:
-    with open('prompt.ini', 'r', encoding='utf-8') as file:
-        prompt_template = file.read()
-    print("Loaded prompt.ini successfully.")
+    api_id = int(os.getenv('TELEGRAM_API_ID'))
+    api_hash = os.getenv('TELEGRAM_API_HASH')
+    phone = os.getenv('TELEGRAM_PHONE')
+    openai_api_key = os.getenv('OPENAI_API_KEY')
+
+    client = OpenAI(api_key=openai_api_key)
+
+    # Check for missing environment variables
+    required_vars = {
+        'TELEGRAM_API_ID': api_id,
+        'TELEGRAM_API_HASH': api_hash,
+        'TELEGRAM_PHONE': phone,
+        'OPENAI_API_KEY': openai_api_key
+    }
+
+    for var_name, var_value in required_vars.items():
+        if not var_value:
+            raise EnvironmentError(f"The environment variable {var_name} is missing.")
+
+    print("Environment variables loaded successfully.")
+
 except Exception as e:
-    print(f"Error loading prompt.ini: {e}")
+    print(f"Error loading environment variables: {e}")
     exit(1)
-
-# Create the Telegram client
-tg_client = TelegramClient('session_name', api_id, api_hash)
-
 
 async def fetch_telegram_messages(
     group='debug',
     limit=1000,
     username='debug',
-    check_spam=False
 ):
     """Fetch text messages from a Telegram group and save to a file, ignoring specific users.
 
     Parameters:
     - group (str): Name of the group, used for directory and file naming.
-    - output_file (str): Name of the output file (will be overridden by naming convention).
     - limit (int): Number of messages to fetch.
     - username (str): Telegram group username or link.
-    - check_spam (bool): If True, checks for spam users to ignore after accumulating 300 messages.
     """
+
+    
     print("Starting fetch_telegram_messages function.")
     await tg_client.start(phone)
     print("Telegram client started.")
@@ -89,16 +73,20 @@ async def fetch_telegram_messages(
     group_dir = os.path.join('tg', group)
     os.makedirs(group_dir, exist_ok=True)
 
-    message_log = []
+    message_log_raw = []
+    message_log_filtered = []
     total_messages = 0
     filtered_messages_count = 0
-    all_messages_text = ""
+    all_messages_text_raw = ""
+    all_messages_text_filtered = ""
     timestamps = []
 
     ignore_list = []  # Initialize ignore_list
     spam_check_messages = []
 
     print(f"Retrieving the last {limit} messages...")
+
+    previous_message_text = None  # For duplicate message checking in filtered output
 
     async for message in tg_client.iter_messages(channel, limit=limit):
         total_messages += 1  # Track total number of messages fetched
@@ -108,24 +96,6 @@ async def fetch_telegram_messages(
             
             sender_username = sender.username if sender.username else f"id_{sender.id}"
             
-            # If check_spam is enabled, also ignore all messages from designated bot accounts
-            if check_spam == True and sender.bot == True:
-                continue
-                # # Accumulate messages for spam checking
-                # if check_spam and len(spam_check_messages) < 100:
-                #     spam_check_messages.append({
-                #         'message': message.message,
-                #         'sender_username': sender_username
-                #     })
-                #     if len(spam_check_messages) == 100:
-                #         # Call check_spam_with_openai() (to be implemented)
-                #         ignore_list = check_spam_with_openai(spam_check_messages)
-                #         print(f"Spam users identified: {ignore_list}")
-
-                # # Skip messages from users in the ignore list
-                # if any(normalize_username(sender_username) == normalize_username(ignored_user) for ignored_user in ignore_list):
-                #     continue
-
             timestamp = message.date.strftime('%Y-%m-%d %H:%M')
             text = message.message
             timestamps.append(message.date)
@@ -133,18 +103,37 @@ async def fetch_telegram_messages(
             # Create a formatted message entry
             message_entry = f"Date:{timestamp}\nUsr:@{sender_username}\nMsg:{text}\n--\n"
 
-            # Append the message entry to the log
-            message_log.append(message_entry)
-            all_messages_text += text + " "  # Accumulate all text for token counting
+            # Append the message entry to the raw log
+            message_log_raw.append(message_entry)
+            all_messages_text_raw += text + " "  # Accumulate all text for token counting
+
+            # For filtered output, apply filters:
+            # - Skip messages from bots
+            # - Skip duplicate messages (same as previous message)
+            if sender.bot:
+                continue  # Skip bots in filtered output
+            if previous_message_text is not None and text == previous_message_text:
+                continue  # Skip duplicate messages in filtered output
+
+            # If passes filters, add to filtered log
+            message_log_filtered.append(message_entry)
+            all_messages_text_filtered += text + " "  # Accumulate text for token counting
             filtered_messages_count += 1  # Track number of messages after filtering
+
+            # Update previous message text
+            previous_message_text = text
 
     print(f"Total messages fetched: {total_messages}")
     print(f"Messages after filtering: {filtered_messages_count}")
 
-    # Calculate total tokens
-    tokens = word_tokenize(all_messages_text)
-    total_tokens = len(tokens)
-    print(f"Total tokens in messages: {total_tokens}")
+    # Calculate total tokens for raw and filtered messages
+    tokens_raw = word_tokenize(all_messages_text_raw)
+    total_tokens_raw = len(tokens_raw)
+    print(f"Total tokens in raw messages: {total_tokens_raw}")
+
+    tokens_filtered = word_tokenize(all_messages_text_filtered)
+    total_tokens_filtered = len(tokens_filtered)
+    print(f"Total tokens in filtered messages: {total_tokens_filtered}")
 
     # Get date range
     if timestamps:
@@ -153,20 +142,33 @@ async def fetch_telegram_messages(
     else:
         date_min = date_max = 'no_dates'
 
-    # Prepare file name
-    nmsg = f"{total_messages}msg"
-    ntok = f"{total_tokens//1000}ktok"
-    checkspam_flag = 'spamchk' if check_spam else 'nospamchk'
-    output_filename = f"{group}_{checkspam_flag}_{nmsg}_{ntok}_{date_min}_{date_max}.txt"
-    output_path = os.path.join(group_dir, output_filename)
+    # Prepare file names
+    nmsg_raw = f"{total_messages}msg"
+    ntok_raw = f"{total_tokens_raw//1000}ktok"
+    output_filename_raw = f"{group}_raw_{nmsg_raw}_{ntok_raw}_{date_min}_{date_max}.txt"
+    output_path_raw = os.path.join(group_dir, output_filename_raw)
 
-    # Save the message log to a file
+    nmsg_filtered = f"{filtered_messages_count}msg"
+    ntok_filtered = f"{total_tokens_filtered//1000}ktok"
+    output_filename_filtered = f"{group}_filtered_{nmsg_filtered}_{ntok_filtered}_{date_min}_{date_max}.txt"
+    output_path_filtered = os.path.join(group_dir, output_filename_filtered)
+
+    # Save the raw message log to a file
     try:
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.writelines(message_log)
-        print(f"Telegram messages saved to '{output_path}'.")
+        with open(output_path_raw, 'w', encoding='utf-8') as f:
+            f.writelines(message_log_raw)
+        print(f"Raw Telegram messages saved to '{output_path_raw}'.")
     except Exception as e:
-        print(f"Error writing to '{output_path}': {e}")
+        print(f"Error writing to '{output_path_raw}': {e}")
+
+    # Save the filtered message log to a file
+    try:
+        with open(output_path_filtered, 'w', encoding='utf-8') as f:
+            f.writelines(message_log_filtered)
+        print(f"Filtered Telegram messages saved to '{output_path_filtered}'.")
+    except Exception as e:
+        print(f"Error writing to '{output_path_filtered}': {e}")
+
 
 def normalize_username(username):
     # Remove leading special characters like '!', '@', '#', etc.
@@ -240,7 +242,18 @@ def check_spam_with_openai(messages):
 
 def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file='openai_response.txt'):
     """Read messages from a file, send to OpenAI API, and save the response."""
+    
     print("Starting analyze_messages_with_openai function.")
+    # Read the initialization prompt from prompt.ini
+    # NOTE: the meat of the prompt is contained in the structured output prompt.py document
+    try:
+        with open('prompt.ini', 'r', encoding='utf-8') as file:
+            prompt_template = file.read()
+        print("Loaded prompt.ini successfully.")
+    except Exception as e:
+        print(f"Error loading prompt.ini: {e}")
+        exit(1)
+    
     # Read the message log from the file
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
@@ -302,19 +315,24 @@ def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file
         print(ai_response)
 
 if __name__ == '__main__':
+
+    # Create the Telegram client and load environmental variables
+    #load_env()
+    tg_client = TelegramClient('session_name', api_id, api_hash)
+
     ############################
     # Main tg loop
     ############################
     #Run the fetching function within the client's event loop
     # with tg_client:
     #     tg_client.loop.run_until_complete(fetch_telegram_messages(
-    #         group='pollen',
-    #         limit=500,
-    #         #username='https://t.me/+F37V2KpUcJZmMDFh', #spx6900
+    #         group='spx6900',
+    #         limit=2000,
+    #         username='https://t.me/+F37V2KpUcJZmMDFh' #spx6900
     #         #username='https://t.me/XNETgossip',  #xnet  
     #         #username='https://t.me/max2049cto'
-    #         username='@pollenfuture2023',
-    #         check_spam=False
+    #         #username='@pollenfuture2023',
+
     #     ))
     # print("Finished fetching Telegram messages.")
 
@@ -325,7 +343,7 @@ if __name__ == '__main__':
     ############################
     #Now run the OpenAI analysis
     analyze_messages_with_openai(
-        input_file='tg/pollen/pollen_nospamchk_500msg_5ktok_2023-02-24_17-00_2024-06-12_19-33.txt',
+        input_file='tg/spx6900/spx6900_raw_2000msg_14ktok_2024-10-20_00-21_2024-10-20_21-13.txt',
         output_file='openai_response_debug.json'
     )
     print("Script finished.")

@@ -13,6 +13,8 @@ discord/
 session_name.session
 __pycache__/
 .DS_Store
+openai_response_debug.json
+openai_response.json
 
 # Distribution / packaging
 .Python
