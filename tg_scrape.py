@@ -688,10 +688,10 @@ if __name__ == '__main__':
     # print("Script finished.")
 
     # batch process
-    # process_chat_logs('michi', date_min='2024-09-01', date_max='2024-10-21')
+    process_chat_logs('retardio', date_min='2024-02-02', date_max='2024-10-20')
 
     ############################
     # END Main LLM process loop
     ############################
 
-    rollup_project_data('michi')
+    rollup_project_data('retardio')
