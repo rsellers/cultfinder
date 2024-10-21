@@ -558,6 +558,85 @@ def process_chat_logs(project_name, date_min, date_max):
         current_date += timedelta(days=1)
 
 
+def rollup_project_data(project_name):
+    """
+    Roll up data from JSON files in date-based folders into a central rollup JSON.
+
+    Parameters:
+    - project_name (str): The name of the project.
+
+    The function creates a rollup JSON file named '<project_name>_rollup.json' in the root project folder.
+    """
+
+    project_dir = os.path.join('tg', project_name)
+    rollup_data = {
+        "project_name": project_name,
+        "date_data": {}
+    }
+
+    if not os.path.exists(project_dir):
+        print(f"Project directory '{project_dir}' does not exist.")
+        return
+
+    # List all subdirectories in the project directory
+    subdirs = [d for d in os.listdir(project_dir) if os.path.isdir(os.path.join(project_dir, d))]
+    # Filter subdirectories that match the date format 'YYYY-MM-DD'
+    date_dirs = [d for d in subdirs if is_valid_date(d)]
+
+    if not date_dirs:
+        print(f"No date directories found in '{project_dir}'.")
+        return
+
+    for date_dir in sorted(date_dirs):
+        date_path = os.path.join(project_dir, date_dir)
+        # Construct the expected JSON filename
+        json_filename = f"{project_name}_filtered_{date_dir}.json"
+        json_filepath = os.path.join(date_path, json_filename)
+
+        if os.path.exists(json_filepath):
+            try:
+                with open(json_filepath, 'r', encoding='utf-8') as json_file:
+                    data = json.load(json_file)
+                print(f"Loaded data from '{json_filepath}'.")
+
+                # Extract required data
+                metrics = data.get("metrics", {})
+                message_metrics = metrics.get("message", {})
+                emotional_metrics = metrics.get("emotional_metrics", {})
+
+                # Get 'message_count_ex_bot' and 'user_count_ex_bot'
+                message_count_ex_bot = message_metrics.get("message_count_ex_bot", 0)
+                user_count_ex_bot = message_metrics.get("user_count_ex_bot", 0)
+
+                # Add data to rollup_data
+                rollup_data["date_data"][date_dir] = {
+                    "message_count_ex_bot": message_count_ex_bot,
+                    "user_count_ex_bot": user_count_ex_bot,
+                    "emotional_metrics": emotional_metrics
+                }
+
+            except Exception as e:
+                print(f"Error processing '{json_filepath}': {e}")
+        else:
+            print(f"JSON file '{json_filepath}' does not exist.")
+
+    # Save the rollup_data to a JSON file in the root project folder
+    output_filepath = os.path.join(project_dir, f"{project_name}_rollup.json")
+    try:
+        with open(output_filepath, 'w', encoding='utf-8') as outfile:
+            json.dump(rollup_data, outfile, indent=4)
+        print(f"Rollup data saved to '{output_filepath}'.")
+    except Exception as e:
+        print(f"Error writing rollup data to '{output_filepath}': {e}")
+
+def is_valid_date(date_str):
+    """Check if a string is a valid date in 'YYYY-MM-DD' format."""
+    try:
+        datetime.strptime(date_str, '%Y-%m-%d')
+        return True
+    except ValueError:
+        return False
+
 if __name__ == '__main__':
 
     # Create the Telegram client and load environmental variables
@@ -609,8 +688,10 @@ if __name__ == '__main__':
     # print("Script finished.")
 
     # batch process
-    process_chat_logs('goat', date_min='2024-10-18', date_max='2024-10-18')
+    # process_chat_logs('michi', date_min='2024-09-01', date_max='2024-10-21')
 
     ############################
     # END Main LLM process loop
     ############################
+
+    rollup_project_data('michi')
