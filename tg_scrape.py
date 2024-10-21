@@ -1,5 +1,7 @@
 from telethon import TelegramClient
 from telethon.utils import get_display_name
+from telethon.errors import FloodWaitError
+from telethon.tl.types import User, Channel
 from datetime import datetime
 import asyncio
 from openai import OpenAI
@@ -52,7 +54,7 @@ async def fetch_telegram_messages(
     group,
     username,
     date_offset,
-    max_filtered_filesize=1024 * 1024,  # Default to 150 KB
+    max_filtered_filesize=150 * 1024,  # Default to 150 KB
     n=25  # For logging every nth message
 ):
     """
@@ -85,6 +87,7 @@ async def fetch_telegram_messages(
     total_messages = 0
     filtered_messages_size = 0  # Accumulated size of filtered messages in bytes
     previous_message_text = None  # For duplicate message checking in filtered output
+    last_message_id = None  # Keep track of the last message ID
 
     # Set date boundaries
     start_date = date_offset
@@ -98,71 +101,105 @@ async def fetch_telegram_messages(
 
     print(f"Retrieving messages starting from {start_date} until {end_date}...")
 
-    async for message in tg_client.iter_messages(channel, reverse=True, offset_date=start_date):
-        message_date = message.date
+    delay_between_requests = 0  # Adjust this value as needed (in seconds)
 
-        if message_date >= end_date:
-            print("Reached the end of the day.")
+    last_message_id = 0  # Initialize to 0 to avoid NoneType issues
+
+    while True:
+        try:
+            async for message in tg_client.iter_messages(
+                channel,
+                reverse=True,
+                offset_date=start_date,
+                min_id=last_message_id,  # Start from the last message ID
+            ):
+                message_date = message.date
+
+                if message_date >= end_date:
+                    print("Reached the end of the day.")
+                    return message_log_raw, message_log_filtered
+
+                if message_date < start_date:
+                    continue  # Skip messages before the start date (shouldn't happen)
+
+                total_messages += 1  # Track total number of messages fetched
+
+                if message.message:
+                    sender = await message.get_sender()
+
+                    # Extract sender username
+                    try:
+                        sender_username = sender.username if sender.username else f"id_{sender.id}"
+                    except:
+                        sender_username = "null"
+
+                    # Every nth message, print out some metadata
+                    if total_messages % n == 0:
+                        print(f"Pulling message #{total_messages}, date={message_date}, user={sender_username}")
+
+                    timestamp = message_date.strftime('%Y-%m-%d %H:%M')
+                    text = message.message
+
+                    # Create a message entry as a dictionary
+                    message_entry = {
+                        'timestamp': timestamp,
+                        'sender_username': sender_username,
+                        'text': text
+                    }
+
+                    # Append the message entry to the raw log
+                    message_log_raw.append(message_entry)
+
+                    # For filtered output, apply filters:
+                    # - Skip messages from bots
+                    # - Skip duplicate messages (same as previous message)
+                    try:
+                        is_bot = isinstance(sender, User) and sender.bot
+                        if is_bot:
+                            continue  # Skip bots in filtered output
+                        if previous_message_text is not None and text == previous_message_text:
+                            continue  # Skip duplicate messages in filtered output
+                    except Exception as e:
+                        pass  # Handle exception silently
+
+                    # If passes filters, add to filtered log
+                    message_log_filtered.append(message_entry)
+
+                    # Update previous message text
+                    previous_message_text = text
+
+                    # Calculate the size of the message entry when formatted
+                    formatted_message_entry = f"Date:{timestamp}\nUsr:@{sender_username}\nMsg:{text}\n--\n"
+                    message_entry_size = len(formatted_message_entry.encode('utf-8'))
+                    filtered_messages_size += message_entry_size
+
+                    if filtered_messages_size >= max_filtered_filesize:
+                        print("Reached maximum filtered file size.")
+                        return message_log_raw, message_log_filtered
+
+                    # Update last_message_id to resume later if needed
+                    last_message_id = message.id
+
+                    # Optional: Add a small delay between processing messages to avoid rate limits
+                    await asyncio.sleep(delay_between_requests)
+
+            # If the loop completes without hitting the end date or size limit, break
             break
 
-        if message_date < start_date:
-            continue  # Skip messages before the start date (shouldn't happen)
+        except FloodWaitError as e:
+            print(f"FloodWaitError: Telegram is asking you to wait for {e.seconds} seconds.")
+            # Wait for the required amount of time
+            for remaining in range(e.seconds, 0, -1):
+                sys.stdout.write(f"\rWaiting for {remaining} seconds...")
+                sys.stdout.flush()
+                time.sleep(1)
+            print("\nResuming message retrieval...")
+            # After waiting, the loop will restart and continue fetching messages
 
-        total_messages += 1  # Track total number of messages fetched
-
-        if message.message:
-            sender = await message.get_sender()
-
-            # Extract sender username
-            try:
-                sender_username = sender.username if sender.username else f"id_{sender.id}"
-            except:
-                sender_username = "null"
-
-            # Every nth message, print out some metadata
-            if total_messages % n == 0:
-                print(f"Pulling message #{total_messages}, date={message_date}, user={sender_username}")
-
-            timestamp = message_date.strftime('%Y-%m-%d %H:%M')
-            text = message.message
-
-            # Create a message entry as a dictionary
-            message_entry = {
-                'timestamp': timestamp,
-                'sender_username': sender_username,
-                'text': text
-            }
-
-            # Append the message entry to the raw log
-            message_log_raw.append(message_entry)
-
-            # For filtered output, apply filters:
-            # - Skip messages from bots
-            # - Skip duplicate messages (same as previous message)
-            try:
-                is_bot = isinstance(sender, User) and sender.bot
-                if is_bot:
-                    continue  # Skip bots in filtered output
-                if previous_message_text is not None and text == previous_message_text:
-                    continue  # Skip duplicate messages in filtered output
-            except Exception as e:
-                pass
-                #print(f"Sender type sorting exception: {e}")
-
-            # If passes filters, add to filtered log
-            message_log_filtered.append(message_entry)
-
-            # Update previous message text
-            previous_message_text = text
-
-            # Calculate the size of the message entry when formatted
-            formatted_message_entry = f"Date:{timestamp}\nUsr:@{sender_username}\nMsg:{text}\n--\n"
-            message_entry_size = len(formatted_message_entry.encode('utf-8'))
-            filtered_messages_size += message_entry_size
-
-            if filtered_messages_size >= max_filtered_filesize:
-                print("Reached maximum filtered file size.")
-                break
+        # except Exception as e:
+        #     print(f"An unexpected error occurred: {e}")
+        #     # Optionally, you can choose to handle other exceptions or exit
+        #     return message_log_raw, message_log_filtered
 
     print(f"Total messages fetched: {total_messages}")
     print(f"Messages after filtering: {len(message_log_filtered)}")
@@ -222,7 +259,7 @@ async def fetch_telegram_messages_for_date_range(
             all_messages_text_filtered = " ".join(entry['text'] for entry in message_log_filtered)
 
             # Insure the day has chat in it before making directories and saving
-            if (total_messages_filtered > 5):
+            if (total_messages_filtered > 4):
 
                 tokens_raw = word_tokenize(all_messages_text_raw)
                 total_tokens_raw = len(tokens_raw)
@@ -271,10 +308,10 @@ async def fetch_telegram_messages_for_date_range(
                 except Exception as e:
                     print(f"Error writing to '{output_path_filtered}': {e}")
 
-                # Pause for 5 seconds to avoid hitting throttle limits
+                # Pause for 2 seconds to avoid hitting throttle limits
                 
-                    print("Pausing for 5 seconds...")
-                    time.sleep(5)
+                print("Pausing for 2 seconds...")
+                time.sleep(2)
 
             current_date += timedelta(days=1)
     print("Telegram client disconnected.")
@@ -432,15 +469,19 @@ if __name__ == '__main__':
     ############################
     # Main tg loop
     ############################
-    group_name = 'pollen'
-    #username = 'https://t.me/+F37V2KpUcJZmMDFh'  # Replace with actual username or link
+    group_name = 'retardio'
+    #username = 'https://t.me/+F37V2KpUcJZmMDFh'  #spx6900
+    #username = 'https://t.me/ZynCoinERC20_Zynm' #zyn - real or fake channel? idk
+    #username = 'https://t.me/billy_cto_sol' #billy coin - prob need the invite link to work
+    #username = 'https://t.me/michicoinsolana' #michi
+    username = 'https://t.me/retardiosol' #retardio
     #username='https://t.me/XNETgossip',  #xnet  
     #username='https://t.me/max2049cto' #max2049
     #username='https://t.me/GoatseusMaximusSolana'
-    username='@pollenfuture2023' #pollenfuture (case study in rug pull sentiment)
+    #username='@pollenfuture2023' #pollenfuture (case study in rug pull sentiment)
     #username='Pollen Gossip' #pollenfuture (case study in rug pull sentiment)
-    date_start = datetime(2023, 2, 1, tzinfo=timezone.utc)
-    date_end = datetime(2023, 6, 1, tzinfo=timezone.utc)
+    date_start = datetime(2024, 2, 1, tzinfo=timezone.utc)
+    date_end = datetime(2024, 3, 31, tzinfo=timezone.utc)
     max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # Run the fetching function within the event loop
