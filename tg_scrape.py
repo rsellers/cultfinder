@@ -557,7 +557,6 @@ def process_chat_logs(project_name, date_min, date_max):
         # Move to the next date
         current_date += timedelta(days=1)
 
-
 def rollup_project_data(project_name):
     """
     Roll up data from JSON files in date-based folders into a central rollup JSON.
@@ -637,6 +636,8 @@ def is_valid_date(date_str):
     except ValueError:
         return False
 
+
+
 if __name__ == '__main__':
 
     # Create the Telegram client and load environmental variables
@@ -645,7 +646,7 @@ if __name__ == '__main__':
     ############################
     # Main tg loop
     ############################
-    group_name = 'popcat'
+    group_name = 'spx6900'
     #username = 'https://t.me/+F37V2KpUcJZmMDFh'  #spx6900
     #username = 'https://t.me/ZynCoinERC20_Zynm' #zyn - real or fake channel? idk
     #username = 'https://t.me/billy_cto_sol' #billy coin - prob need the invite link to work
@@ -653,14 +654,14 @@ if __name__ == '__main__':
     #username = 'https://t.me/retardiosol' #retardio
     #username = 'https://t.me/SIGMAonsolportal' #sigma - DOESNT WORK
     #username = 'https://t.me/+YmwhVSPoX_84ZGYy'#priv sigma invite link
-    username = 'https://t.me/POPCATSOLANA'#apu
+    #username = 'https://t.me/POPCATSOLANA'#apu
     #username='https://t.me/XNETgossip',  #xnet  
     #username='https://t.me/max2049cto' #max2049
     #username='https://t.me/GoatseusMaximusSolana'
     #username='@pollenfuture2023' #pollenfuture (case study in rug pull sentiment)
     #username='Pollen Gossip' #pollenfuture (case study in rug pull sentiment)
-    date_start = datetime(2024, 10, 1, tzinfo=timezone.utc)
-    date_end = datetime(2024, 10, 20, tzinfo=timezone.utc)
+    date_start = datetime(2024, 10, 11, tzinfo=timezone.utc)
+    date_end = datetime(2024, 10, 11, tzinfo=timezone.utc)
     max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # Run the fetching function within the event loop
@@ -688,10 +689,11 @@ if __name__ == '__main__':
     # print("Script finished.")
 
     # batch process
-    process_chat_logs('retardio', date_min='2024-02-02', date_max='2024-10-20')
+    process_chat_logs('zyn', date_min='2024-10-15', date_max='2024-10-21')
 
     ############################
     # END Main LLM process loop
     ############################
-
-    rollup_project_data('retardio')
+    
+    #combine it all 
+    rollup_project_data('zyn')
