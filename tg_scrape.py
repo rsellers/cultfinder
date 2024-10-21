@@ -10,6 +10,9 @@ import nltk
 nltk.download('punkt')  # Download the tokenizer data
 from nltk.tokenize import word_tokenize
 import json
+from datetime import timezone
+import time
+
 
 
 load_dotenv()
@@ -42,70 +45,75 @@ except Exception as e:
     print(f"Error loading environment variables: {e}")
     exit(1)
 
+from datetime import datetime, timedelta
+
 async def fetch_telegram_messages(
-    group='debug',
-    limit=1000,
-    username='debug',
+    tg_client,
+    group,
+    username,
+    date_offset,
+    max_filtered_filesize=150 * 1024  # Default to 150 KB
 ):
-    """Fetch text messages from a Telegram group and save to a file, ignoring specific users.
+    """
+    Fetch text messages from a Telegram group starting from a specific date until constraints are met.
 
     Parameters:
-    - group (str): Name of the group, used for directory and file naming.
-    - limit (int): Number of messages to fetch.
+    - tg_client: The TelegramClient instance to use.
+    - group (str): Name of the group.
     - username (str): Telegram group username or link.
+    - date_offset (datetime): The date from which to start fetching messages.
+    - max_filtered_filesize (int): Maximum size of filtered messages in bytes.
+
+    Returns:
+    - message_log_raw: List of dictionaries containing raw messages.
+    - message_log_filtered: List of dictionaries containing filtered messages.
     """
 
+    print("Fetching messages from group:", username)
     
-    print("Starting fetch_telegram_messages function.")
-    await tg_client.start(phone)
-    print("Telegram client started.")
-
-    print(f"Fetching messages from group: {username}")
-    # Get the channel entity
     try:
         channel = await tg_client.get_entity(username)
         print(f"Successfully obtained entity for {username}")
     except Exception as e:
         print(f"Error getting Telegram entity for '{username}': {e}")
-        return
-
-    # Create the group directory if it doesn't exist
-    group_dir = os.path.join('tg', group)
-    os.makedirs(group_dir, exist_ok=True)
+        return [], []
 
     message_log_raw = []
     message_log_filtered = []
     total_messages = 0
-    filtered_messages_count = 0
-    all_messages_text_raw = ""
-    all_messages_text_filtered = ""
-    timestamps = []
-
-    ignore_list = []  # Initialize ignore_list
-    spam_check_messages = []
-
-    print(f"Retrieving the last {limit} messages...")
-
+    filtered_messages_size = 0  # Accumulated size of filtered messages in bytes
     previous_message_text = None  # For duplicate message checking in filtered output
 
-    async for message in tg_client.iter_messages(channel, limit=limit):
+    # Set date boundaries
+    start_date = date_offset
+    end_date = start_date + timedelta(days=1)
+
+    print(f"Retrieving messages starting from {start_date} until {end_date}...")
+
+    async for message in tg_client.iter_messages(channel, reverse=False, offset_date=start_date):
+        message_date = message.date
+        if message_date >= end_date:
+            print("Reached the end of the day.")
+            break
+
         total_messages += 1  # Track total number of messages fetched
 
         if message.message:
             sender = await message.get_sender()
-            
             sender_username = sender.username if sender.username else f"id_{sender.id}"
-            
-            timestamp = message.date.strftime('%Y-%m-%d %H:%M')
-            text = message.message
-            timestamps.append(message.date)
 
-            # Create a formatted message entry
-            message_entry = f"Date:{timestamp}\nUsr:@{sender_username}\nMsg:{text}\n--\n"
+            timestamp = message_date.strftime('%Y-%m-%d %H:%M')
+            text = message.message
+
+            # Create a message entry as a dictionary
+            message_entry = {
+                'timestamp': timestamp,
+                'sender_username': sender_username,
+                'text': text
+            }
 
             # Append the message entry to the raw log
             message_log_raw.append(message_entry)
-            all_messages_text_raw += text + " "  # Accumulate all text for token counting
 
             # For filtered output, apply filters:
             # - Skip messages from bots
@@ -117,57 +125,128 @@ async def fetch_telegram_messages(
 
             # If passes filters, add to filtered log
             message_log_filtered.append(message_entry)
-            all_messages_text_filtered += text + " "  # Accumulate text for token counting
-            filtered_messages_count += 1  # Track number of messages after filtering
 
             # Update previous message text
             previous_message_text = text
 
+            # Calculate the size of the message entry when formatted
+            formatted_message_entry = f"Date:{timestamp}\nUsr:@{sender_username}\nMsg:{text}\n--\n"
+            message_entry_size = len(formatted_message_entry.encode('utf-8'))
+            filtered_messages_size += message_entry_size
+
+            if filtered_messages_size >= max_filtered_filesize:
+                print("Reached maximum filtered file size.")
+                break
+
     print(f"Total messages fetched: {total_messages}")
-    print(f"Messages after filtering: {filtered_messages_count}")
+    print(f"Messages after filtering: {len(message_log_filtered)}")
 
-    # Calculate total tokens for raw and filtered messages
-    tokens_raw = word_tokenize(all_messages_text_raw)
-    total_tokens_raw = len(tokens_raw)
-    print(f"Total tokens in raw messages: {total_tokens_raw}")
+    return message_log_raw, message_log_filtered
 
-    tokens_filtered = word_tokenize(all_messages_text_filtered)
-    total_tokens_filtered = len(tokens_filtered)
-    print(f"Total tokens in filtered messages: {total_tokens_filtered}")
+async def fetch_telegram_messages_for_date_range(
+    group,
+    username,
+    date_start,
+    date_end,
+    max_filtered_filesize=150 * 1024  # Default to 150 KB
+):
+    """
+    Fetch telegram messages for a date range, and save the chat histories into subdirectories.
 
-    # Get date range
-    if timestamps:
-        date_min = min(timestamps).strftime('%Y-%m-%d_%H-%M')
-        date_max = max(timestamps).strftime('%Y-%m-%d_%H-%M')
-    else:
-        date_min = date_max = 'no_dates'
+    Parameters:
+    - group (str): Name of the group.
+    - username (str): Telegram group username or link.
+    - date_start (datetime): Starting date of the range (timezone-aware in UTC).
+    - date_end (datetime): Ending date of the range (timezone-aware in UTC).
+    - max_filtered_filesize (int): Maximum size of filtered messages in bytes.
+    """
+    # Create the Telegram client once
+    async with TelegramClient('session_name', api_id, api_hash) as tg_client:
+        print("Telegram client started.")
 
-    # Prepare file names
-    nmsg_raw = f"{total_messages}msg"
-    ntok_raw = f"{total_tokens_raw//1000}ktok"
-    output_filename_raw = f"{group}_raw_{nmsg_raw}_{ntok_raw}_{date_min}_{date_max}.txt"
-    output_path_raw = os.path.join(group_dir, output_filename_raw)
+        current_date = date_start
 
-    nmsg_filtered = f"{filtered_messages_count}msg"
-    ntok_filtered = f"{total_tokens_filtered//1000}ktok"
-    output_filename_filtered = f"{group}_filtered_{nmsg_filtered}_{ntok_filtered}_{date_min}_{date_max}.txt"
-    output_path_filtered = os.path.join(group_dir, output_filename_filtered)
+        while current_date <= date_end:
+            print(f"Fetching messages for date: {current_date.strftime('%Y-%m-%d')}")
 
-    # Save the raw message log to a file
-    try:
-        with open(output_path_raw, 'w', encoding='utf-8') as f:
-            f.writelines(message_log_raw)
-        print(f"Raw Telegram messages saved to '{output_path_raw}'.")
-    except Exception as e:
-        print(f"Error writing to '{output_path_raw}': {e}")
+            # Fetch messages for the current date
+            message_log_raw, message_log_filtered = await fetch_telegram_messages(
+                tg_client,  # Pass the client
+                group=group,
+                username=username,
+                date_offset=current_date,
+                max_filtered_filesize=max_filtered_filesize
+                )
 
-    # Save the filtered message log to a file
-    try:
-        with open(output_path_filtered, 'w', encoding='utf-8') as f:
-            f.writelines(message_log_filtered)
-        print(f"Filtered Telegram messages saved to '{output_path_filtered}'.")
-    except Exception as e:
-        print(f"Error writing to '{output_path_filtered}': {e}")
+            # Create directories and manage files
+            # Create the group directory if it doesn't exist
+            group_dir = os.path.join('tg', group, current_date.strftime('%Y-%m-%d'))
+            os.makedirs(group_dir, exist_ok=True)
+
+            # Process timestamps to get date ranges
+            timestamps = [datetime.strptime(entry['timestamp'], '%Y-%m-%d %H:%M') for entry in message_log_filtered]
+
+            if timestamps:
+                date_min = min(timestamps).strftime('%Y-%m-%d_%H-%M')
+                date_max = max(timestamps).strftime('%Y-%m-%d_%H-%M')
+            else:
+                date_min = date_max = current_date.strftime('%Y-%m-%d')
+
+            # Calculate total messages and tokens for raw and filtered logs
+            total_messages_raw = len(message_log_raw)
+            total_messages_filtered = len(message_log_filtered)
+
+            all_messages_text_raw = " ".join(entry['text'] for entry in message_log_raw)
+            all_messages_text_filtered = " ".join(entry['text'] for entry in message_log_filtered)
+
+            tokens_raw = word_tokenize(all_messages_text_raw)
+            total_tokens_raw = len(tokens_raw)
+
+            tokens_filtered = word_tokenize(all_messages_text_filtered)
+            total_tokens_filtered = len(tokens_filtered)
+
+            # Prepare file names
+            nmsg_raw = f"{total_messages_raw}msg"
+            ntok_raw = f"{total_tokens_raw//1000}ktok"
+            output_filename_raw = f"{group}_raw_{nmsg_raw}_{ntok_raw}_{date_min}_{date_max}.txt"
+            output_path_raw = os.path.join(group_dir, output_filename_raw)
+
+            nmsg_filtered = f"{total_messages_filtered}msg"
+            ntok_filtered = f"{total_tokens_filtered//1000}ktok"
+            output_filename_filtered = f"{group}_filtered_{nmsg_filtered}_{ntok_filtered}_{date_min}_{date_max}.txt"
+            output_path_filtered = os.path.join(group_dir, output_filename_filtered)
+
+            # Format messages for writing
+            def format_message(entry):
+                return f"Date:{entry['timestamp']}\nUsr:@{entry['sender_username']}\nMsg:{entry['text']}\n--\n"
+
+            message_entries_raw = [format_message(entry) for entry in message_log_raw]
+            message_entries_filtered = [format_message(entry) for entry in message_log_filtered]
+
+            # Save the raw message log to a file
+            try:
+                with open(output_path_raw, 'w', encoding='utf-8') as f:
+                    f.writelines(message_entries_raw)
+                print(f"Raw Telegram messages saved to '{output_path_raw}'.")
+            except Exception as e:
+                print(f"Error writing to '{output_path_raw}': {e}")
+
+            # Save the filtered message log to a file
+            try:
+                with open(output_path_filtered, 'w', encoding='utf-8') as f:
+                    f.writelines(message_entries_filtered)
+                print(f"Filtered Telegram messages saved to '{output_path_filtered}'.")
+            except Exception as e:
+                print(f"Error writing to '{output_path_filtered}': {e}")
+
+            # Pause for 10 seconds to avoid hitting throttle limits
+            if (total_messages_filtered > 5):
+                print("Pausing for 5 seconds...")
+                time.sleep(5)
+
+            # Move to the next day (ensure current_date remains timezone-aware)
+            current_date += timedelta(days=1)
+    print("Telegram client disconnected.")
 
 
 def normalize_username(username):
@@ -317,24 +396,30 @@ def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file
 if __name__ == '__main__':
 
     # Create the Telegram client and load environmental variables
-    #load_env()
     tg_client = TelegramClient('session_name', api_id, api_hash)
 
     ############################
     # Main tg loop
     ############################
-    #Run the fetching function within the client's event loop
-    # with tg_client:
-    #     tg_client.loop.run_until_complete(fetch_telegram_messages(
-    #         group='spx6900',
-    #         limit=2000,
-    #         username='https://t.me/+F37V2KpUcJZmMDFh' #spx6900
-    #         #username='https://t.me/XNETgossip',  #xnet  
-    #         #username='https://t.me/max2049cto'
-    #         #username='@pollenfuture2023',
+    group_name = 'pollen'
+    #username = 'https://t.me/+F37V2KpUcJZmMDFh'  # Replace with actual username or link
+    #username='https://t.me/XNETgossip',  #xnet  
+    #username='https://t.me/max2049cto' #max2049
+    username='@pollenfuture2023' #pollenfuture (case study in rug pull sentiment)
+    date_start = datetime(2022, 12, 1, tzinfo=timezone.utc)
+    date_end = datetime(2023, 5, 1, tzinfo=timezone.utc)
+    max_filtered_filesize = 500 * 1024  # 150 KB
 
-    #     ))
-    # print("Finished fetching Telegram messages.")
+    # Run the fetching function within the event loop
+    asyncio.run(fetch_telegram_messages_for_date_range(
+        group=group_name,
+        username=username,
+        date_start=date_start,
+        date_end=date_end,
+        max_filtered_filesize=max_filtered_filesize
+    ))
+
+    print("Finished fetching Telegram messages.")
 
 
 
@@ -342,8 +427,8 @@ if __name__ == '__main__':
     # Main LLM process loop
     ############################
     #Now run the OpenAI analysis
-    analyze_messages_with_openai(
-        input_file='tg/spx6900/spx6900_raw_2000msg_14ktok_2024-10-20_00-21_2024-10-20_21-13.txt',
-        output_file='openai_response_debug.json'
-    )
-    print("Script finished.")
+    # analyze_messages_with_openai(
+    #     input_file='tg/spx6900/spx6900_raw_2000msg_14ktok_2024-10-20_00-21_2024-10-20_21-13.txt',
+    #     output_file='openai_response_debug.json'
+    # )
+    # print("Script finished.")
