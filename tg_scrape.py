@@ -388,8 +388,14 @@ def check_spam_with_openai(messages):
 
 
 def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file='openai_response.txt'):
-    """Read messages from a file, send to OpenAI API, and save the response."""
-    
+    """Read messages from a file, trim content to be under a specified size, send to OpenAI API, and save the response.
+
+    Parameters:
+    - input_file (str): Path to the input text file containing messages.
+    - output_file (str): Path to the output file where the response will be saved.
+    """
+    max_input_size=250 * 1024
+
     print("Starting analyze_messages_with_openai function.")
     # Read the initialization prompt from prompt.ini
     # NOTE: the meat of the prompt is contained in the structured output prompt.py document
@@ -410,9 +416,42 @@ def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file
         print(f"Error reading '{input_file}': {e}")
         return
 
-    # Prepare the final prompt
+    # Prepare the final prompt by inserting the message_log_text into the prompt_template
     final_prompt = prompt_template.replace('{message_log}', message_log_text)
-    print("Prepared the final prompt for OpenAI API.")
+    final_prompt_size = len(final_prompt.encode('utf-8'))
+
+    if final_prompt_size > max_input_size:
+        print(f"Final prompt exceeds the maximum allowed size of {max_input_size} bytes. Trimming the message log.")
+        # Compute the size of the prompt without the message log
+        prompt_without_log = prompt_template.replace('{message_log}', '')
+        prompt_without_log_size = len(prompt_without_log.encode('utf-8'))
+        # Calculate the maximum allowed size for the message log
+        max_log_size = max_input_size - prompt_without_log_size
+        if max_log_size <= 0:
+            print("The prompt without the message log exceeds the maximum input size.")
+            return
+
+        # Encode the message log to bytes
+        message_log_bytes = message_log_text.encode('utf-8')
+        # Trim the message log from the end to fit within max_log_size
+        message_log_bytes = message_log_bytes[:max_log_size]
+        # Find the last complete message (ensure we don't cut in the middle)
+        last_newline = message_log_bytes.rfind(b'\n')
+        if last_newline != -1:
+            message_log_bytes = message_log_bytes[:last_newline]
+        else:
+            # If there's no newline, we might be in the middle of a message
+            print("No newline character found; the message may be incomplete.")
+            # Optionally, you can choose to proceed or return
+            # return
+        # Decode back to string
+        message_log_text = message_log_bytes.decode('utf-8', errors='ignore')
+        # Reconstruct the final prompt with the trimmed message log
+        final_prompt = prompt_template.replace('{message_log}', message_log_text)
+        final_prompt_size = len(final_prompt.encode('utf-8'))
+        print(f"Trimmed message log to {len(message_log_bytes)} bytes. Final prompt size is {final_prompt_size} bytes.")
+    else:
+        print("Final prompt is within the size limit.")
 
     # Call the OpenAI API
     try:
@@ -461,6 +500,64 @@ def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file
         # If the response is not valid JSON, print as raw text
         print(ai_response)
 
+def process_chat_logs(project_name, date_min, date_max):
+    """
+    Process chat logs by calling analyze_messages_with_openai() for each date in the date range.
+
+    Parameters:
+    - project_name (str): The name of the project.
+    - date_min (str): The start date in 'YYYY-MM-DD' format.
+    - date_max (str): The end date in 'YYYY-MM-DD' format.
+    """
+    # Parse the date strings
+    date_start = datetime.strptime(date_min, '%Y-%m-%d')
+    date_end = datetime.strptime(date_max, '%Y-%m-%d')
+
+    # For each date in the range
+    current_date = date_start
+    while current_date <= date_end:
+        date_str = current_date.strftime('%Y-%m-%d')
+        directory = os.path.join('tg',project_name, date_str)
+
+        if os.path.exists(directory):
+            # List files in the directory
+            files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
+
+            # Filter files that have 'filtered' in the filename and end with '.txt'
+            filtered_files = [f for f in files if 'filtered' in f and f.endswith('.txt')]
+
+            if filtered_files:
+                # If duplicates exist, use the one with the latest modification time
+                files_with_mtime = []
+                for f in filtered_files:
+                    file_path = os.path.join(directory, f)
+                    mtime = os.path.getmtime(file_path)
+                    files_with_mtime.append((file_path, mtime))
+
+                # Sort files by modification time, latest first
+                files_with_mtime.sort(key=lambda x: x[1], reverse=True)
+
+                # Select the latest file
+                input_file = files_with_mtime[0][0]
+
+                # Prepare the output file path
+                output_directory = os.path.join(project_name)
+                if not os.path.exists(output_directory):
+                    os.makedirs(output_directory)
+
+                output_file = os.path.join('tg',output_directory,date_str, f"{project_name}_filtered_{date_str}.json")
+
+                # Call analyze_messages_with_openai()
+                analyze_messages_with_openai(input_file=input_file, output_file=output_file)
+            else:
+                print(f"No filtered text files found in directory {directory}")
+        else:
+            print(f"Directory {directory} does not exist")
+
+        # Move to the next date
+        current_date += timedelta(days=1)
+
+
 if __name__ == '__main__':
 
     # Create the Telegram client and load environmental variables
@@ -469,33 +566,37 @@ if __name__ == '__main__':
     ############################
     # Main tg loop
     ############################
-    group_name = 'retardio'
+    group_name = 'popcat'
     #username = 'https://t.me/+F37V2KpUcJZmMDFh'  #spx6900
     #username = 'https://t.me/ZynCoinERC20_Zynm' #zyn - real or fake channel? idk
     #username = 'https://t.me/billy_cto_sol' #billy coin - prob need the invite link to work
     #username = 'https://t.me/michicoinsolana' #michi
-    username = 'https://t.me/retardiosol' #retardio
+    #username = 'https://t.me/retardiosol' #retardio
+    #username = 'https://t.me/SIGMAonsolportal' #sigma - DOESNT WORK
+    #username = 'https://t.me/+YmwhVSPoX_84ZGYy'#priv sigma invite link
+    username = 'https://t.me/POPCATSOLANA'#apu
     #username='https://t.me/XNETgossip',  #xnet  
     #username='https://t.me/max2049cto' #max2049
     #username='https://t.me/GoatseusMaximusSolana'
     #username='@pollenfuture2023' #pollenfuture (case study in rug pull sentiment)
     #username='Pollen Gossip' #pollenfuture (case study in rug pull sentiment)
-    date_start = datetime(2024, 2, 1, tzinfo=timezone.utc)
-    date_end = datetime(2024, 3, 31, tzinfo=timezone.utc)
+    date_start = datetime(2024, 10, 1, tzinfo=timezone.utc)
+    date_end = datetime(2024, 10, 20, tzinfo=timezone.utc)
     max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # Run the fetching function within the event loop
-    asyncio.run(fetch_telegram_messages_for_date_range(
-        group=group_name,
-        username=username,
-        date_start=date_start,
-        date_end=date_end,
-        max_filtered_filesize=max_filtered_filesize
-    ))
+    # asyncio.run(fetch_telegram_messages_for_date_range(
+    #     group=group_name,
+    #     username=username,
+    #     date_start=date_start,
+    #     date_end=date_end,
+    #     max_filtered_filesize=max_filtered_filesize
+    # ))
 
-    print("Finished fetching Telegram messages.")
-
-
+    # print("Finished fetching Telegram messages.")
+    ############################
+    # END main tg loop
+    ############################
 
     ############################
     # Main LLM process loop
@@ -506,3 +607,10 @@ if __name__ == '__main__':
     #     output_file='openai_response_debug.json'
     # )
     # print("Script finished.")
+
+    # batch process
+    process_chat_logs('goat', date_min='2024-10-18', date_max='2024-10-18')
+
+    ############################
+    # END Main LLM process loop
+    ############################

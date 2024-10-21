@@ -3,8 +3,8 @@ from typing import Union
 
 
 class EmotionalClassifier(BaseModel):
-    intensity: Union[int, None] = Field(description="""A number from 1 to 100 that represents the intensity of the emotional metric.""")
-    context: str = Field(description="""A one-sentence description that explains the reason behind the numeric rating.""")
+    intensity: Union[int, None] = Field(description="""A number from 0 to 100 that represents the intensity of the emotional metric. Leave blank or null if this metric is not applicable or there is not enough information to determine a score.""")
+    context: str = Field(description="""A one-sentence description that explains the reason behind the numeric rating. Leave blank or null if there is not enough information to determine context.""")
 
     class Config:
         extra = "forbid"  # Disallow any extra fields
@@ -43,11 +43,10 @@ class TopLineMetrics(BaseModel):
 
 
 class Reference(BaseModel):
-    description: Union[str, None] = Field(description="""A concise, single sentence descriotion of what the topic or account is based the context of the discussion.""")
-    topic: Union[str, None] = Field(description="""One or two word name for the topic or account referenced in the chat.""")
-    reference_count: Union[int, None] = Field(description="""the number of unique references for the topic or account over the course of the chat""")
-    url: Union[str, None] = Field(description="""A URL corresponding to the topic or account being referenced.""")
-    ca: Union[str, None] = Field(description="""A crypto contract address connected with for the topic or account being mentioned, example 0xac0f66379a6d7801d7726d5a943356a172549adb or 4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy.""")
+    description: Union[str, None] = Field(description="""A concise, single sentence description of what the topic or account is based the context of the discussion.""")
+    account_name: Union[str, None] = Field(description="""The account name being referenced in the chat, based on URL links to social media pages. example: @elonmusk. """)
+    reference_count: Union[int, None] = Field(description="""the number of unique references to this account, in the form of URL links to social media pages.""")
+    url: Union[str, None] = Field(description="""A complete URL to the social media profile being discussed, example: https://x.com/elonmusk.""")
     
     class Config:
         extra = "forbid"  # Disallow any extra fields
@@ -57,22 +56,18 @@ class ProjectReference(BaseModel):
     project_reference_1: Reference = Field(description="""The number one most popular crypto project under discussion in this log""")
     project_reference_2: Reference = Field(description="""The number two most popular crypto project under discussion in this log.""")
     project_reference_3: Reference = Field(description="""The number three most popular crypto project under discussion in this log.""")
-    project_reference_4: Reference = Field(description="""The number four most popular crypto project under discussion in this log.""")
 
     class Config:
         extra = "forbid"  # Disallow any extra fields
 
 class SocialReference(BaseModel):
 
-    social_reference_1: Reference = Field(description="""The number one most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_2: Reference = Field(description="""The number two most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_3: Reference = Field(description="""The number three most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_4: Reference = Field(description="""The number four most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_5: Reference = Field(description="""The number five most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_6: Reference = Field(description="""The number six most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_7: Reference = Field(description="""The number seven most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-    social_reference_8: Reference = Field(description="""The number eight most popular influencer under discussion in this log. For example, accounts from x.com, twitter.com, tiktok, youtube, snapchat, discord, telegram, etc.""")
-
+    social_reference_1: Reference = Field(description="""The most popular externally linked social media profile. Must be referenced via URL in chat log.""")
+    social_reference_2: Reference = Field(description="""The second most popular externally linked social media profile. Must be referenced via URL in chat log.""")
+    social_reference_3: Reference = Field(description="""The third most popular externally linked social media profile. Must be referenced via URL in chat log.""")
+    social_reference_4: Reference = Field(description="""The fourth most popular externally linked social media profile. Must be referenced via URL in chat log.""")
+    social_reference_5: Reference = Field(description="""The fifth most popular externally linked social media profile. Must be referenced via URL in chat log.""")
+ 
 
     class Config:
         extra = "forbid"  # Disallow any extra fields
@@ -80,7 +75,7 @@ class SocialReference(BaseModel):
 class CommunityMetrics(BaseModel):
     message: TopLineMetrics = Field(description="""High level usage and date metrics of the chat log""")
     emotional_metrics: EmotionalMetric = Field(description="""Metrics pertaining to differnt emotional qualities expressed by the participants of the chat.""")
-    project_reference: ProjectReference = Field(description="""Information and metrics pertaining to frequently referenced crypto projects.""")
+    #project_reference: ProjectReference = Field(description="""Information and metrics pertaining to frequently referenced crypto projects.""")
     social_reference: SocialReference = Field(description="""Information and metrics pertaining to frequently referenced social media acounts and influencers.""")
 
     class Config:
