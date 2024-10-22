@@ -1,0 +1,599 @@
+{
+    "project_name": "spx6900",
+    "date_data": {
+        "2024-10-12": {
+            "message_count_ex_bot": 1585,
+            "user_count_ex_bot": 105,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 90,
+                    "context": "Strong enthusiasm for the concept of SPX6900, with members expressing a belief in its future success."
+                },
+                "fairness": {
+                    "intensity": 80,
+                    "context": "Members feel positively about the distribution and accessibility of the project, viewing it as fair."
+                },
+                "VC_cabal": {
+                    "intensity": 20,
+                    "context": "There is a low level of concern regarding insiders or large holders controlling the outcome of the token's value."
+                },
+                "sell_intent": {
+                    "intensity": 10,
+                    "context": "Minimal intention to sell, with many expressing a desire to hold long-term."
+                },
+                "vibes": {
+                    "intensity": 85,
+                    "context": "The overall sentiment is highly positive, with people encouraging one another."
+                },
+                "comunity_strength": {
+                    "intensity": 75,
+                    "context": "The community exhibits strong ties, characterized by supportive interactions."
+                },
+                "emotional_intensity": {
+                    "intensity": 70,
+                    "context": "Discussions are emotionally charged, with excitement and optimism prevalent."
+                },
+                "stickiness": {
+                    "intensity": 80,
+                    "context": "Users frequently return and engage over multiple discussions, indicating a strong interest."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "Members come from a mix of socio-economic backgrounds, with a general optimism about improving their financial positions."
+                },
+                "price_action_focus": {
+                    "intensity": 90,
+                    "context": "High focus on price predictions and potential, with many discussions revolving around price expectations."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 95,
+                    "context": "Strong belief in potential returns, with discussions of lofty price targets."
+                },
+                "free_cult_labor": {
+                    "intensity": 75,
+                    "context": "Widespread volunteering for promotional activities, indicating strong community engagement."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community appears vibrant and active, with high levels of participation."
+                },
+                "buy_inquiry": {
+                    "intensity": 80,
+                    "context": "Newcomers actively inquire about purchasing options, reflecting interest."
+                },
+                "inspiration": {
+                    "intensity": 85,
+                    "context": "Community members express hope and motivation from participating in the project."
+                }
+            }
+        },
+        "2024-10-13": {
+            "message_count_ex_bot": 894,
+            "user_count_ex_bot": 124,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The community is highly engaged with the idea of SPX6900 being more than just a meme, viewing it as a transformative investment."
+                },
+                "fairness": {
+                    "intensity": 70,
+                    "context": "There is a general sentiment that the project and token distribution is seen as fair, though there are some concerns about concentration."
+                },
+                "VC_cabal": {
+                    "intensity": 30,
+                    "context": "Participants express skepticism about the control of venture capitalists over pricing, emphasizing community control instead."
+                },
+                "sell_intent": {
+                    "intensity": 10,
+                    "context": "There is little to no intention to sell; rather, the community feels bullish and committed to holding."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "Overall vibes are very supportive and enthusiastic about SPX6900."
+                },
+                "comunity_strength": {
+                    "intensity": 80,
+                    "context": "The community exhibits strong ties and camaraderie, working together towards common goals."
+                },
+                "emotional_intensity": {
+                    "intensity": 75,
+                    "context": "Conversations are emotionally charged, reflecting excitement and hope about future gains."
+                },
+                "stickiness": {
+                    "intensity": 85,
+                    "context": "Users frequently return and engage continuously, indicating high retention and interest."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "Participants come from diverse economic backgrounds, though many speak of aspiration for wealth."
+                },
+                "price_action_focus": {
+                    "intensity": 80,
+                    "context": "There is significant focus on price action and goals, with regular discussions around potential price movements and outlook."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "Participants express strong belief in the potential for the project to yield significant returns."
+                },
+                "free_cult_labor": {
+                    "intensity": 70,
+                    "context": "Many users volunteer their time to promote and engage with the project without formal compensation."
+                },
+                "community_health": {
+                    "intensity": 85,
+                    "context": "The community appears vibrant and dynamic, actively engaging in discussions, events, and promotions."
+                },
+                "buy_inquiry": {
+                    "intensity": 60,
+                    "context": "There are inquiries about purchasing tokens, showing interest from newcomers."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Participants feel inspired by each other and the project, fostering a positive environment."
+                }
+            }
+        },
+        "2024-10-14": {
+            "message_count_ex_bot": 1366,
+            "user_count_ex_bot": 80,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 78,
+                    "context": "Participants show strong belief in the concept, leaning into memes and community-driven narratives."
+                },
+                "fairness": {
+                    "intensity": 65,
+                    "context": "Participants express a general perception of fairness within the community regarding the distribution of opportunities."
+                },
+                "VC_cabal": {
+                    "intensity": 35,
+                    "context": "There are loose suspicions around traditional venture capital influences, but general trust in the community's direction prevails."
+                },
+                "sell_intent": {
+                    "intensity": 20,
+                    "context": "Very few members are discussing selling intentions; the urge is to hold."
+                },
+                "vibes": {
+                    "intensity": 88,
+                    "context": "The overall atmosphere of the chat is very positive, encouraging, and supportive."
+                },
+                "comunity_strength": {
+                    "intensity": 80,
+                    "context": "The community feels tightly knit, with lots of shared jokes and support."
+                },
+                "emotional_intensity": {
+                    "intensity": 75,
+                    "context": "Discussions are emotionally charged, mostly positive and filled with excitement."
+                },
+                "stickiness": {
+                    "intensity": 70,
+                    "context": "Participants frequently return to the conversation, keeping engagement high."
+                },
+                "socioeconomic": {
+                    "intensity": 40,
+                    "context": "Participants demonstrate a diverse range of economic perspectives, but some express struggles."
+                },
+                "price_action_focus": {
+                    "intensity": 70,
+                    "context": "There is a noticeable focus on price actions, driven by a collective vision for the future."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 80,
+                    "context": "Strong belief that the project will yield significant returns, with many expressing this hope."
+                },
+                "free_cult_labor": {
+                    "intensity": 65,
+                    "context": "Many participants contribute time and effort freely, showing strong communal support."
+                },
+                "community_health": {
+                    "intensity": 85,
+                    "context": "The community appears vibrant and engaged, characterized by a sense of purpose."
+                },
+                "buy_inquiry": {
+                    "intensity": 60,
+                    "context": "There is a fair amount of inquiries regarding purchasing the token."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Many members express feelings of inspiration and optimism about the future."
+                }
+            }
+        },
+        "2024-10-15": {
+            "message_count_ex_bot": 909,
+            "user_count_ex_bot": 209,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 90,
+                    "context": "The community strongly believes in the potential of SPX to disrupt the stock market, reminiscent of the enthusiasm around meme coins."
+                },
+                "fairness": {
+                    "intensity": 85,
+                    "context": "The community generally feels that SPX is a fair project, promoting widespread participation and benefits."
+                },
+                "VC_cabal": {
+                    "intensity": 70,
+                    "context": "While some suspicion remains, many believe the project is in the hands of its community members rather than major investors."
+                },
+                "sell_intent": {
+                    "intensity": 20,
+                    "context": "The sentiment is overwhelmingly towards holding, with many expressing excitement about the future."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "The chat is filled with positivity, hope, and support for the SPX community."
+                },
+                "comunity_strength": {
+                    "intensity": 85,
+                    "context": "Many members express a strong sense of community and collaboration."
+                },
+                "emotional_intensity": {
+                    "intensity": 80,
+                    "context": "The discussions are charged with excitement and anticipation, highlighting an engaged community."
+                },
+                "stickiness": {
+                    "intensity": 75,
+                    "context": "Users demonstrate commitment to the chat, returning frequently and contributing meaningful content."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "While there are mentions of wealth and investment, there\u2019s also recognition of diverse socioeconomic backgrounds."
+                },
+                "price_action_focus": {
+                    "intensity": 30,
+                    "context": "The focus on actual price movement is secondary to community building and overall belief in the project."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "Participants believe strongly in the potential for massive gains from SPX."
+                },
+                "free_cult_labor": {
+                    "intensity": 60,
+                    "context": "Many users contribute to the community and project without any immediate financial compensation, driven by belief."
+                },
+                "community_health": {
+                    "intensity": 85,
+                    "context": "The community appears active and engaged, showing signs of healthy growth."
+                },
+                "buy_inquiry": {
+                    "intensity": 40,
+                    "context": "There are occasional inquiries about buying, but the overwhelming sentiment is confidence in holding."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Participants draw significant inspiration from developing the project together and pushing the narrative forward."
+                }
+            }
+        },
+        "2024-10-16": {
+            "message_count_ex_bot": 2210,
+            "user_count_ex_bot": 238,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The community is heavily focused and engaged with the concept of flipping the stock market, indicating a strong unifying theme."
+                },
+                "fairness": {
+                    "intensity": 65,
+                    "context": "While some members express concern about fairness, the sentiment is mostly positive toward the equitable opportunity presented by the SPX project."
+                },
+                "VC_cabal": {
+                    "intensity": 45,
+                    "context": "There are mixed feelings about control, but confidence in community strength is prevalent."
+                },
+                "sell_intent": {
+                    "intensity": 20,
+                    "context": "Selling intent is minimal, with most members expressing a desire to hold their tokens."
+                },
+                "vibes": {
+                    "intensity": 70,
+                    "context": "The group exhibits positive vibes, with a general sense of community support and enthusiasm."
+                },
+                "comunity_strength": {
+                    "intensity": 80,
+                    "context": "There is a strong sense of community with many exchanges of encouragement and collaboration throughout the discussion."
+                },
+                "emotional_intensity": {
+                    "intensity": 75,
+                    "context": "The conversation contains high emotional engagement, marked by excitement and camaraderie."
+                },
+                "stickiness": {
+                    "intensity": 60,
+                    "context": "Participants frequently return for discussions, indicating sustained interest and interaction."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "While there are varied socioeconomic backgrounds, there isn't a strong indicator of low socioeconomic status across the group."
+                },
+                "price_action_focus": {
+                    "intensity": 60,
+                    "context": "There is notable discussion around price action, with members reacting to market movements."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "A substantial level of belief in potential gains, with many users expressing ideas about the coin reaching significant values."
+                },
+                "free_cult_labor": {
+                    "intensity": 75,
+                    "context": "Many members are voluntarily promoting the project and its ideas enthusiastically, indicating strong community involvement."
+                },
+                "community_health": {
+                    "intensity": 85,
+                    "context": "The community appears vibrant and active, not displaying signs of lethargy."
+                },
+                "buy_inquiry": {
+                    "intensity": 65,
+                    "context": "There are numerous inquiries about purchasing the token, indicating ongoing interest from newcomers."
+                },
+                "inspiration": {
+                    "intensity": 75,
+                    "context": "Members express feelings of hope and inspiration about the project and its potential for success."
+                }
+            }
+        },
+        "2024-10-17": {
+            "message_count_ex_bot": 574,
+            "user_count_ex_bot": 90,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "There is a strong focus on the SPX6900 meme coin and the community is actively promoting it through raids and tweets."
+                },
+                "fairness": {
+                    "intensity": 70,
+                    "context": "The community seems to believe that the token project is generally fair, but some concerns about insider participation are present."
+                },
+                "VC_cabal": {
+                    "intensity": 60,
+                    "context": "There are discussions about perceived influences from large holders or VCs, but the community feels empowered to drive the movement."
+                },
+                "sell_intent": {
+                    "intensity": 25,
+                    "context": "There is a predominant sentiment of buying and holding among the users, with little expressed intention to sell at this time."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "The overall vibe within the chat is extremely positive and supportive, with many expressing excitement and enthusiasm."
+                },
+                "comunity_strength": {
+                    "intensity": 75,
+                    "context": "The chat displays a tight-knit community with participants actively supporting each other."
+                },
+                "emotional_intensity": {
+                    "intensity": 80,
+                    "context": "The discussion carries a high emotional charge as members express strong excitement about community projects and individual investments."
+                },
+                "stickiness": {
+                    "intensity": 70,
+                    "context": "Users are regularly engaged and return frequently to discuss a variety of topics related to the meme coin."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "There are references to diverse socioeconomic backgrounds but overall mixed indicators without a clear predominance."
+                },
+                "price_action_focus": {
+                    "intensity": 85,
+                    "context": "There is intense focus on the price action of SPX6900, with many discussing potential price targets."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 95,
+                    "context": "Most users display a strong belief that investing in SPX6900 will yield significant profits in the near future."
+                },
+                "free_cult_labor": {
+                    "intensity": 70,
+                    "context": "Many participants are actively promoting the coin through social media without compensation, indicating strong grassroots support."
+                },
+                "community_health": {
+                    "intensity": 80,
+                    "context": "The community appears vibrant and engaged, with many members participating in discussions and activities."
+                },
+                "buy_inquiry": {
+                    "intensity": 75,
+                    "context": "New users frequently ask about purchasing methods, indicating a growing interest in the token."
+                },
+                "inspiration": {
+                    "intensity": 90,
+                    "context": "There are high levels of inspiration and hope among participants that this project will lead to significant gains and a larger movement."
+                }
+            }
+        },
+        "2024-10-18": {
+            "message_count_ex_bot": 906,
+            "user_count_ex_bot": 129,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 75,
+                    "context": "The collective focus on flipping the stock market through SPX6900 shows a strong community belief in its potential."
+                },
+                "fairness": {
+                    "intensity": 60,
+                    "context": "While many believe in the project's fairness, some doubt the motivations behind significant contributors, leading to mixed feelings."
+                },
+                "VC_cabal": {
+                    "intensity": 55,
+                    "context": "There exists a sentiment that large holders and insiders influence market actions, but there is an effort by the community to remain independent."
+                },
+                "sell_intent": {
+                    "intensity": 35,
+                    "context": "Despite some expressing urgency to buy, the general sentiment leans toward holding rather than selling."
+                },
+                "vibes": {
+                    "intensity": 80,
+                    "context": "The chat reflects a high level of excitement and camaraderie, with many supportive interactions."
+                },
+                "comunity_strength": {
+                    "intensity": 70,
+                    "context": "Members display a strong sense of belonging and support for one another, evident in collaborative tweeting efforts."
+                },
+                "emotional_intensity": {
+                    "intensity": 76,
+                    "context": "The discussions are highly emotionally charged, focusing heavily on optimism and community goals."
+                },
+                "stickiness": {
+                    "intensity": 70,
+                    "context": "Users are consistently returning to contribute to the discussions, indicating a strong engagement over time."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "The chat contains references indicating mixed economic backgrounds among participants."
+                },
+                "price_action_focus": {
+                    "intensity": 85,
+                    "context": "A significant focus is placed on price movements and upcoming events, reflecting a high interest in market impact."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 88,
+                    "context": "Many participants express strong beliefs that significant profits are achievable, contributing to an optimistic outlook."
+                },
+                "free_cult_labor": {
+                    "intensity": 68,
+                    "context": "Active participation in promoting SPX6900 through tweets and memes shows a willingness to contribute without direct compensation."
+                },
+                "community_health": {
+                    "intensity": 80,
+                    "context": "The community appears vibrant and dynamic, with active discussions, promotions, and mutual support."
+                },
+                "buy_inquiry": {
+                    "intensity": 60,
+                    "context": "New participants frequently inquire about buying the token, indicating growing interest."
+                },
+                "inspiration": {
+                    "intensity": 75,
+                    "context": "Users express inspiration in the community's mission, seeking collective success."
+                }
+            }
+        },
+        "2024-10-19": {
+            "message_count_ex_bot": 761,
+            "user_count_ex_bot": 145,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The community is highly engaged with the idea of flipping the stock market, driving discussions and inspiration."
+                },
+                "fairness": {
+                    "intensity": 60,
+                    "context": "There are mixed feelings about fairness, with a portion of the community believing in equal opportunity while others suspect manipulation."
+                },
+                "VC_cabal": {
+                    "intensity": 50,
+                    "context": "Sentiments are divided on whether VCs control the market or if it's more community driven."
+                },
+                "sell_intent": {
+                    "intensity": 30,
+                    "context": "There are very few discussions about selling; the focus remains on buying and holding."
+                },
+                "vibes": {
+                    "intensity": 75,
+                    "context": "The chat is generally positive, with many supportive and humorous interactions."
+                },
+                "comunity_strength": {
+                    "intensity": 80,
+                    "context": "Members have a strong sense of community and are encouraging each other actively."
+                },
+                "emotional_intensity": {
+                    "intensity": 70,
+                    "context": "Discussions show significant emotional engagement, mixing excitement, FOMO, and motivation."
+                },
+                "stickiness": {
+                    "intensity": 80,
+                    "context": "Community members are interacting consistently, displaying involvement over time."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "Users express varying financial backgrounds and levels of investment."
+                },
+                "price_action_focus": {
+                    "intensity": 85,
+                    "context": "The focus on price action is strong, with continuous discussions about market movements and potential growth."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "There is widespread optimism about the potential for significant profits, with many members expressing hope for great returns."
+                },
+                "free_cult_labor": {
+                    "intensity": 70,
+                    "context": "Active engagement in voluntary promotional activities and content creation is evident within the group."
+                },
+                "community_health": {
+                    "intensity": 85,
+                    "context": "The community appears vibrant and proactive, with many contributors and exchanges."
+                },
+                "buy_inquiry": {
+                    "intensity": 60,
+                    "context": "Newcomers express interest in purchasing the token, reflecting a growing curiosity."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Many messages express feelings of hope and inspiration, encouraging collective belief in success."
+                }
+            }
+        },
+        "2024-10-20": {
+            "message_count_ex_bot": 958,
+            "user_count_ex_bot": 109,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The community is highly engaged with the idea of SPX6900, suggesting strong belief in its potential."
+                },
+                "fairness": {
+                    "intensity": 75,
+                    "context": "Participants generally feel that the project is fair, with little expressed discontent."
+                },
+                "VC_cabal": {
+                    "intensity": 40,
+                    "context": "There is some concern about VC influence, but many members feel the community drives the project."
+                },
+                "sell_intent": {
+                    "intensity": 15,
+                    "context": "Overall, the sentiment is towards holding SPX tokens, with minimal expressed intent to sell."
+                },
+                "vibes": {
+                    "intensity": 80,
+                    "context": "The atmosphere is largely positive and supportive, with frequent encouragement among members."
+                },
+                "comunity_strength": {
+                    "intensity": 90,
+                    "context": "Members of the community have formed strong bonds and often rally together for common goals."
+                },
+                "emotional_intensity": {
+                    "intensity": 78,
+                    "context": "The conversations exhibit high emotional charge, especially around price discussions and future projections."
+                },
+                "stickiness": {
+                    "intensity": 75,
+                    "context": "Many users remain active and engaged over long periods throughout the chat."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "Participants appear to be of varied socioeconomic backgrounds, with some expressing confidence in trading."
+                },
+                "price_action_focus": {
+                    "intensity": 85,
+                    "context": "There is a strong focus on token price with frequent discussions about market movements."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "Participants widely believe in the potential for significant gains from their investments."
+                },
+                "free_cult_labor": {
+                    "intensity": 70,
+                    "context": "There is significant voluntary participation from members promoting SPX without compensation."
+                },
+                "community_health": {
+                    "intensity": 88,
+                    "context": "The community shows signs of vibrancy and active engagement."
+                },
+                "buy_inquiry": {
+                    "intensity": 40,
+                    "context": "Several newcomers inquire about purchasing SPX, indicating interest in joining the investments."
+                },
+                "inspiration": {
+                    "intensity": 75,
+                    "context": "Members express hope and excitement about future growth and community dynamics."
+                }
+            }
+        }
+    }
+}
