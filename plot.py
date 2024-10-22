@@ -69,8 +69,7 @@ def update_dashboard(selected_project):
 
     return html.Div(layout_children)
 
-# Update the existing update_graph function as shown earlier
-
+# Updated update_graph function
 @app.callback(
     Output('metrics-graph', 'figure'),
     [Input('project-dropdown', 'value'),
@@ -81,70 +80,38 @@ def update_graph(selected_project, selected_metrics):
     if selected_project is None or not selected_metrics:
         return {}
 
-    # Path to the rollup JSON file
+    # Paths to data files
     rollup_file = os.path.join(TG_DIR, selected_project, f"{selected_project}_rollup.json")
+    price_file = os.path.join(TG_DIR, selected_project, f"{selected_project}_price.json")
 
+    # Check if data files exist
     if not os.path.exists(rollup_file):
         return {}
+    if not os.path.exists(price_file):
+        print(f"Price data file '{price_file}' not found.")
+        # Depending on your preference, you can decide to proceed without the price data.
 
-    # Load the rollup data
+    # Load data
     with open(rollup_file, 'r', encoding='utf-8') as f:
         rollup_data = json.load(f)
-
-    # Extract date-wise data
     date_data = rollup_data.get('date_data', {})
     dates = sorted(date_data.keys())
 
-    # Create subplots
+    # Load price data if available
+    price_data = {}
+    if os.path.exists(price_file):
+        with open(price_file, 'r', encoding='utf-8') as f:
+            price_data = json.load(f)
+
+    # Create subplots with metrics on top and candlestick chart below
     fig = make_subplots(
         rows=2, cols=1,
         shared_xaxes=True,
         vertical_spacing=0.03,
-        subplot_titles=('Daily Candlestick Chart', 'Metrics')
+        subplot_titles=('Metrics', 'Daily Candlestick Chart')
     )
 
-    # --- Price Data ---
-
-    # Path to the price JSON file
-    price_file = os.path.join(TG_DIR, selected_project, f"{selected_project}_price.json")
-
-    if os.path.exists(price_file):
-        # Load the price data
-        with open(price_file, 'r', encoding='utf-8') as f:
-            price_data = json.load(f)
-
-        # Prepare data for plotting
-        price_dates = []
-        opens = []
-        highs = []
-        lows = []
-        closes = []
-        for date in sorted(price_data.keys()):
-            price_dates.append(date)
-            day_data = price_data[date]
-            opens.append(day_data['open'])
-            highs.append(day_data['high'])
-            lows.append(day_data['low'])
-            closes.append(day_data['close'])
-
-        # Create the candlestick trace
-        candlestick = go.Candlestick(
-            x=price_dates,
-            open=opens,
-            high=highs,
-            low=lows,
-            close=closes,
-            name='Price'
-        )
-
-        # Add candlestick to the first row
-        fig.add_trace(candlestick, row=1, col=1)
-    else:
-        print(f"Price data file '{price_file}' not found.")
-
-    # --- Metrics Data ---
-
-    # Now prepare metrics data and add to the second row
+    # --- Metrics Data (Row 1) ---
     for metric in selected_metrics:
         y_values = []
         customdata = []  # To store context or None
@@ -176,7 +143,38 @@ def update_graph(selected_project, selected_metrics):
             customdata=customdata,
             hovertemplate=hovertemplate
         )
-        fig.add_trace(trace, row=2, col=1)
+        fig.add_trace(trace, row=1, col=1)
+
+    # --- Price Data (Row 2) ---
+    if price_data:
+        price_dates = []
+        opens = []
+        highs = []
+        lows = []
+        closes = []
+        for date in sorted(price_data.keys()):
+            price_dates.append(date)
+            day_data = price_data[date]
+            opens.append(day_data['open'])
+            highs.append(day_data['high'])
+            lows.append(day_data['low'])
+            closes.append(day_data['close'])
+
+        # Create the candlestick trace
+        candlestick = go.Candlestick(
+            x=price_dates,
+            open=opens,
+            high=highs,
+            low=lows,
+            close=closes,
+            name='Price'
+        )
+
+        # Add candlestick to the second row
+        fig.add_trace(candlestick, row=2, col=1)
+
+    else:
+        print(f"No price data available for project '{selected_project}'.")
 
     # Update layout
     fig.update_layout(
@@ -189,8 +187,8 @@ def update_graph(selected_project, selected_metrics):
     fig.update_xaxes(title_text='Date', row=2, col=1)
 
     # Update y-axis titles
-    fig.update_yaxes(title_text='Price (USD)', row=1, col=1)
-    fig.update_yaxes(title_text='Metrics Value', row=2, col=1)
+    fig.update_yaxes(title_text='Metrics Value', row=1, col=1)
+    fig.update_yaxes(title_text='Price (USD)', row=2, col=1)
 
     return fig
 
