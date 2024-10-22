@@ -6,8 +6,42 @@ __pycache__/
 # C extensions
 *.so
 
-# local file output stuff
-tg/
+# Ignore everything in /tg/ by default
+/tg/*
+
+# Allow specific subdirectories and files in those directories
+!/tg/michi/
+!/tg/michi/*.*
+/tg/michi/*/*
+
+!/tg/goat/
+!/tg/goat/*.*
+/tg/goat/*/*
+
+!/tg/retardio/
+!/tg/retardio/*.*
+/tg/retardio/*/*
+
+!/tg/zyn/
+!/tg/zyn/*.*
+/tg/zyn/*/*
+
+#!/tg/max2049/
+#!/tg/max2049/*.*
+#/tg/max2049/*/*
+
+!/tg/spx6900/
+!/tg/spx6900/*.*
+/tg/spx6900/*/*
+
+#!/tg/pollen/
+#!/tg/pollen/*.*
+#/tg/pollen/*/*
+
+#!/tg/sigma/
+#!/tg/sigma/*.*
+#/tg/sigma/*/*
+
 old/
 discord/
 session_name.session

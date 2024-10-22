@@ -1,0 +1,467 @@
+{
+    "project_name": "zyn",
+    "date_data": {
+        "2024-10-15": {
+            "message_count_ex_bot": 107,
+            "user_count_ex_bot": 30,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The community is heavily focused on the success of airdrops and project benefits, indicating a strong shared enthusiasm for the concept."
+                },
+                "fairness": {
+                    "intensity": 90,
+                    "context": "Participants express satisfaction and trust in the reward distribution process and the project overall, reflecting a belief in equitable treatment."
+                },
+                "VC_cabal": {
+                    "intensity": 80,
+                    "context": "There seems to be a positive perception of community involvement over insider control, as many users emphasize community growth."
+                },
+                "sell_intent": {
+                    "intensity": 10,
+                    "context": "Very few users express intent to sell, indicating a collective optimism and commitment to holding the token."
+                },
+                "vibes": {
+                    "intensity": 95,
+                    "context": "Overall, the chat is filled with positive sentiments and encouragement among participants, fostering a supportive atmosphere."
+                },
+                "comunity_strength": {
+                    "intensity": 85,
+                    "context": "Participants frequently chat about collaboration and community, reflecting strong connections."
+                },
+                "emotional_intensity": {
+                    "intensity": 90,
+                    "context": "The discussion is highly charged with excitement and anticipation regarding the project's future."
+                },
+                "stickiness": {
+                    "intensity": 75,
+                    "context": "Users appear to return to the chat and actively engage, sharing experiences and promoting participation."
+                },
+                "socioeconomic": {
+                    "intensity": 70,
+                    "context": "While specific socioeconomic cues are limited, the overall sentiment suggests a mix of participants with varying financial backgrounds."
+                },
+                "price_action_focus": {
+                    "intensity": 60,
+                    "context": "There is a noticeable focus on price action, particularly around the benefits derived from holding the token."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 95,
+                    "context": "Participants express strong belief in the potential for significant financial return from their investments."
+                },
+                "free_cult_labor": {
+                    "intensity": 80,
+                    "context": "Many participants are actively promoting the project without compensation, engaging others in community efforts."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community is vibrant with active participation and a clear focus on growth."
+                },
+                "buy_inquiry": {
+                    "intensity": 50,
+                    "context": "Some newcomers are asking where to buy tokens, suggesting ongoing interest but not at a high frequency."
+                },
+                "inspiration": {
+                    "intensity": 85,
+                    "context": "Community members express inspiration and motivation, often highlighting the positive changes they anticipate."
+                }
+            }
+        },
+        "2024-10-16": {
+            "message_count_ex_bot": 130,
+            "user_count_ex_bot": 56,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The community is highly engaged with the ongoing airdrop, showcasing excitement and enthusiasm."
+                },
+                "fairness": {
+                    "intensity": 90,
+                    "context": "Participants feel the airdrop is fairly distributed and appreciate the transparent communication from the organizers."
+                },
+                "VC_cabal": {
+                    "intensity": 70,
+                    "context": "Participants generally feel in control and believe in the project, but there's some acknowledgment of external influences."
+                },
+                "sell_intent": {
+                    "intensity": 10,
+                    "context": "The community is eager to hold onto their tokens, focusing on gaining rewards instead of selling."
+                },
+                "vibes": {
+                    "intensity": 95,
+                    "context": "Overall positive vibes are present, with participants expressing joy and gratitude."
+                },
+                "comunity_strength": {
+                    "intensity": 90,
+                    "context": "There is a strong sense of community; members support one another and celebrate collective successes."
+                },
+                "emotional_intensity": {
+                    "intensity": 88,
+                    "context": "Discussions are highly charged with excitement over rewards and future project potential."
+                },
+                "stickiness": {
+                    "intensity": 85,
+                    "context": "Participants are engaged over an extended time, returning to share experiences and updates."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "A range of financial backgrounds is evident, with some mentioning substantial gains."
+                },
+                "price_action_focus": {
+                    "intensity": 80,
+                    "context": "There is a notable focus on rewards and potential increases in token value."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 75,
+                    "context": "Many participants express strong belief in the project's potential to increase their wealth."
+                },
+                "free_cult_labor": {
+                    "intensity": 45,
+                    "context": "Some members are volunteering time and effort in promoting and engaging with the community without compensation."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community appears vibrant and active, gearing up for future events."
+                },
+                "buy_inquiry": {
+                    "intensity": 50,
+                    "context": "Occasional inquiries about purchasing the token are made mainly by new members."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Participants frequently express hope and inspiration from their involvement in the project."
+                }
+            }
+        },
+        "2024-10-17": {
+            "message_count_ex_bot": 80,
+            "user_count_ex_bot": 30,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 90,
+                    "context": "The community is highly engaged with the project due to substantial rewards being distributed."
+                },
+                "fairness": {
+                    "intensity": 85,
+                    "context": "Users express trust and gratitude towards the project and its administrators."
+                },
+                "VC_cabal": {
+                    "intensity": 75,
+                    "context": "Participants feel the community has significant control over the project, rather than a few insiders."
+                },
+                "sell_intent": {
+                    "intensity": 20,
+                    "context": "There is a negligible number of mentions of selling tokens, with a predominant sentiment to hold."
+                },
+                "vibes": {
+                    "intensity": 95,
+                    "context": "The chat is overwhelmingly positive, with users expressing excitement and satisfaction."
+                },
+                "comunity_strength": {
+                    "intensity": 90,
+                    "context": "Participants express strong connections and camaraderie within the group."
+                },
+                "emotional_intensity": {
+                    "intensity": 85,
+                    "context": "The discussion is highly positive and emotionally charged, filled with excitement."
+                },
+                "stickiness": {
+                    "intensity": 70,
+                    "context": "Users return frequently to celebrate and discuss the rewards and project updates."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "The community seems to comprise individuals with a range of economic backgrounds."
+                },
+                "price_action_focus": {
+                    "intensity": 75,
+                    "context": "Many comments focus on price movements and the potential for future gains."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "Participants overwhelmingly believe they can achieve significant financial gains from this project."
+                },
+                "free_cult_labor": {
+                    "intensity": 40,
+                    "context": "While there is some volunteer activity, it is not exceedingly widespread."
+                },
+                "community_health": {
+                    "intensity": 95,
+                    "context": "The community appears vibrant and thriving with active participation."
+                },
+                "buy_inquiry": {
+                    "intensity": 50,
+                    "context": "There are inquiries about how to buy tokens, suggesting a healthy interest from newcomers."
+                },
+                "inspiration": {
+                    "intensity": 85,
+                    "context": "Many members express feeling inspired and optimistic about the project's future."
+                }
+            }
+        },
+        "2024-10-18": {
+            "message_count_ex_bot": 157,
+            "user_count_ex_bot": 61,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 85,
+                    "context": "The project has strong engagement and enthusiasm towards its goals, including migration and rewards."
+                },
+                "fairness": {
+                    "intensity": 80,
+                    "context": "Members express a sense of fair opportunity, highlighting successful claims and migration experiences."
+                },
+                "VC_cabal": {
+                    "intensity": 70,
+                    "context": "There is a general confidence that the community, rather than outsiders, controls the token's trajectory."
+                },
+                "sell_intent": {
+                    "intensity": 20,
+                    "context": "Most participants exhibit a desire to hold and continue supporting the project rather than selling."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "The chat is filled with positivity, excitement, and supportive interactions among members."
+                },
+                "comunity_strength": {
+                    "intensity": 85,
+                    "context": "Participants display a tight-knit community with strong encouragement and shared goals."
+                },
+                "emotional_intensity": {
+                    "intensity": 80,
+                    "context": "The discussion is highly emotionally charged, with participants expressing euphoria over profits and airdrops."
+                },
+                "stickiness": {
+                    "intensity": 75,
+                    "context": "Users frequently return and engage in ongoing discussions about migration and claiming rewards."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "There is a mix of socioeconomic backgrounds, but many express positivity about financial opportunities."
+                },
+                "price_action_focus": {
+                    "intensity": 70,
+                    "context": "Conversations frequently reference the project's potential for price increases and future success."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "Participants express strong belief in the project\u2019s potential for significant returns."
+                },
+                "free_cult_labor": {
+                    "intensity": 80,
+                    "context": "Many participants are actively engaging and promoting the project without direct compensation."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community appears vibrant and active, with ongoing discussions and positive contributions."
+                },
+                "buy_inquiry": {
+                    "intensity": 75,
+                    "context": "There are frequent inquiries about buying and participating in the project."
+                },
+                "inspiration": {
+                    "intensity": 85,
+                    "context": "Many participants express feelings of hope and inspiration from the community and project prospects."
+                }
+            }
+        },
+        "2024-10-19": {
+            "message_count_ex_bot": 104,
+            "user_count_ex_bot": 38,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 80,
+                    "context": "The community is excited about the project's potential, with high engagement around the concept of holding and reward claiming."
+                },
+                "fairness": {
+                    "intensity": 85,
+                    "context": "Users express a strong belief in the equitable distribution of rewards across the community."
+                },
+                "VC_cabal": {
+                    "intensity": 75,
+                    "context": "While there are concerns about centralized control, there is a prevailing sentiment of community empowerment against perceived insiders."
+                },
+                "sell_intent": {
+                    "intensity": 20,
+                    "context": "Most participants are focused on holding rather than selling, indicating long-term investment strategies."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "The chat is filled with positive expressions and encouragement, indicating a supportive community atmosphere."
+                },
+                "comunity_strength": {
+                    "intensity": 75,
+                    "context": "Participants frequently reference each other and foster a sense of collective identity."
+                },
+                "emotional_intensity": {
+                    "intensity": 85,
+                    "context": "Discussions are charged with excitement and eagerness, particularly about rewards and migration processes."
+                },
+                "stickiness": {
+                    "intensity": 70,
+                    "context": "There are several returns to the chat by users, indicating sustained engagement and commitment."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "Participants show varied backgrounds but generally appear engaged with the project benefiting from it."
+                },
+                "price_action_focus": {
+                    "intensity": 65,
+                    "context": "While there is some focus on the price and market cap potential, most discussions revolve around project success and community engagement."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 80,
+                    "context": "A strong belief in the project\u2019s potential to increase in value and yield profit is frequently shared."
+                },
+                "free_cult_labor": {
+                    "intensity": 65,
+                    "context": "Many users are actively promoting the project and helping others, indicating volunteer support without formal compensation."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community appears vibrant and engaged, with ongoing discussions and positive reinforcement among participants."
+                },
+                "buy_inquiry": {
+                    "intensity": 30,
+                    "context": "There are some inquiries about participation and buying processes, indicating ongoing interest from newcomers."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Many participants express hope and inspiration from being part of this project, emphasizing a collective vision."
+                }
+            }
+        },
+        "2024-10-20": {
+            "message_count_ex_bot": 173,
+            "user_count_ex_bot": 61,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 80,
+                    "context": "The community is highly engaged with the idea of holding and migrating tokens, as well as the notion of potential financial growth."
+                },
+                "fairness": {
+                    "intensity": 85,
+                    "context": "Overall, participants exhibit a sense that the project is fair and beneficial to them."
+                },
+                "VC_cabal": {
+                    "intensity": 70,
+                    "context": "There is a belief among participants that the project is community-driven rather than controlled by insiders."
+                },
+                "sell_intent": {
+                    "intensity": 10,
+                    "context": "Very few participants express any intent to sell; the focus is largely on holding tokens for future gains."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "The atmosphere in the chat is overwhelmingly positive, with users expressing support and excitement."
+                },
+                "comunity_strength": {
+                    "intensity": 85,
+                    "context": "Participants demonstrate a strong sense of community and shared purpose."
+                },
+                "emotional_intensity": {
+                    "intensity": 75,
+                    "context": "Discussions are generally enthusiastic, with participants showcasing strong emotional ties to the project."
+                },
+                "stickiness": {
+                    "intensity": 80,
+                    "context": "Users are regularly returning to engage in the chat and share updates."
+                },
+                "socioeconomic": {
+                    "intensity": 50,
+                    "context": "Diverse socioeconomic backgrounds, with mentions of both investment capability and gratitude for rewards."
+                },
+                "price_action_focus": {
+                    "intensity": 60,
+                    "context": "While there is a focus on the potential price movement, the conversation mainly revolves around the community and migration process."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 80,
+                    "context": "Participants express a strong belief in the potential for significant financial returns from their investments."
+                },
+                "free_cult_labor": {
+                    "intensity": 75,
+                    "context": "Many participants are actively promoting the project without compensation, indicating strong community-driven efforts."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community appears vibrant and growing, with many users reporting satisfaction with the project."
+                },
+                "buy_inquiry": {
+                    "intensity": 65,
+                    "context": "There is a noticeable interest from newcomers in finding ways to buy into the project."
+                },
+                "inspiration": {
+                    "intensity": 80,
+                    "context": "Participants express feelings of inspiration and motivation from their involvement with the community."
+                }
+            }
+        },
+        "2024-10-21": {
+            "message_count_ex_bot": 76,
+            "user_count_ex_bot": 22,
+            "emotional_metrics": {
+                "concept_or_meme_strength": {
+                    "intensity": 90,
+                    "context": "The migration is a significant event for the community, fostering excitement and engagement."
+                },
+                "fairness": {
+                    "intensity": 85,
+                    "context": "Participants generally perceive the migration process as equitable and transparent."
+                },
+                "VC_cabal": {
+                    "intensity": 75,
+                    "context": "While there are some concerns, most participants feel empowered and in control of their actions."
+                },
+                "sell_intent": {
+                    "intensity": 10,
+                    "context": "There is minimal indication of selling intent; instead, users show commitment to holding."
+                },
+                "vibes": {
+                    "intensity": 90,
+                    "context": "The overall atmosphere is very positive, with expressions of joy and celebration."
+                },
+                "comunity_strength": {
+                    "intensity": 80,
+                    "context": "Participants express a strong sense of community and encourage inviting others."
+                },
+                "emotional_intensity": {
+                    "intensity": 85,
+                    "context": "The conversation is charged with enthusiasm and excitement surrounding the migration."
+                },
+                "stickiness": {
+                    "intensity": 80,
+                    "context": "Users are actively engaging and returning to contribute throughout the conversation."
+                },
+                "socioeconomic": {
+                    "intensity": 60,
+                    "context": "Discussions suggest a mixed socioeconomic background among users."
+                },
+                "price_action_focus": {
+                    "intensity": 30,
+                    "context": "There is some focus on the migration's benefits rather than direct price discussions."
+                },
+                "perceived_maximum_upside": {
+                    "intensity": 90,
+                    "context": "A strong belief exists among participants that the migration will lead to significant financial rewards."
+                },
+                "free_cult_labor": {
+                    "intensity": 85,
+                    "context": "Many users volunteer time to help others and promote the project."
+                },
+                "community_health": {
+                    "intensity": 90,
+                    "context": "The community appears vibrant and active."
+                },
+                "buy_inquiry": {
+                    "intensity": 40,
+                    "context": "Some newcomers are asking about the migration process, indicating interest in joining."
+                },
+                "inspiration": {
+                    "intensity": 85,
+                    "context": "Participants express feelings of inspiration regarding the project's future."
+                }
+            }
+        }
+    }
+}
