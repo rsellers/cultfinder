@@ -19,8 +19,8 @@ projects = [d for d in os.listdir(TG_DIR) if os.path.isdir(os.path.join(TG_DIR, 
 
 # Layout of the app
 app.layout = html.Div([
-    html.H1('Telegram Project Dashboard'),
-    html.Label('Select a Project:'),
+    html.H1('C U L T F I N D E R'),
+    html.Label('Select a memecoin:'),
     dcc.Dropdown(
         id='project-dropdown',
         options=[{'label': project, 'value': project} for project in projects],
@@ -65,8 +65,32 @@ def update_dashboard(selected_project):
             labelStyle={'display': 'inline-block', 'margin-right': '10px'}
         ),
         dcc.Graph(id='metrics-graph'),
+        
+        # Add the descriptive text and external links
+        html.Div([
+            html.H4("Additional Information"),
+            html.P("This dashboard provides an overview of chat log emotional metrics and price data for various memecoin projects."),
+            html.A("Github", href="https://github.com/rsellers/cultfinder", target="_blank"),
+            html.Br(),
+            
+            html.H4("gpt4o-mini promp guidelines for memecoin telegram channels"),
+            html.P([html.Strong("concept_or_meme_strength: "), "Evaluate how powerful and engaging the core idea or meme of the project is. 0 indicates the members are not focused on the idea, 100 indicates the topic is universally captivating."]),
+            html.P([html.Strong("fairness: "), "Is the token or project perceived to be fair to the participants? 0 indicates widespread suspicion or discontent, 100 indicates the project or idea is widely accepted as being economically fair and evenly distributed."]),
+            html.P([html.Strong("VC_cabal: "), "Is there a widespread sentiment that large insiders, venture capitalists with large allocations, or 'cabals' are in control of the trajectory of the token price? 0 indicates widespread belief that venture capitalists, insiders, whales, or cabals are in control, 100 indicates a widespread belief that the community-at-large is in control and not select insiders."]),
+            html.P([html.Strong("sell_intent: "), "Are people openly planning or in the process of selling tokens? 0 indicates an open and widespread expression of intent to sell by the community, 100 indicates widespread sentiments to 'hold forever' or have 'diamond hands' or 'price doesn't matter'."]),
+            html.P([html.Strong("vibes: "), "How good are the vibes within the chat log? 0 indicates widespread negativity, unsupportiveness and harshness, 100 an atmosphere of general support, encouragement and generosity."]),
+            html.P([html.Strong("comunity_strength: "), "Is this a tight-knit community? 0 indicates community members regard each other as strangers, 100 indicates an intimate and personal connection between all participants."]),
+            html.P([html.Strong("emotional_intensity: "), "Is the discussion highly emotionally charged? 0 indicates a flat or dry discussion, 100 indicates a highly emotionally charged environment across all participants."]),
+            html.P([html.Strong("stickiness: "), "Ignoring repeated messages in a short period of time, do users return and contribute messages and discussion across many hours or days? 0 indicates most users do not return to make multiple messages throughout the session duration, 100 indicates all users are contributing throughout the duration of the chat log."]),
+            html.P([html.Strong("socioeconomic: "), "Reading from clues within the chat group such as mentions of low disposable income, poor upbringing, living in 3rd-world or marginalized communities, are members of this group of high or low socioeconomic status? 0 indicates all users are of low socioeconomic status, 100 indicates all users wealthy and well-connected elites."]),
+            html.P([html.Strong("price_action_focus: "), "Is there a strong focus on the token price in the conversations? 0 indicates no discussion of price action, 100 indicates widespread reaction to price movements and overall fixation on price."]),
+            html.P([html.Strong("perceived_maximum_upside: "), "Do the participants express a strong belief in the potential of the project making them rich? 0 indicates widespread disbelief or suspicion that participation will make users rich, 100 indicates widespread belief users will become rich after holding this token."]),
+            html.P([html.Strong("free_cult_labor: "), "Are people volunteering significant time and effort for the project without compensation, for example: participating in social media 'raids', creating original memes, evangelizing the project? 0 indicates people are not participating in value accretive activities whatsoever, 100 indicates widespread value accretive participation across the whole set of participants."]),
+            html.P([html.Strong("community_health: "), "Does this appear to be a vibrant and growing community or is the community 'dead'? 0 indicates an anemic 'dead' community, 100 indicates a vibrant healthy community."]),
+            html.P([html.Strong("buy_inquiry: "), "Are newcomers asking where or how they can buy the token? 0 indicates nobody is asking where to buy the token, 100 indicates widespread inquiries about where or how to purchase."]),
+            html.P([html.Strong("inspiration: "), "Do community members derive a sense of inspiration and hope from the community? 0 indicates that nobody is expressing inspiration and hope, 100 indicates widespread expressions of inspiration and hope gained from participating in the group."])
+        ], style={'marginTop': '20px', 'padding': '10px', 'borderTop': '1px solid #ddd'})
     ]
-
     return html.Div(layout_children)
 
 # Updated update_graph function
