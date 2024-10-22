@@ -1,0 +1,111 @@
+anaconda-clean @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_be20dd64-61dd-41d9-bf38-a84695fe69507hs6olkf/croots/recipe/anaconda-clean_1652723729651/work
+annotated-types==0.7.0
+anyio==4.6.2.post1
+babel==2.16.0
+base58==2.1.1
+bcrypt @ file:///Users/runner/miniforge3/conda-bld/bcrypt_1695372230487/work
+beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1705564648255/work
+blinker==1.8.2
+boltons @ file:///home/conda/feedstock_root/build_artifacts/boltons_1677499911949/work
+brotlipy @ file:///Users/runner/miniforge3/conda-bld/brotlipy_1648854211613/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1718025014955/work/certifi
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1656782892895/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1661170624537/work
+click==8.1.7
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1655412516417/work
+conda @ file:///Users/runner/miniforge3/conda-bld/conda_1694556161885/work
+conda-content-trust @ file:///home/conda/feedstock_root/build_artifacts/conda-content-trust_1621370699668/work
+conda-package-handling @ file:///Users/runner/miniforge3/conda-bld/conda-package-handling_1649385102057/work
+configparser==7.1.0
+contourpy==1.3.0
+cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1657174062636/work
+cycler==0.12.1
+cytoolz==0.11.0
+dash==2.18.1
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-table==5.0.0
+decorator==4.4.2
+distlib==0.3.6
+distro==1.9.0
+exceptiongroup==1.2.2
+filelock==3.8.0
+Flask==3.0.3
+fonttools==4.53.1
+gdown==5.2.0
+ghp-import==2.1.0
+h11==0.14.0
+httpcore==1.0.6
+httpx==0.27.2
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1642433548627/work
+imageio==2.35.1
+imageio-ffmpeg==0.5.1
+importlib_metadata==8.2.0
+importlib_resources==6.4.5
+itsdangerous==2.2.0
+Jinja2==3.1.4
+jiter==0.6.1
+joblib==1.4.2
+jsonpatch @ file:///home/conda/feedstock_root/build_artifacts/jsonpatch_1695536281965/work
+jsonpointer @ file:///Users/runner/miniforge3/conda-bld/jsonpointer_1695397303361/work
+kiwisolver==1.4.7
+Markdown==3.6
+MarkupSafe==2.1.5
+matplotlib==3.9.2
+mergedeep==1.3.4
+mkdocs==1.6.0
+mkdocs-get-deps==0.2.0
+mkdocs-material==9.5.31
+mkdocs-material-extensions==1.3.1
+moviepy==1.0.3
+nest-asyncio==1.6.0
+nltk==3.9.1
+numpy==2.0.2
+openai==1.51.2
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1681337016113/work
+paginate==0.5.6
+paramiko @ file:///home/conda/feedstock_root/build_artifacts/paramiko_1690718676607/work
+pathspec==0.12.1
+Pillow==9.5.0
+platformdirs==2.5.2
+plotly==5.24.1
+pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1693086607691/work
+proglog==0.1.10
+pyaes==1.6.1
+pyasn1==0.6.1
+pycoingecko==2.2.0
+pycosat @ file:///Users/runner/miniforge3/conda-bld/pycosat_1649384988412/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pydantic==2.9.2
+pydantic_core==2.23.4
+Pygments==2.18.0
+pymdown-extensions==10.9
+PyNaCl @ file:///Users/runner/miniforge3/conda-bld/pynacl_1695544927761/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1643496850550/work
+pyparsing==3.1.4
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil==2.9.0.post0
+python-dotenv==0.20.0
+pytz==2024.2
+PyYAML==6.0.2
+pyyaml_env_tag==0.1
+regex==2024.7.24
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1661872987712/work
+retrying==1.3.4
+rsa==4.9
+ruamel-yaml-conda @ file:///Users/runner/miniforge3/conda-bld/ruamel_yaml_1653464482706/work
+ruamel.yaml @ file:///Users/runner/miniforge3/conda-bld/ruamel.yaml_1686994012442/work
+ruamel.yaml.clib @ file:///Users/runner/miniforge3/conda-bld/ruamel.yaml.clib_1670412931817/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sniffio==1.3.1
+soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1693929250441/work
+Telethon==1.37.0
+tenacity==9.0.0
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1657485559105/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1662214488106/work
+typing_extensions==4.12.2
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1658789158161/work
+virtualenv==20.16.5
+watchdog==4.0.1
+Werkzeug==3.0.4
+zipp==3.19.2
