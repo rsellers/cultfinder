@@ -14,6 +14,8 @@ from nltk.tokenize import word_tokenize
 import json
 from datetime import timezone
 import time
+import configparser
+
 
 
 
@@ -208,22 +210,36 @@ async def fetch_telegram_messages(
 
 async def fetch_telegram_messages_for_date_range(
     group,
-    username,
     date_start,
     date_end,
-    max_filtered_filesize=1024 * 1024  # Default to 150 KB
+    ini_file='coins.ini',
+    ini_index='tg',  # New parameter for specifying the INI index (default to 'tg')
+    max_filtered_filesize=1024 * 1024  # Default to 1MB
 ):
     """
     Fetch telegram messages for a date range, and save the chat histories into subdirectories.
 
     Parameters:
     - group (str): Name of the group.
-    - username (str): Telegram group username or link.
     - date_start (datetime): Starting date of the range (timezone-aware in UTC).
     - date_end (datetime): Ending date of the range (timezone-aware in UTC).
+    - ini_file (str): Path to the INI file for group info.
+    - ini_index (str): The index in the INI file to reference for the username (default is 'tg').
     - max_filtered_filesize (int): Maximum size of filtered messages in bytes.
     """
-    # Create the Telegram client once
+
+    # Load the INI file and retrieve the group information
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+
+    if group not in config:
+        raise ValueError(f"Group '{group}' not found in {ini_file}")
+
+    # Fetch the specified ini_index (e.g., 'tg', 'contract_address', etc.) for the group
+    username = config[group].get(ini_index)
+    if not username:
+        raise ValueError(f"'{ini_index}' for group '{group}' not found in {ini_file}")
+
     async with TelegramClient('session_name', api_id, api_hash) as tg_client:
         print("Telegram client started.")
 
@@ -232,17 +248,15 @@ async def fetch_telegram_messages_for_date_range(
         while current_date <= date_end:
             print(f"Fetching messages for date: {current_date.strftime('%Y-%m-%d')}")
 
-            # Fetch messages for the current date
             message_log_raw, message_log_filtered = await fetch_telegram_messages(
-                tg_client,  # Pass the client
+                tg_client,
                 group=group,
                 username=username,
                 date_offset=current_date,
                 max_filtered_filesize=max_filtered_filesize,
                 n=25
-                )
+            )
 
-            # Process timestamps to get date ranges
             timestamps = [datetime.strptime(entry['timestamp'], '%Y-%m-%d %H:%M') for entry in message_log_filtered]
 
             if timestamps:
@@ -251,28 +265,22 @@ async def fetch_telegram_messages_for_date_range(
             else:
                 date_min = date_max = current_date.strftime('%Y-%m-%d')
 
-            # Calculate total messages and tokens for raw and filtered logs
             total_messages_raw = len(message_log_raw)
             total_messages_filtered = len(message_log_filtered)
 
             all_messages_text_raw = " ".join(entry['text'] for entry in message_log_raw)
             all_messages_text_filtered = " ".join(entry['text'] for entry in message_log_filtered)
 
-            # Insure the day has chat in it before making directories and saving
-            if (total_messages_filtered > 4):
-
+            if total_messages_filtered > 4:
                 tokens_raw = word_tokenize(all_messages_text_raw)
                 total_tokens_raw = len(tokens_raw)
 
                 tokens_filtered = word_tokenize(all_messages_text_filtered)
                 total_tokens_filtered = len(tokens_filtered)
 
-                # Create the group directory if it doesn't exist
                 group_dir = os.path.join('tg', group, current_date.strftime('%Y-%m-%d'))
                 os.makedirs(group_dir, exist_ok=True)
-                
 
-                # Prepare file names
                 nmsg_raw = f"{total_messages_raw}msg"
                 ntok_raw = f"{total_tokens_raw//1000}ktok"
                 output_filename_raw = f"{group}_raw_{nmsg_raw}_{ntok_raw}_{date_min}_{date_max}.txt"
@@ -283,16 +291,12 @@ async def fetch_telegram_messages_for_date_range(
                 output_filename_filtered = f"{group}_filtered_{nmsg_filtered}_{ntok_filtered}_{date_min}_{date_max}.txt"
                 output_path_filtered = os.path.join(group_dir, output_filename_filtered)
 
-                # Format messages for writing
                 def format_message(entry):
                     return f"Date:{entry['timestamp']}\nUsr:@{entry['sender_username']}\nMsg:{entry['text']}\n--\n"
 
                 message_entries_raw = [format_message(entry) for entry in message_log_raw]
                 message_entries_filtered = [format_message(entry) for entry in message_log_filtered]
-                
-                
-                
-                # Save the raw message log to a file
+
                 try:
                     with open(output_path_raw, 'w', encoding='utf-8') as f:
                         f.writelines(message_entries_raw)
@@ -300,7 +304,6 @@ async def fetch_telegram_messages_for_date_range(
                 except Exception as e:
                     print(f"Error writing to '{output_path_raw}': {e}")
 
-                # Save the filtered message log to a file
                 try:
                     with open(output_path_filtered, 'w', encoding='utf-8') as f:
                         f.writelines(message_entries_filtered)
@@ -308,12 +311,127 @@ async def fetch_telegram_messages_for_date_range(
                 except Exception as e:
                     print(f"Error writing to '{output_path_filtered}': {e}")
 
-                # Pause for 2 seconds to avoid hitting throttle limits
-                
                 print("Pausing for 2 seconds...")
                 time.sleep(2)
 
             current_date += timedelta(days=1)
+    print("Telegram client disconnected.")
+
+
+async def fetch_telegram_messages_for_date_range_json(
+    group,
+    date_start,
+    date_end,
+    ini_file='coins.ini',
+    ini_index='tg',
+    max_filtered_filesize=1024 * 1024
+):
+    """
+    Fetch telegram messages for a date range, and save the chat histories in JSON format.
+
+    Parameters:
+    - group (str): Name of the group.
+    - date_start (datetime): Starting date of the range (timezone-aware in UTC).
+    - date_end (datetime): Ending date of the range (timezone-aware in UTC).
+    - ini_file (str): Path to the INI file for group info.
+    - ini_index (str): The index in the INI file to reference for the username (default is 'tg').
+    - max_filtered_filesize (int): Maximum size of filtered messages in bytes.
+    """
+
+    # Load the INI file and retrieve the group information
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+
+    if group not in config:
+        raise ValueError(f"Group '{group}' not found in {ini_file}")
+
+    # Fetch the specified ini_index (e.g., 'tg', 'contract_address', etc.) for the group
+    username = config[group].get(ini_index)
+    if not username:
+        raise ValueError(f"'{ini_index}' for group '{group}' not found in {ini_file}")
+
+    async with TelegramClient('session_name', api_id, api_hash) as tg_client:
+        print("Telegram client started.")
+
+        current_date = date_start
+
+        while current_date <= date_end:
+            print(f"Fetching messages for date: {current_date.strftime('%Y-%m-%d')}")
+
+            # Fetch messages for the current date
+            message_log_raw, message_log_filtered = await fetch_telegram_messages(
+                tg_client,
+                group=group,
+                username=username,
+                date_offset=current_date,
+                max_filtered_filesize=max_filtered_filesize,
+                n=25
+            )
+
+            # Process timestamps to get date ranges
+            timestamps = [datetime.strptime(entry['timestamp'], '%Y-%m-%d %H:%M') for entry in message_log_filtered]
+
+            if timestamps:
+                date_min = min(timestamps).strftime('%Y-%m-%d')
+            else:
+                date_min = current_date.strftime('%Y-%m-%d')
+
+            total_messages_raw = len(message_log_raw)
+            total_messages_filtered = len(message_log_filtered)
+
+            if total_messages_filtered > 4:
+                # Format raw messages for JSON
+                discussions_raw = [
+                    {
+                        "date": entry['timestamp'],
+                        "user": entry['sender_username'],
+                        "message": entry['text']
+                    }
+                    for entry in message_log_raw
+                ]
+
+                # Format filtered messages for JSON
+                discussions_filtered = [
+                    {
+                        "date": entry['timestamp'],
+                        "user": entry['sender_username'],
+                        "message": entry['text']
+                    }
+                    for entry in message_log_filtered
+                ]
+
+                # Create the group directory if it doesn't exist
+                group_dir = os.path.join('tg', group, date_min)
+                os.makedirs(group_dir, exist_ok=True)
+
+                # Prepare the JSON output filenames, using only date_min (YYYY-MM-DD)
+                output_filename_raw = f"{group}_raw_{date_min}.json"
+                output_path_raw = os.path.join(group_dir, output_filename_raw)
+
+                output_filename_filtered = f"{group}_filtered_{date_min}.json"
+                output_path_filtered = os.path.join(group_dir, output_filename_filtered)
+
+                # Save the raw messages to a JSON file
+                try:
+                    with open(output_path_raw, 'w', encoding='utf-8') as f:
+                        json.dump({"discussions": discussions_raw}, f, indent=4, ensure_ascii=False)
+                    print(f"Raw Telegram messages saved to '{output_path_raw}'.")
+                except Exception as e:
+                    print(f"Error writing to '{output_path_raw}': {e}")
+
+                # Save the filtered messages to a JSON file
+                try:
+                    with open(output_path_filtered, 'w', encoding='utf-8') as f:
+                        json.dump({"discussions": discussions_filtered}, f, indent=4, ensure_ascii=False)
+                    print(f"Filtered Telegram messages saved to '{output_path_filtered}'.")
+                except Exception as e:
+                    print(f"Error writing to '{output_path_filtered}': {e}")
+
+                print("Pausing for 2 seconds...")
+                time.sleep(2)
+
+            current_date += timedelta(days=1)
+
     print("Telegram client disconnected.")
 
 
@@ -387,14 +505,14 @@ def check_spam_with_openai(messages):
         return []
 
 
-def analyze_messages_with_openai(input_file='telegram_messages.txt', output_file='openai_response.txt'):
+def analyze_messages_with_openai(input_file, output_file):
     """Read messages from a file, trim content to be under a specified size, send to OpenAI API, and save the response.
 
     Parameters:
     - input_file (str): Path to the input text file containing messages.
     - output_file (str): Path to the output file where the response will be saved.
     """
-    max_input_size=250 * 1024
+    max_input_size=1024 * 1024
 
     print("Starting analyze_messages_with_openai function.")
     # Read the initialization prompt from prompt.ini
@@ -646,54 +764,32 @@ if __name__ == '__main__':
     ############################
     # Main tg loop
     ############################
-    group_name = 'spx6900'
-    #username = 'https://t.me/+F37V2KpUcJZmMDFh'  #spx6900
-    #username = 'https://t.me/ZynCoinERC20_Zynm' #zyn - real or fake channel? idk
-    #username = 'https://t.me/billy_cto_sol' #billy coin - prob need the invite link to work
-    #username = 'https://t.me/michicoinsolana' #michi
-    #username = 'https://t.me/retardiosol' #retardio
-    #username = 'https://t.me/SIGMAonsolportal' #sigma - DOESNT WORK
-    #username = 'https://t.me/+YmwhVSPoX_84ZGYy'#priv sigma invite link
-    #username = 'https://t.me/POPCATSOLANA'#apu
-    #username='https://t.me/XNETgossip',  #xnet  
-    #username='https://t.me/max2049cto' #max2049
-    #username='https://t.me/GoatseusMaximusSolana'
-    #username='@pollenfuture2023' #pollenfuture (case study in rug pull sentiment)
-    #username='Pollen Gossip' #pollenfuture (case study in rug pull sentiment)
-    date_start = datetime(2024, 10, 11, tzinfo=timezone.utc)
-    date_end = datetime(2024, 10, 11, tzinfo=timezone.utc)
+    group_name = 'brainrot'
+    date_start = datetime(2024, 6, 1, tzinfo=timezone.utc)
+    date_end = datetime(2024, 7, 31, tzinfo=timezone.utc)
     max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # Run the fetching function within the event loop
-    # asyncio.run(fetch_telegram_messages_for_date_range(
-    #     group=group_name,
-    #     username=username,
-    #     date_start=date_start,
-    #     date_end=date_end,
-    #     max_filtered_filesize=max_filtered_filesize
-    # ))
+    asyncio.run(fetch_telegram_messages_for_date_range_json(
+        group=group_name,
+        date_start=date_start,
+        date_end=date_end
+    ))
 
-    # print("Finished fetching Telegram messages.")
-    ############################
-    # END main tg loop
-    ############################
+    print("Finished fetching Telegram messages.")
+  
 
     ############################
     # Main LLM process loop
     ############################
-    #Now run the OpenAI analysis
-    # analyze_messages_with_openai(
-    #     input_file='tg/spx6900/spx6900_raw_2000msg_14ktok_2024-10-20_00-21_2024-10-20_21-13.txt',
-    #     output_file='openai_response_debug.json'
-    # )
-    # print("Script finished.")
+    #Now run the OpenAI analysi
 
     # batch process
-    process_chat_logs('zyn', date_min='2024-10-15', date_max='2024-10-21')
+    #process_chat_logs('zyn', date_min='2024-10-15', date_max='2024-10-21')
 
     ############################
-    # END Main LLM process loop
+    # Roll it up n smoke it
     ############################
     
     #combine it all 
-    rollup_project_data('zyn')
+    #rollup_project_data('zyn')

@@ -8,7 +8,9 @@ __pycache__/
 
 # Ignore everything in /tg/ by default
 /tg/*
+/tg2/*
 
+session_name.*
 # Allow specific subdirectories and files in those directories
 !/tg/michi/
 !/tg/michi/*.*
@@ -49,6 +51,7 @@ __pycache__/
 .DS_Store
 openai_response_debug.json
 openai_response.json
+json_convert.py
 
 # Distribution / packaging
 .Python
