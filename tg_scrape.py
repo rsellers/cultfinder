@@ -15,6 +15,10 @@ import json
 from datetime import timezone
 import time
 import configparser
+from collections import Counter
+import re
+
+
 
 
 
@@ -50,6 +54,46 @@ except Exception as e:
     exit(1)
 
 from datetime import datetime, timedelta
+
+# Regular expression to extract x.com or twitter.com URLs
+url_pattern = re.compile(r"https?://(x|twitter|tiktok)\.com/([A-Za-z0-9_]+)/status/\d+")
+
+# Function to extract social media mentions and user stats
+def extract_social_media_mentions_and_user_stats(data):
+    account_mentions = []
+    unique_users = set()
+    total_messages = 0
+
+    # Parse the messages
+    for entry in data:
+        message = entry.get('message', '')
+        user = entry.get('user', '')
+        total_messages += 1
+        unique_users.add(user)
+        
+        # Find all URLs in the message that match x.com or twitter.com
+        matches = url_pattern.findall(message)
+        for match in matches:
+            account_url = f"https://{match[0]}.com/{match[1]}"
+            account_mentions.append(account_url)
+
+    # Tally the top 5 mentioned accounts
+    account_counts = Counter(account_mentions)
+    top_5_accounts = account_counts.most_common(5)
+
+    # Prepare the result in JSON format
+    result = {
+        "socials": {
+            "top_5_mentioned_accounts": [{"url": account, "mentions": count} for account, count in top_5_accounts]
+        },
+        "user_stats": {
+            "unique_user_count": len(unique_users),
+            "total_message_count": total_messages
+        }
+    }
+
+    return result
+
 
 async def fetch_telegram_messages(
     tg_client,
@@ -434,12 +478,11 @@ async def fetch_telegram_messages_for_date_range_json(
 
     print("Telegram client disconnected.")
 
-
 def normalize_username(username):
     # Remove leading special characters like '!', '@', '#', etc.
     return username.lstrip('!@#')
 
-def check_spam_with_openai(messages):
+def check_spam_with_openai(messages,llm_model):
     """
     Identify spam users from a list of messages using OpenAI.
 
@@ -474,7 +517,7 @@ def check_spam_with_openai(messages):
     try:
         print("Sending spam check request to OpenAI API...")
         response = client.beta.chat.completions.parse(
-            model='gpt-4o-mini',
+            model=llm_model,
             messages=[{'role': 'user', 'content': final_prompt}],
             max_tokens=500
         )
@@ -504,8 +547,7 @@ def check_spam_with_openai(messages):
         print(ai_response)
         return []
 
-
-def analyze_messages_with_openai(input_file, output_file):
+def analyze_messages_with_openai(input_file, output_file, llm_model):
     """Read messages from a file, trim content to be under a specified size, send to OpenAI API, and save the response.
 
     Parameters:
@@ -575,7 +617,7 @@ def analyze_messages_with_openai(input_file, output_file):
     try:
         print("Sending request to OpenAI API...")
         response = client.beta.chat.completions.parse(
-            model='gpt-4o-mini',
+            model=llm_model,
             messages=[{
                 'role': 'user', 
                 'content': final_prompt}],
@@ -618,7 +660,7 @@ def analyze_messages_with_openai(input_file, output_file):
         # If the response is not valid JSON, print as raw text
         print(ai_response)
 
-def process_chat_logs(project_name, date_min, date_max):
+def process_chat_logs(project_name, date_min, date_max,model="gpt4o-mini"):
     """
     Process chat logs by calling analyze_messages_with_openai() for each date in the date range.
 
@@ -642,7 +684,7 @@ def process_chat_logs(project_name, date_min, date_max):
             files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 
             # Filter files that have 'filtered' in the filename and end with '.txt'
-            filtered_files = [f for f in files if 'filtered' in f and f.endswith('.txt')]
+            filtered_files = [f for f in files if 'filtered' in f and f.endswith('.json')]
 
             if filtered_files:
                 # If duplicates exist, use the one with the latest modification time
@@ -663,10 +705,39 @@ def process_chat_logs(project_name, date_min, date_max):
                 if not os.path.exists(output_directory):
                     os.makedirs(output_directory)
 
-                output_file = os.path.join('tg',output_directory,date_str, f"{project_name}_filtered_{date_str}.json")
+                output_file = os.path.join('tg',output_directory,date_str, f"{project_name}_filtered_{date_str}_llm={model}.json")
 
                 # Call analyze_messages_with_openai()
-                analyze_messages_with_openai(input_file=input_file, output_file=output_file)
+                analyze_messages_with_openai(input_file=input_file, output_file=output_file, llm_model=model)
+
+                ### ADD ADDITIONAL PROCESSING HERE
+                ### STILL BROKEN
+                 # Load the existing output from the OpenAI response
+                try:
+                    with open(output_file, 'r', encoding='utf-8') as f:
+                        openai_output = json.load(f)
+
+                    # Assuming the file has been analyzed and contains structured messages
+                    with open(input_file, 'r', encoding='utf-8') as f:
+                        chat_data = [{"user": line.split(": ")[1], "message": line} for line in f if line.startswith('Usr:')]
+
+                    # Process additional social media mentions and user stats
+                    additional_metrics = extract_social_media_mentions_and_user_stats(chat_data)
+
+                    # Append the results to the existing OpenAI output under "metrics"
+                    if "metrics" not in openai_output:
+                        openai_output["metrics"] = {}
+
+                    openai_output["metrics"].update(additional_metrics)
+
+                    # Save the updated output
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        json.dump(openai_output, f, indent=4)
+                    print(f"Updated file with additional metrics: {output_file}")
+
+                except Exception as e:
+                    print(f"Error processing additional metrics: {e}")
+
             else:
                 print(f"No filtered text files found in directory {directory}")
         else:
@@ -765,18 +836,18 @@ if __name__ == '__main__':
     # Main tg loop
     ############################
     group_name = 'brainrot'
-    date_start = datetime(2024, 6, 1, tzinfo=timezone.utc)
-    date_end = datetime(2024, 7, 31, tzinfo=timezone.utc)
+    date_start = datetime(2024, 5, 15, tzinfo=timezone.utc)
+    date_end = datetime(2024, 5, 31, tzinfo=timezone.utc)
     max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # Run the fetching function within the event loop
-    asyncio.run(fetch_telegram_messages_for_date_range_json(
-        group=group_name,
-        date_start=date_start,
-        date_end=date_end
-    ))
+    # asyncio.run(fetch_telegram_messages_for_date_range_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
 
-    print("Finished fetching Telegram messages.")
+    # print("Finished fetching Telegram messages.")
   
 
     ############################
@@ -785,7 +856,7 @@ if __name__ == '__main__':
     #Now run the OpenAI analysi
 
     # batch process
-    #process_chat_logs('zyn', date_min='2024-10-15', date_max='2024-10-21')
+    process_chat_logs('brainrot', date_min='2024-10-2', date_max='2024-10-2', model="gpt-4o-mini")
 
     ############################
     # Roll it up n smoke it
