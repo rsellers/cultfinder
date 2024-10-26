@@ -9,6 +9,7 @@ __pycache__/
 # Ignore everything in /tg/ by default
 /tg/*
 /tg2/*
+/backup/*
 
 session_name.*
 # Allow specific subdirectories and files in those directories

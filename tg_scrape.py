@@ -17,8 +17,7 @@ import time
 import configparser
 from collections import Counter
 import re
-
-
+from prompt import __version__
 
 
 
@@ -32,6 +31,7 @@ try:
     api_hash = os.getenv('TELEGRAM_API_HASH')
     phone = os.getenv('TELEGRAM_PHONE')
     openai_api_key = os.getenv('OPENAI_API_KEY')
+    openai_version = os.getenv('OPENAI_VERSION') #version of the LLM to use
 
     client = OpenAI(api_key=openai_api_key)
 
@@ -59,40 +59,81 @@ from datetime import datetime, timedelta
 url_pattern = re.compile(r"https?://(x|twitter|tiktok)\.com/([A-Za-z0-9_]+)/status/\d+")
 
 # Function to extract social media mentions and user stats
-def extract_social_media_mentions_and_user_stats(data):
+import re
+from collections import Counter
+from datetime import datetime
+
+# URL pattern to match x.com and twitter.com URLs, case-insensitive
+url_pattern = re.compile(r"https?://(x|twitter)\.com/([A-Za-z0-9_]+)/status/\d+", re.IGNORECASE)
+
+import re
+from collections import Counter
+from datetime import datetime
+
+# URL pattern to match x.com and twitter.com URLs, case-insensitive
+url_pattern = re.compile(r"https?://(x|twitter)\.com/([A-Za-z0-9_]+)/status/\d+", re.IGNORECASE)
+
+def extract_metadata_socials_and_user_stats(data):
+    # THIS EXPECTS JSON INPUTS!
+
     account_mentions = []
     unique_users = set()
     total_messages = 0
 
+    # Check if the data input is valid
+    if not isinstance(data, list):
+        raise ValueError("Invalid data format. Expected a list of dictionaries.")
+    
     # Parse the messages
     for entry in data:
-        message = entry.get('message', '')
-        user = entry.get('user', '')
-        total_messages += 1
-        unique_users.add(user)
+        # Ensure the entry is a dictionary with both 'user' and 'message' fields
+        if not isinstance(entry, dict):
+            continue  # Skip invalid entries
+        user = entry.get('user')
+        message = entry.get('message')
         
-        # Find all URLs in the message that match x.com or twitter.com
-        matches = url_pattern.findall(message)
-        for match in matches:
-            account_url = f"https://{match[0]}.com/{match[1]}"
-            account_mentions.append(account_url)
+        if not user or not message:
+            continue  # Skip if either field is missing
 
-    # Tally the top 5 mentioned accounts
+        # Strip and normalize user data to avoid duplicates
+        user = user.strip().lower()
+        unique_users.add(user)
+        total_messages += 1
+
+        # Find all URLs in the message that match x.com or twitter.com
+        try:
+            matches = url_pattern.findall(message)
+            for match in matches:
+                # Normalize the URL to lowercase to avoid duplicates based on case
+                account_url = f"https://{match[0].lower()}.com/{match[1].lower()}"
+                account_mentions.append(account_url)
+        except Exception as e:
+            print(f"Error processing message: {message} | Error: {e}")
+
+    # Tally the top 8 mentioned accounts
     account_counts = Counter(account_mentions)
-    top_5_accounts = account_counts.most_common(5)
+    top_8_accounts = account_counts.most_common(8)
 
     # Prepare the result in JSON format
     result = {
         "socials": {
-            "top_5_mentioned_accounts": [{"url": account, "mentions": count} for account, count in top_5_accounts]
+            "top_mentioned_accounts": [{"url": account, "mentions": count} for account, count in top_8_accounts]
         },
         "user_stats": {
             "unique_user_count": len(unique_users),
             "total_message_count": total_messages
+        },
+        "llm": {
+            "llm_version": openai_version,
+            "prompt_version": __version__
+        },
+        "date": {
+            "date_process": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
     }
 
     return result
+
 
 
 async def fetch_telegram_messages(
@@ -361,7 +402,6 @@ async def fetch_telegram_messages_for_date_range(
             current_date += timedelta(days=1)
     print("Telegram client disconnected.")
 
-
 async def fetch_telegram_messages_for_date_range_json(
     group,
     date_start,
@@ -553,6 +593,7 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
     Parameters:
     - input_file (str): Path to the input text file containing messages.
     - output_file (str): Path to the output file where the response will be saved.
+    - llm_model (str): the openai model 
     """
     max_input_size=1024 * 1024
 
@@ -567,11 +608,11 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
         print(f"Error loading prompt.ini: {e}")
         exit(1)
     
-    # Read the message log from the file
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
             message_log_text = f.read()
         print(f"Loaded '{input_file}' successfully.")
+        
     except Exception as e:
         print(f"Error reading '{input_file}': {e}")
         return
@@ -643,10 +684,34 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
         print(ai_response)
         return
 
+    # Perform some additional processing with non-LLM analysis
+    try:
+        
+        # Convert the raw text into a structured dictionary
+        message_log_data = json.loads(message_log_text)
+        
+        # Access the 'discussions' list
+        discussions = message_log_data.get('discussions', [])
+
+        additional_metrics = extract_metadata_socials_and_user_stats(discussions)
+        
+        # Convert the Pydantic model to a dictionary for easier manipulation
+        metrics_dict = metrics.dict()
+
+        # Append the results to the existing OpenAI output under "metrics"
+        if "metrics" not in metrics_dict:
+            metrics_dict["metrics"] = {}
+
+        metrics_dict["metrics"].update(additional_metrics)
+
+    except Exception as e:
+        print(f"Error processing additional metrics: {e}")
+
     # Save the structured response to a JSON file
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(metrics.model_dump_json(indent=4))
+            #f.write(metrics.model_dump_json(indent=4)) #if usig pydantic object
+            json.dump(metrics_dict, f, indent=4) #if using standard dict
         print(f"OpenAI response saved to '{output_file}'.")
     except Exception as e:
         print(f"Error writing to '{output_file}': {e}")
@@ -655,12 +720,14 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
     print("\n--- OpenAI GPT-4 Response ---\n")
     
     try:
-        print(json.dumps(json.loads(ai_response), indent=4))
+        #print(json.dumps(json.loads(ai_response), indent=4)) # For only dumping output pydantic objects
+        print(json.dumps(metrics_dict, indent=4))
+
     except json.JSONDecodeError:
         # If the response is not valid JSON, print as raw text
         print(ai_response)
 
-def process_chat_logs(project_name, date_min, date_max,model="gpt4o-mini"):
+def process_chat_logs(project_name, date_min, date_max,model=openai_version):
     """
     Process chat logs by calling analyze_messages_with_openai() for each date in the date range.
 
@@ -683,8 +750,9 @@ def process_chat_logs(project_name, date_min, date_max,model="gpt4o-mini"):
             # List files in the directory
             files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 
-            # Filter files that have 'filtered' in the filename and end with '.txt'
-            filtered_files = [f for f in files if 'filtered' in f and f.endswith('.json')]
+            # Filter files that have 'filtered' in the filename, end with '.json', and do not contain 'llm=' or 'prompt='
+            # Do this to not accidentially select a post-processed file as our LLM target. 
+            filtered_files = [f for f in files if 'filtered' in f and f.endswith('.json') and 'llm=' not in f and 'prompt=' not in f]
 
             if filtered_files:
                 # If duplicates exist, use the one with the latest modification time
@@ -705,38 +773,10 @@ def process_chat_logs(project_name, date_min, date_max,model="gpt4o-mini"):
                 if not os.path.exists(output_directory):
                     os.makedirs(output_directory)
 
-                output_file = os.path.join('tg',output_directory,date_str, f"{project_name}_filtered_{date_str}_llm={model}.json")
+                output_file = os.path.join('tg',output_directory,date_str, f"{project_name}_filtered_{date_str}_llm={model}_prompt={__version__}.json")
 
                 # Call analyze_messages_with_openai()
                 analyze_messages_with_openai(input_file=input_file, output_file=output_file, llm_model=model)
-
-                ### ADD ADDITIONAL PROCESSING HERE
-                ### STILL BROKEN
-                 # Load the existing output from the OpenAI response
-                try:
-                    with open(output_file, 'r', encoding='utf-8') as f:
-                        openai_output = json.load(f)
-
-                    # Assuming the file has been analyzed and contains structured messages
-                    with open(input_file, 'r', encoding='utf-8') as f:
-                        chat_data = [{"user": line.split(": ")[1], "message": line} for line in f if line.startswith('Usr:')]
-
-                    # Process additional social media mentions and user stats
-                    additional_metrics = extract_social_media_mentions_and_user_stats(chat_data)
-
-                    # Append the results to the existing OpenAI output under "metrics"
-                    if "metrics" not in openai_output:
-                        openai_output["metrics"] = {}
-
-                    openai_output["metrics"].update(additional_metrics)
-
-                    # Save the updated output
-                    with open(output_file, 'w', encoding='utf-8') as f:
-                        json.dump(openai_output, f, indent=4)
-                    print(f"Updated file with additional metrics: {output_file}")
-
-                except Exception as e:
-                    print(f"Error processing additional metrics: {e}")
 
             else:
                 print(f"No filtered text files found in directory {directory}")
@@ -856,7 +896,7 @@ if __name__ == '__main__':
     #Now run the OpenAI analysi
 
     # batch process
-    process_chat_logs('brainrot', date_min='2024-10-2', date_max='2024-10-2', model="gpt-4o-mini")
+    process_chat_logs('goat', date_min='2024-10-12', date_max='2024-10-12', model=openai_version)
 
     ############################
     # Roll it up n smoke it

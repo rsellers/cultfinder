@@ -125,6 +125,45 @@ def is_valid_date(date_str):
         return True
     except ValueError:
         return False
+    
+def search_project_data(project_name):
+    """
+    Search for the project using the CoinGecko Pro API and return project data like
+    social media links, category, and other relevant information.
+    
+    Parameters:
+    - project_name (str): The name of the project to search for.
+
+    Output:
+    - Returns the project details in JSON format.
+    """
+    # Load environment variables
+    load_dotenv()
+    COINGECKO_API_KEY = os.getenv('COINGECKO_API_KEY')
+
+    if not COINGECKO_API_KEY:
+        print("CoinGecko API key not found in environment variables.")
+        return
+
+    # Construct the search URL
+    search_url = "https://api.coingecko.com/api/v3/search"
+    headers = {"accept": "application/json"}
+    params = {'query': project_name, 'x_cg_api_key': COINGECKO_API_KEY}
+
+    try:
+        response = requests.get(search_url, headers=headers, params=params)
+        project_data = response.json()
+
+        # Print the data for review
+        print(f"Project data for '{project_name}':")
+        print(json.dumps(project_data, indent=4))
+
+        return project_data
+
+    except Exception as e:
+        print(f"Error fetching search data from CoinGecko: {e}")
+        return None
 
 if __name__ == '__main__':
-    fetch_price_data('zyn')
+    #fetch_price_data('spx6900')
+    print(json.dumps(search_project_data('Kamala Horris'), indent=4))

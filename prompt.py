@@ -1,6 +1,8 @@
 from pydantic import BaseModel, Field
 from typing import Union
 
+# Track the version of this prompt. Must be updated manually. 
+__version__ = "1.0.2" 
 
 class EmotionalClassifier(BaseModel):
     intensity: Union[int, None] = Field(description="""A number from 0 to 100 that represents the intensity of the emotional metric. Leave blank or null if this metric is not applicable or there is not enough information to determine a score.""")
@@ -73,10 +75,10 @@ class SocialReference(BaseModel):
         extra = "forbid"  # Disallow any extra fields
 
 class CommunityMetrics(BaseModel):
-    message: TopLineMetrics = Field(description="""High level usage and date metrics of the chat log""")
+    #message: TopLineMetrics = Field(description="""High level usage and date metrics of the chat log""")
     emotional_metrics: EmotionalMetric = Field(description="""Metrics pertaining to differnt emotional qualities expressed by the participants of the chat.""")
     #project_reference: ProjectReference = Field(description="""Information and metrics pertaining to frequently referenced crypto projects.""")
-    social_reference: SocialReference = Field(description="""Information and metrics pertaining to frequently referenced social media acounts and influencers.""")
+    #social_reference: SocialReference = Field(description="""Information and metrics pertaining to frequently referenced social media acounts and influencers.""")
 
     class Config:
         extra = "forbid"  # Disallow any extra fields
