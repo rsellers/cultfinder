@@ -341,7 +341,7 @@ def update_coins_ini(project_data_full, social_scrape, ini_file='coins.ini'):
 
 if __name__ == '__main__':
     
-    memelist = [
+    memelist_pg3 = [
     "Beercoin", "Balls of Fate",  "Based Chad", "Hege", 
     "HeeeHeee", "Zack Morris", "Vita Inu", "PIKA to PIKO", "Bamboo on Base", 
     "ORC", "RyuJin", "SNAP", "MAD", "Gou", 
@@ -361,6 +361,81 @@ if __name__ == '__main__':
     "Manifest", "Sharbi", "Pundu", "Dejitaru Tsuka", "Valhalla Index", 
     "INFERNO", "Elon", "Gondola", "catownkimono", "Dark MAGA"
     ]   
+
+    memelist_pg1 = [
+    "Dogecoin", "Toncoin", "Shiba Inu", "Pepe", "dogwifhat", "Bonk", 
+    "Popcat", "FLOKI", "cat in a dogs world", "Brett", "SPX6900", 
+    "Goatseus Maximus", "Mog Coin", "Notcoin", "Neiro", "Turbo", 
+    "Book of Meme", "Gigachad", "DOG-GO-TO-THE-MOON", "Baby Doge Coin", 
+    "Memecoin", "ConstitutionDAO", "Dogs", "Non-Playable Coin", 
+    "Apu Apustaja", "Binance-Peg Dogecoin", "Osaka Protocol", "Moo Deng", 
+    "Simon's Cat", "CorgiAI", "HarryPotterObamaSonic10Inu", "PONKE", 
+    "PepeCoin", "Fwog", "Sundog", "MAGA", "michi", "Degen (Base)", 
+    "MUMU THE BULL", "Bitcoin Wizards", "ANDY ETH", "RETARDIO", 
+    "PUPS-WORLD-PEACE", "Myro", "Bone ShibaSwap", "Slerf", "WUFFI", 
+    "Hoppy", "Purr", "PUPS (Ordinals)", "sudeng", "Tron Bull", "Coq Inu", 
+    "BILLION-DOLLAR-CAT", "Wojak", "Daddy Tate", "Wen", "Bellscoin", 
+    "Snek", "Dogelon Mars", "MAGA Hat", "The Doge NFT", "Milady Meme Coin", 
+    "MANEKI", "Cheems Token", "ArbDoge AI", "Neiro on ETH", "Puff The Dragon", 
+    "Nacho the Kat", "WHY", "BOBO Coin", "Mother Iggy", "PepeFork", 
+    "LandWolf", "Smoking Chicken Fish", "PeiPei", "Skibidi Toilet", 
+    "Dolan Duck", "MEOW", "Fartcoin", "KOALA AI", "GME (Ethereum)", 
+    "COCO COIN", "Toshi", "LOCK IN", "Sigma", "MOO DENG", "Monkey Pox", 
+    "Phil", "mini", "SelfieDogCoin", "Department Of Government Efficiency", 
+    "Rich Quack", "Hatom", "Kendu Inu", "ZynCoin", "Billy", 
+    "Harambe on Solana", "Woman Yelling At Cat", "crow with knife"
+    ]
+
+    memelist_pg2 = [
+    "higher", "Doland Tremp", "Numogram", "Welshcorgicoin", "Keyboard Cat", "Samoyedcoin", "Giko Cat", 
+    "Foxy", "Grok", "Kishu Inu", "Joe Coin", "Fud the Pug", "Doge Killer", "dogi", "GME", "Shoggoth", 
+    "Feed Every Gorilla", "AhaToken", "FOREST", "Jesus Coin", "Poo Chi", "Act I The AI Prophecy", 
+    "Brainlet", "GOGGLES", "JHH", "FU", "Resistance Dog", "mfercoin", "BOB Token", "GameSwift", 
+    "NPC On Solana", "AMATERASU OMIKAMI", "Based Pepe", "IlluminatiCoin", "SAD HAMSTER", "MEOW", 
+    "Kasper", "BLUB", "LandWolf", "Hathor", "SquidGrow", "Kaspy", "Pikaboss", "Gizmo Imaginary Kitten", 
+    "Chudjak", "Habibi (Sol)", "Mister Miggles", "RNT", "doginme", "Wrapped AyeAyeCoin", "BONGO CAT", 
+    "Ben the Dog", "Puffy", "lmeow", "Effective Accelerationism", "Kizuna", "BitBonk", "The Balkan Dwarf", 
+    "BabyBonk", "Silly Dragon", "FEED EVERY GORILLA", "Mistery", "Act I", "Jesus", "Forest", "Troller", 
+    "FOMO Inu", "ShibaGrow", "REDOGE", "FLOKIWINKY", "CRYPTOPORN", "Shumo Inu", "Polygon Doge", 
+    "CocoFun", "BabyDogeZilla", "FLOKIADA", "Goosecoin", "Inu Cat", "ArbiShiba", "Shiba Corp", "MilkyWay Inu", 
+    "Polka Doge", "ZK Doge", "Tabby", "Spooky Inu", "Pomeranian", "MetaShiba", "Aqua Inu", "Neco", 
+    "Narwhal Inu", "Flokinator", "NecoCat", "Baby Bear", "DOGGO", "CheeseDoge", "Baby Pepe", "Kishu", 
+    "Cyber Inu", "Starlit Doge", "FlokiSHIB", "LokiDoge"
+    ]
+
+    memelist_pg4 = [
+    "sunwukong", "venko", "catownkimono", "tao inu", "milkbag", "lumos", "r/snoofi",
+    "banana tape wall", "kumala herris", "boomer", "men", "maga again", "wall street memes",
+    "solnic", "smilek", "mellow man", "bingus the cat", "vikita", "guacamole", "puss",
+    "nomnom", "let him cook", "hana", "fofar", "clapcat", "avax has no chill", "hoge finance",
+    "meta monopoly", "catalorian", "4trump", "neiro", "jeo boden", "poupe", "pepoclown",
+    "prophet of ethereum", "dog emoji on solana", "nailong", "meme coin millionaire",
+    "look bro", "dogebonk", "floppa cat", "pesto the baby king penguin", "moonbag", "suncat",
+    "honk", "analos", "uni", "riko", "any inu", "pepecoin network", "tori the cat", "wownero",
+    "banano", "shibadoge", "a trippy ape", "curtis", "uranus", "ledog", "watcoin", "gondola",
+    "hawk", "loopy", "zeek coin", "rock", "kittekoin", "koma inu", "terminus", "doggo", 
+    "ronnie", "iiii lovvv youuuu", "morud", "k9 finance dao", "floos", "alpha", "wassie", 
+    "mars", "hund", "muncat", "baby dragonx", "doggo inu", "freedom", "popo", "snailbrook", 
+    "kitten wif hat", "neiro", "pepe trump", "iq50", "marvin inu", "cafe", "moth", "maga vp", 
+    "cumrocket", "bananacat", "goatseus maximus", "weirdo", "coffee", "cheese", 
+    "half orange drinking lemonade", "wap", "eagle of truth"
+    ]
+
+    memelist_pg5 = [
+    "Qstar", "Cats N Cars", "CONDO", "Vibing Cat", "WAP", "el gato", "BIRDSPING", "MILLI",
+    "Bro the cat", "TON FISH", "Andyman", "DOGE on Solana", "ETHEREUM IS GOOD", 
+    "Pajamas Cat", "FECES", "Zazu", "doginthpool", "WATER Coin", "Zoomer", "supercycle(real)", 
+    "Baby Grok", "Sharki", "I love puppies", "Cat-Dog", "Nothing", "BeeBase", "Doug the Duck", 
+    "Shiba Predator", "Blinks.gg", "Pochita", "Stash Inu", "Groyper", "catwifbag", "LOL", 
+    "Biaoqing", "Izzy", "OmniCat", "MIMANY", "HAMI", "America Pac", "Zoomer", "Suiman", 
+    "neversol", "Spike", "Shibwifhatcoin", "Pepe on SOL", "Yawn's World", "Twurtle the turtle", 
+    "Baby Neiro Token", "Dollar", "INU", "Kiba Inu", "Neirei", "Povel Durev", "WAWA CAT", 
+    "ElonRWA", "Ski Mask Dog", "LION", "Ping Dog", "CATEX", "Cyber Dog", "Zygo The Frog", 
+    "TRON BEER", "Husky Avax", "Crypto Twitter", "Kabosu", "PINO", "Hachiko Sol", "DinoLFG", 
+    "pepe in a memes world", "dark maga", "McPepe's", "Twiskers", "MEOW", "Believe In Something", 
+    "MoonScape", "Matt Furie", "Cheems"
+    ]
+
 
     # Trial function calls 
     # print(search_project_data('kamala horris'))
