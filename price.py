@@ -341,18 +341,19 @@ def update_coins_ini(project_data_full, social_scrape, ini_file='coins.ini'):
 
 if __name__ == '__main__':
     
-    memelist_pg3 = [
-    "Beercoin", "Balls of Fate",  "Based Chad", "Hege", 
-    "HeeeHeee", "Zack Morris", "Vita Inu", "PIKA to PIKO", "Bamboo on Base", 
-    "ORC", "RyuJin", "SNAP", "MAD", "Gou", 
-    "Baby Neiro", "Nya", "autism", "Feisty Doge NFT", "Mochi", 
-    "Andy", "coby", "ChompCoin", "Elon", "Inferno", 
-    "Gondola", "catownkimono", "MAGA Fight for Trump", "Dark MAGA", 
-    "MEDUSA", "BASED INTERNET PANDA", "Fairfun", "SunWukong",
-    "Look bro", "nomnom", "Chihuahua Chain", "Hana", "WEWECOIN", 
-    "BOB", "Shina Inu", "SEIYAN", "Roaring Kitty", "Invest Zone", 
-    "Cheeseball", "TAO INU", "Kimbo", "Popo The Frog", "Crash On Base", 
-    "Wrapped DOG", "MILKBAG", "Kamala Horris", "Pozo Coin", "monkeyhaircut", 
+    # memelist_pg3 = [
+    # "Beercoin", "Balls of Fate",  "Based Chad", "Hege", 
+    # "HeeeHeee", "Zack Morris", "Vita Inu", "PIKA to PIKO", "Bamboo on Base", 
+    # "ORC", "RyuJin", "SNAP", "MAD", "Gou", 
+    # "Baby Neiro", "Nya", "autism", "Feisty Doge NFT", "Mochi", 
+    # "Andy", "coby", "ChompCoin", "Elon", "Inferno", 
+    # "Gondola", "catownkimono", "MAGA Fight for Trump", "Dark MAGA", 
+    # "MEDUSA", "BASED INTERNET PANDA", "Fairfun", "SunWukong",
+    # "Look bro", "nomnom", "Chihuahua Chain", "Hana", "WEWECOIN", 
+    # "BOB", "Shina Inu", "SEIYAN", "Roaring Kitty", "Invest Zone", 
+    # "Cheeseball", "TAO INU", "Kimbo", "Popo The Frog", "Crash On Base", 
+    # "Wrapped DOG", "MILKBAG", "Kamala Horris", "Pozo Coin", "monkeyhaircut", 
+    memelist_pg3 =  [
     "AXOL", "LFGO", "Goatseus Maximus", "r/snoofi", "DRIP", 
     "Dagknight Dog", "Solchat", "Fefe", "Draggy CTO", "AndyBlast", 
     "aaa cat", "GUMMY", "Ton Cat", "Bog", "MACHI", 
@@ -387,23 +388,23 @@ if __name__ == '__main__':
     ]
 
     memelist_pg2 = [
-    "higher", "Doland Tremp", "Numogram", "Welshcorgicoin", "Keyboard Cat", "Samoyedcoin", "Giko Cat", 
-    "Foxy", "Grok", "Kishu Inu", "Joe Coin", "Fud the Pug", "Doge Killer", "dogi", "GME", "Shoggoth", 
-    "Feed Every Gorilla", "AhaToken", "FOREST", "Jesus Coin", "Poo Chi", "Act I The AI Prophecy", 
-    "Brainlet", "GOGGLES", "JHH", "FU", "Resistance Dog", "mfercoin", "BOB Token", "GameSwift", 
-    "NPC On Solana", "AMATERASU OMIKAMI", "Based Pepe", "IlluminatiCoin", "SAD HAMSTER", "MEOW", 
-    "Kasper", "BLUB", "LandWolf", "Hathor", "SquidGrow", "Kaspy", "Pikaboss", "Gizmo Imaginary Kitten", 
-    "Chudjak", "Habibi (Sol)", "Mister Miggles", "RNT", "doginme", "Wrapped AyeAyeCoin", "BONGO CAT", 
-    "Ben the Dog", "Puffy", "lmeow", "Effective Accelerationism", "Kizuna", "BitBonk", "The Balkan Dwarf", 
-    "BabyBonk", "Silly Dragon", "FEED EVERY GORILLA", "Mistery", "Act I", "Jesus", "Forest", "Troller", 
+    # "higher", "Doland Tremp", "Numogram", "Welshcorgicoin", "Keyboard Cat", "Samoyedcoin", "Giko Cat", 
+    # "Foxy", "Grok", "Kishu Inu", "Joe Coin", "Fud the Pug", "Doge Killer", "dogi", "GME", "Shoggoth", 
+    # "Feed Every Gorilla", "AhaToken", "FOREST", "Jesus Coin", "Poo Chi", "Act I The AI Prophecy", 
+    # "Brainlet", "GOGGLES", "JHH", "FU", "Resistance Dog", "mfercoin", "BOB Token", "GameSwift", 
+    # "NPC On Solana", "AMATERASU OMIKAMI", "Based Pepe", "IlluminatiCoin", "SAD HAMSTER", "MEOW", 
+    # "Kasper", "BLUB", "LandWolf", "Hathor", "SquidGrow", "Kaspy", "Pikaboss", "Gizmo Imaginary Kitten", 
+    # "Chudjak", "Habibi (Sol)", "Mister Miggles", "RNT", "doginme", "Wrapped AyeAyeCoin", "BONGO CAT", 
+    # "Ben the Dog", "Puffy", "lmeow", "Effective Accelerationism", "Kizuna", "BitBonk", "The Balkan Dwarf", 
+    # "BabyBonk", "Silly Dragon", "FEED EVERY GORILLA", "Mistery", "Act I", "Jesus", "Forest", "Troller", 
     "FOMO Inu", "ShibaGrow", "REDOGE", "FLOKIWINKY", "CRYPTOPORN", "Shumo Inu", "Polygon Doge", 
     "CocoFun", "BabyDogeZilla", "FLOKIADA", "Goosecoin", "Inu Cat", "ArbiShiba", "Shiba Corp", "MilkyWay Inu", 
     "Polka Doge", "ZK Doge", "Tabby", "Spooky Inu", "Pomeranian", "MetaShiba", "Aqua Inu", "Neco", 
     "Narwhal Inu", "Flokinator", "NecoCat", "Baby Bear", "DOGGO", "CheeseDoge", "Baby Pepe", "Kishu", 
-    "Cyber Inu", "Starlit Doge", "FlokiSHIB", "LokiDoge"
-    ]
+    "Cyber Inu", "Starlit Doge", "FlokiSHIB", "LokiDoge",
+    # ]
 
-    memelist_pg4 = [
+    # memelist_pg4 = [
     "sunwukong", "venko", "catownkimono", "tao inu", "milkbag", "lumos", "r/snoofi",
     "banana tape wall", "kumala herris", "boomer", "men", "maga again", "wall street memes",
     "solnic", "smilek", "mellow man", "bingus the cat", "vikita", "guacamole", "puss",
@@ -418,10 +419,10 @@ if __name__ == '__main__':
     "mars", "hund", "muncat", "baby dragonx", "doggo inu", "freedom", "popo", "snailbrook", 
     "kitten wif hat", "neiro", "pepe trump", "iq50", "marvin inu", "cafe", "moth", "maga vp", 
     "cumrocket", "bananacat", "goatseus maximus", "weirdo", "coffee", "cheese", 
-    "half orange drinking lemonade", "wap", "eagle of truth"
-    ]
+    "half orange drinking lemonade", "wap", "eagle of truth",
+    # ]
 
-    memelist_pg5 = [
+    # memelist_pg5 = [
     "Qstar", "Cats N Cars", "CONDO", "Vibing Cat", "WAP", "el gato", "BIRDSPING", "MILLI",
     "Bro the cat", "TON FISH", "Andyman", "DOGE on Solana", "ETHEREUM IS GOOD", 
     "Pajamas Cat", "FECES", "Zazu", "doginthpool", "WATER Coin", "Zoomer", "supercycle(real)", 
@@ -433,15 +434,52 @@ if __name__ == '__main__':
     "ElonRWA", "Ski Mask Dog", "LION", "Ping Dog", "CATEX", "Cyber Dog", "Zygo The Frog", 
     "TRON BEER", "Husky Avax", "Crypto Twitter", "Kabosu", "PINO", "Hachiko Sol", "DinoLFG", 
     "pepe in a memes world", "dark maga", "McPepe's", "Twiskers", "MEOW", "Believe In Something", 
-    "MoonScape", "Matt Furie", "Cheems"
-    ]
+    "MoonScape", "Matt Furie", "Cheems",
+    # ]
 
+    # memelist_pg6 = [
+    "Mao", "first reply", "Groggo By Matt Furie", "MUTATIO", "TRONKEY", "Cat Duck", 
+    "Sacabam", "Landwolf", "BitCat", "GUA", "PEPE 0x69 ON BASE", "Bonsai Token", 
+    "Sanin", "Jason Derulo", "DCA420 Meme Index", "WoofWork.io", "Frogs", 
+    "SoBULL OLD", "Pochita on Ethereum", "Tadpole", "Sydney", "BOPPY", 
+    "Hokkaidu Inu", "Avocato", "Bunnie", "MindCoin", "CSI888", "Suiba Inu", 
+    "Kaga No Fuuka Go Sapporo Kagasou", "WHISKEY", "POINTS", "PIGU", "Keyboard Cat", 
+    "nofap", "daCat", "PSYOP", "Chitan", "Liquor", "NumberGoUpTech", "Poncho", 
+    "MISHA", "CHONK", "Luna Inu", "HatchyPocket", "Soyjak", "DT Inu", 
+    "CZ on Hyperliquid", "ArbiDoge", "Eggdog", "Nobiko Coin", "Pop Frog", 
+    "Nasdaq420", "BABA", "What’s Updog?", "ITO", "Colon", "Kuma Inu", 
+    "Remilia", "All Your Base", "Gaga Pepe", "The Resistance Cat", "Flat Earth Coin", 
+    "BABYTRUMP", "WOOF", "Crodie", "Chad Coin",
+    # ]
+
+    # memelist_pg7 = [
+    "Anime", "Nonja", "DOTZ", "Fuku-Kun", "KING", "Resistance Girl", "MyanCat Coin", 
+    "Kitty Inu", "Cramer Coin", "TrumpChain", "Asteroid Shiba", "Crying Cat", 
+    "Squid Game", "CatWifHat", "Kakaxa", "Anime Kitty", "God Token", 
+    "Bart Coin", "Banana Split", "Sleepy Doge", "Xzibit Inu", "WILD SHIBA", 
+    "Japan Shiba", "Best Cat", "GEN Z", "Fluffy Inu", "Catorade", "Slappy Cat", 
+    "Pixel Pepe", "PawCity", "SONIC DEEZ", "Hong Kong Duck", "Vexx Inu", 
+    "Woof Doge", "Luna Doge", "WAGMI Token", "NekoMeme", "Tsuki", "Axol", 
+    "Homer Simpson Inu", "Octo Inu", "2cool4school", "Chad Cat", "Bobo Cat", 
+    "Fat Cat", "Cool Cat", "Melon Cat", "Thanos Dog", "Green Goblin Inu", 
+    "Gold Doge", "Karate Cat", "Jedi Cat", "Kong Dog", "Ultra Doge", "Skull Cat", 
+    "Happy Dog", "Drip Cat", "Alien Dog", "The Cool Dog", "Lazy Cat", 
+    "Big Chungus", "Zoomer Dog", "Base Dog", "Box Dog", "Drunk Dog", 
+    "Comfy Cat", "Sweat Dog", "Croissant Dog", "Donkey Kong Dog", "Chihuahua Coin", 
+    "Klepto Cat", "Bagel Dog", "Base Doge", "Hero Cat", "Kid Dog", 
+    "Retro Cat", "Salty Dog", "Hunter Dog", "Bro Cat", "Loyal Doge", 
+    "Space Dog", "Super Doge", "Wacky Dog", "Snazzy Cat", "Flash Doge", 
+    "Toasty Cat", "Epic Cat", "Rebel Dog", "Quantum Cat", "Glitter Doge", 
+    "Heist Cat", "Noodle Cat", "Doge Ranger", "Boomer Dog", "Wild Dog", 
+    "Crazy Dog", "Sunny Dog", "Noble Dog", "Legend Dog", "Rogue Doge", 
+    "Brave Dog", "Hyper Doge"
+]
 
     # Trial function calls 
     # print(search_project_data('kamala horris'))
     # update_coins_ini(search_project_data_full('kamala-horris'), scrape_project_socials_coingecko('kamala-horris'))
 
-    for project_name in memelist:
+    for project_name in memelist_pg2:
         time.sleep(30)
         print(f"\nProcessing project: {project_name}")
         # Step 2: Call search_project_data with the project_name

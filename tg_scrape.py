@@ -865,6 +865,97 @@ def is_valid_date(date_str):
     except ValueError:
         return False
 
+async def check_telegram_activity(tg_client, groupname, ini_file='coins.ini'):
+    """
+    Check if a Telegram group is active based on the number of non-bot messages in the last 3 days.
+
+    Parameters:
+    - groupname (str): The name of the group as specified in the coins.ini file.
+    - ini_file (str): The path to the ini file (default is 'coins.ini').
+
+    Returns:
+    - bool: True if the group is active, False otherwise.
+    """
+    # Load the INI file and retrieve the group information
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+
+    if groupname not in config:
+        print(f"Group '{groupname}' not found in {ini_file}")
+        return False
+
+    # Fetch the 'tg' field for the group
+    tg_address = config[groupname].get('tg')
+    if not tg_address:
+        print(f"'tg' (Telegram address) for group '{groupname}' not found in {ini_file}")
+        return False
+
+    # Extract the username from the tg_address
+    # Assuming the tg_address is in the format 'https://t.me/username'
+    if 't.me/' in tg_address:
+        username = tg_address.split('t.me/')[-1].strip('/')
+    else:
+        username = tg_address.strip('/')
+
+    # Initialize the Telegram client
+    # tg_client = TelegramClient('session_name', API_ID, API_HASH)
+    await tg_client.start()
+
+    try:
+        # Get the entity for the group
+        channel = await tg_client.get_entity(username)
+    except Exception as e:
+        print(f"Error getting Telegram entity for '{username}': {e}")
+        await tg_client.disconnect()
+        return False
+
+    # Calculate the date range: last 3 days starting from yesterday
+    today = datetime.now(timezone.utc).date()
+    start_date = today - timedelta(days=3)
+    end_date = today - timedelta(days=1)
+
+    # Initialize counters
+    non_bot_messages = 0
+    total_messages_fetched = 0
+
+    # Fetch up to 100 messages within the date range
+    async for message in tg_client.iter_messages(
+        channel,
+        offset_date=end_date + timedelta(days=1),
+        reverse=True,
+        limit=100
+    ):
+        message_date = message.date.astimezone(timezone.utc).date()
+
+        if message_date < start_date:
+            continue  # Skip messages outside the date range
+
+        total_messages_fetched += 1
+
+        # Check if the sender is a bot
+        sender = await message.get_sender()
+        is_bot = isinstance(sender, User) and sender.bot
+
+        if not is_bot:
+            non_bot_messages += 1
+
+        # If we have checked messages for all three days or fetched 100 messages, break
+        if total_messages_fetched >= 100:
+            break
+
+    # Determine if the group is active
+    is_active = non_bot_messages > 5
+
+    # Update the coins.ini file
+    config[groupname]['tg_healthy'] = str(is_active)
+    with open(ini_file, 'w') as configfile:
+        config.write(configfile)
+
+    print(f"Group '{groupname}' is {'active' if is_active else 'inactive'}.")
+    print(f"Total non-bot messages in the last 3 days: {non_bot_messages}")
+
+    await client.disconnect()
+    return is_active
 
 
 if __name__ == '__main__':
@@ -876,9 +967,10 @@ if __name__ == '__main__':
     # Main tg loop
     ############################
     group_name = 'brainrot'
-    date_start = datetime(2024, 5, 15, tzinfo=timezone.utc)
-    date_end = datetime(2024, 5, 31, tzinfo=timezone.utc)
-    max_filtered_filesize = 1024 * 1024  # 150 KB
+    asyncio.run(check_telegram_activity(tg_client,group_name))    
+    # date_start = datetime(2024, 5, 15, tzinfo=timezone.utc)
+    # date_end = datetime(2024, 5, 31, tzinfo=timezone.utc)
+    # max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # Run the fetching function within the event loop
     # asyncio.run(fetch_telegram_messages_for_date_range_json(
@@ -896,7 +988,7 @@ if __name__ == '__main__':
     #Now run the OpenAI analysi
 
     # batch process
-    process_chat_logs('goat', date_min='2024-10-12', date_max='2024-10-12', model=openai_version)
+    # process_chat_logs('goat', date_min='2024-10-12', date_max='2024-10-12', model=openai_version)
 
     ############################
     # Roll it up n smoke it
