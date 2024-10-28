@@ -9,10 +9,10 @@ import os
 from dotenv import load_dotenv
 from prompt import ChatLogAnalysisResponse, CommunityMetrics
 import nltk
-nltk.download('punkt')  # Download the tokenizer data
+#nltk.download('punkt')  # Download the tokenizer data
 from nltk.tokenize import word_tokenize
 import json
-from datetime import timezone
+from datetime import datetime, timedelta, timezone
 import time
 import configparser
 from collections import Counter
@@ -52,23 +52,6 @@ try:
 except Exception as e:
     print(f"Error loading environment variables: {e}")
     exit(1)
-
-from datetime import datetime, timedelta
-
-# Regular expression to extract x.com or twitter.com URLs
-url_pattern = re.compile(r"https?://(x|twitter|tiktok)\.com/([A-Za-z0-9_]+)/status/\d+")
-
-# Function to extract social media mentions and user stats
-import re
-from collections import Counter
-from datetime import datetime
-
-# URL pattern to match x.com and twitter.com URLs, case-insensitive
-url_pattern = re.compile(r"https?://(x|twitter)\.com/([A-Za-z0-9_]+)/status/\d+", re.IGNORECASE)
-
-import re
-from collections import Counter
-from datetime import datetime
 
 # URL pattern to match x.com and twitter.com URLs, case-insensitive
 url_pattern = re.compile(r"https?://(x|twitter)\.com/([A-Za-z0-9_]+)/status/\d+", re.IGNORECASE)
@@ -518,6 +501,146 @@ async def fetch_telegram_messages_for_date_range_json(
 
     print("Telegram client disconnected.")
 
+async def fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    group,
+    date_start,
+    date_end,
+    ini_file='coins.ini',
+    ini_index='tg',
+    max_filtered_filesize=1024 * 1024
+):
+    """
+    Fetch telegram messages for a date range, working backwards in 7-day batches,
+    and save the chat histories in JSON format. Skips dates where data already exists,
+    and stops if 5 out of 7 days have no new messages.
+
+    Parameters:
+    - group (str): Name of the group.
+    - date_start (datetime): Starting date of the range (inclusive, timezone-aware in UTC).
+    - date_end (datetime): Ending date of the range (inclusive, timezone-aware in UTC).
+    - ini_file (str): Path to the INI file for group info.
+    - ini_index (str): The index in the INI file to reference for the username (default is 'tg').
+    - max_filtered_filesize (int): Maximum size of filtered messages in bytes.
+    """
+
+    # Load the INI file and retrieve the group information
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+
+    if group not in config:
+        raise ValueError(f"Group '{group}' not found in {ini_file}")
+
+    # Fetch the specified ini_index (e.g., 'tg', 'contract_address', etc.) for the group
+    username = config[group].get(ini_index)
+    if not username:
+        raise ValueError(f"'{ini_index}' for group '{group}' not found in {ini_file}")
+
+    async with TelegramClient('session_name', api_id, api_hash) as tg_client:
+        print("Telegram client started.")
+
+        current_date = date_end  # Start from the end date
+        overall_start_date = date_start
+
+        # Variables to track empty days
+        consecutive_empty_days = 0
+
+        while current_date >= overall_start_date:
+            # Work in 7-day batches
+            batch_end_date = current_date
+            batch_start_date = max(overall_start_date, current_date - timedelta(days=6))
+
+            print(f"\nProcessing batch from {batch_start_date.strftime('%Y-%m-%d')} to {batch_end_date.strftime('%Y-%m-%d')}")
+
+            # Iterate over each day in the batch
+            for day_offset in range((batch_end_date - batch_start_date).days + 1):
+                fetch_date = batch_end_date - timedelta(days=day_offset)
+                fetch_date_str = fetch_date.strftime('%Y-%m-%d')
+                print(f"\nFetching messages for date: {fetch_date_str}")
+
+                # Check if data for this date already exists
+                group_dir = os.path.join('tg', group, fetch_date_str)
+                if os.path.exists(group_dir) and os.listdir(group_dir):
+                    print(f"Data for {fetch_date_str} already exists and is not empty. Skipping.")
+                    continue
+
+                # Fetch messages for the current date
+                message_log_raw, message_log_filtered = await fetch_telegram_messages(
+                    tg_client,
+                    group=group,
+                    username=username,
+                    date_offset=fetch_date,
+                    max_filtered_filesize=max_filtered_filesize,
+                    n=25
+                )
+
+                total_messages_filtered = len(message_log_filtered)
+
+                if total_messages_filtered > 0:
+                    consecutive_empty_days = 0  # Reset consecutive empty days
+
+                    # Format raw messages for JSON
+                    discussions_raw = [
+                        {
+                            "date": entry['timestamp'],
+                            "user": entry['sender_username'],
+                            "message": entry['text']
+                        }
+                        for entry in message_log_raw
+                    ]
+
+                    # Format filtered messages for JSON
+                    discussions_filtered = [
+                        {
+                            "date": entry['timestamp'],
+                            "user": entry['sender_username'],
+                            "message": entry['text']
+                        }
+                        for entry in message_log_filtered
+                    ]
+
+                    # Create the group directory if it doesn't exist
+                    os.makedirs(group_dir, exist_ok=True)
+
+                    # Prepare the JSON output filenames
+                    output_filename_raw = f"{group}_raw_{fetch_date_str}.json"
+                    output_path_raw = os.path.join(group_dir, output_filename_raw)
+
+                    output_filename_filtered = f"{group}_filtered_{fetch_date_str}.json"
+                    output_path_filtered = os.path.join(group_dir, output_filename_filtered)
+
+                    # Save the raw messages to a JSON file
+                    try:
+                        with open(output_path_raw, 'w', encoding='utf-8') as f:
+                            json.dump({"discussions": discussions_raw}, f, indent=4, ensure_ascii=False)
+                        print(f"Raw Telegram messages saved to '{output_path_raw}'.")
+                    except Exception as e:
+                        print(f"Error writing to '{output_path_raw}': {e}")
+
+                    # Save the filtered messages to a JSON file
+                    try:
+                        with open(output_path_filtered, 'w', encoding='utf-8') as f:
+                            json.dump({"discussions": discussions_filtered}, f, indent=4, ensure_ascii=False)
+                        print(f"Filtered Telegram messages saved to '{output_path_filtered}'.")
+                    except Exception as e:
+                        print(f"Error writing to '{output_path_filtered}': {e}")
+
+                    print("Pausing for 2 seconds...")
+                    await asyncio.sleep(2)
+                else:
+                    print(f"No new messages found for {fetch_date_str}.")
+                    consecutive_empty_days += 1
+
+                # Check if we've hit 5 empty days out of the last 7
+                if consecutive_empty_days >= 5:
+                    print(f"\nReached {consecutive_empty_days} consecutive empty days. Assuming beginning of chat logs. Ending execution.")
+                    return
+
+            # Move to the next batch
+            current_date = batch_start_date - timedelta(days=1)
+
+        print("Finished processing all batches.")
+    print("Telegram client disconnected.")
+
 def normalize_username(username):
     # Remove leading special characters like '!', '@', '#', etc.
     return username.lstrip('!@#')
@@ -659,9 +782,9 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
         print("Sending request to OpenAI API...")
         response = client.beta.chat.completions.parse(
             model=llm_model,
-            messages=[{
-                'role': 'user', 
-                'content': final_prompt}],
+            messages=[
+                {'role': 'system', 'content': prompt_template},
+                {'role': 'user', 'content': message_log_text}],
             response_format=ChatLogAnalysisResponse
         )
         print("Received response from OpenAI API.")
@@ -865,17 +988,25 @@ def is_valid_date(date_str):
     except ValueError:
         return False
 
-async def check_telegram_activity(tg_client, groupname, ini_file='coins.ini'):
+async def check_telegram_activity(
+    groupname,
+    ini_file='coins.ini',
+    ini_index='tg',
+    n=25  # For logging every nth message
+):
     """
     Check if a Telegram group is active based on the number of non-bot messages in the last 3 days.
 
     Parameters:
     - groupname (str): The name of the group as specified in the coins.ini file.
     - ini_file (str): The path to the ini file (default is 'coins.ini').
+    - ini_index (str): The field in the ini file to use for the username (default is 'tg').
+    - n (int): Print metadata every nth message.
 
     Returns:
     - bool: True if the group is active, False otherwise.
     """
+
     # Load the INI file and retrieve the group information
     config = configparser.ConfigParser()
     config.read(ini_file)
@@ -885,9 +1016,9 @@ async def check_telegram_activity(tg_client, groupname, ini_file='coins.ini'):
         return False
 
     # Fetch the 'tg' field for the group
-    tg_address = config[groupname].get('tg')
+    tg_address = config[groupname].get(ini_index)
     if not tg_address:
-        print(f"'tg' (Telegram address) for group '{groupname}' not found in {ini_file}")
+        print(f"'{ini_index}' (Telegram address) for group '{groupname}' not found in {ini_file}")
         return False
 
     # Extract the username from the tg_address
@@ -897,87 +1028,173 @@ async def check_telegram_activity(tg_client, groupname, ini_file='coins.ini'):
     else:
         username = tg_address.strip('/')
 
-    # Initialize the Telegram client
-    # tg_client = TelegramClient('session_name', API_ID, API_HASH)
-    await tg_client.start()
+    # Initialize the Telegram client within an async context manager
+    async with TelegramClient('session_name', api_id, api_hash) as tg_client:
+        print("Telegram client started.")
 
-    try:
-        # Get the entity for the group
-        channel = await tg_client.get_entity(username)
-    except Exception as e:
-        print(f"Error getting Telegram entity for '{username}': {e}")
-        await tg_client.disconnect()
-        return False
+        try:
+            # Get the entity for the group
+            channel = await tg_client.get_entity(username)
+            print(f"Successfully obtained entity for {username}")
+        except Exception as e:
+            print(f"Error getting Telegram entity for '{username}': {e}")
+            return False
 
-    # Calculate the date range: last 3 days starting from yesterday
-    today = datetime.now(timezone.utc).date()
-    start_date = today - timedelta(days=3)
-    end_date = today - timedelta(days=1)
+        # Calculate the date range: last 3 days starting from yesterday
+        today = datetime.now(timezone.utc).date()
+        start_date = today - timedelta(days=4)
+        end_date = today - timedelta(days=2)
 
-    # Initialize counters
-    non_bot_messages = 0
-    total_messages_fetched = 0
+        # Initialize counters
+        non_bot_messages = 0
+        total_messages_fetched = 0
 
-    # Fetch up to 100 messages within the date range
-    async for message in tg_client.iter_messages(
-        channel,
-        offset_date=end_date + timedelta(days=1),
-        reverse=True,
-        limit=100
-    ):
-        message_date = message.date.astimezone(timezone.utc).date()
+        # Set date boundaries
+        start_datetime = datetime.combine(start_date, datetime.min.time()).replace(tzinfo=timezone.utc)
+        end_datetime = datetime.combine(end_date + timedelta(days=1), datetime.min.time()).replace(tzinfo=timezone.utc)
 
-        if message_date < start_date:
-            continue  # Skip messages outside the date range
+        print(f"Retrieving messages from {start_datetime} until {end_datetime}...")
 
-        total_messages_fetched += 1
+        try:
+            async for message in tg_client.iter_messages(
+                channel,
+                reverse=True,
+                offset_date=end_datetime,
+                limit=50
+            ):
+                message_date = message.date.astimezone(timezone.utc)
 
-        # Check if the sender is a bot
-        sender = await message.get_sender()
-        is_bot = isinstance(sender, User) and sender.bot
+                if message_date < start_datetime:
+                    continue  # Skip messages outside the date range
 
-        if not is_bot:
-            non_bot_messages += 1
+                total_messages_fetched += 1
 
-        # If we have checked messages for all three days or fetched 100 messages, break
-        if total_messages_fetched >= 100:
-            break
+                # Check if the sender is a bot
+                sender = await message.get_sender()
+                is_bot = isinstance(sender, User) and sender.bot
 
-    # Determine if the group is active
-    is_active = non_bot_messages > 5
+                if not is_bot:
+                    non_bot_messages += 1
 
-    # Update the coins.ini file
-    config[groupname]['tg_healthy'] = str(is_active)
-    with open(ini_file, 'w') as configfile:
-        config.write(configfile)
+                # Every nth message, print out some metadata
+                if total_messages_fetched % n == 0:
+                    sender_username = sender.username if sender.username else f"id_{sender.id}"
+                    print(f"Pulling message #{total_messages_fetched}, date={message_date}, user={sender_username}")
 
-    print(f"Group '{groupname}' is {'active' if is_active else 'inactive'}.")
-    print(f"Total non-bot messages in the last 3 days: {non_bot_messages}")
+                # If we have fetched 100 messages, break
+                if total_messages_fetched >= 100:
+                    break
 
-    await client.disconnect()
-    return is_active
+            # Determine if the group is active
+            is_active = non_bot_messages > 5
 
+            # Update the coins.ini file
+            config[groupname]['tg_healthy'] = str(is_active)
+            with open(ini_file, 'w') as configfile:
+                config.write(configfile)
+
+            print(f"Group '{groupname}' is {'healthy' if is_active else 'not healthy (Safeguard?)'}.")
+            print(f"Non-bot messages are above 'healthy' threshold in a 3 day window: {non_bot_messages}")
+
+            return is_active
+
+        except FloodWaitError as e:
+            print(f"FloodWaitError: Telegram is asking you to wait for {e.seconds} seconds.")
+            # Handle flood wait as appropriate (e.g., wait or skip)
+
+            return False
+
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+            return False
+
+async def check_telegram_activity_loop():
+    # Loop through all coins.ini entries and check health status. Assign True, False or skip. 
+    # Load the INI file
+    config = configparser.ConfigParser()
+    config.read('coins.ini')
+
+    # Iterate over each section (group) in the INI file
+    for groupname in config.sections():
+        group = config[groupname]
+        tg_health = group.get('tg_healthy')
+        tg = group.get('tg')
+
+        # Check if 'tg_healthy' is unassigned and 'tg' is not blank
+        if (tg_health is None or tg_health.strip() == '') and tg and tg.strip() != '':
+            print(f"\nChecking Telegram activity for group '{groupname}'...")
+            # Call check_telegram_activity() and await its completion
+            await check_telegram_activity(groupname)
+            print("Pausing...")
+            time.sleep(5)
+        else:
+            print(f"\nSkipping group '{groupname}': 'tg_healthy' is assigned or 'tg' is blank.")
+
+def analyze_coins_ini(ini_file='coins.ini'):
+    """
+    Analyzes the coins.ini file to count entries based on the 'tg_healthy' field
+    and outputs a list of entries where 'tg_healthy' is 'True'.
+
+    Parameters:
+    - ini_file (str): The path to the ini file (default is 'coins.ini').
+    """
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+
+    true_count = 0
+    false_count = 0
+    undefined_count = 0
+    true_entries = []
+
+    for section in config.sections():
+        tg_healthy = config[section].get('tg_healthy')
+
+        if tg_healthy is None:
+            undefined_count += 1
+        elif tg_healthy.strip().lower() == 'true':
+            true_count += 1
+            true_entries.append(section)
+        elif tg_healthy.strip().lower() == 'false':
+            false_count += 1
+        else:
+            undefined_count += 1  # Handle unexpected values as undefined
+
+    total_entries = len(config.sections())
+
+    print(f"Total entries in '{ini_file}': {total_entries}")
+    print(f"Entries with 'tg_healthy = True': {true_count}")
+    print(f"Entries with 'tg_healthy = False': {false_count}")
+    print(f"Entries with 'tg_healthy' undefined or invalid: {undefined_count}")
+
+    if true_entries:
+        print("\nList of entries where 'tg_healthy = True':")
+        for entry in true_entries:
+            print(f"- {entry}")
+    else:
+        print("\nNo entries found where 'tg_healthy = True'.")
 
 if __name__ == '__main__':
 
     # Create the Telegram client and load environmental variables
-    tg_client = TelegramClient('session_name', api_id, api_hash)
-
+    # tg_client = TelegramClient('session_name', api_id, api_hash)
+    # print(tg_client)
     ############################
     # Main tg loop
     ############################
-    group_name = 'brainrot'
-    asyncio.run(check_telegram_activity(tg_client,group_name))    
-    # date_start = datetime(2024, 5, 15, tzinfo=timezone.utc)
-    # date_end = datetime(2024, 5, 31, tzinfo=timezone.utc)
+    group_name = 'lfgo'
+    # asyncio.run(check_telegram_activity(group_name))    
+    # asyncio.run(check_telegram_activity_loop())
+    # analyze_coins_ini()
+    date_start = datetime(2024, 7, 1, tzinfo=timezone.utc)
+    date_end = datetime(2024, 9, 1, tzinfo=timezone.utc)
     # max_filtered_filesize = 1024 * 1024  # 150 KB
 
-    # Run the fetching function within the event loop
-    # asyncio.run(fetch_telegram_messages_for_date_range_json(
-    #     group=group_name,
-    #     date_start=date_start,
-    #     date_end=date_end
-    # ))
+    # # Run the fetching function within the event loop
+    asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+        group=group_name,
+        date_start=date_start,
+        date_end=date_end
+    ))
 
     # print("Finished fetching Telegram messages.")
   
@@ -988,7 +1205,7 @@ if __name__ == '__main__':
     #Now run the OpenAI analysi
 
     # batch process
-    # process_chat_logs('goat', date_min='2024-10-12', date_max='2024-10-12', model=openai_version)
+    # process_chat_logs('inferno-2', date_min='2024-10-20', date_max='2024-10-26', model=openai_version)
 
     ############################
     # Roll it up n smoke it

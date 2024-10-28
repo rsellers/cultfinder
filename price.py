@@ -397,11 +397,6 @@ if __name__ == '__main__':
     # "Chudjak", "Habibi (Sol)", "Mister Miggles", "RNT", "doginme", "Wrapped AyeAyeCoin", "BONGO CAT", 
     # "Ben the Dog", "Puffy", "lmeow", "Effective Accelerationism", "Kizuna", "BitBonk", "The Balkan Dwarf", 
     # "BabyBonk", "Silly Dragon", "FEED EVERY GORILLA", "Mistery", "Act I", "Jesus", "Forest", "Troller", 
-    "FOMO Inu", "ShibaGrow", "REDOGE", "FLOKIWINKY", "CRYPTOPORN", "Shumo Inu", "Polygon Doge", 
-    "CocoFun", "BabyDogeZilla", "FLOKIADA", "Goosecoin", "Inu Cat", "ArbiShiba", "Shiba Corp", "MilkyWay Inu", 
-    "Polka Doge", "ZK Doge", "Tabby", "Spooky Inu", "Pomeranian", "MetaShiba", "Aqua Inu", "Neco", 
-    "Narwhal Inu", "Flokinator", "NecoCat", "Baby Bear", "DOGGO", "CheeseDoge", "Baby Pepe", "Kishu", 
-    "Cyber Inu", "Starlit Doge", "FlokiSHIB", "LokiDoge",
     # ]
 
     # memelist_pg4 = [
