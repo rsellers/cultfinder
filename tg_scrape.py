@@ -1181,21 +1181,82 @@ if __name__ == '__main__':
     ############################
     # Main tg loop
     ############################
-    group_name = 'lfgo'
+    
     # asyncio.run(check_telegram_activity(group_name))    
     # asyncio.run(check_telegram_activity_loop())
     # analyze_coins_ini()
-    date_start = datetime(2024, 7, 1, tzinfo=timezone.utc)
-    date_end = datetime(2024, 9, 1, tzinfo=timezone.utc)
+    date_start = datetime(2024, 1, 1, tzinfo=timezone.utc)
+    date_end = datetime(2024, 10, 26, tzinfo=timezone.utc)
     # max_filtered_filesize = 1024 * 1024  # 150 KB
 
     # # Run the fetching function within the event loop
-    asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
-        group=group_name,
-        date_start=date_start,
-        date_end=date_end
-    ))
+    # group_name = 'misha'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
 
+    # group_name = 'remilia'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+
+    # group_name = 'asteroid-shiba'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+
+    # group_name = 'catwifhat-2'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+
+    # group_name = 'orc'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+    # group_name = 'fairfun'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+    
+    # group_name = 'pundu'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+
+    # group_name = 'dogwifcoin'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+    # group_name = 'osaka-protocol'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
+
+    # group_name = 'samoyedcoin'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
     # print("Finished fetching Telegram messages.")
   
 
@@ -1205,7 +1266,7 @@ if __name__ == '__main__':
     #Now run the OpenAI analysi
 
     # batch process
-    # process_chat_logs('inferno-2', date_min='2024-10-20', date_max='2024-10-26', model=openai_version)
+    process_chat_logs('TEST', date_min='2024-10-20', date_max='2024-10-29', model=openai_version)
 
     ############################
     # Roll it up n smoke it
