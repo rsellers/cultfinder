@@ -1,0 +1,215 @@
+{
+    "project_name": "sigma",
+    "date_data": {
+        "2024-10-01": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion strongly revolves around the idea of 'smashing' and 'raiding', which energizes the group."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants seem to feel that opportunities exist for all, indicating a relatively fair project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are hints of suspicion regarding external influences, which suggests some participants feel outsiders may exert control."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a mix of holding and selling signals, but excitement about promoting the token is evident."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "Overall, the chat has an upbeat and positive vibe, with participants encouraging one another."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The chat is filled with highly energetic and charged emotions throughout the messages."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There's not enough information to strongly indicate the socioeconomic status of the members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Many messages focus on price action and raiding, showing significant interest."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express a strong belief that the project can lead to significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "There's active participation in promotional activities without compensation, indicating a vibrant community."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The chat is lively and vibrant, with many members actively contributing and engaging."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are some newcomers showing interest in purchasing the token."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Messages reflecting gratitude and inspiration show that participants feel positive about the community."
+                    }
+                },
+                "catch_phrase": "SMASH",
+                "about": "A community focused on promoting and raiding for a token named Sigma.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/igazsagot",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/sigmaonsol69",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/cantkilldegen",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/realcryptocow",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/imeatya",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/wonashi1",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 30,
+                    "total_message_count": 178
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:53:54"
+                }
+            }
+        },
+        "2024-10-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat is heavily centered around the concept of raiding and the excitement of reaching new all-time highs (ATH) in token price, indicating strong engagement with the core meme."
+                    },
+                    "fairness": {
+                        "intensity": 25,
+                        "context": "There is a persistent sentiment of unfairness, with members expressing dissatisfaction towards perceived control by major players in the market."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants seem suspicious that insiders or whales are manipulating the token price, fostering a belief that control is not entirely in community hands."
+                    },
+                    "hold_intent": {
+                        "intensity": 45,
+                        "context": "Mixed sentiments of holding and selling are evident, with some participants expressing a desire to hold or raid while others are focused on selling."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "Overall, there is a supportive and enthusiastic atmosphere, with many expressions of camaraderie, such as welcoming new members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly charged emotionally, driven by excitement surrounding raids and reaching new price levels."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants appears varied, with some expressions of hope for financial gain mixed with references to the community's more casual participation."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant focus on token prices and achieving short-term gains, with mentions of raids and price performance dominating conversations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Many participants express a belief in substantial financial gains from their investments in the token, indicating optimism about future value."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is evidence of community members actively participating and volunteering their time to promote the project and engage in raids."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community seems lively and engaged, with many discussions and interactions indicating a healthy exchange of ideas."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Inquiries about buying the token are present, but not dominant, suggesting some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Participants express motivation and inspiration within the community environment, fostering a sense of hope."
+                    }
+                },
+                "catch_phrase": "RAID MAINNN",
+                "about": "This community is centered around promoting and investing in the sigma token, conducting raids, and achieving new price heights.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/sigmaonsol69",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/kessycrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/flashcashy",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/solarris_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bruckid96",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/benzedup",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/danyboy4k",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 28,
+                    "total_message_count": 94
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:53:59"
+                }
+            }
+        }
+    }
+}

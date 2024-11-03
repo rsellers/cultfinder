@@ -1,0 +1,1371 @@
+{
+    "project_name": "remilia",
+    "date_data": {
+        "2024-10-19": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community shows strong engagement around the meme and culture associated with Remilia."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants believe the project is fair, but with some reservations due to the recent hack."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are suspicions about external control, influenced by the recent hacking incident."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The majority of participants express a strong intent to hold their tokens despite price fluctuations."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat is largely supportive and positive, especially after the hack."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are charged with high emotions, particularly around recovery and community solidarity."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Many participants seem to have good socioeconomic status, as indicated by their willingness to invest."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a notable focus on price recovery and discussions around market capitalization."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants feel optimistic about the potential for the token to regain value."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is a good amount of voluntary participation in community activities and support efforts."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears to be lively and engaged despite recent challenges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying back into the token, indicating fresh interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants are feeling inspired by the resilience of the community and the project."
+                    }
+                },
+                "catch_phrase": "RUN IT BACK TURBOOO",
+                "about": "Remilia is the community-driven token aiming for a strong return to market highlights.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bingxofficial",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/remiliacultsol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/spacegamblers_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/bingxofficial",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitgetpl",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/basedyushia",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jh_mons",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jesperchad",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 288,
+                    "total_message_count": 2462
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:10:47"
+                }
+            }
+        },
+        "2024-10-20": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat revolves around strong communal sentiments and shared memes related to the project, reflecting a strong collective central idea."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There are significant expressions of dissatisfaction and feelings of unfairness regarding the reality of the project and external influences."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "Many participants express suspicion regarding insider control, particularly focused on Murad and his influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "A substantial number of users express a desire to 'hold' and not sell, reflecting bullish intent."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Despite some negativity related to Murad, the overall atmosphere remains supportive with a clear momentum to push past challenges."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly emotionally charged, with participants engaging passionately about the project's future."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Some discourse indicates a mix of backgrounds, but there is a noticeable presence of individuals expressing financial struggles."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "A strong emphasis on price movements and discussions about trading strategies dominates the chat."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "The majority of participants express strong belief in significant upcoming gains and potential wealth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 85,
+                        "context": "There is enthusiastic involvement in community activities and meme creation without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears very lively, with constant engagement and a focus on collective action."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are asking about purchasing details and engaging with the community."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express a sense of hope and inspiration from their collective efforts."
+                    }
+                },
+                "catch_phrase": "SMASH THE RAIDS!",
+                "about": "The community is united around the Remilia project, aiming to overcome recent challenges and push towards growth and success.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/greengogen",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/mavenbtcsol",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/summertimefor3",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/lfgbrothers",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/blknoiz06",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 349,
+                    "total_message_count": 2471
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:11:09"
+                }
+            }
+        },
+        "2024-10-21": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community is actively engaging with powerful memes and content about Remilia that resonates strongly, leading to high excitement."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Mixed sentiments exist about the fairness of the project, indicating that some feel it is inclusive while others have concerns."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion and concern among participants about the influence of venture capitalists or insiders over the token's direction."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a clear intent to hold their tokens rather than sell, indicating confidence in the project."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat is filled with positivity, encouragement, and a sense of community, with members supporting each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly energetic and emotionally charged, with frequent expressions of enthusiasm."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants reflect a variety of socioeconomic backgrounds, but there is an overall indication of moderating income levels."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on price movement with discussions revolving around market cap achievements and predictions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants overwhelmingly express belief in the potential for significant financial gain from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many community members volunteer time for raids and promotions without compensation, indicating strong commitment."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and active, fostering rich discussions and ongoing participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are showing interest in purchasing the token, although not overwhelming."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Members express hope and inspiration through their engagement and conversations."
+                    }
+                },
+                "catch_phrase": "LFG!",
+                "about": "Remilia is a community-driven crypto project focusing on meme culture, marketing collaboration, and expansive growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/tik0m90",
+                            "mentions": 42
+                        },
+                        {
+                            "url": "https://x.com/slingdeez",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/charlottefang77",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/elonmuskpda",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tokyosunbather",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/thedude0ne",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tarama521",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/lfgbrothers",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 265,
+                    "total_message_count": 2436
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:11:32"
+                }
+            }
+        },
+        "2024-10-22": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community expresses a strong central theme around a meme of 'PUMP' and 'ATH', generating excitement."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally feel the project is fair, with discussions reflecting a community-driven ethos."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are mixed sentiments on whether insiders are influencing the project, but overall suspicion seems moderate."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many participants express intent to hold, indicating a strong belief in the project's future."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is predominantly positive with strong community support and encouragement among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The chat is highly emotionally charged, with frequent expressions of excitement and calls to action."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are hints of varying socioeconomic backgrounds, though many participants seem to have some disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 88,
+                        "context": "There is significant focus on price actions and goals of market cap achievements in discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express strong beliefs in future wealth generation from the project, indicating a consensus on its potential."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many are actively engaging in promoting the project through raids without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant and lively, with active participation and encouraging interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying, though they aren't overwhelmingly frequent."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Several messages reflect hope and inspiration from community efforts and the perceived upcoming success."
+                    }
+                },
+                "catch_phrase": "PUMP IT TO THE MOON!",
+                "about": "A community focused on promoting and investing in the Remilia token with a strong meme culture.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/remiliacultsol",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/paladinadler05",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/tik0m90",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/ocalebsol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andreasrtobing_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/icedknife",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/itstylersays",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 263,
+                    "total_message_count": 2449
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:11:57"
+                }
+            }
+        },
+        "2024-10-23": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussions contain multiple references to a central theme of 'Remilia', showcasing a strong shared meme and identity."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are mixed feelings on fairness, with some participants believing that the project is currently unfairly distributed due to whale selling."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is significant distrust towards insiders and venture capital influences on the market."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "A notable majority seem committed to holding their assets rather than selling, despite recent downturns."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "Vibes are mixed, with some positivity about future recovery and community strength, but also expressions of fear and negativity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The conversation contains a mixture of hope, determination, anxiety, and frustration, indicating a moderately charged emotional environment."
+                    },
+                    "socioeconomic": {
+                        "intensity": 75,
+                        "context": "Many participants express concern over financial losses, suggesting a lower socioeconomic status among some members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The discussions frequently refer to price actions, with many comments focused on buying and holding strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 60,
+                        "context": "Participants express optimism about future gains, but there's also a recognition of risks involved."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Members appear to contribute significant time and effort without compensation, fostering a volunteer-driven culture."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The community displays signs of vitality with various active discussions and shared strategies, but also shows signs of strain."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "New participants are inquiring about buying tokens, indicating ongoing interest despite market volatility."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Many comments suggest a collective feeling of inspiration and hope for the future of the project."
+                    }
+                },
+                "catch_phrase": "LFG Remilia to the moon!",
+                "about": "The community is centered around the Remilia token, fostering a culture of resilience and positivity amidst market challenges.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/revientocrypto",
+                            "mentions": 61
+                        },
+                        {
+                            "url": "https://x.com/tarama521",
+                            "mentions": 16
+                        },
+                        {
+                            "url": "https://x.com/s0nnyco",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/dawdawdie",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/paladinadler05",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/charlottefang77",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/wizard_of_alt",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/rogercrypto_",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 246,
+                    "total_message_count": 2258
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:12:23"
+                }
+            }
+        },
+        "2024-10-24": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The group is engaged with powerful memes and slogans such as 'LFG', 'Work for your bag', and communal sentiments suggesting strong belief in the project."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings about fairness, with some participants expressing frustrations about the price drops while others encourage community support."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of suspicion about potential control by insiders and whales, as participants mention market manipulation."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Generally, there is a strong sentiment of holding among members, but some express frustration over those selling."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The chat mostly has positive and encouraging vibes despite concerns over price drops."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The chat is highly emotionally charged, with frequent expressions of excitement and urgency."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "While specifics weren't available, some messages suggest a higher socioeconomic status among users, given delta discussions."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A significant amount of discussion revolves around price action, with participants expressing urgency to influence price."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Many users indicate strong belief in the project's potential and express optimism about future growth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Participants actively promote the project and engage in activities to boost its visibility."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The discussion shows vibrancy and energy, with frequent engagement and encouragement among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Some newcomers are inquiring about buying, but overall inquiries seem moderate."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "There are expressions of hope and inspiration throughout the conversation, particularly with calls to action."
+                    }
+                },
+                "catch_phrase": "Work for your bag!",
+                "about": "The community is focused on supporting the Remilia project, consolidating their belief in its potential to grow and thrive.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/tarama521",
+                            "mentions": 16
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/theblackmaga",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/coverskiy",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/remiliacultsol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/lfgbrothers",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/syedsameer",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 146,
+                    "total_message_count": 1065
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:12:36"
+                }
+            }
+        },
+        "2024-10-25": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat is filled with memes and catchphrases like '/PUMP_IT_TO_MOOOOON,' indicating a strong central meme among participants."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are numerous complaints and mentions of unfairness towards sellers, which indicates mixed sentiments regarding fairness in the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants frequently reference concerns over control and manipulation by whales or venture capitalists, suggesting a widespread suspicion that insiders have undue influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users express a desire to buy and hold, with comments about patience and long-term goals indicating a prevalent 'holding' sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The community is largely supportive and positive with many encouraging messages and expressions of excitement, though some negativity is present due to market fluctuations."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are highly charged with significant emotional investment, indicated by frequent exclamations and expressions of hope or frustration."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Some users hint at financial struggles, suggesting a mix of socioeconomic backgrounds in the group, but overall enthusiasm remains high."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Discussions are heavily centered around price action and market movements, with many users actively strategizing around token pricing."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is a widespread belief that the project could yield significant financial returns, with many users expressing hopes of becoming wealthy through their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Participants are actively engaging in promoting the project through raids and memes without seeking compensation, showing a healthy level of community involvement."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "Overall, the chat shows a vibrant participation level with numerous active discussions and plans for future engagement, despite some mentions of member decline."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are frequent inquiries about purchasing the token, indicating continued interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Messages of hope and motivation are prevalent, with users encouraging one another to remain strong and active within the community."
+                    }
+                },
+                "catch_phrase": "To the mooooon!",
+                "about": "Remilia, a token community focused on growth and mutual support.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ico_promotor",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/noorollahisaeed",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jamesmemeart",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/charlottefang77",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/remiliacultsol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/nextfckingthing",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/s0nnyco",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 143,
+                    "total_message_count": 961
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:12:49"
+                }
+            }
+        },
+        "2024-10-26": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community shows strong engagement centered around the Remilia project, with its members actively discussing memes and rallying for support."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There appears to be mixed feelings about the economic fairness of the project, with some participants concerned about previous administrative actions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are suspicions about possible insider manipulation and dissatisfaction with certain project leaders."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Overall, the sentiment reflects a strong intent to hold rather than sell, with many users encouraging each other to buy during the dip."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The chat exhibits a generally supportive and enthusiastic atmosphere, with many users uplifting each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is charged with eagerness and urgency, especially around buying opportunities and community actions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status is hard to determine, as discussions are varied and include both excited investors and frustrations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant amount of dialogue centered on price movements and the impact of current events on the Remilia token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many participants express a strong belief in the potential for substantial profits from holding Remilia tokens."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are actively volunteering their time and effort in community-building activities."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The discussions reflect a vibrant community with frequent engagement and support among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are frequent questions and discussions about buying the Remilia token, indicating interest from both new and existing members."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Expressions of hope and belief in the project's recovery are common, with users encouraging one another."
+                    }
+                },
+                "catch_phrase": "LFG (Let's F***ing Go!)",
+                "about": "The community is rallying around the Remilia project, driven by support, memes, and a belief in its potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/remiliaarise",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ico_promotor",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/noorollahisaeed",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/coverskiy",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 111,
+                    "total_message_count": 745
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:12:59"
+                }
+            }
+        },
+        "2024-10-27": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions are lively and centered around memes and community projects."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express belief in the project's fairness, despite a few concerns."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion around the influence of insiders, with some complaints about manipulation."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Many participants are expressing intent to hold rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is largely positive and encouraging with a strong sense of community."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is emotionally charged, characterized by excitement and active participation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are mixed indications of socioeconomic status among participants, with some involved in trades."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Price discussions are frequent, indicating a strong focus on market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is a strong belief among participants that significant profits can be made."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many are actively contributing time and effort to the community without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat shows signs of a vibrant community with diverse discussions and engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers are inquiring about buying tokens, indicating interest in participation."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express inspiration and hope regarding the project's future."
+                    }
+                },
+                "catch_phrase": "We've got this, Remilia will rise again!",
+                "about": "A community focused on supporting the Remilia project and cultivating its growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ico_promotor",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/lfgbrothers",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 91,
+                    "total_message_count": 601
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:13:07"
+                }
+            }
+        },
+        "2024-10-28": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The chat is filled with references to raids and positive affirmations about the project, which creates a strong central meme culture surrounding 'Remilia'."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are ongoing concerns about fairness and suspicions regarding insider trading and the influence of large holders."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "Widespread suspicion that the project may be influenced by insiders or venture capitalists is evident from the discussions."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a mix of holding and selling intent visible, with some pushing for buying during dips."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "While some messages express frustration, the overall vibe is mostly positive with calls for unity and support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The conversation reflects a high emotional intensity, characterized by enthusiasm, frustration, and hope."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Participants express sentiments about financial constraints and seeking investment gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A strong focus on price discussions, dips, and trading dynamics is present in many messages."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "Many participants express optimism regarding potential future gains, indicating a belief that significant profits can be made."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 90,
+                        "context": "Many participants are actively creating memes and engaging in promotional activities for the project without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The chat reflects active community engagement with a focus on building and supporting each other, suggesting strong community health."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are inquiries about buying strategies and token availability, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Members express hope and inspiration about future price movements and community growth."
+                    }
+                },
+                "catch_phrase": "To the moon!",
+                "about": "Participating in price actions for the Remilia token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ico_promotor",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/remiliaarise",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/noorollahisaeed",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/izzetcakmak35",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 89,
+                    "total_message_count": 797
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:13:16"
+                }
+            }
+        },
+        "2024-10-29": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community revolves around the meme of Remilia and strong engagement is observed."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a general sentiment that the project is being fair to participants."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Indications of some belief in community control over token pricing."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "Many members express a desire to hold rather than sell tokens."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat has a positive and supportive vibe overall."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly emotionally charged with many expressing hope and motivation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "The community appears relatively well off in comparison to low socioeconomic struggles."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on token price and trading activity."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express strong belief in potential for significant financial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Active volunteerism for project promotion is evident within the community."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The discussion shows a vibrant and engaged community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Some inquiries about buying tokens indicate interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Widespread expressions of hope and motivation from community members."
+                    }
+                },
+                "catch_phrase": "To the moon",
+                "about": "A community focused on the Remilia token and its growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/lfgbrothers",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/crazycrypto777",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/omertacode",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/s0nnyco",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/krysptoooo",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 75,
+                    "total_message_count": 472
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:13:22"
+                }
+            }
+        },
+        "2024-10-30": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "There is a noticeable level of enthusiasm about a central goal or meme, particularly related to community support and efforts."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings about the fairness of the opportunity, with some users expressing doubt about the management and financial contributions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are significant suspicions regarding insider knowledge or manipulation, with mentions of potential foul play and dissatisfaction with the current team dynamics."
+                    },
+                    "hold_intent": {
+                        "intensity": 40,
+                        "context": "Some users are expressing a desire to hold on to tokens, but there are also frequent mentions of dissatisfaction and intentions to sell."
+                    },
+                    "vibes": {
+                        "intensity": 45,
+                        "context": "The overall vibe is chaotic with factions clashing; some express strong support while others are frustrated, which creates an unstable emotional environment."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is charged with a mix of excitement and anxiety, especially around the ongoing price drops."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The community shows signs of varying economic backgrounds, with some expressing financial strain and concerns over the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Much of the conversation revolves around price fluctuations and trading strategies, indicating a strong focus on financial outcomes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "A divided belief in potential gains exists, with some users optimistic and others skeptical based on current price performance."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Participation in activism or community-building efforts is present, but the effectiveness and motivation are questioned."
+                    },
+                    "community_health": {
+                        "intensity": 40,
+                        "context": "The community is experiencing a mixture of vibrant discussion and frustration, leading to inconsistencies in participation quality."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Newcomers show interest but are also met with skepticism about the project's viability."
+                    },
+                    "inspiration": {
+                        "intensity": 30,
+                        "context": "Expressions of inspiration are low, with many participants showing signs of doubt regarding the project's future."
+                    }
+                },
+                "catch_phrase": "Lfg",
+                "about": "Community support and meme resurgence for cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/noahhweb3",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/johnmemesito",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/izzetcakmak35",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 86,
+                    "total_message_count": 627
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:13:32"
+                }
+            }
+        },
+        "2024-10-31": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 65,
+                        "context": "There is a recognizable culture surrounding memes and phrases that can engage participants, though not everyone is fully committed to the core meme."
+                    },
+                    "fairness": {
+                        "intensity": 35,
+                        "context": "Many participants express sentiments of unfairness and manipulation, suggesting widespread concerns about the equity of the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 15,
+                        "context": "There is a strong sentiment indicating that insiders or large stakeholders have undue control over the project's trajectory, leading to distrust among community members."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "While some participants express intentions to hold, there are strong fears and indications of selling due to market pressures."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The atmosphere fluctuates between supportive and negative, especially with moments of anger towards project management and concerns about the token value."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is very emotionally charged, especially given the mixture of hope and frustration expressed by community members."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "Comments reflect concerns about financial losses and disappointment, suggesting a community that may be struggling economically."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant focus on price movements and trading within the discussion, indicating a high level of concern about the financial outcome."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "Some participants express hope for future profits, balancing between skepticism and optimism about potential gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "There is volunteer engagement but some contention regarding compensation for labor, suggesting mixed feelings about community efforts."
+                    },
+                    "community_health": {
+                        "intensity": 40,
+                        "context": "Overall sentiments suggest the community is struggling with internal conflict, which diminishes the sense of vibrancy in discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 45,
+                        "context": "There are inquiries about buying the token, but they are not very frequent, indicating a hesitance or caution among newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "Some members express hope and inspiration for the project\u2019s future, but it's mixed with skepticism and doubt."
+                    }
+                },
+                "catch_phrase": "To the moon soon!",
+                "about": "A community aimed at promoting Remilia and discussing its future.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/alphacryptolfg",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/lfgbrothers",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 73,
+                    "total_message_count": 400
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:13:41"
+                }
+            }
+        },
+        "2024-11-01": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The conversation heavily revolves around the notion of holding and pumping tokens, showcasing a strong meme of optimism and anticipation for significant price increases."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There is visible skepticism regarding the token's fairness, especially with concerns raised about control by insiders or whales, indicating a split in perception."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express significant concerns about the influence of whales or insiders controlling the token's trajectory, which leads to distrust among the community."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A majority of the chat participants seem committed to holding their tokens, as evidenced by numerous messages about 'never selling' and long-term strategies."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is positive and supportive, with many members encouraging each other and expressing excitement about upcoming price movements."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is highly emotionally charged, with many users expressing strong opinions and enthusiasm about the project, generating a vibrant discussion."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are indicators that members may range from average to low socioeconomic backgrounds based on discussions surrounding risk and investment behaviors."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The chat contains a significant focus on price actions, trends, and predictions, with many messages directly addressing the token's market performance."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express strong beliefs in the token's potential to increase in value significantly, contributing to a hopeful outlook on future gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is an encouraging level of voluntary participation from users, as many actively promote the token and participate in discussions aimed at community growth."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant and healthy, with active engagement and a wide range of discussions contributing to a lively environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries regarding buying the token, but they are not widespread, suggesting limited interest from new participants."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants frequently share motivational messages and encouragement, fostering a sense of inspiration within the community."
+                    }
+                },
+                "catch_phrase": "/Ready_For_Pump",
+                "about": "A community dedicated to promoting the Remilia token and discussing investment strategies.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ser_cookie",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 51,
+                    "total_message_count": 184
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 12:13:48"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1499 @@
+{
+    "project_name": "shoggoth",
+    "date_data": {
+        "2024-10-19": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions are highly centered around the Shoggoth meme, indicating strong engagement and excitement in the community."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express varying sentiments about fairness, with some skepticism about development sales but overall mixed feelings."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are concerns regarding the influence of venture capitalists and their impact on token price and community sentiment."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "Many participants show an intent to hold tokens, driven by the belief in future price increases."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat environment maintains mostly positive vibes, with instances of support and encouragement for community members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly charged emotionally, with excitement about potential profits and community involvement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 20,
+                        "context": "Participants seem to be generally optimistic about their financial prospects related to the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a significant focus on price discussion with many messages centered around anticipated profits and price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants frequently express confidence in the project\u2019s potential to deliver significant returns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "A considerable amount of voluntary effort for promotional purposes is evident, with community members actively rallying support."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and engaged, with rich discussions and a strong sense of collective involvement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about buying tokens, indicating interest but not overwhelming curiosity."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants feel inspired and hopeful about the future of the Shoggoth project, fostering a communal sense of purpose."
+                    }
+                },
+                "catch_phrase": "All Hail Shoggoth!",
+                "about": "This community is centered around the Shoggoth meme and its potential in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ogshoots",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/aisafetymemes",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muzzyvermillion",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/alex1907fb34",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/elonmusk",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/rasmr_eth",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 110,
+                    "total_message_count": 482
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:20:41"
+                }
+            }
+        },
+        "2024-10-20": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions are heavily centered around memes and references specific to the token, suggesting a strong meme-driven culture."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There is a sentiment of suspicion regarding fairness, particularly with comments reflecting wariness of scams and dubious project integrity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express skepticism about possible control by venture capitalists or insiders, indicating a belief that the project\u2019s trajectory may be influenced by external powerful entities."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There are mixed sentiments about holding versus selling, but a notable portion of the participants expresses intent to hold for potential future profits."
+                    },
+                    "vibes": {
+                        "intensity": 55,
+                        "context": "The overall atmosphere remains somewhat positive, with participants expressing motivation and excitement about the project despite some concerns."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussions are highly charged with emotional expressions surrounding the token\u2019s potential and community involvement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants indicate a diverse socioeconomic background, leveraging community collaboration and shared investment hopes."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "Much of the conversation revolves around token price movements, with participants regularly discussing potential price targets."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "There's strong belief among participants in the project\u2019s potential to generate significant wealth, especially driven by meme culture."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 45,
+                        "context": "Some participants actively volunteer for community growth efforts but the overall participation in value-adding activities appears uneven."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community appears engaged and lively, suggesting a healthy level of interaction and discussion."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "While there is some curiosity about buying, it doesn\u2019t dominate discussions, indicating a lack of focus from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "Participants express moments of inspiration, but it's mixed with skepticism about project developments and community actions."
+                    }
+                },
+                "catch_phrase": "All Hail Shoggoth!",
+                "about": "A community revolving around the Shoggoth token, emphasizing memes and community-driven efforts.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/frankdegods",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/aisafetymemes",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tetraspacewest",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/0xsimon_lee",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/n8bizness",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptoblitzzz",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 69,
+                    "total_message_count": 455
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:20:48"
+                }
+            }
+        },
+        "2024-10-21": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The community continuously references and promotes the shoggoth meme, indicating a strong central idea."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed feelings about the fairness of the token's distribution, with some mentioning controlled supplies."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is significant suspicion among participants about insider control and manipulation in the market."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Many participants express a desire to hold and accumulate tokens, though some sell, indicating mixed sentiments."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat is generally positive, with encouragement and excitement dominating the conversation regarding the token."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are charged with enthusiasm and urgency, indicating strong emotional investment in the token's success."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "While some users express wealth, there are also mentions of financial struggles, indicating a mixed socioeconomic background."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "The conversation is heavily focused on price actions, with participants discussing market movements frequently."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Users share optimistic beliefs regarding the potential for wealth through holding this token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Several participants volunteer time for community activities, but active engagement varies."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears lively and interactive, with ongoing discussions and calls to action like raids."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "New participants ask about purchasing the token, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Expressed hope and encouragement among members, though some feel the need for improvement."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "A decentralized community rallying around the shoggoth project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muzzyvermillion",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/frankdegods",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/tradervangogh",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/hodl_fuegs",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/stygianbroker",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/volumonwhale",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/notthreadguy",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 176,
+                    "total_message_count": 1370
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:02"
+                }
+            }
+        },
+        "2024-10-22": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "Discussions heavily revolve around the meme aspect of Shoggoth, showing high engagement."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed feelings regarding the fairness associated with investments, some feeling positive while others skeptical."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are concerns about possible insider manipulation, indicating a belief that VC influence exists."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users express a desire to hold their investments despite making occasional remarks about selling, showing strong holding sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall atmosphere is supportive and enthusiastic, with participants encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is quite emotionally charged, indicated by the frequent use of exclamations and calls for action."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The group's dialogue suggests a mix of economic backgrounds, with some references indicating lower disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong ongoing discussion about price actions and expectations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There are numerous expressions of optimism about price increase potential, with many believing they will get rich."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many users volunteer their time for promotions and raids, showing a willingness to participate actively without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant, with a lot of active engagement and exchanges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are mixed inquiries about buying, with newcomers showing interest but not overwhelming demand."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Members are expressing inspiration and hope regarding the project and its success."
+                    }
+                },
+                "catch_phrase": "All Hail Shoggoth!",
+                "about": "The Shoggoth meme token community focused on collaboration, support, and investments.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/rateexceed",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/xplaceb0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tradervangogh",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/getaydstoday",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/hopiumpapi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 290,
+                    "total_message_count": 1216
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:18"
+                }
+            }
+        },
+        "2024-10-23": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat is consistently focused on the theme of 'Shoggoth', indicating a strong meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants demonstrate a relatively positive sentiment towards project fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are expressed concerns about whales and insiders influencing market behavior."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There are discussions indicating a mixture of holding and active trading amongst participants."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is largely supportive with many expressions of enthusiasm and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The chat exhibits high emotional engagement with frequent celebratory and motivational messages."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants show varying levels of economic background awareness, indicating mixed socioeconomic statuses."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A substantial portion of conversations concentrate on price dynamics and trading strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "There are strong sentiments of potential for wealth increases among participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many users demonstrate willingness to promote the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears active and vibrant with various discussions and engagements."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are only a few inquiries about purchasing processes indicating lower new interest."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express a general sense of hope and motivation regarding project success."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "The community is centered around the Shoggoth token and its market performance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/hopiumpapi",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/rateexceed",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chinesewhales",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ethereum_habibi",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 168,
+                    "total_message_count": 697
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:25"
+                }
+            }
+        },
+        "2024-10-24": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community is heavily focused on the Shoggoth meme, with frequent expressions of solidarity and multiple messages celebrating its importance."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is an overall positive sentiment regarding the fairness of the project, with members expressing a sense of collective ownership."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion regarding the potential influence of outside investors or insiders, with members believing the community primarily drives price movements."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "Many members express intent to hold their tokens, tying this to the broader goal of supporting and participating in the community."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere within the chat is predominantly positive, with encouragement and support evident in many messages."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are charged with enthusiasm and determination, especially around voting and community effort."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "The socioeconomic background of the group appears diverse, with some hinting at lower disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A significant focus on price action, as many messages discuss the importance of trading and voting to influence the price."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Members express a strong belief in the project's potential for substantial future gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Many participants are volunteering time and effort for the project without compensation, contributing to community initiatives."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The discussions indicate a vibrant and healthy community, with active engagement in various topics related to the project."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Some newcomers are asking about where to buy tokens, indicative of interest in joining the community."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Members express feelings of hope and inspiration regarding the future of Shoggoth."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "A community focused on the Shoggoth token and its potential within the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/aisafetymemes",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/0xsimon_lee",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muzzyvermillion",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/oxfunhq",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/china__captain",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tradervangogh",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 154,
+                    "total_message_count": 697
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:34"
+                }
+            }
+        },
+        "2024-10-25": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat features a recurring theme of enthusiasm and support for the project, particularly emphasized through the repeated phrase '/ALL_HAIL_SHOGGOTH', indicating strong meme engagement."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "While there are concerns over fairness and some skepticism about the project, the overall tone suggests a mix of optimism and community belief in equitable practices."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of suspicion towards insiders or large holders making moves, but this sentiment is not uniformly echoed across the community, displaying a mix of trust and skepticism."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users are expressing intentions to hold their investments longer term, suggesting a 'diamond hands' mentality amid price discussions."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The general atmosphere is one of high energy and positivity, with numerous participants expressing excitement and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The conversation is charged with strong emotions, particularly excitement around potential gains and community initiatives."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There's a mix of users presenting varying levels of engagement, indicating a diverse socioeconomic background among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The chat frequently references price movements and potential price floors, indicating a strong focus on ongoing price discussion."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants widely express belief in substantial future gains from their holdings, creating a strong sense of optimism."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There are indications of volunteers engaging in activities to promote the token without direct compensation, which contributes positively to community efforts."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The group appears vibrant with ongoing interactions, indicative of a healthy and active community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "Some interest is shown by newcomers in acquiring tokens, though this is not the dominant conversation."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express feelings of hope and encouragement, largely buoying morale within the community."
+                    }
+                },
+                "catch_phrase": "ALL HAIL SHOGGOTH",
+                "about": "The community is centered on the Shoggoth project, discussing its developments and future potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/whalemonaco",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/_zma17",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/okkultcalls",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cncryptolegend",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mocfive",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shanyicrypto",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 95,
+                    "total_message_count": 275
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:42"
+                }
+            }
+        },
+        "2024-10-26": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The group exhibits a strong focus on the central project associated with 'Shoggoth', evidenced by frequent references and rallying chants."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Participants express concerns about fairness, indicating a belief that there may be inequalities in the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a notable suspicion about insider control and the influence of larger players over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "Most participants seem more inclined to hold rather than sell, showcasing confidence in future gains."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall atmosphere is supportive and enthusiastic, with community members encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The conversation is highly charged with excitement and determination."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are hints of participants from varied economic backgrounds, but a good number seem to be looking for opportunities."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Many messages revolve around price speculation and potential profits."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "There is a strong belief in the potential for wealth gain from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Participants are engaging in promotional activities without compensation, indicating some volunteerism."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The chat feels lively and vibrant, with many active participants contributing."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "Some newcomers are asking about purchasing the token, reflecting interest."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many messages express feelings of hope and enthusiasm about the project's future."
+                    }
+                },
+                "catch_phrase": "ALL HAIL SHOGGOTH",
+                "about": "A community focused on the Shoggoth token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shanyicrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/whalemonaco",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cncrypto100x",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/onlykidsuo1",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/johnnypalmtree9",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tradervangogh",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 68,
+                    "total_message_count": 177
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:47"
+                }
+            }
+        },
+        "2024-10-27": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The core idea of 'Shoggoth' as a meme is prominently repeated and strongly embraced."
+                    },
+                    "fairness": {
+                        "intensity": 55,
+                        "context": "There are mixed feelings on fairness, with some participants expressing confidence and others showing concern."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is suspicion about control by external entities like venture capitalists among some participants."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants express a desire to hold their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall vibe is supportive and encouraging despite some moments of concern."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 78,
+                        "context": "The discussion is emotionally charged with excitement and some anxiety about market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "Participants show signs of a mix of socioeconomic backgrounds, with some expressing concerns about economic fairness."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on token prices and market actions throughout the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "There are strong beliefs expressed about the potential of the project to yield significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are actively contributing to the community and promoting the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 72,
+                        "context": "The community is lively, with ongoing discussions and contributions, although some note it is quieter than usual."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying the token, indicating interest from new participants."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express feelings of hope and inspiration from being part of the community."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "A community centered around the Shoggoth token and related memes, focusing on engagement and community spirit.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muzzyvermillion",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/rockstarmoney_",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/whalemonaco",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/0xsimon_lee",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mocfive",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cyber__bully",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 48,
+                    "total_message_count": 140
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:52"
+                }
+            }
+        },
+        "2024-10-28": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The repeated use of the 'SHOGGOTH' catchphrase and rallying cries indicate a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 45,
+                        "context": "Participants express skepticism about the project's fairness, reflecting a mixed sentiment."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion regarding the influence of insiders or venturists affecting the project's trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "A balance of sentiment is expressed; many are eager to hold, but there are also those inclined to sell."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "Overall positive atmosphere with expressions of excitement and community engagement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is highly emotionally charged, with many participants expressing urgency and excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "There are indications that participants may be of lower socioeconomic status based on expressed frustrations and urgent needs."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "Significant focus on price actions throughout the chat, with many messages related to buying and selling."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Widespread belief in the potential for significant gains from the project is evident."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are volunteering their time to promote the project and engage in community activities."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community exhibits vibrant discussions and diverse participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries from newcomers about purchasing the token, indicating interest and engagement."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many participants express hope and inspiration based on their community interactions."
+                    }
+                },
+                "catch_phrase": "ALL HAIL SHOGGOTH",
+                "about": "The community is centered around the Shoggoth project and engaging in promoting it.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/muzzyvermillion",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/whalemonaco",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/fleece8_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mocfive",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/itsmilamilly",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 63,
+                    "total_message_count": 180
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:21:56"
+                }
+            }
+        },
+        "2024-10-29": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions heavily revolve around 'Shoggoth' as a central meme, with multiple participants using phrases like '/ALL_HAIL_SHOGGOTH'."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There seems to be skepticism about the project's fairness with participants voicing concerns about a potential scam and price dips."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There's a moderate level of suspicion regarding whether insiders or venture capitalists are manipulating the situation."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "The chat indicates some users are committed to holding, but there is also discussion about price fluctuations prompting sales."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "Overall, the vibe is positive with participants encouraging each other, although some expressions of frustration are present."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are quite emotionally charged, with frequent use of enthusiastic language about raiding and supporting the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Reviews within the chat indicate a mix of users potentially from varied socioeconomic backgrounds, with a notable few hinting at financial stress."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a strong focus on price actions and the need to pump prices within the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express strong beliefs that holding tokens will lead to substantial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Some members are engaging in promotional activities like raiding, but this is not universal."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears lively and engaged, with numerous interactions and discussions throughout the day."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are some inquiries about how to buy or participate, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Some participants express hope and motivation about the project's potential."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "Discussion revolving around the Shoggoth token, raiding, and efforts to promote and stabilize its price.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ghoztnft",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muzzyvermillion",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/holderscan",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 51,
+                    "total_message_count": 250
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:22:03"
+                }
+            }
+        },
+        "2024-10-30": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat heavily revolves around the meme coin 'Shoggoth', with members consistently referencing it, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express a mix of support and criticism, suggesting some believe in the fairness of the project while others indicate dissatisfaction."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are signs of distrust towards potential venture capitalist influence, although this sentiment is not overly strong."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many members show intent to hold rather than sell, with phrases indicating they want to accumulate more."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the vibe in the discussion appears positive and energetic, reflecting enthusiasm and hope among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is filled with excitement and strong emotions as users rally together, indicating a highly charged atmosphere."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There is a mix of socioeconomic backgrounds among participants, but no clear indicators suggest a strong lean towards either extreme."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Participants frequently discuss price movements and targets, showing a high focus on price actions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "A strong belief in the potential for significant profits is common among users, who express excitement about price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many members are actively participating in promotional activities without compensation, showing engagement in the project."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community displays signs of liveliness and engagement, with ongoing discussions and numerous posts."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "There are some inquiries about purchasing the token, albeit not at a very high level of frequency."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Members frequently express hope and encouragement, which fosters a spirit of community and collaboration."
+                    }
+                },
+                "catch_phrase": "ALL HAIL SHOGGOTH",
+                "about": "Community discussing and promoting the Shoggoth meme coin.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/kingbootoshi",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/chinesewhales",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/0xsimon_lee",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/georgekyriakou9",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/love_cat_ever",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 42,
+                    "total_message_count": 208
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:22:09"
+                }
+            }
+        },
+        "2024-10-31": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The phrase '/ALL_HAIL_SHOGGOTH' is frequently mentioned, indicating a strong central meme around the Shoggoth theme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "While many participants express excitement about the project, concerns about fairness occasionally arise, especially related to token distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are mentions suggesting suspicion and concern about control by insiders and venture capitalists, indicating perceived lack of community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Participants frequently discuss holding onto their tokens for potential future rewards, outlining a strong intent to hold."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat has a generally positive atmosphere, with participants expressing enthusiasm, support, and laughter."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly emotionally charged, driven by excitement and community engagement around the meme culture."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are hints of varying socioeconomic statuses among participants, with some discussing economic opportunities in crypto."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There are multiple discussions around price movements and future potential, indicating a strong focus on price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants express high hopes for significant gains, indicating a strong belief in the project's potential profits."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Users are actively participating in promoting the project and creating content with little to no direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat reflects a vibrant and lively community, with rich discussions and active engagement among participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are a few inquiries about buying tokens, but they are not the focus of the conversation."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express a sense of inspiration and hope for the community's future and potential success."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "A community centered around the Shoggoth meme and crypto engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/mrwhalecn",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/georgekyriakou9",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/love_cat_ever",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 43,
+                    "total_message_count": 163
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:22:15"
+                }
+            }
+        },
+        "2024-11-01": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "Participants frequently reference and rally around the 'SHOGGOTH' meme, indicating a strong central theme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is a mixed sentiment on the fairness of the project, but many participants seem to feel that contributions are valued."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express concerns about potential control by external investors, reflecting a suspicion towards VC involvement."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "There is a strong sentiment of holding onto tokens with many participants encouraging patience and mentioning future gains."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is primarily positive with encouragement and support among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion exhibits a high level of emotional charge with participants expressing excitement and motivation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While some hints at socio-economic struggles are present, there is a significant amount of enthusiasm and engagement."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Conversations heavily center around price discussions, with many comments geared towards price action and raids."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is a strong belief among participants about the potential for significant financial gains in the future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Members are actively engaging in promotional activities voluntarily, indicating a willingness to contribute."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and active, with numerous discussions and interactions taking place."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are several inquiries about purchasing the token, indicating a healthy interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many messages express feelings of hope and excitement about the project, inspiring members to stay engaged."
+                    }
+                },
+                "catch_phrase": "/ALL_HAIL_SHOGGOTH",
+                "about": "Community focused on the Shoggoth project, rallying participants around memes and shared goals.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shanyicrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shoggoth_sol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mrwhalecn",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cntrending",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chinesewhales",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 31,
+                    "total_message_count": 82
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 19:22:21"
+                }
+            }
+        }
+    }
+}

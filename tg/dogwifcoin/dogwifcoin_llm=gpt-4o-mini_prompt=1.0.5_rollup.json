@@ -1,0 +1,3610 @@
+{
+    "project_name": "dogwifcoin",
+    "date_data": {
+        "2024-09-28": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "The recurring phrase suggests a central meme but the engagement level seems moderate."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There is a mixed sense of fairness based on limited context."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is suspicion regarding control by insiders but not a strong consensus."
+                    },
+                    "hold_intent": {
+                        "intensity": 50,
+                        "context": "There are neutral sentiments about holding or selling tokens."
+                    },
+                    "vibes": {
+                        "intensity": 45,
+                        "context": "The vibes appear to be slightly negative with minimal engagement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 30,
+                        "context": "The conversation lacks strong emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants appear to have mixed socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 40,
+                        "context": "Price discussion is somewhat present but not a dominating theme."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 35,
+                        "context": "There are low expressions of belief in significant upside potential."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 20,
+                        "context": "Very few indications of voluntary participation for the project."
+                    },
+                    "community_health": {
+                        "intensity": 25,
+                        "context": "The community shows signs of being inactive with little engaging content."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 10,
+                        "context": "There are almost no inquiries about purchasing the token."
+                    },
+                    "inspiration": {
+                        "intensity": 20,
+                        "context": "Little to no expressions of inspiration or hope within the group."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "Discussion surrounding a specific token or meme-related project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://twitter.com/dogwifcoin",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 5,
+                    "total_message_count": 8
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:34:36"
+                }
+            }
+        },
+        "2024-09-29": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussion highly revolves around the meme of 'FIRST_DOG_TO_100_DOLLARS', showing strong engagement from members."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some participants question the fairness, while others are supportive of the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are concerns about possible influence from venture capitalists and insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Most participants express a strong intent to hold onto the tokens, with signs of bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The atmosphere is mostly positive and supportive, with many users cheering for a rise in token value."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions show high emotional charge, with members actively expressing excitement and hope."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Members come from varying backgrounds, some showcasing high hopes for profits."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong focus on price discussions, particularly surrounding the token's potential increase."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many members express strong belief in the cryptocurrency's potential for significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There are indications of community members participating actively without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and lively, with rich discussions and expressions of camaraderie."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Moderate inquiries about purchasing tokens, indicating some newcomers are interested."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express inspiration and hope for the project and its community."
+                    }
+                },
+                "catch_phrase": "WIF TO THE MOON!!!",
+                "about": "A community focused on the WIF token, promoting strong belief in its potential and engaging in positive discussions.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/holderscan",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/cryptosrm",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/free_electron0",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/pepe_whale69",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bestfriends",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/blknoiz06",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 143,
+                    "total_message_count": 320
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:34:42"
+                }
+            }
+        },
+        "2024-09-30": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat heavily revolves around the meme of 'first dog to 100 dollars,' indicating it's a central theme."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are concerns regarding profit taking by whales, suggesting participants feel the project may not be entirely fair."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some users express a desire to take profits, hinting at speculation about behind-the-scenes control but not strongly."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users express encouragement to hold, indicating a prevailing sentiment to maintain positions."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall positivity with users sharing excitement about price increases and community strength."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly charged with excitement about price movements and community engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants' socioeconomic status is varied, but many refer to the potential for wealth, indicating a mix."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A significant portion of conversation focuses on price predictions and buying strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Strong belief in potential profits is pervasive, with many users express high optimism about price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are actively engaging in promoting the project, suggesting some community-driven support efforts."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is very lively, with diverse interactions and supportive behavior among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some newcomers ask about how to buy tokens, indicating interest but not overwhelming curiosity."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members show an overall sense of hope and excitement for the future of their investments."
+                    }
+                },
+                "catch_phrase": "/FIRST_DOG_TO_100_DOLLARS",
+                "about": "Community centered around the token's growth and potential value increase, fostering excitement and strong engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/solanasniffer",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/cointelegraph",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/onepath_ia",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/hyperionwif",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/takepr0fits",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/murdadefi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/0xmrwzrd",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 145,
+                    "total_message_count": 307
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:34:56"
+                }
+            }
+        },
+        "2024-10-01": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat is dominated by posts related to WIF and its implied strength in the market, indicating a strong meme unity."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally seem optimistic about the project being fair; however, the mention of market turbulence implies some doubt."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are concerns about market manipulation, indicating some suspicion towards insiders and VCs."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a strong intent to hold WIF tokens, suggesting strong bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere of the chat is largely supportive and positive, with encouragement among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is emotionally charged, with participants expressing excitement and commitment to the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants appears mixed; some users express a desire for wealth while others exhibit signs of lower status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "A significant focus on the price of WIF in discussions, indicating that price movements are a key topic."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "There is strong belief among participants that they can achieve high returns on their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants appear to be actively promoting the project without compensation, showcasing strong community effort."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The overall discussion reflects a vibrant and lively community with rich participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are several inquiries about purchasing WIF, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express hope and inspiration regarding the project's potential for success."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "Community focused on promoting and investing in WIF cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://twitter.com/bitstamp",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/cryptosrm",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/blknoiz06",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/krakenpro",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/aboweb3",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/documentingwif",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/documentingwif",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/solanasniffer",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 113,
+                    "total_message_count": 254
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:02"
+                }
+            }
+        },
+        "2024-10-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The conversations heavily feature shared memes and catch phrases, indicating a strong central theme or idea."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are hints of distrust and complaints regarding fairness, particularly from users expressing frustration over price actions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants show concerns regarding potential manipulation by insiders or venture capitalists amidst ongoing discussions about price movements."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "Many users indicate a preference to hold their investments, expressing optimism about potential price increases."
+                    },
+                    "vibes": {
+                        "intensity": 55,
+                        "context": "While some negative remarks exist, there is a general atmosphere of encouragement and camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is highly charged with emotions, reflected in both positive and negative statements about the project's future."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Certain comments hint at varying economic statuses among participants, with several showing signs of frustration due to high gas fees and market fluctuations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The chat is predominantly focused on price discussions, indicating a strong interest in market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Many participants express confidence in significant future gains, contributing to a bullish sentiment."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "While there are signs of community engagement, the level of volunteer-driven activities is moderate."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The chat shows engagement but also frustration, suggesting a community that is lively yet facing challenges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "New members occasionally inquire about purchasing the token, reflecting a mix of curiosity and confusion about acquisition."
+                    },
+                    "inspiration": {
+                        "intensity": 45,
+                        "context": "Expressions of inspiration are present but not dominant, indicating a community that occasionally draws hope from discussions."
+                    }
+                },
+                "catch_phrase": "/WIF_IS_A_WIF",
+                "about": "A community centered around the WIF token with dynamic discussions regarding market trends and sentiment.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/jasonpizzino",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/babushhodl",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/0xenas",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/onepath_ia",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/1goodplay",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dscvr1",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/montodefi",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 89,
+                    "total_message_count": 163
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:08"
+                }
+            }
+        },
+        "2024-10-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions heavily revolve around core memes like voting for WIF, which shows strong community engagement with the meme."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are indications of skepticism regarding the fairness of the project, as seen in some negative remarks about market conditions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There's a palpable suspicion about outside influences on the token's price, suggesting a belief that insiders might have control."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express intent to hold their tokens, often referring to holding strategies and avoiding panic selling."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The vibes are largely positive, with supportive messages and laughter among users, though occasionally interrupted by strong negative sentiments."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is quite charged emotionally, reflecting both excitement around the project and frustration about market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants appear to have mixed socioeconomic statuses, with some discussing financial gains while others express financial woes."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant focus on price movements, with many messages directly addressing price changes and market behavior."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "There are strong beliefs in the potential for significant returns, especially among those encouraging others to buy at low prices."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is some level of volunteer engagement, as users actively promote and vote for WIF, hinting at community-driven efforts."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears lively and engaged, with a variety of discussions and a call for participation in ongoing events."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are inquiries about buying the token, indicating interest from newcomers and existing members."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "While some members express enthusiasm and hope for the project's future, there are also sentiments of anxiety and frustration."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_VOTE_WIF",
+                "about": "The community is actively discussing and promoting the WIF token, along with strategies for price increase and community engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dscvr1",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/jasonpizzino",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/1goodplay",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/blknoiz06",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/playmatejaylene",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/patty_fi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/normalmfer_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/azuki_ether",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 106,
+                    "total_message_count": 255
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:15"
+                }
+            }
+        },
+        "2024-10-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community is very engaged with the meme culture surrounding WIF, with a strong focus on humorous and entertaining content."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is a moderate perception that the project is fair, though some participants are skeptical about the distribution of tokens."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion about external influences on the token, suggesting a belief that insiders may have control."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many users express a tendency to hold onto their tokens, indicating a long-term belief in the project's value."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall atmosphere is positive with supportive interactions, though some negativity exists."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly emotionally charged, with excitement and anticipation about the project's future."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Indications suggest that participants are more affluent, discussing investments with confidence."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The conversations are heavily focused on price action and investment strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "There is a strong belief in the potential for significant profit from investing in WIF."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Community members are quite active in promoting the project without monetary compensation, though not overwhelmingly so."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and active, with a lot of discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are managed inquiries about how to purchase the tokens, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Participants express inspiration and motivation to engage more with the community and project."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "WIF is a meme-based cryptocurrency project that encourages fun and community engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/dcbcrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/onepath_ia",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/saint10fourteen",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/solanasniffer",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/0xyusu",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/maxbidpro",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 80,
+                    "total_message_count": 211
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:21"
+                }
+            }
+        },
+        "2024-10-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The repeated use of '/SQUEEZETHESHORTS' indicates a strong and engaging central meme among participants."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "General sentiment seems to favor the project as fair, with supportive comments from members."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "There are some signs of distrust towards potential insider control based on members' comments."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a desire to hold their tokens, evident in multiple 'hodl' references."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat exhibits a generally positive and supportive atmosphere despite occasional outbursts."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The conversation is vibrant, but it fluctuates with moments of high enthusiasm and frustration."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There is mixed evidence of socioeconomic status, with some members discussing disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on price discussions, indicated by multiple price-related messages."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "The belief in the potential for price growth is present among many participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants appear to be engaged in promoting the project actively without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears lively with diverse discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about buying the token, reflecting interest from new and existing members."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Some members express inspiration and motivation to participate in the project."
+                    }
+                },
+                "catch_phrase": "/SQUEEZETHESHORTS",
+                "about": "A community focused on promoting and discussing the Dog Wif Coin project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/solanasniffer",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/onepath_ia",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/brandonsalim",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptosrm",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/0xjaypeg",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 90,
+                    "total_message_count": 168
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:26"
+                }
+            }
+        },
+        "2024-10-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community demonstrates a strong engagement with the meme surrounding the coin, as evidenced by repeated calls to action and references to the coin."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings regarding the economic fairness of the project, with some users expressing skepticism about the token distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express moderate suspicion about potential control by venture capitalists and insiders, indicating concerns about external influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "The general sentiment indicates a stronger inclination towards holding the token rather than selling, although selling signals are present."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The chat has a generally positive atmosphere with moments of frustration, but overall there is camaraderie and shared excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are highly emotionally charged, with users expressing excitement and urgency around the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "Members seem to be a mix of socioeconomic backgrounds, with some hints suggesting lower disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price action in conversations, with multiple inquiries about potential price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants exhibit a strong belief in the potential for significant gains from the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There are indications of members actively promoting the project without financial compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears to be engaged and lively, indicating a healthy discussion environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries from newcomers about purchasing the token, signaling ongoing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many participants express feelings of inspiration and excitement about the potential success of the token."
+                    }
+                },
+                "catch_phrase": "HAT STAYS ON",
+                "about": "The community is focusing on the 'WIF' coin and its potential as a meme and financial investment.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/free_electron0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/0xblindside",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cointelegraph",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/santiagoroel",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptosrm",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptoklotz",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/comparemcap",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 104,
+                    "total_message_count": 201
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:31"
+                }
+            }
+        },
+        "2024-10-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat strongly revolves around memes and phrases like '/CAN_YOU_WIF_ME_HIIIIIIGHER', indicating a central meme is present."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally express a belief that the project is fair, though some skepticism remains."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is a notable sentiment that insiders or venture capitalists may have control over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "A large portion of users express a desire to hold and promote the token rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is predominantly positive, with users supporting each other's excitement about the token."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is highly charged emotionally, with many expressing excitement and enthusiasm."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There is a mixed representation in socioeconomic status, but no clear indicators favoring either end."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is significant focus on price discussions, with many users anticipating price increases."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Users express a strong belief in the project\u2019s potential and future profits."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Participants are contributing to the community through discussions and promotions without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears to be vibrant and lively with active discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers are actively asking how to buy the token."
+                    },
+                    "inspiration": {
+                        "intensity": 78,
+                        "context": "Many participants express inspiration and hope for the project\u2019s future."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "The community is centered around excitement about the $WIF token's potential and memes associated with it.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/contactblunt",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/onepath_ia",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/hyperionwif",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/etherghosty",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/sabby_eth",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/pepe_whale69",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bluntz_capital",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 131,
+                    "total_message_count": 317
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:38"
+                }
+            }
+        },
+        "2024-10-08": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community revolves heavily around the 'WIF' meme, with numerous references and expressions of unity."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "While some participants express concerns about fairness, the general sentiment leans towards a belief that the project is fair."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion present regarding external manipulation, but it\u2019s not overwhelmingly dominant."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants express a strong desire to hold onto 'WIF' tokens."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The chat shows a positive atmosphere with shades of excitement and camaraderie among users."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is charged with enthusiasm, particularly around the potential of 'WIF' tokens."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Indications suggest a mix of socioeconomic backgrounds among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on token price actions, with several discussions indicating user interest in price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Most participants express optimism regarding the project\u2019s future value."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many users appear to be actively promoting the project without compensation, indicating community enthusiasm."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The discussion is vibrant, lively, and full of engaging interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There is a moderate level of inquiries about how to buy the token, suggesting some new interest."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants often express feelings of inspiration and positivity about the community and project."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "A community rallying around the 'WIF' token, focusing on engagement and support.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/hughshtick",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cmclfg",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kfc_es",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/hyperionwif",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 95,
+                    "total_message_count": 194
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:44"
+                }
+            }
+        },
+        "2024-10-09": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat is heavily engaged with the theme of WIF, demonstrated by frequent references and memes related to it."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Many participants express belief in the project's fairness, although there are some complaints about paid listings."
+                    },
+                    "VC_cabal": {
+                        "intensity": 55,
+                        "context": "There's a moderate belief that the community controls the project, but some suspicion of outside influence remains."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "There are many discussions focused on holding tokens, suggesting a strong intent to hold rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The atmosphere is generally positive and enthusiastic, with participants encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly engaging and charged with excitement about the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While a diverse income level is apparent, most members seem optimistic about their economic situations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Price discussions are prevalent, indicating a strong focus on trading and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants express a belief in significant profits from WIF in the future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Some participants are actively promoting and creating content, indicating a moderate level of unpaid effort."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant and lively, with ongoing discussions and strong engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about buying, suggesting interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express a sense of inspiration and excitement about the community and its projects."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "The community is focused on the WIF token and related activities, including raids, promotions, and trading.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/hyperionwif",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/0xfiyopi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/normalmfer_",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 111,
+                    "total_message_count": 319
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:50"
+                }
+            }
+        },
+        "2024-10-10": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "A central meme '$WIF' is echoed frequently throughout the chat, indicating strong engagement with the product."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Mixed sentiments about economic fairness; some think it is community-owned while others question project control."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion regarding potential insider control, as indicated by complaints about selling."
+                    },
+                    "hold_intent": {
+                        "intensity": 40,
+                        "context": "Some participants express intent to hold, but a significant number are indicated to be selling."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "Despite some negativity around selling, much of the chat is energetic and playful."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The conversation is highly charged, marked by frequent memes and strong expressions of excitement and humor."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Indications suggest a mixed socioeconomic status among participants, with discussions of retail involvement."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on price and trading activity, as participants discuss market movements and predictions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many chat members express optimism about profitability and potential high gains from '$WIF'."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Contributors are actively participating in promotional activities, indicating a healthy level of volunteer engagement."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant with active discussions, despite some contrary sentiments."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are asking about buying options and market engagement, showing interest in participation."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Expressions of hope and ambition can be found, alongside humor and camaraderie among users."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "The community discusses the '$WIF' token, focusing on trading strategies and hype.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/yaboyb_hux",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bohotrades",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/thecryptodog",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitforcesaga",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 94,
+                    "total_message_count": 184
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:35:56"
+                }
+            }
+        },
+        "2024-10-11": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The core meme of 'CAN_YOU_WIF_ME_HIIIIIIGHER' is frequently repeated and embraced."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "There is a general sentiment that the project is fair and accessible, with some discussions focusing on inclusivity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Mixed sentiments exist regarding possible influences of insiders on the token price, but overall the community feels somewhat empowered."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The atmosphere strongly leans towards holding rather than selling, with many users expressing intentions to buy more."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the chat exudes positivity and excitement, especially around price movements and meme culture."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is notably emotionally charged, filled with enthusiasm and engagement among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status is varied, with no clear majority among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "A strong focus on price actions characterizes the conversations, with frequent references to price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Widespread belief in the potential for significant profits from the project is evident."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants are actively contributing without compensation, expressing enthusiasm for community growth."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears lively and engaged, with rich discussions and active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about buying the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Participants express feelings of inspiration and hope regarding the project and its prospects."
+                    }
+                },
+                "catch_phrase": "CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "A community centered around the WIF token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/babushhodl",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/jhys2018",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/yerttrades",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/thecryptodog",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitforcesaga",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/damidefi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/vutek2",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 129,
+                    "total_message_count": 498
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:03"
+                }
+            }
+        },
+        "2024-10-12": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The repeated use of the catchphrase '/CAN_YOU_WIF_ME_HIIIIIIGHER' indicates a strong central meme in the community."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There is a mix of satisfaction and dissatisfaction, indicating a neutral stance on project fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are sentiments suggesting that insiders or whales might be affecting the market, reflecting a degree of mistrust."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Most participants seem to express intent to hold, with discussions focused on future profits."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere is generally positive with some moments of tension, but predominantly supportive."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is highly charged with energetic exchanges and expressions of excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants appear to have diverse backgrounds, but some discussions hint at a range of socioeconomic conditions."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The conversation heavily revolves around price expectations and predictions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express strong beliefs that the token could reach high values, such as $3 or more."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Participants are engaged, creating memes and promotional content, but not universally so."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community is lively with numerous discussions, indicating a healthy level of engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries from newcomers about buying the token, but it's not overwhelming."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Participants frequently express motivation and encouragement, contributing to a sense of hope within the community."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "The community is rallying around the WIF token and its potential price growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/sushant28065911",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/degeneratenews",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/crediblecrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ogrichfrog",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cgsk486",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/hyperionwif",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/comparemcap",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 105,
+                    "total_message_count": 203
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:08"
+                }
+            }
+        },
+        "2024-10-13": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat heavily revolves around the recurring meme 'WIF,' with frequent mentions and associated phrases."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Participants express skepticism regarding fairness, indicated by comments on market manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There are clear sentiments suggesting distrust towards insider control and potential manipulation by venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Most participants show intent to hold tokens rather than sell, especially amid optimistic comments about future price increases."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "While there are supportive comments, there exists frustration about market fluctuations, leading to mixed vibes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion contains both excitement about price increases and frustration regarding market performance, indicating high emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "Some references indicate varying socioeconomic backgrounds, but not explicitly low or high."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Members frequently discuss price levels, indicating a strong focus on market action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants express belief in significant future gains, citing potential price milestones."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "While some members offer free support and information, it's unclear how widespread this is across the group."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "There is a lively discussion with active participation, but some negativity is stemming from market concerns."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 45,
+                        "context": "There are some inquiries about purchasing the token, but it\u2019s not the dominant topic."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants share hopeful sentiments and encouragement for one another amidst price discussions."
+                    }
+                },
+                "catch_phrase": "CAN YOU WIF ME HIIIIIIGHER?",
+                "about": "A community centered around cryptocurrency, particularly focusing on the token 'WIF'.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/lumixweb3",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/jhys2018",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/sushant28065911",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/defimann",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/babushhodl",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 112,
+                    "total_message_count": 311
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:14"
+                }
+            }
+        },
+        "2024-10-14": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The community is heavily engaged with recurring phrases like '/CAN_YOU_WIF_ME_HIIIIIIGHER', indicating a strong collective meme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express some concerns over fairness, but overall there's a belief that the project is economically fair."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings about insider influence, suggesting a balance of trust and skepticism."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants show strong intent to hold onto their tokens for potential future gains, referencing long-term goals."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is predominantly positive with encouragement and excitement for future price movements."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are charged with emotions centered around hope and excitement for price increases."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Many participants appear to be more affluent, discussing substantial investments."
+                    },
+                    "price_action_focus": {
+                        "intensity": 95,
+                        "context": "The primary focus of discussions is on token price movements, with strategic talks about when to buy and sell."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants frequently express strong hopes of significant gains, with multiple references to reaching high price points."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There's notable volunteer engagement in promoting the project through social media activities."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears active and lively, with numerous participants contributing to discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying the token, indicating curiosity amongst newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Community members express inspiration and hope stemming from participation in the group."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "A community focused on crypto investments, particularly the WIF token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/afgxbt",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/cousincrypt0",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://twitter.com/cousincrypt0",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/rektcapital",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/babushhodl",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/rin_0xtohsaka",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/s_slime12",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 149,
+                    "total_message_count": 390
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:22"
+                }
+            }
+        },
+        "2024-10-15": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The repeated use of memes and catch phrases like '/CAN_YOU_WIF_ME_HIIIIIIGHER' indicates strong engagement with a central meme."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are indications of dissatisfaction among community members regarding fairness, as shown by some stating concerns over price actions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 35,
+                        "context": "Participants are questioning the control of price by insiders, indicating suspicion around external influences."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "While there is some intent to hold due to positive feelings about the future, concerns about current price fluctuations exist."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The chat contains a mixture of enthusiasm about the coin's prospects and frustration over the price, resulting in moderate positive vibes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is emotionally charged with both excitement and frustration surrounding price actions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "Participants express a range of economic engagement, suggesting a mix of socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "The overwhelming focus on price indications and market actions shows that the community is fixated on price developments."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many users express optimism about significant gains, reflecting a belief in high potential upside of the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is active participation and volunteering among members for community-related tasks without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community remains active and engaged, although there are signs of distress over market conditions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Moderate inquiries are being made about buying the token, reflecting newcomer interest and engagement."
+                    },
+                    "inspiration": {
+                        "intensity": 55,
+                        "context": "There are mixed feelings about inspiration; some members display hope while others express doubt."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "Community focused on the Dogwifhat token and its market performance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/macnbtc",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jhys2018",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/cryptosrm",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 118,
+                    "total_message_count": 365
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:28"
+                }
+            }
+        },
+        "2024-10-16": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions mainly revolve around meme coins and speculative trading, showing a strong engagement with the core idea."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Participants express concerns about market manipulation, indicating a perception of unfairness in the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 25,
+                        "context": "There are suspicions and complaints about control by insiders and whales, creating a sense of distrust among participants."
+                    },
+                    "hold_intent": {
+                        "intensity": 20,
+                        "context": "Many users express a desire to sell tokens rather than hold, reflecting a lack of confidence in the long-term value."
+                    },
+                    "vibes": {
+                        "intensity": 40,
+                        "context": "The atmosphere is somewhat tense and filled with frustration over price movements, indicating a mixed sense of support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is highly charged with emotions as participants navigate their trading experiences and frustrations."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "References to financial struggles suggest a low to moderate socioeconomic background among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is significant focus on price movements, reflecting participants' primary concern about trading opportunities."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "While some believe in the potential for price increases, there is skepticism about achieving high targets."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Many members actively promote and engage in activities to boost the project, indicating a willingness to volunteer time."
+                    },
+                    "community_health": {
+                        "intensity": 50,
+                        "context": "The community exhibits mixed engagement with both vibrant discussions and some signs of frustration."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "There are limited inquiries about purchasing the token, indicating hesitation from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 20,
+                        "context": "Participants show little inspiration or hope in the community, reflecting a prevailing sense of doubt."
+                    }
+                },
+                "catch_phrase": "ROAD_TO_5_DOLLAR_WIF_LFG",
+                "about": "Participants are mainly focused on trading WIF and speculating on its price movements amidst Bitcoin's fluctuations.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dubbingwifhat",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/monica_eth8",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/contactblunt",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/lakshaygmi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/thecryptomist",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/impenetrabilix",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 118,
+                    "total_message_count": 376
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:36"
+                }
+            }
+        },
+        "2024-10-17": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussion is centered around a strong meme of a coin, with many posts referencing its potential and the shared goal of reaching higher prices."
+                    },
+                    "fairness": {
+                        "intensity": 20,
+                        "context": "Many users express distrust and report scams, indicating a sense of unfairness in the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are mentions of insiders and whales, suggesting a belief that they may have control over price movements."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "While there are calls for holding, some members express intentions to trade or sell, indicating mixed sentiments."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The atmosphere is mixed, with some supportive interactions but also negative feelings expressed through complaints and reports."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The messages show a high level of excitement and urgency, especially around price discussion and community actions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 80,
+                        "context": "Many messages indicate users are looking for financial gains, suggesting a low socioeconomic status among some members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There's a strong focus on discussing price actions and predictions of future movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many participants express belief in large potential gains from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 40,
+                        "context": "Some members are actively promoting and sharing posts for the meme coin without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community seems fairly active with many discussions and interactions, although some interactions are negative."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are inquiries about buying the token but not overwhelmingly so."
+                    },
+                    "inspiration": {
+                        "intensity": 40,
+                        "context": "There are sporadic expressions of inspiration related to the community's goals but not widespread."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "Discussion revolves around the WIF token and its potential for significant price increases.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://twitter.com/blknoiz06",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/shankskek",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/gemini",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/babushhodl",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/marylewis267681",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/tylerdurden",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/azuki_ether",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 117,
+                    "total_message_count": 323
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:45"
+                }
+            }
+        },
+        "2024-10-18": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The community heavily revolves around the Dogwifcoin meme, indicating strong engagement."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There seems to be a moderate level of acceptance regarding the project's fairness, with some discussions about potential manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are suspicions among participants that insiders may be influencing market movements, contributing to lower trust."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many messages indicate a strong desire to hold and accumulate Dogwifcoin, reflecting a bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The conversations reflect a generally supportive and excited atmosphere among users."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The chat is highly emotionally charged with excitement, particularly around upcoming price movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Some discussions reveal concerns about financial limitations, but many users express optimism."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong focus on price predictions and market movements in the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many users express confidence in significant price appreciation, indicating belief in future gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Participants are actively promoting and engaging in community activities without compensation, showing strong community spirit."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant, with a lot of discussion and engagement among participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers are expressing interest in purchasing Dogwifcoin, indicating growth potential."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express motivation and hope regarding the token's potential to rise."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "A community focused on promoting and increasing the value of Dogwifcoin.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/gemini",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/oliviaaweb3",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/icecream_swap",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/htx_global",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/solanasniffer",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitforcesaga",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 130,
+                    "total_message_count": 389
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:53"
+                }
+            }
+        },
+        "2024-10-19": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The frequent use of catchphrases and meme-related messages indicates a strong central meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings about the fairness of the project, with some acknowledging concerns but others expressing belief in its equity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants frequently express suspicion of outside influence, particularly from venture capitalists and insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Most participants appear intent on holding tokens, indicating a sense of optimism about future price increases."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall vibe in the chat is positive, with participants frequently using supportive and enthusiastic language."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly charged with excitement, driven by bullish sentiments and active participation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While many members seem to have a casual approach, some discussions hint at various socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The conversations heavily revolve around price predictions and fluctuations, indicating a strong focus on market actions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "There is widespread belief in the project\u2019s potential for high returns, with many expressing aspirations of substantial profits."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "There is some volunteer effort observed in social activities, but it is less dominant compared to profit-driven interactions."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The chat appears to be engaging with a good level of interaction among members, suggesting a vibrant community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "A number of newcomers are inquiring about purchasing methods, indicating interest in buying into the project."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Members express a degree of inspiration and motivation to be a part of the project and its community."
+                    }
+                },
+                "catch_phrase": "CAN YOU WIF ME HIIIIIIGHER",
+                "about": "A community focused on a memecoin and its potential growth, often expressing excitement about price movements.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ieaturfoods",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/holderscan",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/azuki_ether",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 99,
+                    "total_message_count": 187
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:36:59"
+                }
+            }
+        },
+        "2024-10-20": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The repeated phrase '/CAN_YOU_WIF_ME_HIIIIIIGHER' shows strong engagement with a central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There seems to be a belief among members that they are part of a fair community focused on shared growth."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are conversations expressing skepticism about outside influences on token price."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Many users express a clear intent to hold their investments, emphasized by phrases like 'LFG' and bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the atmosphere is positive and upbeat with lots of encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is emotionally charged, with many members expressing enthusiasm and confidence."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed indications of socioeconomic status among participants; discussions suggest a range of backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Numerous messages focus on price predictions and analysis, indicating a strong interest in market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants express belief in substantial future gains from their tokens."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants are actively contributing time and effort to promote the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat shows a vibrant and lively discussion with a good number of active participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Some new users are inquiring about purchasing the token, indicating interest."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members express feelings of hope and optimism, which contributes positively to the community mood."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "A community centered around the WIF token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/degengambleh",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/layercakesol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://twitter.com/trader1sz",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/trader1sz",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/astekz",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/jutsao",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/astekz",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 106,
+                    "total_message_count": 225
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:06"
+                }
+            }
+        },
+        "2024-10-21": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The chat is focused on promoting the token and the excitement around potential price increases, which indicates a strong cohesive meme culture."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed feelings about the project's fairness; while some feel optimistic about community involvement, others are skeptical due to the actions of perceived insiders."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are sentiments of distrust regarding potential manipulation by insiders, but no strong consensus is presented."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a split between those wanting to sell and those advocating for holding, suggesting a moderate hold sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The overall vibe is somewhat positive, but it shows signs of concern regarding price dumps and market activity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is very energetic and highly charged, with frequent expressions of excitement and encouragement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants exhibit a mix of socioeconomic backgrounds, with some posts indicating financial concerns, while others reflect confidence."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The conversation is heavily focused on price action and the desire for upward movement, indicating a strong emphasis on trading."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Several participants express ambitious expectations for substantial price gains, showing optimism for future growth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many members are actively participating in boosting the project's visibility and promoting it, showing strong volunteerism."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears engaged with some level of camaraderie, although concerns over price volatility affect overall morale."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are several inquiries from newcomers about purchasing the token, indicating interest but also a need for guidance."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "There are mentions of excitement and hope for the future of the project, contributing to a moderately inspiring atmosphere."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "A community focused on trading and promoting the 'WIF' token with high energy and enthusiasm.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/degengambleh",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/monica_eth8",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/s_slime12",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/payrollstevie",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dogeitaldash",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cointelegraph",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 135,
+                    "total_message_count": 413
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:14"
+                }
+            }
+        },
+        "2024-10-22": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussions frequently reference memes and commands related to community participation, suggesting a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There are indications of frustration with price action and skepticism about the project's fairness among members."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "Participants express concerns about possible manipulation by insiders and venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 40,
+                        "context": "While there is a mix of holding and selling sentiment, many users express a desire to hold."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The overall chat atmosphere reflects a mix of support and frustration, leading to moderate vibes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion has a high emotional charge due to mixed sentiments about the token's performance."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Several comments suggest that participants are under financial strain or skeptical about the project's profitability."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is considerable focus on current and expected price movements, showing that the price is a key topic."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 55,
+                        "context": "Some participants express belief in significant potential upside, despite current challenges."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Members show willingness to contribute to community activities, such as raids and meme creation."
+                    },
+                    "community_health": {
+                        "intensity": 50,
+                        "context": "Despite moments of negativity, the community remains active and engaged."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 35,
+                        "context": "There are a few inquiries from newcomers about buying the token, indicating moderate interest."
+                    },
+                    "inspiration": {
+                        "intensity": 40,
+                        "context": "Some participants express hope, but many are also facing frustration, reducing overall inspiration."
+                    }
+                },
+                "catch_phrase": "/CAN_YOU_WIF_ME_HIIIIIIGHER",
+                "about": "WIF and community memes related to trading and price movements.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/s_slime12",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ligmasqueeze",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitforcesaga",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jakegagain",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/normalmfer_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/hyperionwif",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 133,
+                    "total_message_count": 331
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:21"
+                }
+            }
+        },
+        "2024-10-23": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussions frequently reference the '$3 soon' meme and other catchphrases, indicating a strong central meme around the project."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are sentiments of frustration regarding price drops and mentions of manipulation, suggesting concerns about fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are mentions of dissatisfaction with the crypto market and accusations of manipulation, indicating feelings that insiders may control the situation."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "While some users are urging others to sell, there is also a strong sense of community support for holding tokens."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "There is a mix of positive and negative sentiments, but overall a sense of community and support, particularly in memes and jokes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussions reflect high emotional engagement, with excitement for price increases and frustration about current dumps."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The discussions hint at different socioeconomic statuses with mentions of selling under duress and investment transitions from stocks."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "A significant focus on price action is evident, with many messages directly discussing price targets and movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express confidence in potential price increases, indicating a belief in future profits."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Several users seem to engage in community advertising and promotion efforts, indicating volunteer participation."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "While there are signs of community enjoyment and support, there are also complaints about bots and dead chat moments."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 10,
+                        "context": "There are very few inquiries about buying the token, suggesting a lower interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "Some expressions of hope and positivity exist, but they are mixed with frustrations, resulting in an average score."
+                    }
+                },
+                "catch_phrase": "ROAD TO 3 DOLLAR WIF LFG",
+                "about": "The community is centered around the WIF token and discusses its price movements, memes, and potential for profit.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/s_slime12",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/trader_koala",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/1goodplay",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/itscaseyadams",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bluntz_capital",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/webtrendco",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 94,
+                    "total_message_count": 206
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:26"
+                }
+            }
+        },
+        "2024-10-24": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat consistently refers to the 'WIF' meme, indicating strong engagement."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are mixed feelings regarding the fairness of the project, with some frustrations over selling."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express suspicion regarding control by insiders, particularly related to selling pressure."
+                    },
+                    "hold_intent": {
+                        "intensity": 50,
+                        "context": "There is a divided sentiment; some are holding while others express selling intentions."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere has a mix of excitement and frustration, but generally positive engagement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussions are charged emotionally with a mix of enthusiasm and concern about selling."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of community members is varied, with references to affordability."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant focus on price discussions and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Participants express optimism about potential profits, especially referencing future price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Active participation in promoting the coin and sharing content indicates willingness to volunteer labor."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community shows signs of vibrancy with active discussions and exchanges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "Newcomers show interest in buying, though it's not the main focus of conversation."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Several members express hope and inspiration from the community's engagement."
+                    }
+                },
+                "catch_phrase": "WIF to the moon!",
+                "about": "Dog Wif Coin community celebrating and promoting the token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://twitter.com/dogwifcoin",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/bluntz_capital",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/roborealtormatt",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/theflowhorse",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptogodjohn",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/pits90",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 85,
+                    "total_message_count": 198
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:32"
+                }
+            }
+        },
+        "2024-10-25": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The chat contains multiple repeated phrases related to the project, indicating a strong central meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Participants express concerns about selling pressure and fairness of tokens, indicating a belief that the project may not be fair."
+                    },
+                    "VC_cabal": {
+                        "intensity": 35,
+                        "context": "There are hints of distrust towards larger investors and sellers, reflected in the frustration expressed in the chat."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Some users express a desire to hold, while others appear ready to sell, indicating mixed sentiments towards holding tokens."
+                    },
+                    "vibes": {
+                        "intensity": 55,
+                        "context": "There is a mixture of support and frustration throughout the chat, reflecting a somewhat supportive but stressful atmosphere."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The chat is charged with frustration and excitement over market movements, showing heightened emotional intensity."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "Indirect mentions of financial stress indicate a higher presence of individuals from lower socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "A significant number of messages focus on price and investment strategies, indicating a strong focus on price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "While some participants express hope for growth, there is also caution due to recent price movements."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 40,
+                        "context": "There are some individuals promoting content for the project, but the overall participation seems limited."
+                    },
+                    "community_health": {
+                        "intensity": 50,
+                        "context": "Mixed engagement levels show a community that is active but also shows signs of frustration and distress."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Some users show interest in investment, indicating new participants looking for opportunities."
+                    },
+                    "inspiration": {
+                        "intensity": 35,
+                        "context": "Expressions of hope and inspiration are present but overshadowed by frustration and price concerns."
+                    }
+                },
+                "catch_phrase": "/holders@HolderScanBot",
+                "about": "Discussions focusing on a meme token project, its price action, and community engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/martypartymusic",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/holderscan",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/bluntz_capital",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bluntz_capital",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/anonymuzdegen",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shanyicrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/free_electron0",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 100,
+                    "total_message_count": 216
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:38"
+                }
+            }
+        },
+        "2024-10-26": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "Discussions frequently reference memes and phrases associated with the token, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There are sentiments of unfairness noted in the chats, particularly during price discussions, reflecting concerns about inequities."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "Many comments express suspicion regarding the influence of insiders and venture capitalists on the token's price movements."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "While many are still hopeful about price recovery, there are also sentiments of concern, reflected in mixed signals regarding holding vs. selling."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere varies with some positivity despite recent price drops, but there are also moments of frustration and negativity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The chat contains a notable level of emotional charge, particularly in response to market movements and community sentiments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Conversations suggest a mix of backgrounds with varying financial capabilities, reflecting both wealthy and less affluent participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Much of the discussion revolves around token pricing and market actions, demonstrating a strong focus on price behavior."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "There are expressions of hope regarding potential future gains, indicating belief in significant upside potential."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Moderate levels of voluntary community support and engagement in promotional activities are noted, but not extensive."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The chat shows signs of a vibrant community with active engagement on various topics contributing to overall discussion health."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "While there are inquiries about buying, they are not dominant in the conversation, indicating limited new interest or entry."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "Mixed feelings of inspiration and optimism about the project's potential are expressed, reflecting a segment of hopeful members."
+                    }
+                },
+                "catch_phrase": "SQUEEZE THE SHORTS",
+                "about": "Discussions revolve around trading strategies and community motivations for the Wifcoin project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/beeple",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/monica_eth8",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/shanyicrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/adambitcoinp2p1",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/impenetrabilix",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 91,
+                    "total_message_count": 178
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:45"
+                }
+            }
+        },
+        "2024-10-27": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "There are multiple references to shared memes and phrases (e.g., `/SEE_WIF_LIKE_WIF`, `/CAN_YOU_WIF_ME_HIIIIIGHER`), indicating a strong central theme in the discussion."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Some participants express concerns regarding the disparity between increasing holders and stagnant prices, hinting at perceptions of unfairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are hints of suspicion towards insiders or perceived control over token price, especially with comments about holders and price movement."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Expressions of hope for future price increases and mentions of purchasing now demonstrate a strong intention to hold assets."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "Enthusiastic messages and emojis indicate a generally positive and supportive atmosphere, despite some complaints."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The chat reflects a mix of excitement and frustration which suggests a moderately high emotional charge among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants is unclear, with mixed indicators of wealth and investment attitudes."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A significant focus on price movements and holding strategies dominates the conversation, signaling this as a central theme."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Optimistic discussions about price recovery and future gains point to a strong belief in potential profit."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "While participants are sharing links and supporting each other, the extent of significant volunteer efforts remains moderate."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears lively and engaged, with active dialogues and encouragement among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Various inquiries about buying tokens suggest newcomers are curious and potentially interested."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "While there are some expressions of inspiration, the overall level of hope is mixed and not overwhelmingly high."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "A community focused on discussing the Dogwifcoin project and keeping track of holders and prices.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bluntz_capital",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/free_electron0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/degendan101",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/onchaingains",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/block_butter",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/normalmfer_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/dogwifcoin",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 107,
+                    "total_message_count": 243
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:37:52"
+                }
+            }
+        },
+        "2024-10-28": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community heavily revolves around the recurring meme '/SEE_WIF_LIKE_WIF', indicating a strong meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some messages express confidence in community ownership and fairness, while others mention concerns and skepticism regarding leadership."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are mentions of skepticism regarding outside influence with references to raids and concerns about project control."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants appear to express a desire to hold their tokens rather than sell them, indicating a bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The vibe is generally positive with a mixture of excitement and some frustration, typical in trading environments with ups and downs."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are highly charged emotionally, indicative of a trading atmosphere with strong reactions to market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants express a range of sentiments about finances, suggesting a diverse socioeconomic background."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The conversations revolve heavily around price discussions, with many expressing hopes for potential price increases."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "Participants believe there is a substantial upside potential for their holdings, although there is also evident skepticism."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Some users seem to be actively creating content and promoting the project without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears vibrant and engaged, with numerous discussions and interactions enhancing collective activity."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are mentions of newcomers asking how to buy tokens, indicating some interest but not widespread inquiries."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Messages indicate that many members feel inspired and hopeful about potential gains from their investments."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "Enthusiastic discussions around the WIF cryptocurrency, trading strategies, and community engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/free_electron0",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/thatbumpingbrat",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/s_slime12",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/bluntz_capital",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/0xblindside",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/free_electron0",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 123,
+                    "total_message_count": 477
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:38:00"
+                }
+            }
+        },
+        "2024-10-29": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on the playful and meme-heavy culture surrounding the WIF project, with repeated expressions and catchphrases contributing to a central meme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Responses suggest mixed feelings about the project's fairness, with both excitement and skepticism present."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is a significant sentiment of distrust towards possible control by venture capitalists, indicating skepticism among members."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users express a desire to hold their tokens, indicating a community of somewhat strong holders despite some sell-off discussions."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall vibe in the chat is optimistic and supportive, with many members encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is highly emotionally charged, with enthusiasm and excitement about potential price actions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The group displays a mix of socioeconomic backgrounds, although there are hints of some members experiencing economic challenges."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong focus on token price discussions, which dominate many chat messages."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants show strong belief in the possibility of high future returns, expressing optimism about price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Some users actively engage in promoting the project without any compensation, indicating community-driven support."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat community appears vibrant, with a lively exchange of ideas and supportive engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries from newcomers about buying, but they are not widespread."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Many participants express a sense of hope and inspiration from the community's enthusiasm."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_LIKE_WIF",
+                "about": "The community is centered around discussions of the WIF token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://twitter.com/dogwifcoin",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/jutsao",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/whizkerwiz",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/elonmusk",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/solanasniffer",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/degengambleh",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 104,
+                    "total_message_count": 239
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:38:07"
+                }
+            }
+        },
+        "2024-10-30": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The recurring theme of achieving a new all-time high (ATH) and specific target prices reflects a strong central meme that is energizing group discussions."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "The discussions do not explicitly mention concerns about fairness, suggesting a moderate belief in the project's fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There is no strong sentiment expressing concern about insider control, indicating a neutral to slightly positive perception about driving forces behind the token price."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Numerous repeated similar messages advocating for holding indicate a strong community sentiment leaning towards holding tokens rather than selling."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The atmosphere is generally supportive and enthusiastic, with many participants cheering and sharing positivity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is lively with mixed emotions of excitement and some anxiety shown by total investment sentiments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants is not well-clear from the messages, exhibiting a balance in possible statuses."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "Much of the conversation heavily revolves around price targets and performance predictions, highlighting a strong focus on price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Widespread expressions of the community's belief in the potential for substantial future gains suggest faith in becoming financially affluent."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are engaging actively in promoting and discussing the project, indicating substantial volunteer involvement."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The discourse appears vibrant and active, suggesting a healthy discussion environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are inquiries about how to get involved or purchase, suggesting some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Expressions of excitement about targets and community goals indicate a shared sense of inspiration and hope."
+                    }
+                },
+                "catch_phrase": "/HOLD_UNTILL_WE_HIT_A_NEW_ATH_GUYS",
+                "about": "The community appears to rally around a dog-themed cryptocurrency aiming for new all-time highs and expressing hopes for financial gains.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/pepexbt",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/theflowhorse",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/jutsao",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/_mahersayess",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/0xblindside",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/himgajria",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/_imagyn",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/nutzername0815o",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 95,
+                    "total_message_count": 187
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:38:14"
+                }
+            }
+        },
+        "2024-10-31": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussion largely revolves around the meme of supporting the token to reach new ATHs and mentions of it becoming the first dog coin to reach significant price levels, demonstrating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed sentiments, with some doubts about fairness reflected in conversations about token ownership and potential manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a noticeable suspicion regarding insiders, suggesting that participants feel venture capitalists may have undue influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A majority of users express a desire to hold onto their tokens until they reach new heights, indicating strong buy-in and commitment."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere is relatively supportive, though there are moments of anger or annoyance, especially regarding negative comments and reports."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The conversation is significantly emotionally charged, with many participants passionately expressing hopes for price increases."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "There are indicators that a portion of the participants are facing financial difficulties, as someone mentions not being financially well-off."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price predictions, with several members discussing expectations for price rises and trading patterns."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants show a strong belief in the potential for the token to rise significantly, with discussions about it potentially reaching high price points."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are engaged in community-building activities without compensation, sharing strategies and support for each other."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community is vibrant with diverse discussions, although there are occasional disruptions from negative interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries about how to purchase the token, suggesting some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 55,
+                        "context": "Participants express some feelings of hope and encouragement, particularly in response to positive price predictions."
+                    }
+                },
+                "catch_phrase": "/HOLD_UNTILL_WE_HIT_A_NEW_ATH_GUYS",
+                "about": "A community focused on the Dogwifhat cryptocurrency, sharing news, strategies, and encouragement for potential price increases.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://twitter.com/dogwifcoin",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/free_electron0",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 74,
+                    "total_message_count": 167
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:38:19"
+                }
+            }
+        },
+        "2024-11-01": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat heavily revolves around WIF memes and playful banter about future price predictions."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are mixed sentiments about fairness with some users expressing doubts about the inclusion of WIF on major exchanges."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There appears to be suspicion that external factors (like VCs) may impact the token, as seen in concerns about market behavior."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "While some users express concern about price declines, there is still a significant portion suggesting holding onto tokens long-term."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall atmosphere in the chat is primarily positive and supportive despite some discussions about price drops."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are quite emotional, with frequent expressions of hope and frustration about trading and meme culture."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "There are hints of lower socioeconomic concerns through references to selling pressure and hopes for gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A strong emphasis on pricing discussions, with frequent back and forth about expected price targets."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 55,
+                        "context": "Some users express belief in the potential for significant profits, but there are mixed feelings due to recent market performance."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There is visible engagement where users volunteer to promote WIF and participate in community tasks."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The chat reflects a moderate level of community engagement, though some users show signs of frustration."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Newcomers are expressing interest in purchasing, but not at a very high intensity."
+                    },
+                    "inspiration": {
+                        "intensity": 55,
+                        "context": "There are some messages expressing hope and enthusiasm about future potential gains, indicating a moderate level of inspiration."
+                    }
+                },
+                "catch_phrase": "/SEE_WIF_VOTE_WIF",
+                "about": "WIF cryptocurrency and its community dynamics.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mexc_official",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/taylorarmstrong",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/s_slime12",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jattwifsol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dogwifcoin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptosrm",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 75,
+                    "total_message_count": 198
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 13:38:26"
+                }
+            }
+        }
+    }
+}
