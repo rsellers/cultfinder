@@ -8,9 +8,7 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 from prompt import ChatLogAnalysisResponse, CommunityMetrics
-import nltk
-#nltk.download('punkt')  # Download the tokenizer data
-from nltk.tokenize import word_tokenize
+import tiktoken
 import json
 from datetime import datetime, timedelta, timezone
 import time
@@ -18,6 +16,7 @@ import configparser
 from collections import Counter
 import re
 from prompt import __version__
+from price import fetch_price_data
 
 
 
@@ -716,9 +715,9 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
     Parameters:
     - input_file (str): Path to the input text file containing messages.
     - output_file (str): Path to the output file where the response will be saved.
-    - llm_model (str): the openai model 
+    - llm_model (str): The OpenAI model to use.
     """
-    max_input_size=1024 * 1024
+    max_token_limit = 110000  # Set the maximum token limit
 
     print("Starting analyze_messages_with_openai function.")
     # Read the initialization prompt from prompt.ini
@@ -735,49 +734,53 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
         with open(input_file, 'r', encoding='utf-8') as f:
             message_log_text = f.read()
         print(f"Loaded '{input_file}' successfully.")
-        
     except Exception as e:
         print(f"Error reading '{input_file}': {e}")
         return
 
-    # Prepare the final prompt by inserting the message_log_text into the prompt_template
-    final_prompt = prompt_template.replace('{message_log}', message_log_text)
-    final_prompt_size = len(final_prompt.encode('utf-8'))
+    # Parse message_log_text into message_log_data
+    try:
+        message_log_data = json.loads(message_log_text)
+        # Access the 'discussions' list
+        discussions = message_log_data.get('discussions', [])
+        n_messages = len(discussions)
+        print(f"Total number of messages: {n_messages}")
+    except Exception as e:
+        print(f"Error parsing '{input_file}': {e}")
+        return
 
-    if final_prompt_size > max_input_size:
-        print(f"Final prompt exceeds the maximum allowed size of {max_input_size} bytes. Trimming the message log.")
-        # Compute the size of the prompt without the message log
-        prompt_without_log = prompt_template.replace('{message_log}', '')
-        prompt_without_log_size = len(prompt_without_log.encode('utf-8'))
-        # Calculate the maximum allowed size for the message log
-        max_log_size = max_input_size - prompt_without_log_size
-        if max_log_size <= 0:
-            print("The prompt without the message log exceeds the maximum input size.")
-            return
+    # Get the encoding for the model
+    try:
+        encoding = tiktoken.encoding_for_model(llm_model)
+    except Exception as e:
+        print(f"Error getting encoding for model '{llm_model}': {e}")
+        return
 
-        # Encode the message log to bytes
-        message_log_bytes = message_log_text.encode('utf-8')
-        # Trim the message log from the end to fit within max_log_size
-        message_log_bytes = message_log_bytes[:max_log_size]
-        # Find the last complete message (ensure we don't cut in the middle)
-        last_newline = message_log_bytes.rfind(b'\n')
-        if last_newline != -1:
-            message_log_bytes = message_log_bytes[:last_newline]
-        else:
-            # If there's no newline, we might be in the middle of a message
-            print("No newline character found; the message may be incomplete.")
-            # Optionally, you can choose to proceed or return
-            # return
-        # Decode back to string
-        message_log_text = message_log_bytes.decode('utf-8', errors='ignore')
-        # Reconstruct the final prompt with the trimmed message log
-        final_prompt = prompt_template.replace('{message_log}', message_log_text)
-        final_prompt_size = len(final_prompt.encode('utf-8'))
-        print(f"Trimmed message log to {len(message_log_bytes)} bytes. Final prompt size is {final_prompt_size} bytes.")
+    # Calculate the number of tokens in message_log_text
+    token_length = len(encoding.encode(message_log_text))
+    print(f"Total token size for message_log_text: {token_length}")
+
+    # Check if trimming is needed
+    if token_length > max_token_limit:
+        # Calculate the proportion to keep
+        proportion_to_keep = max_token_limit / token_length
+        n_messages_to_keep = int(n_messages * proportion_to_keep)
+        print(f"Token length exceeds {max_token_limit}. Trimming messages to first {n_messages_to_keep} messages.")
+
+        # Trim 'discussions' list
+        discussions = discussions[:n_messages_to_keep]
+        message_log_data['discussions'] = discussions
+
+        # Reconstruct message_log_text
+        message_log_text = json.dumps(message_log_data, ensure_ascii=False)
+
+        # Recalculate token_length
+        token_length = len(encoding.encode(message_log_text))
+        print(f"New total token size after trimming: {token_length}")
     else:
-        print("Final prompt is within the size limit.")
+        print("No trimming needed.")
 
-    # Call the OpenAI API
+    # Proceed to call the OpenAI API
     try:
         print("Sending request to OpenAI API...")
         response = client.beta.chat.completions.parse(
@@ -785,7 +788,7 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
             messages=[
                 {'role': 'system', 'content': prompt_template},
                 {'role': 'user', 'content': message_log_text}],
-            response_format=ChatLogAnalysisResponse
+                response_format=ChatLogAnalysisResponse
         )
         print("Received response from OpenAI API.")
     except Exception as e: 
@@ -809,13 +812,7 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
 
     # Perform some additional processing with non-LLM analysis
     try:
-        
-        # Convert the raw text into a structured dictionary
-        message_log_data = json.loads(message_log_text)
-        
-        # Access the 'discussions' list
-        discussions = message_log_data.get('discussions', [])
-
+        # discussions variable is already available from earlier
         additional_metrics = extract_metadata_socials_and_user_stats(discussions)
         
         # Convert the Pydantic model to a dictionary for easier manipulation
@@ -833,8 +830,7 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
     # Save the structured response to a JSON file
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
-            #f.write(metrics.model_dump_json(indent=4)) #if usig pydantic object
-            json.dump(metrics_dict, f, indent=4) #if using standard dict
+            json.dump(metrics_dict, f, indent=4, ensure_ascii=False)
         print(f"OpenAI response saved to '{output_file}'.")
     except Exception as e:
         print(f"Error writing to '{output_file}': {e}")
@@ -843,9 +839,7 @@ def analyze_messages_with_openai(input_file, output_file, llm_model):
     print("\n--- OpenAI GPT-4 Response ---\n")
     
     try:
-        #print(json.dumps(json.loads(ai_response), indent=4)) # For only dumping output pydantic objects
-        print(json.dumps(metrics_dict, indent=4))
-
+        print(json.dumps(metrics_dict, indent=4, ensure_ascii=False))
     except json.JSONDecodeError:
         # If the response is not valid JSON, print as raw text
         print(ai_response)
@@ -909,12 +903,14 @@ def process_chat_logs(project_name, date_min, date_max,model=openai_version):
         # Move to the next date
         current_date += timedelta(days=1)
 
-def rollup_project_data(project_name):
+def rollup_project_data(project_name, ll_name, prompt_version):
     """
     Roll up data from JSON files in date-based folders into a central rollup JSON.
 
     Parameters:
     - project_name (str): The name of the project.
+    - llm_name (str): Name of model (ie, gpt-4o-mini) 
+    - prompt_version (str): prompt version (ie, 1.0.5)
 
     The function creates a rollup JSON file named '<project_name>_rollup.json' in the root project folder.
     """
@@ -941,7 +937,7 @@ def rollup_project_data(project_name):
     for date_dir in sorted(date_dirs):
         date_path = os.path.join(project_dir, date_dir)
         # Construct the expected JSON filename
-        json_filename = f"{project_name}_filtered_{date_dir}.json"
+        json_filename = f"{project_name}_filtered_{date_dir}_llm={ll_name}_prompt={prompt_version}.json"
         json_filepath = os.path.join(date_path, json_filename)
 
         if os.path.exists(json_filepath):
@@ -951,19 +947,11 @@ def rollup_project_data(project_name):
                 print(f"Loaded data from '{json_filepath}'.")
 
                 # Extract required data
-                metrics = data.get("metrics", {})
-                message_metrics = metrics.get("message", {})
-                emotional_metrics = metrics.get("emotional_metrics", {})
-
-                # Get 'message_count_ex_bot' and 'user_count_ex_bot'
-                message_count_ex_bot = message_metrics.get("message_count_ex_bot", 0)
-                user_count_ex_bot = message_metrics.get("user_count_ex_bot", 0)
+                emotional_metrics = data.get("metrics", {})
 
                 # Add data to rollup_data
                 rollup_data["date_data"][date_dir] = {
-                    "message_count_ex_bot": message_count_ex_bot,
-                    "user_count_ex_bot": user_count_ex_bot,
-                    "emotional_metrics": emotional_metrics
+                    "metrics": emotional_metrics
                 }
 
             except Exception as e:
@@ -972,7 +960,7 @@ def rollup_project_data(project_name):
             print(f"JSON file '{json_filepath}' does not exist.")
 
     # Save the rollup_data to a JSON file in the root project folder
-    output_filepath = os.path.join(project_dir, f"{project_name}_rollup.json")
+    output_filepath = os.path.join(project_dir, f"{project_name}_llm={ll_name}_prompt={prompt_version}_rollup.json")
     try:
         with open(output_filepath, 'w', encoding='utf-8') as outfile:
             json.dump(rollup_data, outfile, indent=4)
@@ -1181,21 +1169,42 @@ if __name__ == '__main__':
     ############################
     # Main tg loop
     ############################
-    group_name = 'lfgo'
+    
     # asyncio.run(check_telegram_activity(group_name))    
     # asyncio.run(check_telegram_activity_loop())
     # analyze_coins_ini()
-    date_start = datetime(2024, 7, 1, tzinfo=timezone.utc)
-    date_end = datetime(2024, 9, 1, tzinfo=timezone.utc)
+    date_start = datetime(2024, 10, 15, tzinfo=timezone.utc)
+    date_end = datetime(2024, 11, 1, tzinfo=timezone.utc)
     # max_filtered_filesize = 1024 * 1024  # 150 KB
 
-    # # Run the fetching function within the event loop
-    asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
-        group=group_name,
-        date_start=date_start,
-        date_end=date_end
-    ))
+    #dir_list = ['habibi-sol','wawa-cat','whiskey','spx6900','retardio','analos','shoggoth','maga-again','asteroid-shiba','dinolfg','k9-finance-dao','pollen','lookbro','TEST','pepe-trump','fairfun','poupe','hoge-finance','jesus-coin','samoyedcoin','goat','osaka-protocol','misha','inferno-2','sigma','catwifhat-2','cafe','hund','pundu','zyn','4trump','michi','orc','lfgo','max2049','lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin','brainrot']
+    # dir_list = ['pepe-trump','fairfun','poupe','hoge-finance','jesus-coin','samoyedcoin','goat','osaka-protocol','misha','inferno-2','sigma','catwifhat-2','cafe','hund','pundu','zyn','4trump','michi','orc','lfgo','max2049','lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin','brainrot']
+    dir_list_batch1 = ['habibi-sol','wawa-cat','whiskey','spx6900','retardio']
+    dir_list_batch2 = ['analos','shoggoth','maga-again','asteroid-shiba','dinolfg']
+    dir_list_batch3 = ['k9-finance-dao','lookbro','pepe-trump','fairfun']
+    dir_list_batch4 = ['poupe','hoge-finance','jesus-coin','samoyedcoin','goat']
+    dir_list_batch5 = ['osaka-protocol','misha','inferno-2','sigma','catwifhat-2']
+    dir_list_batch6 = ['cafe','hund','pundu','4trump','michi','orc','lfgo']
+    dir_list_batch7 = ['lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin']
 
+    for group_name in dir_list_batch1:
+
+        # Run the fetching function within the event loop
+        # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+        #     group=group_name,
+        #     date_start=date_start,
+        #     date_end=date_end
+        # ))
+        process_chat_logs(group_name, date_min='2024-1-1', date_max='2024-11-1', model=openai_version)
+        rollup_project_data(group_name, 'gpt-4o-mini', __version__)
+        fetch_price_data(group_name)
+
+    # group_name = 'samoyedcoin'
+    # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
+    #     group=group_name,
+    #     date_start=date_start,
+    #     date_end=date_end
+    # ))
     # print("Finished fetching Telegram messages.")
   
 
@@ -1205,11 +1214,12 @@ if __name__ == '__main__':
     #Now run the OpenAI analysi
 
     # batch process
-    # process_chat_logs('inferno-2', date_min='2024-10-20', date_max='2024-10-26', model=openai_version)
+    #process_chat_logs('brainrot', date_min='2024-1-1', date_max='2024-11-1', model=openai_version)
 
     ############################
     # Roll it up n smoke it
     ############################
     
     #combine it all 
-    #rollup_project_data('zyn')
+    #rollup_project_data('brainrot', 'gpt-4o-mini', '1.0.5')
+    

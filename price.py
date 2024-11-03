@@ -68,39 +68,61 @@ def fetch_price_data(project_name):
         return
 
     # Determine the date range
-    start_date = min(date_dirs)
-    end_date = max(date_dirs)
-    print(f"Fetching price data from {start_date} to {end_date} for '{api_id}'.")
+    start_date_str = min(date_dirs)
+    end_date_str = max(date_dirs)
+    print(f"Fetching price data from {start_date_str} to {end_date_str} for '{api_id}'.")
 
-    # Convert dates to UNIX timestamps (in seconds)
-    start_timestamp = int(datetime.strptime(start_date, '%Y-%m-%d').timestamp())
-    end_timestamp = int((datetime.strptime(end_date, '%Y-%m-%d') + timedelta(days=1)).timestamp())  # Include the end date
+    # Convert date strings to datetime objects
+    start_date = datetime.strptime(start_date_str, '%Y-%m-%d')
+    end_date = datetime.strptime(end_date_str, '%Y-%m-%d') + timedelta(days=1)  # Include the end date
 
-    # Fetch price data from CoinGecko
-    url = f"https://api.coingecko.com/api/v3/coins/{api_id}/market_chart/range"
-    params = {
-        'vs_currency': 'usd',
-        'from': start_timestamp,
-        'to': end_timestamp,
-        'x_cg_api_key': COINGECKO_API_KEY
-    }
+    # Initialize empty list to collect data
+    all_prices = []
 
-    try:
-        response = requests.get(url, params=params)
-        data = response.json()
-    except Exception as e:
-        print(f"Error fetching data from CoinGecko: {e}")
-        return
+    # Split the date range into 60-day chunks
+    current_start_date = start_date
+    while current_start_date < end_date:
+        current_end_date = min(current_start_date + timedelta(days=60), end_date)
 
-    if 'prices' not in data:
-        print(f"Error: 'prices' not found in the response for '{api_id}'.")
-        print(f"Response: {data}")
+        # Convert dates to UNIX timestamps (in seconds)
+        start_timestamp = int(current_start_date.timestamp())
+        end_timestamp = int(current_end_date.timestamp())
+
+        print(f"Fetching price data from {current_start_date.strftime('%Y-%m-%d')} to {current_end_date.strftime('%Y-%m-%d')}")
+
+        # Fetch price data from CoinGecko for the current chunk
+        url = f"https://api.coingecko.com/api/v3/coins/{api_id}/market_chart/range"
+        params = {
+            'vs_currency': 'usd',
+            'from': start_timestamp,
+            'to': end_timestamp,
+            'x_cg_api_key': COINGECKO_API_KEY
+        }
+
+        try:
+            response = requests.get(url, params=params)
+            data = response.json()
+            if 'prices' in data:
+                all_prices.extend(data['prices'])
+            else:
+                print(f"Error: 'prices' not found in the response for '{api_id}' for chunk starting {current_start_date.strftime('%Y-%m-%d')}")
+                print(f"Response: {data}")
+        except Exception as e:
+            print(f"Error fetching data from CoinGecko for chunk starting {current_start_date.strftime('%Y-%m-%d')}: {e}")
+            return
+
+        # Move to the next chunk
+        current_start_date = current_end_date
+
+    if not all_prices:
+        print(f"No price data fetched for '{api_id}'.")
         return
 
     # Process the data to compute daily OHLC
     price_data = {}
-    for timestamp, price in data['prices']:
+    for timestamp, price in all_prices:
         date = datetime.utcfromtimestamp(timestamp / 1000).strftime('%Y-%m-%d')
+        price = float(price)
         if date not in price_data:
             price_data[date] = {
                 'open': price,
@@ -108,12 +130,10 @@ def fetch_price_data(project_name):
                 'low': price,
                 'close': price
             }
-            last_price = price  # Keep track of the last price for close
         else:
             price_data[date]['high'] = max(price_data[date]['high'], price)
             price_data[date]['low'] = min(price_data[date]['low'], price)
             price_data[date]['close'] = price  # Update close price to the latest price in the day
-            last_price = price
 
     # Save the OHLC data to JSON file
     output_filepath = os.path.join(project_dir, f"{project_name}_price.json")
@@ -340,7 +360,8 @@ def update_coins_ini(project_data_full, social_scrape, ini_file='coins.ini'):
 
 
 if __name__ == '__main__':
-    
+    fetch_price_data('brainrot')
+
     # memelist_pg3 = [
     # "Beercoin", "Balls of Fate",  "Based Chad", "Hege", 
     # "HeeeHeee", "Zack Morris", "Vita Inu", "PIKA to PIKO", "Bamboo on Base", 
@@ -353,154 +374,154 @@ if __name__ == '__main__':
     # "BOB", "Shina Inu", "SEIYAN", "Roaring Kitty", "Invest Zone", 
     # "Cheeseball", "TAO INU", "Kimbo", "Popo The Frog", "Crash On Base", 
     # "Wrapped DOG", "MILKBAG", "Kamala Horris", "Pozo Coin", "monkeyhaircut", 
-    memelist_pg3 =  [
-    "AXOL", "LFGO", "Goatseus Maximus", "r/snoofi", "DRIP", 
-    "Dagknight Dog", "Solchat", "Fefe", "Draggy CTO", "AndyBlast", 
-    "aaa cat", "GUMMY", "Ton Cat", "Bog", "MACHI", 
-    "1GUY", "Catcoin", "AI INU", "Bitcoin on Base", "Bad Idea AI", 
-    "Black Dragon", "Optimus AI", "Hemule", "Kekistan", "GOOFY", 
-    "Manifest", "Sharbi", "Pundu", "Dejitaru Tsuka", "Valhalla Index", 
-    "INFERNO", "Elon", "Gondola", "catownkimono", "Dark MAGA"
-    ]   
+#     memelist_pg3 =  [
+#     "AXOL", "LFGO", "Goatseus Maximus", "r/snoofi", "DRIP", 
+#     "Dagknight Dog", "Solchat", "Fefe", "Draggy CTO", "AndyBlast", 
+#     "aaa cat", "GUMMY", "Ton Cat", "Bog", "MACHI", 
+#     "1GUY", "Catcoin", "AI INU", "Bitcoin on Base", "Bad Idea AI", 
+#     "Black Dragon", "Optimus AI", "Hemule", "Kekistan", "GOOFY", 
+#     "Manifest", "Sharbi", "Pundu", "Dejitaru Tsuka", "Valhalla Index", 
+#     "INFERNO", "Elon", "Gondola", "catownkimono", "Dark MAGA"
+#     ]   
 
-    memelist_pg1 = [
-    "Dogecoin", "Toncoin", "Shiba Inu", "Pepe", "dogwifhat", "Bonk", 
-    "Popcat", "FLOKI", "cat in a dogs world", "Brett", "SPX6900", 
-    "Goatseus Maximus", "Mog Coin", "Notcoin", "Neiro", "Turbo", 
-    "Book of Meme", "Gigachad", "DOG-GO-TO-THE-MOON", "Baby Doge Coin", 
-    "Memecoin", "ConstitutionDAO", "Dogs", "Non-Playable Coin", 
-    "Apu Apustaja", "Binance-Peg Dogecoin", "Osaka Protocol", "Moo Deng", 
-    "Simon's Cat", "CorgiAI", "HarryPotterObamaSonic10Inu", "PONKE", 
-    "PepeCoin", "Fwog", "Sundog", "MAGA", "michi", "Degen (Base)", 
-    "MUMU THE BULL", "Bitcoin Wizards", "ANDY ETH", "RETARDIO", 
-    "PUPS-WORLD-PEACE", "Myro", "Bone ShibaSwap", "Slerf", "WUFFI", 
-    "Hoppy", "Purr", "PUPS (Ordinals)", "sudeng", "Tron Bull", "Coq Inu", 
-    "BILLION-DOLLAR-CAT", "Wojak", "Daddy Tate", "Wen", "Bellscoin", 
-    "Snek", "Dogelon Mars", "MAGA Hat", "The Doge NFT", "Milady Meme Coin", 
-    "MANEKI", "Cheems Token", "ArbDoge AI", "Neiro on ETH", "Puff The Dragon", 
-    "Nacho the Kat", "WHY", "BOBO Coin", "Mother Iggy", "PepeFork", 
-    "LandWolf", "Smoking Chicken Fish", "PeiPei", "Skibidi Toilet", 
-    "Dolan Duck", "MEOW", "Fartcoin", "KOALA AI", "GME (Ethereum)", 
-    "COCO COIN", "Toshi", "LOCK IN", "Sigma", "MOO DENG", "Monkey Pox", 
-    "Phil", "mini", "SelfieDogCoin", "Department Of Government Efficiency", 
-    "Rich Quack", "Hatom", "Kendu Inu", "ZynCoin", "Billy", 
-    "Harambe on Solana", "Woman Yelling At Cat", "crow with knife"
-    ]
+#     memelist_pg1 = [
+#     "Dogecoin", "Toncoin", "Shiba Inu", "Pepe", "dogwifhat", "Bonk", 
+#     "Popcat", "FLOKI", "cat in a dogs world", "Brett", "SPX6900", 
+#     "Goatseus Maximus", "Mog Coin", "Notcoin", "Neiro", "Turbo", 
+#     "Book of Meme", "Gigachad", "DOG-GO-TO-THE-MOON", "Baby Doge Coin", 
+#     "Memecoin", "ConstitutionDAO", "Dogs", "Non-Playable Coin", 
+#     "Apu Apustaja", "Binance-Peg Dogecoin", "Osaka Protocol", "Moo Deng", 
+#     "Simon's Cat", "CorgiAI", "HarryPotterObamaSonic10Inu", "PONKE", 
+#     "PepeCoin", "Fwog", "Sundog", "MAGA", "michi", "Degen (Base)", 
+#     "MUMU THE BULL", "Bitcoin Wizards", "ANDY ETH", "RETARDIO", 
+#     "PUPS-WORLD-PEACE", "Myro", "Bone ShibaSwap", "Slerf", "WUFFI", 
+#     "Hoppy", "Purr", "PUPS (Ordinals)", "sudeng", "Tron Bull", "Coq Inu", 
+#     "BILLION-DOLLAR-CAT", "Wojak", "Daddy Tate", "Wen", "Bellscoin", 
+#     "Snek", "Dogelon Mars", "MAGA Hat", "The Doge NFT", "Milady Meme Coin", 
+#     "MANEKI", "Cheems Token", "ArbDoge AI", "Neiro on ETH", "Puff The Dragon", 
+#     "Nacho the Kat", "WHY", "BOBO Coin", "Mother Iggy", "PepeFork", 
+#     "LandWolf", "Smoking Chicken Fish", "PeiPei", "Skibidi Toilet", 
+#     "Dolan Duck", "MEOW", "Fartcoin", "KOALA AI", "GME (Ethereum)", 
+#     "COCO COIN", "Toshi", "LOCK IN", "Sigma", "MOO DENG", "Monkey Pox", 
+#     "Phil", "mini", "SelfieDogCoin", "Department Of Government Efficiency", 
+#     "Rich Quack", "Hatom", "Kendu Inu", "ZynCoin", "Billy", 
+#     "Harambe on Solana", "Woman Yelling At Cat", "crow with knife"
+#     ]
 
-    memelist_pg2 = [
-    # "higher", "Doland Tremp", "Numogram", "Welshcorgicoin", "Keyboard Cat", "Samoyedcoin", "Giko Cat", 
-    # "Foxy", "Grok", "Kishu Inu", "Joe Coin", "Fud the Pug", "Doge Killer", "dogi", "GME", "Shoggoth", 
-    # "Feed Every Gorilla", "AhaToken", "FOREST", "Jesus Coin", "Poo Chi", "Act I The AI Prophecy", 
-    # "Brainlet", "GOGGLES", "JHH", "FU", "Resistance Dog", "mfercoin", "BOB Token", "GameSwift", 
-    # "NPC On Solana", "AMATERASU OMIKAMI", "Based Pepe", "IlluminatiCoin", "SAD HAMSTER", "MEOW", 
-    # "Kasper", "BLUB", "LandWolf", "Hathor", "SquidGrow", "Kaspy", "Pikaboss", "Gizmo Imaginary Kitten", 
-    # "Chudjak", "Habibi (Sol)", "Mister Miggles", "RNT", "doginme", "Wrapped AyeAyeCoin", "BONGO CAT", 
-    # "Ben the Dog", "Puffy", "lmeow", "Effective Accelerationism", "Kizuna", "BitBonk", "The Balkan Dwarf", 
-    # "BabyBonk", "Silly Dragon", "FEED EVERY GORILLA", "Mistery", "Act I", "Jesus", "Forest", "Troller", 
-    # ]
+#     memelist_pg2 = [
+#     # "higher", "Doland Tremp", "Numogram", "Welshcorgicoin", "Keyboard Cat", "Samoyedcoin", "Giko Cat", 
+#     # "Foxy", "Grok", "Kishu Inu", "Joe Coin", "Fud the Pug", "Doge Killer", "dogi", "GME", "Shoggoth", 
+#     # "Feed Every Gorilla", "AhaToken", "FOREST", "Jesus Coin", "Poo Chi", "Act I The AI Prophecy", 
+#     # "Brainlet", "GOGGLES", "JHH", "FU", "Resistance Dog", "mfercoin", "BOB Token", "GameSwift", 
+#     # "NPC On Solana", "AMATERASU OMIKAMI", "Based Pepe", "IlluminatiCoin", "SAD HAMSTER", "MEOW", 
+#     # "Kasper", "BLUB", "LandWolf", "Hathor", "SquidGrow", "Kaspy", "Pikaboss", "Gizmo Imaginary Kitten", 
+#     # "Chudjak", "Habibi (Sol)", "Mister Miggles", "RNT", "doginme", "Wrapped AyeAyeCoin", "BONGO CAT", 
+#     # "Ben the Dog", "Puffy", "lmeow", "Effective Accelerationism", "Kizuna", "BitBonk", "The Balkan Dwarf", 
+#     # "BabyBonk", "Silly Dragon", "FEED EVERY GORILLA", "Mistery", "Act I", "Jesus", "Forest", "Troller", 
+#     # ]
 
-    # memelist_pg4 = [
-    "sunwukong", "venko", "catownkimono", "tao inu", "milkbag", "lumos", "r/snoofi",
-    "banana tape wall", "kumala herris", "boomer", "men", "maga again", "wall street memes",
-    "solnic", "smilek", "mellow man", "bingus the cat", "vikita", "guacamole", "puss",
-    "nomnom", "let him cook", "hana", "fofar", "clapcat", "avax has no chill", "hoge finance",
-    "meta monopoly", "catalorian", "4trump", "neiro", "jeo boden", "poupe", "pepoclown",
-    "prophet of ethereum", "dog emoji on solana", "nailong", "meme coin millionaire",
-    "look bro", "dogebonk", "floppa cat", "pesto the baby king penguin", "moonbag", "suncat",
-    "honk", "analos", "uni", "riko", "any inu", "pepecoin network", "tori the cat", "wownero",
-    "banano", "shibadoge", "a trippy ape", "curtis", "uranus", "ledog", "watcoin", "gondola",
-    "hawk", "loopy", "zeek coin", "rock", "kittekoin", "koma inu", "terminus", "doggo", 
-    "ronnie", "iiii lovvv youuuu", "morud", "k9 finance dao", "floos", "alpha", "wassie", 
-    "mars", "hund", "muncat", "baby dragonx", "doggo inu", "freedom", "popo", "snailbrook", 
-    "kitten wif hat", "neiro", "pepe trump", "iq50", "marvin inu", "cafe", "moth", "maga vp", 
-    "cumrocket", "bananacat", "goatseus maximus", "weirdo", "coffee", "cheese", 
-    "half orange drinking lemonade", "wap", "eagle of truth",
-    # ]
+#     # memelist_pg4 = [
+#     "sunwukong", "venko", "catownkimono", "tao inu", "milkbag", "lumos", "r/snoofi",
+#     "banana tape wall", "kumala herris", "boomer", "men", "maga again", "wall street memes",
+#     "solnic", "smilek", "mellow man", "bingus the cat", "vikita", "guacamole", "puss",
+#     "nomnom", "let him cook", "hana", "fofar", "clapcat", "avax has no chill", "hoge finance",
+#     "meta monopoly", "catalorian", "4trump", "neiro", "jeo boden", "poupe", "pepoclown",
+#     "prophet of ethereum", "dog emoji on solana", "nailong", "meme coin millionaire",
+#     "look bro", "dogebonk", "floppa cat", "pesto the baby king penguin", "moonbag", "suncat",
+#     "honk", "analos", "uni", "riko", "any inu", "pepecoin network", "tori the cat", "wownero",
+#     "banano", "shibadoge", "a trippy ape", "curtis", "uranus", "ledog", "watcoin", "gondola",
+#     "hawk", "loopy", "zeek coin", "rock", "kittekoin", "koma inu", "terminus", "doggo", 
+#     "ronnie", "iiii lovvv youuuu", "morud", "k9 finance dao", "floos", "alpha", "wassie", 
+#     "mars", "hund", "muncat", "baby dragonx", "doggo inu", "freedom", "popo", "snailbrook", 
+#     "kitten wif hat", "neiro", "pepe trump", "iq50", "marvin inu", "cafe", "moth", "maga vp", 
+#     "cumrocket", "bananacat", "goatseus maximus", "weirdo", "coffee", "cheese", 
+#     "half orange drinking lemonade", "wap", "eagle of truth",
+#     # ]
 
-    # memelist_pg5 = [
-    "Qstar", "Cats N Cars", "CONDO", "Vibing Cat", "WAP", "el gato", "BIRDSPING", "MILLI",
-    "Bro the cat", "TON FISH", "Andyman", "DOGE on Solana", "ETHEREUM IS GOOD", 
-    "Pajamas Cat", "FECES", "Zazu", "doginthpool", "WATER Coin", "Zoomer", "supercycle(real)", 
-    "Baby Grok", "Sharki", "I love puppies", "Cat-Dog", "Nothing", "BeeBase", "Doug the Duck", 
-    "Shiba Predator", "Blinks.gg", "Pochita", "Stash Inu", "Groyper", "catwifbag", "LOL", 
-    "Biaoqing", "Izzy", "OmniCat", "MIMANY", "HAMI", "America Pac", "Zoomer", "Suiman", 
-    "neversol", "Spike", "Shibwifhatcoin", "Pepe on SOL", "Yawn's World", "Twurtle the turtle", 
-    "Baby Neiro Token", "Dollar", "INU", "Kiba Inu", "Neirei", "Povel Durev", "WAWA CAT", 
-    "ElonRWA", "Ski Mask Dog", "LION", "Ping Dog", "CATEX", "Cyber Dog", "Zygo The Frog", 
-    "TRON BEER", "Husky Avax", "Crypto Twitter", "Kabosu", "PINO", "Hachiko Sol", "DinoLFG", 
-    "pepe in a memes world", "dark maga", "McPepe's", "Twiskers", "MEOW", "Believe In Something", 
-    "MoonScape", "Matt Furie", "Cheems",
-    # ]
+#     # memelist_pg5 = [
+#     "Qstar", "Cats N Cars", "CONDO", "Vibing Cat", "WAP", "el gato", "BIRDSPING", "MILLI",
+#     "Bro the cat", "TON FISH", "Andyman", "DOGE on Solana", "ETHEREUM IS GOOD", 
+#     "Pajamas Cat", "FECES", "Zazu", "doginthpool", "WATER Coin", "Zoomer", "supercycle(real)", 
+#     "Baby Grok", "Sharki", "I love puppies", "Cat-Dog", "Nothing", "BeeBase", "Doug the Duck", 
+#     "Shiba Predator", "Blinks.gg", "Pochita", "Stash Inu", "Groyper", "catwifbag", "LOL", 
+#     "Biaoqing", "Izzy", "OmniCat", "MIMANY", "HAMI", "America Pac", "Zoomer", "Suiman", 
+#     "neversol", "Spike", "Shibwifhatcoin", "Pepe on SOL", "Yawn's World", "Twurtle the turtle", 
+#     "Baby Neiro Token", "Dollar", "INU", "Kiba Inu", "Neirei", "Povel Durev", "WAWA CAT", 
+#     "ElonRWA", "Ski Mask Dog", "LION", "Ping Dog", "CATEX", "Cyber Dog", "Zygo The Frog", 
+#     "TRON BEER", "Husky Avax", "Crypto Twitter", "Kabosu", "PINO", "Hachiko Sol", "DinoLFG", 
+#     "pepe in a memes world", "dark maga", "McPepe's", "Twiskers", "MEOW", "Believe In Something", 
+#     "MoonScape", "Matt Furie", "Cheems",
+#     # ]
 
-    # memelist_pg6 = [
-    "Mao", "first reply", "Groggo By Matt Furie", "MUTATIO", "TRONKEY", "Cat Duck", 
-    "Sacabam", "Landwolf", "BitCat", "GUA", "PEPE 0x69 ON BASE", "Bonsai Token", 
-    "Sanin", "Jason Derulo", "DCA420 Meme Index", "WoofWork.io", "Frogs", 
-    "SoBULL OLD", "Pochita on Ethereum", "Tadpole", "Sydney", "BOPPY", 
-    "Hokkaidu Inu", "Avocato", "Bunnie", "MindCoin", "CSI888", "Suiba Inu", 
-    "Kaga No Fuuka Go Sapporo Kagasou", "WHISKEY", "POINTS", "PIGU", "Keyboard Cat", 
-    "nofap", "daCat", "PSYOP", "Chitan", "Liquor", "NumberGoUpTech", "Poncho", 
-    "MISHA", "CHONK", "Luna Inu", "HatchyPocket", "Soyjak", "DT Inu", 
-    "CZ on Hyperliquid", "ArbiDoge", "Eggdog", "Nobiko Coin", "Pop Frog", 
-    "Nasdaq420", "BABA", "What’s Updog?", "ITO", "Colon", "Kuma Inu", 
-    "Remilia", "All Your Base", "Gaga Pepe", "The Resistance Cat", "Flat Earth Coin", 
-    "BABYTRUMP", "WOOF", "Crodie", "Chad Coin",
-    # ]
+#     # memelist_pg6 = [
+#     "Mao", "first reply", "Groggo By Matt Furie", "MUTATIO", "TRONKEY", "Cat Duck", 
+#     "Sacabam", "Landwolf", "BitCat", "GUA", "PEPE 0x69 ON BASE", "Bonsai Token", 
+#     "Sanin", "Jason Derulo", "DCA420 Meme Index", "WoofWork.io", "Frogs", 
+#     "SoBULL OLD", "Pochita on Ethereum", "Tadpole", "Sydney", "BOPPY", 
+#     "Hokkaidu Inu", "Avocato", "Bunnie", "MindCoin", "CSI888", "Suiba Inu", 
+#     "Kaga No Fuuka Go Sapporo Kagasou", "WHISKEY", "POINTS", "PIGU", "Keyboard Cat", 
+#     "nofap", "daCat", "PSYOP", "Chitan", "Liquor", "NumberGoUpTech", "Poncho", 
+#     "MISHA", "CHONK", "Luna Inu", "HatchyPocket", "Soyjak", "DT Inu", 
+#     "CZ on Hyperliquid", "ArbiDoge", "Eggdog", "Nobiko Coin", "Pop Frog", 
+#     "Nasdaq420", "BABA", "What’s Updog?", "ITO", "Colon", "Kuma Inu", 
+#     "Remilia", "All Your Base", "Gaga Pepe", "The Resistance Cat", "Flat Earth Coin", 
+#     "BABYTRUMP", "WOOF", "Crodie", "Chad Coin",
+#     # ]
 
-    # memelist_pg7 = [
-    "Anime", "Nonja", "DOTZ", "Fuku-Kun", "KING", "Resistance Girl", "MyanCat Coin", 
-    "Kitty Inu", "Cramer Coin", "TrumpChain", "Asteroid Shiba", "Crying Cat", 
-    "Squid Game", "CatWifHat", "Kakaxa", "Anime Kitty", "God Token", 
-    "Bart Coin", "Banana Split", "Sleepy Doge", "Xzibit Inu", "WILD SHIBA", 
-    "Japan Shiba", "Best Cat", "GEN Z", "Fluffy Inu", "Catorade", "Slappy Cat", 
-    "Pixel Pepe", "PawCity", "SONIC DEEZ", "Hong Kong Duck", "Vexx Inu", 
-    "Woof Doge", "Luna Doge", "WAGMI Token", "NekoMeme", "Tsuki", "Axol", 
-    "Homer Simpson Inu", "Octo Inu", "2cool4school", "Chad Cat", "Bobo Cat", 
-    "Fat Cat", "Cool Cat", "Melon Cat", "Thanos Dog", "Green Goblin Inu", 
-    "Gold Doge", "Karate Cat", "Jedi Cat", "Kong Dog", "Ultra Doge", "Skull Cat", 
-    "Happy Dog", "Drip Cat", "Alien Dog", "The Cool Dog", "Lazy Cat", 
-    "Big Chungus", "Zoomer Dog", "Base Dog", "Box Dog", "Drunk Dog", 
-    "Comfy Cat", "Sweat Dog", "Croissant Dog", "Donkey Kong Dog", "Chihuahua Coin", 
-    "Klepto Cat", "Bagel Dog", "Base Doge", "Hero Cat", "Kid Dog", 
-    "Retro Cat", "Salty Dog", "Hunter Dog", "Bro Cat", "Loyal Doge", 
-    "Space Dog", "Super Doge", "Wacky Dog", "Snazzy Cat", "Flash Doge", 
-    "Toasty Cat", "Epic Cat", "Rebel Dog", "Quantum Cat", "Glitter Doge", 
-    "Heist Cat", "Noodle Cat", "Doge Ranger", "Boomer Dog", "Wild Dog", 
-    "Crazy Dog", "Sunny Dog", "Noble Dog", "Legend Dog", "Rogue Doge", 
-    "Brave Dog", "Hyper Doge"
-]
+#     # memelist_pg7 = [
+#     "Anime", "Nonja", "DOTZ", "Fuku-Kun", "KING", "Resistance Girl", "MyanCat Coin", 
+#     "Kitty Inu", "Cramer Coin", "TrumpChain", "Asteroid Shiba", "Crying Cat", 
+#     "Squid Game", "CatWifHat", "Kakaxa", "Anime Kitty", "God Token", 
+#     "Bart Coin", "Banana Split", "Sleepy Doge", "Xzibit Inu", "WILD SHIBA", 
+#     "Japan Shiba", "Best Cat", "GEN Z", "Fluffy Inu", "Catorade", "Slappy Cat", 
+#     "Pixel Pepe", "PawCity", "SONIC DEEZ", "Hong Kong Duck", "Vexx Inu", 
+#     "Woof Doge", "Luna Doge", "WAGMI Token", "NekoMeme", "Tsuki", "Axol", 
+#     "Homer Simpson Inu", "Octo Inu", "2cool4school", "Chad Cat", "Bobo Cat", 
+#     "Fat Cat", "Cool Cat", "Melon Cat", "Thanos Dog", "Green Goblin Inu", 
+#     "Gold Doge", "Karate Cat", "Jedi Cat", "Kong Dog", "Ultra Doge", "Skull Cat", 
+#     "Happy Dog", "Drip Cat", "Alien Dog", "The Cool Dog", "Lazy Cat", 
+#     "Big Chungus", "Zoomer Dog", "Base Dog", "Box Dog", "Drunk Dog", 
+#     "Comfy Cat", "Sweat Dog", "Croissant Dog", "Donkey Kong Dog", "Chihuahua Coin", 
+#     "Klepto Cat", "Bagel Dog", "Base Doge", "Hero Cat", "Kid Dog", 
+#     "Retro Cat", "Salty Dog", "Hunter Dog", "Bro Cat", "Loyal Doge", 
+#     "Space Dog", "Super Doge", "Wacky Dog", "Snazzy Cat", "Flash Doge", 
+#     "Toasty Cat", "Epic Cat", "Rebel Dog", "Quantum Cat", "Glitter Doge", 
+#     "Heist Cat", "Noodle Cat", "Doge Ranger", "Boomer Dog", "Wild Dog", 
+#     "Crazy Dog", "Sunny Dog", "Noble Dog", "Legend Dog", "Rogue Doge", 
+#     "Brave Dog", "Hyper Doge"
+# ]
 
-    # Trial function calls 
-    # print(search_project_data('kamala horris'))
-    # update_coins_ini(search_project_data_full('kamala-horris'), scrape_project_socials_coingecko('kamala-horris'))
+#     # Trial function calls 
+#     # print(search_project_data('kamala horris'))
+#     # update_coins_ini(search_project_data_full('kamala-horris'), scrape_project_socials_coingecko('kamala-horris'))
 
-    for project_name in memelist_pg2:
-        time.sleep(30)
-        print(f"\nProcessing project: {project_name}")
-        # Step 2: Call search_project_data with the project_name
-        project_data = search_project_data(project_name)
-        if project_data:
-            # Extract api_id from the returned data
-            api_id = project_data.get('api_id')
-            if api_id:
-                # Step 3: Call search_project_data_full with api_id
-                project_data_full = search_project_data_full(api_id)
-                if project_data_full:
-                    # Step 4: Check if chain is 'solana' or 'ethereum'
-                    chain = project_data_full.get('chain')
-                    if chain in ['solana', 'ethereum', 'base']:
-                        # Step 5: Call scrape_project_socials_coingecko(api_id)
-                        social_scrape = scrape_project_socials_coingecko(api_id)
-                        if social_scrape:
-                            # Step 6: Call update_coins_ini with the collected data
-                            update_coins_ini(project_data_full, social_scrape)
-                        else:
-                            print(f"No social media links found for '{api_id}'.")
-                    else:
-                        print(f"Project '{api_id}' is on chain '{chain}', which is not 'solana' or 'ethereum'. Skipping.")
-                else:
-                    print(f"No full data found for project '{api_id}'.")
-            else:
-                print(f"No 'api_id' found in project data for '{project_name}'.")
-        else:
-            print(f"No data found for project '{project_name}'.")
+#     for project_name in memelist_pg2:
+#         time.sleep(30)
+#         print(f"\nProcessing project: {project_name}")
+#         # Step 2: Call search_project_data with the project_name
+#         project_data = search_project_data(project_name)
+#         if project_data:
+#             # Extract api_id from the returned data
+#             api_id = project_data.get('api_id')
+#             if api_id:
+#                 # Step 3: Call search_project_data_full with api_id
+#                 project_data_full = search_project_data_full(api_id)
+#                 if project_data_full:
+#                     # Step 4: Check if chain is 'solana' or 'ethereum'
+#                     chain = project_data_full.get('chain')
+#                     if chain in ['solana', 'ethereum', 'base']:
+#                         # Step 5: Call scrape_project_socials_coingecko(api_id)
+#                         social_scrape = scrape_project_socials_coingecko(api_id)
+#                         if social_scrape:
+#                             # Step 6: Call update_coins_ini with the collected data
+#                             update_coins_ini(project_data_full, social_scrape)
+#                         else:
+#                             print(f"No social media links found for '{api_id}'.")
+#                     else:
+#                         print(f"Project '{api_id}' is on chain '{chain}', which is not 'solana' or 'ethereum'. Skipping.")
+#                 else:
+#                     print(f"No full data found for project '{api_id}'.")
+#             else:
+#                 print(f"No 'api_id' found in project data for '{project_name}'.")
+#         else:
+#             print(f"No data found for project '{project_name}'.")
