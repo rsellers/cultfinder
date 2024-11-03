@@ -6,36 +6,41 @@ __pycache__/
 # C extensions
 *.so
 
-# Ignore everything in /tg/ by default
-/tg/*
+# Only include files in the first level project folder. Skip date and raw chat files. 
+!/tg/*/
+!/tg/*/*.*
+/tg/*/*/*
+
+
+# ignore all within certain subs
 /tg2/*
 /backup/*
 
 session_name.*
 # Allow specific subdirectories and files in those directories
-!/tg/michi/
-!/tg/michi/*.*
-/tg/michi/*/*
+# !/tg/michi/
+# !/tg/michi/*.*
+# /tg/michi/*/*
 
-!/tg/goat/
-!/tg/goat/*.*
-/tg/goat/*/*
+# !/tg/goat/
+# !/tg/goat/*.*
+# /tg/goat/*/*
 
-!/tg/retardio/
-!/tg/retardio/*.*
-/tg/retardio/*/*
+# !/tg/retardio/
+# !/tg/retardio/*.*
+# /tg/retardio/*/*
 
-!/tg/zyn/
-!/tg/zyn/*.*
-/tg/zyn/*/*
+# !/tg/zyn/
+# !/tg/zyn/*.*
+# /tg/zyn/*/*
 
 #!/tg/max2049/
 #!/tg/max2049/*.*
 #/tg/max2049/*/*
 
-!/tg/spx6900/
-!/tg/spx6900/*.*
-/tg/spx6900/*/*
+# !/tg/spx6900/
+# !/tg/spx6900/*.*
+# /tg/spx6900/*/*
 
 #!/tg/pollen/
 #!/tg/pollen/*.*
