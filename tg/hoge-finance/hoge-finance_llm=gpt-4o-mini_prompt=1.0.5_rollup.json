@@ -24579,6 +24579,478 @@
                     "date_process": "2024-11-02 22:39:19"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions frequently reference Hoge, indicating a strong community meme around the project."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants seem to share a belief that the project is relatively fair, although some skepticism exists."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There is a neutral sentiment regarding insiders, with some discussions reflecting both trust and suspicion towards external control."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users express a desire to hold onto their tokens, suggesting a positive outlook toward future value."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat shows a supportive atmosphere with humor and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "Overall, there is a moderate emotional charge in the discussions, influencing community engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While some references suggest a mixed socioeconomic background, many users seem reasonably well-off, likely indicating an average or higher socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Conversations frequently focus on price and market actions, especially with the mention of increases and strategic decisions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "There is a strong belief among participants that holding Hoge has the potential for significant financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 85,
+                        "context": "Community members are actively engaging in creating content and participating in discussions without apparent compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The discussion reflects a vibrant community with active participation and varied topics of conversation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying Hoge, indicating a level of interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "There are expressions of inspiration and creativity, particularly in content creation and community engagement."
+                    }
+                },
+                "catch_phrase": "Hoge up!",
+                "about": "A community-centric around Hoge token and its significance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/funkybrown111",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 15,
+                    "total_message_count": 34
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:25"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "There's a strong sense of community involvement around the 'hoge' meme as participants playfully reference it in various messages."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There were no explicit discussions about project fairness, indicating a neutral sentiment."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "Implied concerns about fairness and control can be sensed, but they aren't a dominant theme in the discussions."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Participants display a tendency to hold tokens, indicated by discussions that reference group buys and liquidity."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat maintains a playful and supportive atmosphere, particularly with frequent humorous exchanges."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The conversation fluctuates between light-hearted banter and deeper discussions, indicating mixed emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "No strong indicators of socioeconomic status were discussed, suggesting diverse backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 30,
+                        "context": "Though there were mentions of liquidity and group buys, the conversation did not heavily focus on price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 60,
+                        "context": "There's some optimism regarding the potential for gains, stemming from group buy discussions."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "While some participants expressed willingness to create content, there's not a clear widespread effort indicated."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The chat showcases lively engagement and creative contributions, signaling a healthy community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "There were no significant inquiries about purchasing the token, suggesting limited newcomer interest."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings of inspiration, reflecting both fun interactions and some discontent."
+                    }
+                },
+                "catch_phrase": "Hai: hoge!",
+                "about": "Discussing the Hoge token and fostering community engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/funkybrown111",
+                            "mentions": 3
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 7,
+                    "total_message_count": 23
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:31"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "There is excitement and engagement regarding the meme contest as well as calls to promote viral content."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There is no clear consensus on fairness; some messages suggest community-driven action while others hint at concerns."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There seems to be some underlying suspicion regarding the influence of insiders or cabals."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a mix of sentiments regarding holding versus selling; slight evidence suggests a pro-holding sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall atmosphere is supportive and friendly, with fun engagement evident."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is charged with excitement, especially around the meme contest and social media engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "It is unclear from the messages but there are no clear markers indicating low socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 45,
+                        "context": "There is some discussion around social media engagements which might hint at price interest, but it's not dominant."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 55,
+                        "context": "Participants seem to express optimism about potential gains, particularly in regard to engaging with content."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is evidence of members volunteering time for social media activities to promote going viral."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant with diverse discussions and interactions, particularly around contests and content sharing."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "There are no inquiries about buying tokens; focus is on engagement rather than purchasing."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants are inspired by the community's activities and supportive interactions."
+                    }
+                },
+                "catch_phrase": "Let\u2019s go viral!",
+                "about": "A community focused on memes and promoting culture through social media.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/funkybrown111",
+                            "mentions": 4
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 6,
+                    "total_message_count": 11
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:34"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "There is a central meme of supporting the project and discussions about its potential growth."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Some participants express doubt about the fairness of the project and the actions of its operators."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion that outsiders may have undue influence over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "Many participants seem to be in favor of holding rather than selling, although some express skepticism and concerns."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The atmosphere is mixed, with moments of humor and support but also underlying tensions regarding the project."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is highly charged with strong opinions and emotional expressions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants hint at a diverse socioeconomic background, with mentions of varied experiences."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The conversations frequently focus on price movements and potential future gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "There are strong expressions of belief in the project's potential for profitability."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Some participants appear to contribute effort without direct compensation, but it\u2019s not universally strong."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community seems active and lively, although some discussions indicate divisions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "Few newcomers show interest in buying the token directly in the logs."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "Participants exhibit a moderate level of inspiration and camaraderie."
+                    }
+                },
+                "catch_phrase": "Hoge to the Moon!",
+                "about": "The community is centered around the Hoge cryptocurrency and the associated culture.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 7,
+                    "total_message_count": 172
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:40"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The chat includes multiple references to Hoge, suggesting a central meme is developing but not universally engaged with."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Concerns about economic fairness are implied, especially with mentions of financial stress related to rent."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Discussion suggests suspicion towards control by insiders or cabals, particularly regarding token price trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Participants express a strong desire to hold onto tokens, indicating a bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere of the chat is positive and supportive with excitement about crypto gains."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "Discussions are emotionally charged, focusing on crypto prices and community engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Mention of rent increases and financial concerns indicate participants represent a mix of socioeconomic statuses, leaning towards moderate concerns."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There\u2019s a considerable focus on token price movement, particularly concerning Bitcoin and Hoge."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Members express enthusiasm and belief in potential big gains, indicating belief in the project's upside."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Some community members are actively engaging in promotional efforts (like meme campaigns) without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat is active and lively with many participants interacting, suggesting a vibrant community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about buying tokens, indicating interest but not overwhelming demand."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express feelings of hope and excitement about the future of their projects."
+                    }
+                },
+                "catch_phrase": "Make H0GE great again",
+                "about": "A community centered around Hoge coin and its potential in the crypto market.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 17,
+                    "total_message_count": 75
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:44"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The chat reveals a strong core focus around the Hoge token, indicating a shared meme culture."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Many participants express a belief in community fairness, but skepticism exists due to past scams."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are indications of distrust towards insiders and their influence on price, common in cryptocurrency discussions."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A majority of the chat revolves around holding Hoge tokens with optimism for future gains."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is generally positive with encouragement and excitement about Hoge's performance."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The chat shows high emotional engagement, with lots of enthusiasm and feelings regarding price movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "Mixed signals about socioeconomic status, with some participants indicating a desire for financial improvement."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The discussions are heavily focused on price movements and expectations, common in trading communities."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express strong belief in Hoge's potential for significant future gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There is activity indicating community members are volunteering efforts for the project, pushing engagement and meme creation."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The discussion appears lively and vibrant with active participation and diverse topics."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "While some newcomers are asking about buying Hoge, the conversations largely involve existing participants."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Community members share positive sentiments about the project, fostering a sense of inspiration and hope."
+                    }
+                },
+                "catch_phrase": "Hoge to the moon!",
+                "about": "Community supporting the Hoge cryptocurrency and encouraging each other to hold and promote it.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/funkybrown111",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptojourneyrs",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/warclandestine",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 34,
+                    "total_message_count": 152
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:49"
+                }
+            }
         }
     }
 }

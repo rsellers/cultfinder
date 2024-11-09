@@ -21964,6 +21964,648 @@
                     "date_process": "2024-11-03 12:05:58"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "There is a strong shared belief in the project's central idea, with many members actively promoting and discussing memes."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants express a fair amount of trust in the project's fairness, with discussions about inclusivity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is some suspicion about control by insiders, but it is not overwhelmingly negative."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Most participants show intent to hold, indicating long-term belief in the project."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat has a very positive and supportive atmosphere, characterized by encouragement and excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly charged with excitement, especially around community voting and participation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants seem to be a mix of socioeconomic backgrounds, with some discussing financial strategies."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is significant attention on token price and voting efforts, indicating an active interest in price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants expressed strong belief in the potential for significant gains from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Members seem willing to volunteer their time for community activities and promotion."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant and actively engages in discussions, indicating a healthy and lively environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are mentions of newcomers showing interest in buying the token."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express inspiration and enthusiasm for the project, encouraging each other."
+                    }
+                },
+                "catch_phrase": "Let's Fucking Go!",
+                "about": "A cryptocurrency community engaged in fun, creative projects, emphasizing support and enthusiasm.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/neilgrant82",
+                            "mentions": 47
+                        },
+                        {
+                            "url": "https://x.com/carlossand3543",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/lfgocommunity",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/tinnetakel",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/aimoneymanorg",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/theoscarsavage",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ryan02020419",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/defipulsar",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 39,
+                    "total_message_count": 302
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:08:36"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion revolves heavily around the excitement and potential of LFGO, with participants expressing strong belief in its meme potential."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings about the project being fair, but some members express optimism about community-driven efforts."
+                    },
+                    "VC_cabal": {
+                        "intensity": 70,
+                        "context": "While some participants believe the community has control, there are hints of skepticism about investor influences."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a strong intent to hold their tokens in anticipation of future growth."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "Overall, the atmosphere in the chat is very supportive, with lots of encouragement and positivity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "There is a high level of emotional engagement, demonstrated by members passionately discussing ideas and rallying support."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While there are indications of varying economic backgrounds, many participants seem highly engaged in crypto ventures."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "A significant portion of the conversation is focused on price action and future potential, indicating strong interest in market performance."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express a strong belief in potential financial success, correlating to community enthusiasm."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Members appear willing to put in volunteer efforts for the community without compensation, indicating strong engagement."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The discussions reflect a vibrant community with diverse interactions and exchanges of support."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Participants demonstrate interest in newcomers and inquiries about buying the token."
+                    },
+                    "inspiration": {
+                        "intensity": 90,
+                        "context": "Overall, the discussion is highly motivated by inspiration and collective hope for future success."
+                    }
+                },
+                "catch_phrase": "Let's fuckin go!",
+                "about": "Community centered on the LFGO meme coin and its potential in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/neilgrant82",
+                            "mentions": 15
+                        },
+                        {
+                            "url": "https://x.com/dootsgotagram",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/lfgocommunity",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/defipulsar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tinnetakel",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ryan02020419",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/colenotpatrick",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/theoscarsavage",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 41,
+                    "total_message_count": 586
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:08:48"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on a central meme related to the token, with frequent excited references to it in posts."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express a mixed level of belief regarding fairness, with some discussing potential inequalities."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Some suspicion exists regarding the influence of venture capitalists or insiders on the token, impacting community confidence."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a desire to hold onto their tokens, indicating a more optimistic outlook."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The community vibes are generally positive, with encouragement and support evident in the discussions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion has a lively emotional charge, marked by excitement and occasional conflicts."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are references suggesting a mix of socioeconomic backgrounds among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Discussion is heavily focused on price action and predictions of movement, indicating a high interest."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants express strong beliefs about the potential for significant gains and future wealth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Some community members actively promote and volunteer their time without compensation, indicating engagement, but not widespread."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community is vibrant and active, with rich discussions and engagement among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are moderate inquiries about buying the token, indicating some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Widespread expressions of inspiration and hope can be seen among participants."
+                    }
+                },
+                "catch_phrase": "LETS FUCKIN GO",
+                "about": "A community centered around the $LFGO token, celebrating camaraderie and growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/neilgrant82",
+                            "mentions": 28
+                        },
+                        {
+                            "url": "https://x.com/gusdahcrypto",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/tinnetakel",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/lfgocommunity",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/waynero44290376",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/deadlykrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/defipulsar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/gingerman30",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 51,
+                    "total_message_count": 490
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:08:55"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community shows strong engagement around the $LFGO token, indicating a powerful central meme."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally perceive the project as fair, and most are optimistic about its economic viability."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is a low belief that outsiders, like VCs, are controlling the outcome of the token, indicating trust in community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "A majority of participants express strong intentions to hold their tokens, showing confidence in the project's future."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat displays positive vibes, with participants encouraging each other and sharing excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is notably emotionally charged, filled with excitement and anticipation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "The community comprises users with varying economic backgrounds, with some suggesting higher disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a strong focus on price action and future potential gains in the discussion."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Widespread belief in the project's high potential for future gains is expressed among participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many participants are actively promoting and contributing to the community without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant with diverse activities and discussions; members are engaged and supportive."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many members express feelings of inspiration and motivation, fostering a supportive community."
+                    }
+                },
+                "catch_phrase": "Let's fuckin go!",
+                "about": "A community focused on the $LFGO meme token and its potential within the broader crypto landscape.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/neilgrant82",
+                            "mentions": 15
+                        },
+                        {
+                            "url": "https://x.com/elilleste",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/gusdahcrypto",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/defipulsar",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/lfgocommunity",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ryan02020419",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tinnetakel",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/wallstreetsilv",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 40,
+                    "total_message_count": 296
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:09:01"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat is vibrant with memes being shared and discussed, indicating a strong central meme is at the core of the community's discussions."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "The users express a belief that the project is fair, with discussions highlighting collective efforts and shared investments."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Moderate concern about potential whale influence on pricing, but a general sentiment that the community has control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many users express a strong intent to hold onto their tokens rather than sell, indicating confidence in future growth."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The overall vibe is extremely positive with encouragement and excitement pervading the conversations."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 95,
+                        "context": "The conversation is highly emotionally charged, especially with the implications of the election and its effects on the crypto market."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Most users appear to be economically stable or optimistic about their current investments."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "Much of the chat revolves around ongoing price action, particularly with Bitcoin skyrocketing."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "There is strong optimism that investments in the project will yield significant returns, especially with events surrounding the election."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many users enthusiastically participate in community activities, supporting with time and energy to promote their shared meme project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is active and engaging, with frequent interaction and discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "New participants are showing interest in purchasing tokens, indicating a growing community."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many members express feelings of hope and determination about their investments and the project's future."
+                    }
+                },
+                "catch_phrase": "Let\u2019s Fuckin Go!",
+                "about": "The LFGO community rallying around a meme coin linked to pop culture and current events.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/gusdahcrypto",
+                            "mentions": 20
+                        },
+                        {
+                            "url": "https://x.com/mattlambert60",
+                            "mentions": 11
+                        },
+                        {
+                            "url": "https://x.com/neilgrant82",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/elilleste",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/charlyhubzzzz",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/defipulsar",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/theoscarsavage",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/lfgocommunity",
+                            "mentions": 4
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 63,
+                    "total_message_count": 770
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:09:11"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on the meme culture surrounding the LFGO project, with participants actively engaging and sharing content that upholds a sense of community and excitement."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants believe that the project is generally fair, with a sense that the benefits are accessible to the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings about insider control, but many participants express confidence in community-driven outcomes."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Most participants express a strong intention to hold onto their tokens for the long-term."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere is overwhelmingly positive, filled with excitement and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are charged with enthusiasm and emotional engagement, especially around market developments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "There are indications that many participants have varied socioeconomic backgrounds, but a significant portion appear to seek financial gain from the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The chat is focused on the potential price action of their token, with participants eagerly discussing market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 95,
+                        "context": "Participants exhibit high confidence in the potential for substantial profits from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "There is a notable level of voluntary participation in promoting the project without direct financial compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and active, with rich and engaging discussions taking place."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "While there are some inquiries about buying the token, the focus is more on the existing holders and their intent to keep their investments."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many participants express feelings of hope and inspiration concerning the community's future."
+                    }
+                },
+                "catch_phrase": "LET'S FUCKIN GO!",
+                "about": "A vibrant community celebrating and promoting the LFGO token and associated meme culture.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/elilleste",
+                            "mentions": 45
+                        },
+                        {
+                            "url": "https://x.com/ryan02020419",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/_cvr_cvr_",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/charlyhubzzzz",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/lfgocommunity",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/tinnetakel",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/fityeth",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/neilgrant82",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 62,
+                    "total_message_count": 970
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:09:24"
+                }
+            }
         }
     }
 }

@@ -4248,6 +4248,620 @@
                     "date_process": "2024-11-03 08:45:53"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The community is engaged in a central theme around Misha, with members expressing collective enthusiasm."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is ongoing dialogue about trust and the need for a multi-sig wallet for donations, indicating some concerns about fairness and transparency."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of suspicion regarding control and influence over the project, particularly around donation management."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many members express a strong sentiment of holding and supporting Misha, with discussions around future growth."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The general atmosphere is positive, with encouragement for community engagement and sharing personal stories."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is emotionally charged, with significant passion expressed around the project and community initiatives."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There is a mix of individuals from varying socioeconomic backgrounds, indicated by the variety of discussed experiences and expectations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 50,
+                        "context": "There is a balanced focus on both price discussions and community building, reflecting members' interest in both aspects."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "A strong belief in Misha's future potential and large price increases is evident among members."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Members are actively volunteering their time and efforts for the community without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant and engaged, with numerous interactions and sharing of different ideas and activities."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "Inquiries about buying are minimal; focus is more on community initiatives rather than acquisitions."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Numerous expressions of motivation and inspiration for community action are noted, especially related to the project."
+                    }
+                },
+                "catch_phrase": "Misha means loyalty.",
+                "about": "A community focused on supporting and promoting the Misha project through engagement and initiatives.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mishactoglobal",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/misha_cto",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/mishactocn",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/vis4charity",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://twitter.com/anndylian",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/anndylian",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/victor9013xx",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/money24hrs",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 26,
+                    "total_message_count": 190
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:52:55"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on promoting the Misha brand and utilizing influential figures like Maye Musk, which enhances community engagement around a central theme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed feelings about the project's fairness, with suggestions for charitable donations but also skepticism regarding funding and rewards."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a significant sentiment of distrust regarding insiders and capitalists, with users voicing the need for genuine community involvement."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "Many members are expressing a desire to hold tokens long-term, suggesting a level of confidence in the project's potential."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall atmosphere reflects enthusiasm and community spirit, particularly around recent activities and collaborations."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion shows a good level of emotional engagement, with many participants rallying around common goals and support for one another."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "There are indications of diverse financial backgrounds among the participants, but many also express aspirations for wealth through the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There is noticeable interest in token price discussions, especially with references to buying opportunities and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Participants widely believe in the potential for substantial gains, particularly in relation to the Misha project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "There is a strong willingness among members to volunteer effort and time towards promoting the community and its goals."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The community appears active with ongoing discussions and participation, but there are concerns about the level of engagement from all group members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some inquiries regarding purchasing tokens are noted, but not overwhelmingly prevalent, suggesting a need for more newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "There are palpable expressions of hope and inspiration among participants, particularly around charity initiatives and community-building efforts."
+                    }
+                },
+                "catch_phrase": "To the Moon!",
+                "about": "Community rallying around Misha, fund initiatives, and influencer engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mayemusk",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/vis4charity",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/lesedilogan",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://twitter.com/mayemusk",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/mishactoglobal",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/andreafonso1999",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/victor9013xx",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ifloe_",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 32,
+                    "total_message_count": 202
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:53:02"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "The community shows engagement around the Misha project, but there is room for a more central meme or message to unite discussions."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There is a belief among some members that the project is not entirely fair, possibly due to concerns about market manipulation and inequitable token distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is significant suspicion about the influence of insiders or market makers over the project, affecting community trust."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "There is a mix of holding strategies; some members express the desire to hold while others contemplate selling due to losses."
+                    },
+                    "vibes": {
+                        "intensity": 45,
+                        "context": "The overall mood fluctuates between optimism and frustration; members encourage participation and rebuilding while expressing concerns over the project's future."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "Discussions are emotionally charged, particularly around concerns for the project's direction and community involvement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "There are indications of lower socioeconomic backgrounds among participants contributing to a more communal effort to improve the project's situation."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "The focus on price action is high, with frequent discussions about price movements and market trends influencing sentiment."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 30,
+                        "context": "Many participants express doubt regarding potential returns, with some feeling discouraged about the future value of their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Many members are willing to invest time and effort into community activities and projects, but their energy varies widely."
+                    },
+                    "community_health": {
+                        "intensity": 40,
+                        "context": "Community engagement is lacking, with some members feeling isolated and voicing concerns about active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "Newcomers and existing members rarely inquire about purchasing the token directly, reflecting uncertainty about the project's viability."
+                    },
+                    "inspiration": {
+                        "intensity": 40,
+                        "context": "There are moderate expressions of hope and inspiration among members, particularly those advocating for active participation and community rebuilding."
+                    }
+                },
+                "catch_phrase": "Keep pushing, we will rise together!",
+                "about": "The community rallies around the Misha token, focusing on rebuilding and community support during tough market conditions.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mishactoglobal",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/andreafonso1999",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/mishactocn",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 28,
+                    "total_message_count": 180
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:53:07"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community exhibits a strong focus and engagement with the Misha project, indicating a central meme that resonates with participants."
+                    },
+                    "fairness": {
+                        "intensity": 65,
+                        "context": "There is a moderate belief within the community that the project is fair, though concerns regarding major wallet influences suggest that not everyone feels fully represented."
+                    },
+                    "VC_cabal": {
+                        "intensity": 35,
+                        "context": "There are significant concerns regarding potential control by major wallets and insiders, contributing to distrust in how the project is managed."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many community members express a desire to hold their tokens, suggesting a long-term bullish sentiment despite existing concerns."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere is moderately supportive, with members encouraging participation and collaboration despite some underlying tensions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are highly emotionally charged, with strong feelings about community involvement and leadership."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "The community appears to have a mix of socioeconomic backgrounds, though there are mentions of pressures related to income and job situations affecting participation."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong emphasis on the implications of price action and overall market performance in the conversations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants generally show enthusiasm and optimism regarding the potential for monetary gain from holding their tokens."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There are many indications of community members volunteering their time and effort for the project, indicating a strong base of volunteerism and enthusiasm."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community appears engaged and vibrant, though there are calls for better organization and collective action."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Some newcomers show interest in participating actively, asking about the project and expressing a desire to understand how to invest."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "A number of members express inspiration and hope for the future of the community and project."
+                    }
+                },
+                "catch_phrase": "Misha means loyalty.",
+                "about": "The community is focused on the Misha token and its potential in the crypto space, emphasizing resilience and participation.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/lesedilogan",
+                            "mentions": 24
+                        },
+                        {
+                            "url": "https://x.com/mishactocn",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/mishactoglobal",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/okxweb3",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tobicopilot",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/victor9013xx",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/vnmishacto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andreafonso1999",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 36,
+                    "total_message_count": 256
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:53:16"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussions heavily center around 'Misha' and community ideas, indicating a vibrant meme culture."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a general sense of fairness, with calls for community decision-making regarding leadership."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express concerns about centralized control, indicating suspicion towards insiders or venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There are mixed signals, with some users expressing a desire to hold while others push for urgent actions like buying or withdrawing."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The overall atmosphere is supportive and optimistic, with many expressing encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is charged with enthusiasm, particularly around the notion of 'raids' and community initiatives."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There is a mixture of socioeconomic backgrounds, evident from the varied expressions of frustration and hope."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Conversations frequently touch on price movements, especially in relation to Bitcoin and Misha."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express belief in significant future gains from their investments in Misha."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 90,
+                        "context": "There is widespread voluntary participation in community-building activities and raids."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears healthy and dynamic with active participation and discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Several messages indicate newcomers and existing users are actively discussing purchasing Misha."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express motivation and hope for the future of Misha and the community."
+                    }
+                },
+                "catch_phrase": "Misha to the moon",
+                "about": "The community is centered around the cryptocurrency Misha and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mishactoglobal",
+                            "mentions": 15
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://twitter.com/wzjfairy",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/crypt0mutant",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://twitter.com/crypt0mutant",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/victor9013xx",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/anndylian",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andreafonso1999",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 40,
+                    "total_message_count": 305
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:53:21"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "The community displays a moderate level of engagement with the core idea of promoting Misha, showing some central messaging but also signs of fragmentation."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There is a significant belief among participants that the current dynamics may be economically unfair, reflected in complaints about MEXC's negative impact on pricing."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion surrounding the influence of insiders on token prices, but it is not overwhelmingly negative."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "The majority of users express a strong desire to hold the token, indicating a committed community despite recent losses."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "Overall discussions have mixed vibes, reflecting both frustration and support among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is emotionally charged, with strong feelings about the project's future and fairness."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "Members express signs of being from a lower socioeconomic status, with concerns about losses and economic viability."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on price movements and discussions around selling or holding strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "There is a prevalent belief that if the project succeeds, holders could experience significant financial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Community members are actively encouraging one another to promote Misha, indicating a high level of voluntary engagement."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The community seems vibrant, with ongoing discussions and efforts to promote Misha, although some express frustration."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are inquiries about buying into the project, showing interest from both existing and new members."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Participants express hope and motivation in the project's future and community efforts."
+                    }
+                },
+                "catch_phrase": "Hold Misha, Promote Misha!",
+                "about": "This community is focused on promoting the Misha project and discussing its value.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mishactoglobal",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/andreafonso1999",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/victor9013xx",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/vitalikbuterin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/vis4charity",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 35,
+                    "total_message_count": 148
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:53:28"
+                }
+            }
         }
     }
 }

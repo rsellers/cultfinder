@@ -9409,6 +9409,465 @@
                     "date_process": "2024-11-03 09:45:42"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The community rallies around a strong meme or shared belief in the project, suggesting a significant central theme."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Concerns are raised about the fairness of the project, with some users expressing doubt about the distribution of tokens."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is noticeable suspicion about potential insider manipulation, leading to skepticism regarding control of the token."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "The community largely exhibits a strong intent to hold onto their tokens, indicating a long-term belief in the project."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The overall vibes are mixed, with enthusiasm for the project but also some uncertainty due to price concerns."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussion displays a moderate level of emotional engagement, with both excitement and anxiety present."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The community appears to have mixed socioeconomic backgrounds, with some expressing anxieties about financial situations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "A significant focus on price action is evident, indicating that users are closely monitoring the token's market performance."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "Participants express some belief in potential gains, though there is skepticism about reaching recent highs."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Some community members are actively promoting the project, but participation levels in free labor vary."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The community seems to have some vibrancy, with active discussions, but is tempered by concerns over recent price actions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are inquiries about purchasing the token, but they are not dominant, reflecting a hesitant interest."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Many participants are inspired by the project's potential, but recent price drops have tempered some of that enthusiasm."
+                    }
+                },
+                "catch_phrase": "\"Fill those bags and trust the team!\"",
+                "about": "The community is focused on the $CAFE token and its potential for growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cafememecoin",
+                            "mentions": 4
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 40,
+                    "total_message_count": 548
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:55:59"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "There is strong engagement around the meme qualities of the project, indicated by multiple messages discussing its nature and potential."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Members express skepticism about fairness as some users mention scams and the lack of support from the team which affects their perception of equity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a prevailing sentiment that insiders may have undue influence over the project's trajectory, as indicated by remarks about investor behavior and scams."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "Many participants show a desire to hold onto their tokens, with some references to investing more despite the current downturn."
+                    },
+                    "vibes": {
+                        "intensity": 45,
+                        "context": "The chat reflects mixed feelings with some support and camaraderie but also frustration and sadness over losses."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is quite emotionally charged, with users expressing a range of feelings from hope to despair regarding their investments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Some cues suggest participants are from lower socioeconomic backgrounds who have heavily invested in the token, reflecting a potential financial strain."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The conversations frequently revolve around price fluctuations and investment strategies, showing high focus on price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "There are messages indicating belief in a potential rise in value, particularly in a 'buy the dip' mentality, suggesting some optimism."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Some participants are actively contributing to the community without compensation, though the level of engagement varies."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The discussion indicates a somewhat vibrant community with mixed interest levels; while motivation exists, concerns over the project persist."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "Few inquiries are made about buying the tokens, indicating a lower interest from newcomers within this recent discussion."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "There is a moderate feeling of inspiration among participants, particularly in references to community action and belief in recovery."
+                    }
+                },
+                "catch_phrase": "Buy the dip!",
+                "about": "A community centered around the Caf\u00e9 project and its meme potentials.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 29,
+                    "total_message_count": 164
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:56:05"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 40,
+                        "context": "There is some discussion and enthusiasm around the $CAFE project, but it doesn't dominate every conversation."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed views on the fairness of the token, indicating some level of uncertainty."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some discussions suggest that community members feel in control but remain cautious about team actions."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a desire to hold onto $CAFE tokens for potential future gains."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The chat has a generally positive vibe with supportive messages, though there are concerns about the project's direction."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 50,
+                        "context": "The discussion is moderately emotionally charged; there are ups and downs in sentiments expressed."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Participants seem to come from varied socioeconomic backgrounds, with some expressing a need for financial gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There is noticeable focus on potential price movements, with several participants discussing their hopes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "Participants express cautious optimism about the potential for high returns, but not universally."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 40,
+                        "context": "There are some offers of help and participation, but it is not widespread."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The community appears active and engaged, though there are concerns and calls for clearer communication."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "There is little interest from newcomers in purchasing the token based on the conversations."
+                    },
+                    "inspiration": {
+                        "intensity": 45,
+                        "context": "There are some expressions of hope, but overall inspiration seems limited."
+                    }
+                },
+                "catch_phrase": "",
+                "about": "The community is discussing the $CAFE token, sharing updates and seeking clarifications on team actions.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 9,
+                    "total_message_count": 19
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:56:09"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 20,
+                        "context": "The conversation lacks a strong central theme or meme, indicating low engagement with core ideas."
+                    },
+                    "fairness": {
+                        "intensity": 15,
+                        "context": "Participants express a belief that the project is unfair, especially after a significant price drop and team abandonment."
+                    },
+                    "VC_cabal": {
+                        "intensity": 25,
+                        "context": "There are hints of distrust towards the control of insiders, but it's not the primary focus of discussions."
+                    },
+                    "hold_intent": {
+                        "intensity": 45,
+                        "context": "Some participants are still considering holding or buying, suggesting mixed intentions regarding selling."
+                    },
+                    "vibes": {
+                        "intensity": 30,
+                        "context": "The atmosphere is predominantly negative, with many participants expressing doubt about the project's future."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 55,
+                        "context": "The discussions are quite emotionally charged, especially with conflicting outlooks on the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Many members seem to express concerns about personal financial losses, indicating a likely lower socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price movements throughout the discussions, highlighting concern over recent price crashes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 25,
+                        "context": "While some maintain hope, overall belief in significant future gains appears low."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "There's moderate participation in promoting the project or its content, though not widespread."
+                    },
+                    "community_health": {
+                        "intensity": 30,
+                        "context": "The discussions reflect a struggling community with signs of discontent and loss of direction."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 35,
+                        "context": "There are some inquiries about buying, but interest appears limited."
+                    },
+                    "inspiration": {
+                        "intensity": 15,
+                        "context": "Expressions of inspiration and hope are minimal, with many feeling disheartened."
+                    }
+                },
+                "catch_phrase": "Cafeee brooos",
+                "about": "Discussion around the $Cafe token and its project's future.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 14,
+                    "total_message_count": 37
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:56:15"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 40,
+                        "context": "Members display some engagement with memes but do not appear to have a strong central meme driving the discussion."
+                    },
+                    "fairness": {
+                        "intensity": 20,
+                        "context": "There is a prevalent sense of unfairness, likely stemming from discussions about rug pulls and lack of transparency."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express suspicion and concern about potential insider control over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 25,
+                        "context": "The tone suggests many members are unsure about holding tokens; there seems to be a split between holding and selling."
+                    },
+                    "vibes": {
+                        "intensity": 30,
+                        "context": "The overall atmosphere is somewhat negative, primarily influenced by feelings of disappointment and distrust."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussion is emotionally charged, with participants expressing both excitement and concern."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There's a mixed sentiment regarding socioeconomic status, reflecting both hopeful and struggling perspectives."
+                    },
+                    "price_action_focus": {
+                        "intensity": 50,
+                        "context": "There is an adequate focus on price actions, but it is overshadowed by concerns about project direction."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 35,
+                        "context": "Belief in potential profits is low, with more discussions on perceived losses."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 10,
+                        "context": "There is minimal volunteering of time and effort as members seem less inclined to support the project without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 35,
+                        "context": "The community feels fractured and less vibrant, especially with significant concerns regarding leadership."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 15,
+                        "context": "Newcomers are not actively inquiring about purchasing the token, indicating a lack of interest."
+                    },
+                    "inspiration": {
+                        "intensity": 20,
+                        "context": "Expressions of inspiration and hope are very limited, overshadowed by negativity regarding the project."
+                    }
+                },
+                "catch_phrase": "Let\u2019s Go!!!",
+                "about": "A community aiming to support a meme coin project which faces challenges and uncertainty.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 9,
+                    "total_message_count": 17
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:56:18"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 50,
+                        "context": "There is some discussion around a community token, but it's not the central focus of the chat."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Participants express confusion and frustration over the project abandonment and the actions of team members."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is suspicion about insiders still holding significant tokens, but it's not universally accepted."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Some members seem interested in buying, indicating a moderate intent to hold."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The chat reflects a mix of enthusiasm, confusion, and frustration, creating an average vibe."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The chat is emotionally charged due to concerns about project management and mixed feelings about it."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are no clear indicators of a specific socioeconomic status within the group based on messages."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There are discussions about token price and buying intentions, indicating a significant focus on price."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 55,
+                        "context": "Participants show some belief in potential upside, although tempered by recent project concerns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 30,
+                        "context": "There is little indication of significant volunteer labor for the project, suggesting low engagement."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The community seems somewhat vibrant with discussions, but also faced with challenges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are hints of inquiries about buying tokens, indicating moderate interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 40,
+                        "context": "There are limited expressions of inspiration and hope from the community members."
+                    }
+                },
+                "catch_phrase": "LFG",
+                "about": "A community focused on cryptocurrency projects and potential investments.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 10,
+                    "total_message_count": 24
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:56:23"
+                }
+            }
         }
     }
 }

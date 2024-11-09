@@ -12117,6 +12117,515 @@
                     "date_process": "2024-11-03 13:34:31"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussions heavily reference the $MELLOW meme and related phrases, indicating a strong central meme they rally around."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express mixed feelings about fairness, with some concerns but generally a belief that the project has been inclusive."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of suspicion about insider control, but overall, the participants feel that the community has strong involvement."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "The majority of messages indicate a strong desire to hold and bullish sentiment on $MELLOW, with many expressing confidence in its potential."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is overwhelmingly positive, with lots of encouragement and supportive interactions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The chat is quite emotionally charged, with enthusiastic discussions about the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of members is mixed, with signs of both wealth and concern about finances."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There is a consistent focus on the price action of $MELLOW, with conversations around its potential fluctuations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "The belief in $MELLOW making its holders rich is widespread, with many expressing confidence in its future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Users appear to be volunteering their time for conversations and promotions without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community feels vibrant with active discussions and supportive exchanges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There is less focus on newcomers asking how to buy, as the existing members seem engaged and invested already."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Community members frequently share motivational messages and express excitement for future growth."
+                    }
+                },
+                "catch_phrase": "$MELLOW to the moon!",
+                "about": "$MELLOW is a meme coin celebrated for its community strength and growth potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/silveradodao",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 49,
+                    "total_message_count": 704
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:19:19"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The conversation is centered around the hype and fun associated with the Mellow project, indicating a strong community engagement with the meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express belief in fairness, feeling that the distribution of gains and project benefits is reasonable."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is some concern about potential insider influence, but a general trust in community control is present."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many members express confidence in holding their tokens for long-term gains, a strong intent to 'hold' can be observed."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat displays a very supportive and positive atmosphere with plenty of excitement, humor, and collaboration."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are very emotionally charged, reflecting enthusiasm and energy among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There is a mix of socioeconomic backgrounds, with some discussions hinting at financial struggles and community support."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A strong focus on price action is prevalent, with numerous messages urging buying and monitoring price changes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express strong beliefs in the potential for significant future gains from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is significant voluntary engagement in promotional activities for the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The conversation reflects a vibrant community dynamic, with active participation and camaraderie evident."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about purchasing the token, indicating interest from potential new investors."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members share feelings of inspiration and motivation to work collectively towards their goals."
+                    }
+                },
+                "catch_phrase": "Let\u2019s ride the $MELLOW wave!",
+                "about": "A vibrant community centered around the Mellow meme coin and its growth potential in the crypto market.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/toni_rompomponi",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/mellow0x69",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/revolut20",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/silveradodao",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 58,
+                    "total_message_count": 601
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:19:29"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The group is rallying around the meme of Mellow, leading to high engagement and discussion centered on it."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants seem to believe that the project is largely fair, with some acknowledgment of economic aspects."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some discussions indicate a degree of concern about external influences, but the overall sentiment suggests community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "There\u2019s a strong sentiment of holding and loyalty towards the token among participants."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat is filled with positive interactions and supportive comments, creating a vibrant atmosphere."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "Discussions reveal a lively and charged emotional state, particularly around competition and community accomplishments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The socioeconomic context seems to suggest a mix of participants, some of whom likely come from moderate means."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "While there is occasional reference to price action, it's not the primary focus of the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express strong beliefs in the profit potential of the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "There\u2019s noticeable voluntary participation for the community\u2019s projects and activities."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears active and engaged, indicating a healthy environment for discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "The frequency of newcomers asking about purchasing indicates moderate interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express inspiration and hope regarding the project and its potential."
+                    }
+                },
+                "catch_phrase": "To the moon!",
+                "about": "The Mellow community thrives around shared crypto enthusiasm and significant meme culture.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/toni_rompomponi",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/mellow0x69",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/kennyhayzeed",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 46,
+                    "total_message_count": 596
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:19:37"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "Discussions heavily revolve around the $MELLOW meme, with numerous mentions and supportive remarks, contributing to a strong community meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants express a positive view towards the project's fairness, indicating that it is economically fair and well-accepted."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is mild suspicion about VC and insider control, but overall faith in community control is present."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A significant majority expresses intentions to hold tokens long-term, as evidenced by enthusiastic support for $MELLOW."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat exudes positive vibes, filled with enthusiasm and encouragement among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is charged with emotions, as participants share excitement and support for each other."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "Most participants appear to have a diverse socioeconomic background, with indications of both upper and lower classes."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a strong focus on $MELLOW's price performance, as participants eagerly discuss its potential to rise."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "A strong belief exists among participants that $MELLOW has potential for considerable gains, with discussions hinting at vast wealth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants actively contribute to the community through various value-add activities like meme creation and engagement."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and lively, with robust and rich discussions occurring."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "New members are inquiring about purchasing options for $MELLOW, indicating interest in onboarding newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "There are widespread expressions of hope and inspiration, with participants supporting each other and encouraging a positive outlook."
+                    }
+                },
+                "catch_phrase": "MELLOW TO THE MOON",
+                "about": "The community is centered around the $MELLOW memecoin and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 47,
+                    "total_message_count": 498
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:19:44"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 100,
+                        "context": "The discussion is highly focused on a central theme of the $MELLOW memecoin, as indicated by frequent use of catchphrases and a unified community message."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants express a general belief that the project is fair and all members are positively contributing to its success."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is some sentiment of community ownership, but occasional mentions of external influences or insider control."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The overwhelming majority of messages indicate a strong intention to hold onto tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 95,
+                        "context": "The overall atmosphere is very positive, supportive, and energized with encouragement and high hopes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are emotionally charged with excitement and anticipation about upcoming events and potential gains."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "While some members hint at financial aspirations, the tone is primarily optimistic rather than reflective of low socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong ongoing focus on the price of $MELLOW and its potential for growth."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants frequently express high confidence in potential gains from holding $MELLOW."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many users are actively engaged in promoting and supporting the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The chat log reflects a vibrant and active community with numerous interactions and a sense of collaboration."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are queries related to purchasing or investment, but newer members seem less frequent compared to established participants."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Participants express a high level of inspiration and motivation derived from community interaction and shared goals."
+                    }
+                },
+                "catch_phrase": "MELLOW_BEST_MEMECOIN",
+                "about": "A community centered around the $MELLOW crypto meme project, emphasizing fun, excitement, and potential financial gain.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/atleets",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptocaesarta",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kennyhayzeed",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 68,
+                    "total_message_count": 918
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:19:55"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The conversation revolves around strong, engaging memes, particularly related to financial success and community spirit."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants seem to believe that the project is fairly managed and that they have a stake in its success."
+                    },
+                    "VC_cabal": {
+                        "intensity": 70,
+                        "context": "There is a growing trust that the community, rather than VCs, controls the token's momentum."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The majority of users express strong intent to hold rather than sell their tokens."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "There is a positive atmosphere with support and encouragement among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are highly emotionally charged, driven by excitement and bullishness."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "While there are indications of varying economic statuses, the overall sentiment is that many are optimistic regardless."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Conversations focus heavily on price movements and expectations for future gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Strong belief in the potential for significant profits, with users expressing confidence in the token's future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Participants are actively promoting the project through social engagement without monetary incentives."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and engaged, with a lot of lively discussion."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are inquiries about buying, indicating new interest in the token."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Users express inspiration and motivation from each other's positive reinforcements."
+                    }
+                },
+                "catch_phrase": "LFG Mellow",
+                "about": "A supportive online community focused on the Mellow token and its potential financial success.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cryptocaesarta",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kennyhayzeed",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/watcherguru",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/web3_gam_er",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 77,
+                    "total_message_count": 807
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:20:04"
+                }
+            }
         }
     }
 }

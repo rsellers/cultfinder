@@ -4223,6 +4223,376 @@
                     "date_process": "2024-11-02 22:14:02"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 30,
+                        "context": "The discussions indicate some excitement around price movement, but the central meme isn't strongly prevalent."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There are no clear discussions around fairness or unfairness in the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There are mixed sentiments; some express excitement about control, while others remain neutral."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Participants are showing a strong inclination to hold and pump tokens."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere is generally positive, with some motivational posts evident."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 55,
+                        "context": "The discussions are moderately emotionally charged, especially with references to pumping tokens."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of the participants isn't clearly indicated."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price actions and discussions around potential gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Participants show a belief that holding tokens could lead to significant returns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 40,
+                        "context": "There is some participation in discussions related to promoting tokens but limited volunteer activities are evident."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community appears lively with active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "There are few inquiries about buying tokens, lessening the engagement from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 45,
+                        "context": "Some expressions of inspiration can be seen, particularly around the idea of community pumping."
+                    }
+                },
+                "catch_phrase": "Pump it up!",
+                "about": "Discussions about token performance and potential giveaways.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 4,
+                    "total_message_count": 6
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:45:45"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 20,
+                        "context": "There is a weak central meme or theme being discussed, primarily focused on individual sentiments rather than a collective idea."
+                    },
+                    "fairness": {
+                        "intensity": 15,
+                        "context": "Participants seem to express feelings of frustration and loss, indicating a belief that fairness is not present."
+                    },
+                    "VC_cabal": {
+                        "intensity": 10,
+                        "context": "There is a strong sense that external forces or insiders are manipulating or controlling outcomes."
+                    },
+                    "hold_intent": {
+                        "intensity": 30,
+                        "context": "Some participants appear to be contemplating holding, but there is significant expressions of disappointment affecting their intent."
+                    },
+                    "vibes": {
+                        "intensity": 25,
+                        "context": "The atmosphere is somewhat negative, with participants expressing frustration and hopelessness, indicating lower vibes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 40,
+                        "context": "The discussion has a moderate level of emotional charge, driven by personal sentiments and some external events."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Impressions from posts suggest that some members may be of lower socioeconomic status, indicated by their expressions of defeat."
+                    },
+                    "price_action_focus": {
+                        "intensity": 25,
+                        "context": "There is limited but noticeable focus on price conversations with some expressions of hope mixed with disappointment."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 15,
+                        "context": "There is little belief among participants that they will become wealthy from current discussions."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 10,
+                        "context": "Very few participants appear to be engaging in value-adding activities."
+                    },
+                    "community_health": {
+                        "intensity": 30,
+                        "context": "The community appears to be struggling with low engagement and morale, suggesting health issues."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 5,
+                        "context": "There are no inquiries about buying tokens, showing lack of interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 10,
+                        "context": "There are few signs of inspiration or hope expressed within the community."
+                    }
+                },
+                "catch_phrase": "GM GM.",
+                "about": "Participants are sharing sentiments regarding loss, financial concerns, and lack of engagement.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 4,
+                    "total_message_count": 5
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:45:49"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 40,
+                        "context": "There seems to be some discussion about the marketing aspect and trending status, but it does not dominate the conversation."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants appear neutral towards the project's fairness based on the lack of complaints or strong positive comments."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There is no clear mention of insiders controlling the project, indicating a neutral sentiment."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Some users express a desire for engagement, suggesting they might hold tokens, but it's unclear how many actually want to sell."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The chat contains mixed emotions, but overall the vibes seem somewhat positive with a few users expressing excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 50,
+                        "context": "The discussion has moments of emotional intensity, especially with mentions of trending and payments, but is generally moderate."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Conversations suggest a user base that may not be elite, as they are involved in marketing and seeking collaborations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There are mentions of trending and payments which hint at a focus on price, but not overwhelmingly so."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "There is a moderate belief in the project's potential, but not enough strong expressions of getting rich."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Some engagement toward content creation suggests willingness to promote, but lacks strong community-driven activities."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The community shows signs of activity and discussion, though it feels somewhat fragmented."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "There are few inquiries about buying the token, with more focus on marketing and collaboration."
+                    },
+                    "inspiration": {
+                        "intensity": 45,
+                        "context": "There are hints of encouragement but not enough strong inspirational sentiment."
+                    }
+                },
+                "catch_phrase": "(360Team) Just Payment",
+                "about": "Community discussing marketing and trending status of a project.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 8,
+                    "total_message_count": 10
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:45:53"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 30,
+                        "context": "The conversation lacks a strong central theme or meme, with many messages being promotional or casual greetings."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Participants show a degree of suspicion about the promotional nature of some messages, indicating concerns over fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 25,
+                        "context": "There are hints of distrust towards project control, reflecting concern over insiders' influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Mixed messages about holding versus selling indicate a somewhat positive inclination towards holding tokens."
+                    },
+                    "vibes": {
+                        "intensity": 55,
+                        "context": "Generally friendly and informal interactions suggest decent vibes, with moments of support and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 50,
+                        "context": "The discussion contains a mix of casual conversation and promotional messages, resulting in moderate emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Numerous requests for promotions suggest participants may not be in high socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 35,
+                        "context": "There is some mention of price-related strategy, but it's not the main focus of discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 40,
+                        "context": "Participants express a moderate belief in potential financial gain, but there\u2019s skepticism present."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 20,
+                        "context": "Limited evidence of voluntary, non-paid efforts or community engagement beyond promotions."
+                    },
+                    "community_health": {
+                        "intensity": 45,
+                        "context": "The community displays signs of life but lacks rich, diverse discussions indicative of high health."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 15,
+                        "context": "Few inquiries about purchasing the token indicate a low interest in new investments."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "Some expressions of positivity and camaraderie reflect a moderate ambiance of inspiration."
+                    }
+                },
+                "catch_phrase": "Stay tuned for more updates",
+                "about": "Promoting and discussing cryptocurrency projects.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 7,
+                    "total_message_count": 14
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:45:57"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "There is a central focus on the token 'poupe', indicating a central idea around which members are rallying."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "The discussion suggests mixed feelings about the fairness of the project, as some might feel it's a good opportunity while others may have doubts."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is a slight suspicion of insider control, but it's not strongly expressed."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Most participants seem to be inclined towards holding the token rather than selling."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The overall atmosphere is optimistic, especially with messages about investment and wealth accumulation."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 50,
+                        "context": "The discussion is moderately emotionally charged, with encouraging messages to invest."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Participants appear to be somewhat economically stable, discussing investment opportunities."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There's a strong focus on the token price and its potential for increase."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "Participants express hope for significant financial return from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 20,
+                        "context": "There is little indication of free labor or significant volunteer effort within the community."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The chat reflects a lively discussion, suggesting a healthy community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries about the token, indicating interest from potential newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many comments reflect feelings of hope and inspiration about potential wealth accumulation."
+                    }
+                },
+                "catch_phrase": "Buy Poupe, Hold for Wealth",
+                "about": "Discussions about investing in a token named 'poupe'.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 2,
+                    "total_message_count": 4
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:46:00"
+                }
+            }
         }
     }
 }

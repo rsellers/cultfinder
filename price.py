@@ -82,7 +82,7 @@ def fetch_price_data(project_name):
     # Split the date range into 60-day chunks
     current_start_date = start_date
     while current_start_date < end_date:
-        current_end_date = min(current_start_date + timedelta(days=60), end_date)
+        current_end_date = min(current_start_date + timedelta(days=80), end_date)
 
         # Convert dates to UNIX timestamps (in seconds)
         start_timestamp = int(current_start_date.timestamp())
@@ -113,6 +113,8 @@ def fetch_price_data(project_name):
 
         # Move to the next chunk
         current_start_date = current_end_date
+        print(f"Sleeping 10sec to not upset the CoinGecko gods")
+        time.sleep(30)
 
     if not all_prices:
         print(f"No price data fetched for '{api_id}'.")
@@ -360,7 +362,7 @@ def update_coins_ini(project_data_full, social_scrape, ini_file='coins.ini'):
 
 
 if __name__ == '__main__':
-    fetch_price_data('brainrot')
+    #fetch_price_data('brainrot')
 
     # memelist_pg3 = [
     # "Beercoin", "Balls of Fate",  "Based Chad", "Hege", 
@@ -492,8 +494,8 @@ if __name__ == '__main__':
 # ]
 
 #     # Trial function calls 
-#     # print(search_project_data('kamala horris'))
-#     # update_coins_ini(search_project_data_full('kamala-horris'), scrape_project_socials_coingecko('kamala-horris'))
+    #print(search_project_data('nailong'))
+    update_coins_ini(search_project_data_full('nailong'), scrape_project_socials_coingecko('nailong'))
 
 #     for project_name in memelist_pg2:
 #         time.sleep(30)

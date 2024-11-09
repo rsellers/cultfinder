@@ -10790,6 +10790,516 @@
                     "date_process": "2024-11-03 11:15:58"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The community shows strong engagement with their meme and discussions centered around the ORC project."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There is a sentiment that the project is not entirely fair due to discussions about manipulation and insider control."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express concerns about possible manipulation by insiders or 'whales'."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "While many express a desire to hold, there are also signs of frustration, leading some to consider selling."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "Overall vibes are mixed; there is some encouragement but also frustrations about price drops."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussions display significant emotional charge, reflecting concerns and hopes for future gains."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "It seems like the community is a mix of those with moderate and lower socioeconomic status, with expressions of financial strain."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price movements and expectations in the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "A majority of participants express belief in a significant potential upside for the ORC token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Many users are actively engaging in promotional activities, showcasing a sense of community effort."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The community shows signs of liveliness with interactions, though there is rising tension about market performance."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Occasional inquiries about buying and the state of the market indicate new interest."
+                    },
+                    "inspiration": {
+                        "intensity": 50,
+                        "context": "A moderate level of inspiration is present in the community, often referenced in suggestions to hold or maintain faith in the project."
+                    }
+                },
+                "catch_phrase": "/SMASH_THE_RAID",
+                "about": "A community centered around the ORC token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/orcsolana",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/headstrong1995",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/qadr7745",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shitcoinshunt",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/zuhdiimohamad",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 45,
+                    "total_message_count": 214
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:07:02"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The community exhibits enthusiasm around the ORC token, indicating a strong central meme of shared financial success."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants seem divided on whether the token is fair or manipulated, hinting at some concerns but overall a belief in community equity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There are mixed sentiments regarding insider control, with some expressing concerns about venture capital influences while many feel empowered by community efforts."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "There is a strong inclination among participants to hold their tokens, driven by optimism about future gains."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The atmosphere is mostly supportive, with many encouraging patience and positivity despite market conditions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly emotionally charged, reflecting a community passionately invested in the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "There are indications of participants occupying various socioeconomic backgrounds, but the tone suggests a mix of experiences."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "The conversation frequently centers around price activity, indicating a strong interest in price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Many community members express belief in significant potential profits from holding the ORC token, indicating high expectations."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is considerable volunteer engagement in promoting the token, with calls for social media action and increased community participation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The discussions are lively and vibrant, with a concerning focus on action and community building."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some participants are inquiring about buying more tokens, reflecting a moderate interest among newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "A strong sense of hope and inspiration is present, with members rallying behind the potential of the ORC token."
+                    }
+                },
+                "catch_phrase": "WORCING for our bags",
+                "about": "Community focused on the growth and promotion of the ORC token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/orcsolana",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 30,
+                    "total_message_count": 97
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:07:09"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The community has a central meme and is actively engaging with it, especially in terms of promoting Orc and participating in raids."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is a moderate belief in the fairness of the project's opportunities, though some are questioning the transparency."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There's a noticeable suspicion of outside control, likely due to the mention of whales and the overall sentiment regarding project management."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a strong intention to hold or buy more Orc, indicating a desire for long-term investment."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall atmosphere is positive and supportive, with many expressions of encouragement and excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are highly charged, with a mix of optimism, community spirit, and some frustration regarding project updates."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed indications of socioeconomic status, with some participants displaying confidence while others express concern about project management."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a reasonable focus on price discussions, especially regarding potential gains and market stabilization."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants believe in the project's potential for significant returns, evidenced by upbeat language about the future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 85,
+                        "context": "There is a strong culture of volunteerism within the group, with many members participating actively in promotional activities."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community exhibits healthy and engaging discussions, though some members express a desire for more frequent updates."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about purchasing Orc, indicated by questions regarding buying strategies and timing."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Community members express inspiration and hope about the project's future and their involvement in it."
+                    }
+                },
+                "catch_phrase": "SMASH IT",
+                "about": "The community is centered around the Orc token and plans to promote it through various projects and activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/orcsolana",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 38,
+                    "total_message_count": 102
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:07:14"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The discussions are heavily focused on the ORC meme and the enthusiasm around it is palpable."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings about the project's fairness, though many seem optimistic about its prospects."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion about external control, but the community feels involved in steering the price."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A strong sentiment towards holding ORC with many expressing intent to buy more and hold."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The overall atmosphere is very positive, with members actively supporting and encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is filled with high energy, passion, and excitement among the participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "Participants show signs of moderate to low socioeconomic status based on their language and expressions."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "A significant focus on price discussions and strategies related to buying and holding ORC."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 78,
+                        "context": "There is a strong belief in the potential for ORC to rise significantly, with many expressing anticipation of wealth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many members are contributing to community engagement and promotion without compensation, indicating a high level of volunteer spirit."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is vibrant and lively, with frequent interactions and active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are frequent inquiries about buying ORC, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Discussions are filled with inspirational messages and a positive outlook on the future of ORC."
+                    }
+                },
+                "catch_phrase": "LFG",
+                "about": "A community centered around the ORC token and its potential in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/nghiazalt10",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/orcsolana",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 49,
+                    "total_message_count": 170
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:07:20"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "Discussion heavily revolves around the Orc meme and its association with current events."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants generally feel that the project is fair, as many express optimism about tokenomics and community support."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "There is some suspicion regarding external control, but most believe in community management."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "A strong desire to hold Orc tokens is evident, with numerous posts about long-term gains."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is overwhelmingly positive with excitement about market movements and community engagement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is very emotionally charged, particularly around the results of the election and token market response."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Some participants discuss economic constraints while others express wealth, indicating a mixed socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The primary focus of the discussion is on the token price and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Strong belief in potential future gains with Orc expressed by multiple users."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many users volunteer to promote the token and engage in 'raiding' activities without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant, with many active participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Several new participants are asking about purchasing Orc, indicating interest in buying."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "There is a strong sense of inspiration and hope among users, particularly linked to their belief in the community and tokens."
+                    }
+                },
+                "catch_phrase": "Orc to the moon!",
+                "about": "The community is rallying around the Orc cryptocurrency, heavily influenced by current political events and market dynamics.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/nghiazalt10",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/sownbk_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/orcsolana",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 49,
+                    "total_message_count": 238
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:07:29"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community revolves around a strong meme culture, particularly centered around the term 'orcs' and a spirit of enthusiasm regarding the project."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed sentiments about fairness, with some members questioning the equity of the project while others express confidence."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion among community members about the influence of venture capitalists or insiders on the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Members are generally in a holding mindset, aiming for long-term gains and encouraging others to hold."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere in the chat is very positive, with lots of encouragement and excitement among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are highly charged with excitement and enthusiasm for the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "The socioeconomic status of the group appears varied, with some expressing aspirations for wealth through the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a significant focus on price action, with many discussions revolving around market movements and price predictions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants widely express belief in a strong potential for making significant profits from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many community members are actively participating in promotional activities and supporting the project voluntarily."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant and actively discussing many aspects of the project."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers are asking about purchasing the token and where it is available, indicating curiosity about entering the market."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "There are many expressions of hope and inspiration among community members regarding the future of the project."
+                    }
+                },
+                "catch_phrase": "gorc morning",
+                "about": "Community surrounding the ORC token, focusing on building camaraderie and excitement about potential investments.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/qadr7745",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/nghiazalt10",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 37,
+                    "total_message_count": 97
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:07:33"
+                }
+            }
         }
     }
 }

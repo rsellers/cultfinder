@@ -5432,6 +5432,488 @@
                     "date_process": "2024-11-02 17:22:43"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "The conversation includes multiple meme links, indicating that there's a central theme around memes that engage the participants."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a sense of fairness in sharing rewards and opportunities within competitions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There is a neutral sentiment about control, with no strong complaints or reassurances regarding insider influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "There are indications of community support for holding tokens long-term, as members discuss buying more."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat shows a positive atmosphere with frequent greetings, encouragements, and humorous exchanges."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are lively and often humorous, indicating a high level of emotional engagement among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed indicators of socioeconomic status among members, with no clear statements on affluence or struggle."
+                    },
+                    "price_action_focus": {
+                        "intensity": 40,
+                        "context": "While some price discussions exist, the focus seems to be more on community and meme activities than solely on price."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 65,
+                        "context": "Participants express optimism about the potential for growth, especially in relation to competitions and submissions."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Members are participating actively in competitions without compensation, indicating strong communal engagement."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The discussion is vibrant, with multiple participants involved in various activities and a rich exchange of ideas."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "There are few inquiries about buying tokens, indicating limited interest from newcomers at this time."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "The chat reflects a sense of hope and motivation, especially related to upcoming community competitions."
+                    }
+                },
+                "catch_phrase": "A lively community filled with memes and competitions!",
+                "about": "A space for whiskey enthusiasts to engage and compete creatively.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/whiskey_meme",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/flocz999",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/emmnuelassam",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 21,
+                    "total_message_count": 86
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:27:20"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions revolve around contests and memes, indicating a strong central theme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings about the leadership and structure of the project, with some concerns expressed."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express some suspicion regarding the control of insiders or investors affecting outcomes."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "There is a general sentiment leaning towards holding tokens, as indicated by community members expressing trust and long-term commitment."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall mood is positive with encouragement and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The chat shows moderate emotional engagement with excitement about competitions and contests."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants seems mixed with some levity about financial stakes."
+                    },
+                    "price_action_focus": {
+                        "intensity": 55,
+                        "context": "Conversations touch on financial aspects and potential earnings, indicating a moderate focus on price."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants exhibit a strong belief in the potential for financial gain from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Some community engagement in volunteer activities is present, particularly in promoting contests."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community appears lively and engaged with ongoing discussions and excitement for events."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are some newcomers asking about participating and buying into the project."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express feelings of hope and excitement about the future of the project."
+                    }
+                },
+                "catch_phrase": "Raid and Earn!",
+                "about": "Discussion centered around contests and rewards related to the project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/whiskey_meme",
+                            "mentions": 7
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 17,
+                    "total_message_count": 61
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:27:24"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussion is focused on meme sharing, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally feel the project is fair and that they can benefit from it."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is some suspicion, but not overwhelmingly, regarding control by venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many users express a desire to hold their tokens and participate in the community."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is mostly positive and supportive with plenty of encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussions are lively with emotional expressions around contests and community engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The community appears to be diverse in socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "Price discussions are present but not overwhelmingly so, focusing more on community activities."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express a belief in the project's potential for financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is significant voluntary participation in promoting the project through memes."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community exhibits lively engagement and active discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about buying the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many participants express excitement and inspiration through their interactions."
+                    }
+                },
+                "catch_phrase": "\"Gm!\"",
+                "about": "A lively community centered around meme-sharing and token discussions.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/whiskey_meme",
+                            "mentions": 10
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 8,
+                    "total_message_count": 33
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:27:27"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The community exhibits a strong central theme around 'Whiskey' as indicated by supportive messages and memes circulating in the chat."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed opinions about fairness, with some participants feeling positive about the distribution of rewards but also expressing some confusion regarding the rules."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "Participants show neutrality towards the influence of insiders or venture capitalists, suggesting a balance between trust in community versus general skepticism about outside influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A significant number of participants express a strong desire to hold their tokens for potential future gains."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall vibe in the chat is upbeat and supportive, with plenty of encouragement and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is quite charged emotionally with many participants actively engaged and expressing excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There's no clear indication of the socioeconomic status of participants, suggesting a diverse group."
+                    },
+                    "price_action_focus": {
+                        "intensity": 40,
+                        "context": "While pricing discussions are present, they are not the primary focus of the conversation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express significant optimism about the potential for financial gain from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 90,
+                        "context": "Many participants are actively engaging in promoting the project and participating in community-driven activities without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community exhibits a vibrant and lively atmosphere with rich discussions and strong engagement among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are instances of new members asking about buying the token, indicating some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members frequently express feelings of hope and excitement about the project's future."
+                    }
+                },
+                "catch_phrase": "Let\u2019s fill our bags and send it \ud83d\ude80",
+                "about": "A community focused on the Whiskey token and its growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/whiskey_meme",
+                            "mentions": 10
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 12,
+                    "total_message_count": 57
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:27:33"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussion is centered around a strong meme and community engagement surrounding the whiskey project."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a positive sentiment towards the fairness of the project, although some skepticism is present."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are concerns regarding the influence of insiders or venture capitalists over the token."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "There is a strong inclination for participants to hold tokens in anticipation of future gains."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The conversation features supportive and enthusiastic vibes among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are highly emotionally charged, with excitement and anticipation prevalent."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The group appears to have a moderate socioeconomic status, with some participants expressing concerns over rewards."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a noticeable focus on the token price and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express strong belief in the potential for significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants actively volunteer time and effort to promote the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and engaged with active discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about purchasing the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express a sense of inspiration and hope regarding the project."
+                    }
+                },
+                "catch_phrase": "#MWGA MAKE WHISKEY GREAT AGAIN",
+                "about": "This community is centered around promoting and supporting the whiskey token project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/whiskey_meme",
+                            "mentions": 12
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 15,
+                    "total_message_count": 92
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:27:37"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "There is a strong emphasis on promoting memes and engaging content related to the project throughout the chat."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants largely express confidence in the project's fairness, with ongoing community drives and contests."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There are some underlying suspicions about external control, but many members seem to feel that the community is in charge."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The group exhibits a clear inclination to hold onto their tokens for potential future gains."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "A generally positive atmosphere prevails with encouragement and support amongst members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is fairly charged with excitement and anticipation, especially regarding upcoming project developments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants appears mixed, with no strong indicators of either extreme."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is considerable discussion regarding price movements and the potential of token growth."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express strong beliefs that the project has significant profit potential."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is active participation encouraging members to contribute creatively to the community."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "Participants show a vibrant and engaged community with consistent interaction and excitement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "While there are some inquiries relating to purchasing the token, it's not widely asked."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Members exhibit high levels of inspiration, encouraging submissions and community engagement."
+                    }
+                },
+                "catch_phrase": "Tip and win",
+                "about": "Community focused on promoting the Whiskey token and encouraging creative participation.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/whiskey_meme",
+                            "mentions": 8
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 15,
+                    "total_message_count": 54
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:27:41"
+                }
+            }
         }
     }
 }

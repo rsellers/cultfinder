@@ -17169,6 +17169,524 @@
                     "date_process": "2024-11-03 12:44:36"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community exhibits a strong and engaging meme culture centered around the idea of VENKO as a blue chip meme coin, particularly linked with the theme of aliens."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Moderate belief in fairness exists; while some members express skepticism about market manipulations, others show trust in the team's long-term vision."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "There is some suspicion regarding potential control by insiders, but many members express confidence in team transparency."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A significant majority of participants show a strong intent to hold; there are many discussions emphasizing long-term investment strategies."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is supportive and optimistic, especially with many users expressing excitement about future potential."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "Discussions are emotionally charged, with participants frequently expressing hope, excitement, and occasional frustration."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "Participants show a mixed socioeconomic status; many express optimism about making significant gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Conversations consistently reference price movements, especially in light of recent corrections, suggesting a high focus on price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants vocalize high expectations for massive price increases, indicating strong belief in the future potential of the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Community members are actively engaging in promotional activities without any compensation, showcasing a level of enthusiasm and faith in the project."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "Chat displays a vibrant community with regular participation and interaction among members, despite recent downturns."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "While there is general excitement about future price movements, specific inquiries about purchases are less frequent, reflecting a focus on holding."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants often express feelings of inspiration related to the project and community, contributing positively to motivation and morale."
+                    }
+                },
+                "catch_phrase": "VENKO to the moon!",
+                "about": "A community rallying around the VENKO token, emphasizing its potential as a leading meme project with strong community support.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ethchainhunter",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 99,
+                    "total_message_count": 1220
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:14:51"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat is very focused on the unique and engaging nature of VENKO, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a sense of fair opportunity among participants to profit from VENKO."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is some suspicion of outside control, but the community feels somewhat in charge."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The majority of participants express a strong desire to hold onto their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The overall vibes are positive, filled with excitement and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly emotionally charged, with a lot of excitement surrounding the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While some participants mention broader opportunities, there is a perception that many involved are not from the wealthiest backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Much of the discussion revolves around the price action and expectations for future gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants strongly believe in the potential for significant profits from VENKO."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are engaging actively and promoting the project voluntarily."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community is vibrant and engaging, with a high level of healthy discourse."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 85,
+                        "context": "There are numerous newcomers asking about how to buy VENKO."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants frequently express feelings of hope and inspiration from the group's activities."
+                    }
+                },
+                "catch_phrase": "To the moon!",
+                "about": "A community united around the VENKO token and its potential for growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/spigolo97",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 89,
+                    "total_message_count": 924
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:15:02"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussion revolves around a strong positive meme of community growth and success with VENKO."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a general belief that the project is fair and beneficial to its members, contributing to positive morale."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There's a noticeable distrust regarding potential insider influence on the token, leading to a sense of community empowerment."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The conversation is predominantly supportive of holding and accumulating tokens, indicating a strong collective intent to retain holdings."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The tone is very positive, filled with encouragement and excitement about the future of the project."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is charged with optimism and excitement, propelling the group's energy."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants display diverse socioeconomic feelings but share a common goal of collective wealth through VENKO."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price movements and the potential for growth."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is widespread belief that holding VENKO could lead to substantial profits, encouraging optimism."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are actively engaging and promoting VENKO energetically, volunteering substantial effort."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant, with healthy discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "New participants are actively asking about buying tokens, indicating strong interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Community members express hope and excitement for upcoming projects, motivating engagement."
+                    }
+                },
+                "catch_phrase": "To the moon with VENKO!",
+                "about": "A community rallying around the VENKO token, aiming for collective growth and financial success.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/venkocoin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 83,
+                    "total_message_count": 850
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:15:12"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussions revolve around shared memes and rallying community spirit, strong engagement with memes is observed."
+                    },
+                    "fairness": {
+                        "intensity": 85,
+                        "context": "There is widespread belief that the community is fairly treated and that the project is accessible to all members."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There are sentiments indicating suspicion that insiders could influence the market, though the community remains optimistic."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "The group expresses a strong desire to hold onto their tokens rather than sell, showing confidence in future gains."
+                    },
+                    "vibes": {
+                        "intensity": 95,
+                        "context": "The chat is highly positive and encouraging, fostering a sense of community and mutual support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The conversations are charged with excitement, anticipation, and a collective sense of purpose."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Members appear to have mixed socioeconomic backgrounds, with some expressing financial hardship yet showing commitment."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is significant discussion around price action and future price potential, reflecting on market conditions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express strong belief in the potential for significant financial gains from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "A good number of community members are contributing their time and effort voluntarily to promote the project."
+                    },
+                    "community_health": {
+                        "intensity": 95,
+                        "context": "The community is vibrant and lively, marked by a high volume of engaging discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Some new members are seeking guidance on how to purchase or engage with the token, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 88,
+                        "context": "Community members frequently express feelings of hope and enthusiasm, motivating each other."
+                    }
+                },
+                "catch_phrase": "Let's go to Mars \ud83d\ude80",
+                "about": "VENKO community focused on growth and engagement in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cncryptobob",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/exoplanetascom",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 85,
+                    "total_message_count": 759
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:15:23"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The community engages heavily with the concept of VENKO and memes, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a general belief that the project is fair and benefits the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are suspicions among some users about possible control by insiders or VCs, but the overall sentiment is less focused on this issue."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Majority of participants express a strong desire to hold their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 95,
+                        "context": "The overall atmosphere in the chat is positive, supportive and filled with encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 95,
+                        "context": "The conversation is highly emotionally charged with excitement and bullish sentiments about the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There's a mix of socioeconomic status among participants, but many express optimism about financial gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "Discussions frequently include price speculation and optimism about future price increases."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express strong beliefs that holding VENKO will lead to significant financial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many users are actively contributing to the community without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 98,
+                        "context": "The community is vibrantly engaged, with dynamic discussions indicating a healthy and active environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "There is a notable interest from newcomers asking about how to buy the token."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Many users express hope and inspiration for future success with VENKO."
+                    }
+                },
+                "catch_phrase": "To the Moon",
+                "about": "VENKO community is focused on achieving growth in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/venkocoin",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 84,
+                    "total_message_count": 1024
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:15:34"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions are centered around a strong community meme and identity within the VENKO project."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "There's a strong sense of community participation in decision-making and announcements, and users feel fairly treated."
+                    },
+                    "VC_cabal": {
+                        "intensity": 70,
+                        "context": "While there are discussions about insider influence, the overall sentiment tends to support community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The majority of conversation reflects a strong desire to hold rather than sell, with many members expressing long-term commitment."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is overwhelmingly positive, with many messages expressing excitement and support for each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are charged with enthusiasm and anticipation regarding future developments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Overall, the community appears to be of diverse socioeconomic backgrounds, with a mix of both established and newer participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The chat discussions consistently focus on price action, trading strategies, and investments."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 95,
+                        "context": "Participants express strong beliefs in the potential for substantial financial gains from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many members actively participate in promoting the project without direct compensation, contributing value collectively."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community is vibrant and active, with numerous discussions and interactions, indicating a healthy engagement level."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 80,
+                        "context": "There are frequent inquiries about how to buy and participate, indicating a growing influx of interest from new members."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Members often express feelings of inspiration and motivation, encouraging one another to continue participating."
+                    }
+                },
+                "catch_phrase": "To the moon and beyond it!",
+                "about": "A vibrant community focused on promoting and supporting the $VENKO cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/venkocoin",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/adindasafit_",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/memecointip",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/mtamimi09",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/nykthe_",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/jimeth001",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/deficipher0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/_noramurphy",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 115,
+                    "total_message_count": 1136
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:15:49"
+                }
+            }
         }
     }
 }

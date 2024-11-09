@@ -1,0 +1,227 @@
+{
+    "project_name": "max2049",
+    "date_data": {
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 20,
+                        "context": "The discussion lacks a strong central meme, with more focus on discontent and frustration."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There is a widespread belief that the project is perceived as unfair or not equitable."
+                    },
+                    "VC_cabal": {
+                        "intensity": 10,
+                        "context": "Many participants express belief that insiders are influencing the project's outcomes negatively."
+                    },
+                    "hold_intent": {
+                        "intensity": 20,
+                        "context": "There is a desire among some users to hold onto their investments, but overall sentiment leans towards dissatisfaction."
+                    },
+                    "vibes": {
+                        "intensity": 15,
+                        "context": "The vibes are generally negative, with expressions of frustration and disappointment."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is highly emotionally charged, reflecting frustration and disappointment."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The community appears to express concerns aligned with lower socioeconomic status or lack of resources."
+                    },
+                    "price_action_focus": {
+                        "intensity": 40,
+                        "context": "There is some focus on token price, but it is overshadowed by dissatisfaction."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 25,
+                        "context": "Participants seem to have low expectations about getting rich from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 10,
+                        "context": "There is minimal to no participation in volunteer activities or community building."
+                    },
+                    "community_health": {
+                        "intensity": 30,
+                        "context": "The community appears somewhat disengaged and frustrated, indicating poor health."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 5,
+                        "context": "There is very little interest from newcomers about buying the token."
+                    },
+                    "inspiration": {
+                        "intensity": 10,
+                        "context": "Expressions of inspiration and hope are virtually absent in the chat."
+                    }
+                },
+                "catch_phrase": "",
+                "about": "Community expresses frustration over project management and feels a sense of abandonment.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 5,
+                    "total_message_count": 10
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:09:36"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 0,
+                        "context": "The discussion lacks a central meme as it consists of a single link without emotional or thematic context."
+                    },
+                    "fairness": {
+                        "intensity": 0,
+                        "context": "There is no discussion of fairness present in the chat log."
+                    },
+                    "VC_cabal": {
+                        "intensity": 0,
+                        "context": "No mention of venture capitalists or any mention of control in the market is present."
+                    },
+                    "hold_intent": {
+                        "intensity": 0,
+                        "context": "There is no indication of holding or selling intent as the message does not discuss any tokens directly."
+                    },
+                    "vibes": {
+                        "intensity": 0,
+                        "context": "The vibes cannot be assessed given the singular and neutral nature of the message."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 0,
+                        "context": "The discussion is flat and lacks emotional charge with only one message."
+                    },
+                    "socioeconomic": {
+                        "intensity": 0,
+                        "context": "There are no socioeconomic cues present in the communication."
+                    },
+                    "price_action_focus": {
+                        "intensity": 0,
+                        "context": "There is no focus on price action in the provided message."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 0,
+                        "context": "No expressions of potential for wealth or upside are mentioned."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 0,
+                        "context": "There is no indication of volunteers or community labor in the message."
+                    },
+                    "community_health": {
+                        "intensity": 0,
+                        "context": "The community appears inactive with only one solitary message."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 0,
+                        "context": "No inquiries related to purchasing tokens are present."
+                    },
+                    "inspiration": {
+                        "intensity": 0,
+                        "context": "There is no sense of inspiration or hope expressed in the message."
+                    }
+                },
+                "catch_phrase": "",
+                "about": "",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 1,
+                    "total_message_count": 1
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:09:39"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 20,
+                        "context": "The conversation does not revolve around a central meme, rather it contains light banter."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "No clear indication of unfairness or fairness as it is merely social interaction."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "No indications of insider control or suspicion presented in this brief dialogue."
+                    },
+                    "hold_intent": {
+                        "intensity": 50,
+                        "context": "The messages do not indicate any specific sentiment towards holding or selling tokens."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The overall vibe is playful and humorous."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 30,
+                        "context": "The discussion is relatively low in emotional charge, focused on banter."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "No socioeconomic indicators are present; the context is not enough to determine status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 0,
+                        "context": "There is no mention or focus on token price in these messages."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 0,
+                        "context": "There is no mention of project potential or financial aspirations in this exchange."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 0,
+                        "context": "No indication of volunteering for significant efforts; conversation is lighthearted."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The exchange shows some level of community interaction, but is limited and casual."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 0,
+                        "context": "No inquiries about purchasing tokens are present."
+                    },
+                    "inspiration": {
+                        "intensity": 20,
+                        "context": "Minimal expression of inspiration or hope; mostly casual banter."
+                    }
+                },
+                "catch_phrase": "",
+                "about": "Casual discussion with playful teasing.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 1,
+                    "total_message_count": 2
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:09:42"
+                }
+            }
+        }
+    }
+}

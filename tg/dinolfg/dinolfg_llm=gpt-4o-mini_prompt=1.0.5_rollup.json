@@ -27909,6 +27909,648 @@
                     "date_process": "2024-11-02 20:24:05"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The discussion centers around a core theme of the $DINOS token and community enthusiasm."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings around project fairness, with some perception of inclusivity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Some participants express concerns about venture capitalists or insider influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A strong sentiment among participants to hold onto their tokens."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat reflects a generally positive and supportive atmosphere."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussions carry emotional weight but are more light-hearted than highly charged."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are hints of varied socioeconomic backgrounds among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 55,
+                        "context": "While price is mentioned, the discussions also include community building aspects."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Participants express optimism about potential gains from the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many members show engagement in promoting the community without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears lively with diverse discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Interest in buying the token is present but not predominant."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "There are expressions of hope and support among members."
+                    }
+                },
+                "catch_phrase": "GM $DINOS",
+                "about": "The community is focused on the $DINOS token and fostering a positive environment.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/scolari1337",
+                            "mentions": 14
+                        },
+                        {
+                            "url": "https://x.com/blantexo",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/jadeztematemzat",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/yayami_o_matte",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/therealdinoshi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/budiset986",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mark131427",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/xrdxktt",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 24,
+                    "total_message_count": 54
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:34:53"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 95,
+                        "context": "The chat heavily revolves around the core meme of $DINOSHI, evident from numerous references and supportive messages."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally express a belief that the project is fair, with many actively supporting it."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There are low levels of suspicion about venture capitalists controlling the project, indicating community trust."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Most users express strong intentions to hold and support the token."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere is highly positive and encouraging, filled with support for community members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are filled with excitement and emotional engagement, particularly around events and milestones."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While some participants show signs of lower socioeconomic status, there are also indications of a mixed background."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a notable focus on token price and upcoming events."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants frequently express belief in the potential for significant gains from holding tokens."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 90,
+                        "context": "Many participants engage voluntarily in promotional activities for the project."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community is vibrant and active, with engaging discussions and support."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about buying in, but they are not pervasive."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Community members frequently express inspiration and positivity from their involvement."
+                    }
+                },
+                "catch_phrase": "#DINOSHI_is_the_KING",
+                "about": "$DINOSHI and community building",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/scolari1337",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/yayami_o_matte",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/blantexo",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/therealdinoshi",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/przemys89175127",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bobifirmino166",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/marketprophit",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 79,
+                    "total_message_count": 490
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:34:59"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community is actively engaging with and promoting a central meme related to the DINO project."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings about the fairness of the project, with some participants expressing skepticism about active community involvement."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There are concerns and discussions about the influence of insiders on the project, but opinions are divided."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants are eager to hold and support the token, indicating a positive sentiment towards long-term investment."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The chat reflects a generally positive atmosphere, with many supportive and excited messages shared among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The chat is highly emotionally charged with significant enthusiasm and excitement about potential gains."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants is varied, with some indicating hope for financial improvement through the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a very strong focus on price discussions, showing that members are deeply engaged in tracking token value."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express a strong belief in the potential for significant returns from the DINO token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There is a good level of voluntary engagement from members, with many participating in promotional activities."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community shows signs of being vibrant with ongoing discussions and support among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are some inquiries about buying the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants often express inspiration and hope regarding their involvement with the DINO project."
+                    }
+                },
+                "catch_phrase": "Make DINO Great Again",
+                "about": "The DINO token community focuses on promoting the token and increasing its value through active participation.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bjrn1991",
+                            "mentions": 133
+                        },
+                        {
+                            "url": "https://x.com/blantexo",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/scolari1337",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/crisspo_o",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/yayami_o_matte",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/przemys89175127",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/therealdinoshi",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/overdose_ai",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 37,
+                    "total_message_count": 225
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:35:06"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat revolves around a central theme of excitement for a dino birthday and other upcoming events."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally express confidence in the project\u2019s fairness and potential without major complaints."
+                    },
+                    "VC_cabal": {
+                        "intensity": 65,
+                        "context": "There is some mention of external influences but overall a belief in community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "There is strong sentiment towards holding the tokens, with expressions of hope for price increases."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is supportive and filled with enthusiasm, with frequent expressions of camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is emotionally charged, with many participants expressing strong excitement and commitment."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Participants appear relatively diverse, with indications of different socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Price discussions are fairly prevalent as participants hype the token's potential."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "There is a widespread belief in the project with many expressing confidence in its potential to make them financially successful."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are actively promoting the token without compensation, engaging in social media campaigns."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community displays vibrant activity with diverse conversation and positive engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about purchasing tokens, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many members express feelings of hope and inspiration connected to their participation in the community."
+                    }
+                },
+                "catch_phrase": "#GMDino",
+                "about": "A community centered around the $DINOSHI token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/yayami_o_matte",
+                            "mentions": 14
+                        },
+                        {
+                            "url": "https://x.com/blantexo",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/scolari1337",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/crisspo_o",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/paranormalcoind",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/therealdinoshi",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/barizaurus",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/realthebaka",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 41,
+                    "total_message_count": 132
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:35:11"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussion strongly revolves around the 'DINO' meme, with frequent references and enthusiasm."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants generally feel that the project is fair but some skepticism exists."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are suspicions regarding insider control, as some participants express belief in collective community power."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants indicate a strong desire to hold onto tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall mood is positive, with participants supportive of one another and enthusiastic."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The conversation is highly charged emotionally, with excitement and hype throughout."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic background of participants appears mixed, with some indications of lower status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is significant focus on price discussions, reflecting the excitement about potential gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants express strong beliefs in the potential for significant financial success."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many users are volunteering time to promote the project and engage actively."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "This is a vibrant community with lively discussions and active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about purchasing the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "There are expressions of hope and inspiration among community members."
+                    }
+                },
+                "catch_phrase": "LFG (Let's F***ing Go)",
+                "about": "Community dedicated to the $DINO token and related activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dyor_agency",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/blantexo",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/scolari1337",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/cryptonaut_0",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/69yz69",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/barizaurus",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/rogueuriel",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/yayami_o_matte",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 34,
+                    "total_message_count": 99
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:35:15"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat log frequently references and engages with the $DINO and $DINOSHI tokens, creating a strong community theme."
+                    },
+                    "fairness": {
+                        "intensity": 65,
+                        "context": "While there's some belief in fairness within the community, there's a hint of skepticism regarding token allocation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express concerns that outsiders or 'whales' may influence token prices, indicating a lack of trust in the token's economic fairness."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "There is a sense among participants that they want to hold the tokens for long-term benefits."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat reflects a generally positive and supportive atmosphere, with many members encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussions are emotionally charged, particularly around price discussions and community support."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants appears varied, with some expressing enthusiasm about financial gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There\u2019s a notable focus on token prices, especially with repeated inquiries about $DINO's price."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants believe strongly in the potential for significant financial gain from holding $DINO."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Participants are actively promoting the token and sharing links, indicating significant voluntary effort."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community seems vibrant and lively, with many participants actively engaging in discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There's significant curiosity about purchasing the token, particularly new members expressing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Members often express feelings of hope and motivation related to the project's future."
+                    }
+                },
+                "catch_phrase": "Let's go",
+                "about": "A community focused on $DINO and $DINOSHI tokens, fostering financial growth and support.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dyor_agency",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/blantexo",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/coinlists_net",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/rafeal_77_23",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mark131427",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/barizaurus",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/qureshi18961",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/realthebaka",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 34,
+                    "total_message_count": 58
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:35:19"
+                }
+            }
         }
     }
 }

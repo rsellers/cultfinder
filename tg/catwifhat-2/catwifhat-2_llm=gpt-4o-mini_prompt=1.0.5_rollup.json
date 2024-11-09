@@ -27998,6 +27998,492 @@
                     "date_process": "2024-11-03 09:32:27"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The frequent references to 'burn', 'buy', and '$CWIF' indicate a strong engagement with the central meme of the project."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Mixed sentiments about fairness as some members express concern about activity while others remain hopeful."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "There are hints of distrust in external control due to references of market conditions influencing behavior but not widespread suspicion."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a strong encouragement to buy and hold, indicating a general intent to keep tokens among participants."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "There are positive interactions and support among members, especially with expressions of excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussion is moderately emotionally charged due to a variety of messages expressing excitement and urgency."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants seem to represent a mix of socioeconomic statuses as concerns about capital and community involvement indicate diversity."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "A significant portion of the conversation revolves around buying opportunities and market conditions, indicating high price focus."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Strong belief expressed in the potential for gains from $CWIF, emphasizing optimism about price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Evidence of community mobilization and participation, although still reliant on a smaller group for significant action."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The chat appears vibrant and active with diverse discussion topics and user engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Several inquiries about buying indicate an interest in new participants or those considering investment."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "There are expressions of hope and inspiration among members, particularly around community actions and potential success."
+                    }
+                },
+                "catch_phrase": "Burn, Buy, $CWIF",
+                "about": "Discussion revolves around a meme coin community focused on $CWIF.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cwifsoldier",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/unicorn1915999",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 20,
+                    "total_message_count": 41
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:54:58"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The recurring use of terms like 'Chads' suggests a strong community meme and identity."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some participants express skepticism about price and liquidity, indicating mixed feelings about fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There are vague concerns over control but no direct accusations towards VCs or insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many users express a desire to buy and hold, showcasing strong 'diamond hands' mentality."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The chat has a generally positive atmosphere with users exchanging enthusiasm and support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The chat is lively, with many emotional expressions mostly about investment and community."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "There are hints of financial strain, but overall, members seem to have various economic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Much of the discussion revolves around price and investments in the token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "There are strong beliefs among users about the potential for future profits from holding."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Members are actively contributing to community discussions and promotion, indicating engagement."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The chat shows signs of a vibrant community with continuous discussions and user interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are users asking about investments and buying tokens, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Some posts reflect hope and excitement about the future, contributing to a sense of inspiration."
+                    }
+                },
+                "catch_phrase": "Chads",
+                "about": "A community focused on the CWIF token and its potential financial growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cwifsoldier",
+                            "mentions": 3
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 23,
+                    "total_message_count": 55
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:55:02"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "Discussion is largely centered around CWIF, which is well understood by the members."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express an overall belief in the potential of the project, suggesting fair conditions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "Moderate sentiment regarding control; no strong feelings against VCs, suggesting community feels somewhat in control."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Strong desire to hold tokens for potential future gain; many participants express confidence in the project."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "General support and encouragement are evident, though some expressions of concern also appear."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion shows a mix of excitement and some concerns, making it emotionally charged."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Implied through discussions about market conditions and individual commitment to holding tokens."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Considerable focus on price discussions and expectations for movement following external events like the elections."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "High belief expressed by participants regarding potential price increases in the near future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Some participants actively contributing to community building and raiding activities for the project."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The chat shows a vibrant discussion environment with various members interacting positively."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 80,
+                        "context": "Newcomers actively asking how to buy CWIF indicating strong interest."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many members express hope and belief in the longevity of their project."
+                    }
+                },
+                "catch_phrase": "HODL your CWIF tight and away from the FIRE!!!",
+                "about": "Community focused on CWIF token and its potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 38,
+                    "total_message_count": 111
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:55:10"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The community shows a strong engagement around the meme of the token ($CWIF), as participants express excitement and creative energy about the project."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are indications of suspicion about the fairness of the project, likely influenced by discussions about token distribution and market dynamics."
+                    },
+                    "VC_cabal": {
+                        "intensity": 25,
+                        "context": "Many messages express suspicion regarding control by insiders or venture capitalists, indicating a perceived lack of transparency and fairness."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "The overall sentiment is leaning towards holding, with many expressing confidence in potential future growth."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere in the chat is fairly supportive and energetic, with many users expressing positive emotions and camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is highly charged with excitement, particularly around future price predictions and community activities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The chat hints at a mix of socioeconomic backgrounds, but there are sentiments suggesting some participants may come from less affluent situations."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A significant focus on price discussions is present, indicating that many participants are concerned with the financial implications of the token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many chat members express strong beliefs in the potential for substantial financial gains, indicating a widespread focus on profit."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There are indications of active community participation and volunteering efforts to promote the project, especially through raiding."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community shows signs of being vibrant and lively, with diverse discussions and active engagement from participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are a moderate number of inquiries regarding buying the token, indicating a steady interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Messages reflect a sense of hope and inspiration among participants, especially around community efforts and price ambitions."
+                    }
+                },
+                "catch_phrase": "Keep it burning \ud83d\udd25\ud83d\udd25",
+                "about": "Discussion focused on expectations and activities around the CWIF token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cwifsoldier",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 29,
+                    "total_message_count": 73
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:55:15"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion strongly revolves around the CWIF meme, with participants expressing excitement and solidarity."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a belief that the project's benefits are shared within the community, indicating a sense of fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "While there are some suspicions about power dynamics, the overall sentiment supports the community's control over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Most participants seem to have the intent to hold, with expressions of 'diamond hands' and support for price increases."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is generally positive and supportive, with many expressions of joy and enthusiasm."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are charged with excitement and anticipation regarding price actions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Many participants seem engaged in communal and optimistic discussions, suggesting a moderate socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 95,
+                        "context": "There is a high level of focus on price discussions, especially as it relates to supply changes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants believe in the potential for significant wealth creation through the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many members are actively contributing time and effort without monetary compensation, indicating strong community involvement."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and lively, with diverse discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about buying the token, indicating interest from new participants."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Members frequently express feelings of hope and inspiration regarding their involvement in the community."
+                    }
+                },
+                "catch_phrase": "Diamond hands, let's go CWIF!",
+                "about": "A community rallying around the CWIF crypto project, emphasizing collaboration and positive momentum.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cwifsoldier",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/binance",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 52,
+                    "total_message_count": 149
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:55:20"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat messages are heavily focused on the $CWIF token with enthusiastic support from multiple users."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There's a mixed perception regarding fairness, with some users expressing concerns and others showing support."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a significant sentiment suggesting that insiders and venture capitalists may be in control of price movements, causing apprehension among participants."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants indicate a strong desire to hold onto their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The overall atmosphere is positive and supportive, with users encouraging each other throughout the chat."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is highly emotionally charged, with lots of excitement and encouragement expressed."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants come from varied socioeconomic backgrounds, reflected in their mixed-language discussions and topics."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a considerable focus on price movements and token listings within the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express a strong belief in the potential of the project and the possibility of significant financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "A strong degree of volunteerism is observed, with members participating in promotional activities."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The discussion appears vibrant and lively, indicating a healthy community environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about acquiring tokens, indicating interest from potential new buyers."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Community members frequently express feelings of hope and inspiration from their involvement."
+                    }
+                },
+                "catch_phrase": "Let's go cats",
+                "about": "$CWIF token and community support",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cwifsoldier",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ercturbo",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 40,
+                    "total_message_count": 95
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:55:24"
+                }
+            }
         }
     }
 }

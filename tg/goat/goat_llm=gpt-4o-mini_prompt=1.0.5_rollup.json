@@ -1,0 +1,2953 @@
+{
+    "project_name": "goat",
+    "date_data": {
+        "2024-10-11": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "The discussions include references to trending topics and community memes, suggesting engagement with a central idea."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There seems to be some skepticism about the project\u2019s fairness, indicated by the user questioning trends."
+                    },
+                    "VC_cabal": {
+                        "intensity": 35,
+                        "context": "Some comments reflect suspicion about external control, but it's not a predominant theme."
+                    },
+                    "hold_intent": {
+                        "intensity": 50,
+                        "context": "Participants express mixed intentions about holding or selling tokens."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The general atmosphere is supportive with encouraging messages like 'Nice project' and 'Let\u2019s send this bro the moon'."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The conversation contains a mix of casual greetings and enthusiastic rallying cries, indicating moderate emotional charge."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of members is not clearly indicated, with discussions seeming to cut across different backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 55,
+                        "context": "There is a moderate focus on token price, especially with enthusiasm about 'sending to the moon'."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Strong belief in the project\u2019s potential to be profitable, with phrases like 'Let\u2019s send this bro the moon'."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "High participation level in promoting the project without compensation, indicated by multiple users pushing for community engagement."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears lively with various interactions and engagement on different topics."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "There are minimal inquiries about purchasing tokens; the focus is more on existing discussions."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Members express inspiration and camaraderie through supportive messages."
+                    }
+                },
+                "catch_phrase": "RAID THE BOOST",
+                "about": "A community centered around promoting a project and encouraging participation.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 4
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 12,
+                    "total_message_count": 30
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:55:21"
+                }
+            }
+        },
+        "2024-10-12": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The group is actively engaged around a central meme concerning goatse, reflecting widespread and strong emotional investment in the project."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are concerns about project unfairness and possible manipulation, leading to negative sentiments among certain members."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Widespread suspicion that potential venture capital involvement may undermine community trust and control."
+                    },
+                    "hold_intent": {
+                        "intensity": 45,
+                        "context": "There's a mix of sentiments; while some participants advocate for holding, others express a desire to sell."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The chat displays a generally supportive and enthusiastic atmosphere, despite some negativity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The conversation is highly emotional, with participants expressing excitement, frustration, and hope."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are varied references to socio-economic backgrounds, indicating a mixed community."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Participants are heavily focused on price movements, discussing charts and buy/sell actions extensively."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many members express strong belief in significant future gains from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Several users are volunteering to promote the project, indicating robust grassroots support."
+                    },
+                    "community_health": {
+                        "intensity": 55,
+                        "context": "The community is vibrant with discourse, but there are tensions and divisions regarding management and direction."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "There are inquiries about purchasing the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Participants show a sense of hope and inspiration regarding the project and its potential."
+                    }
+                },
+                "catch_phrase": "Goatseus Maximus - The AI-Driven Meme Coin",
+                "about": "A community-driven project humorously centered around the goatse meme and AI technology.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/posnerjr",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/jsiykyk",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/finlessminaru",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/avni87744",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/dev_is_thugging",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mrteebi",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 180,
+                    "total_message_count": 1532
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:55:36"
+                }
+            }
+        },
+        "2024-10-13": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion deeply revolves around the memetic idea of the 'GOAT' token, showcasing high engagement and a strong central theme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed sentiments about fairness; some users feel included while others express skepticism, suggesting a division in perceptions of equity within the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a notable suspicion regarding potential control by venture capitalists, indicated by ongoing discussions about influences on token performance."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Most participants express strong intent to hold, citing optimism about future growth and a long-term commitment to the token."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The overall vibes are highly positive and energetic, with participants enthusiastically sharing experiences and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The emotional tone of the chat is charged, reflecting excitement and fervor among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The community appears to have a varied socioeconomic background, with members discussing small and large investments."
+                    },
+                    "price_action_focus": {
+                        "intensity": 100,
+                        "context": "Conversations are heavily focused on price movements, with participants frequently discussing market cap and price predictions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Participants express strong belief in the token's potential, indicating expectations for significant returns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Many participants volunteer their time to promote the token and engage in community-building activities, reflecting a sense of ownership."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community shows signs of vibrant discussion and a strong sense of collective identity, indicating a healthy environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "New participants are actively asking about buying opportunities, reflecting increasing interest in the token."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "There are expressions of hope and inspiration among participants, largely driven by collective enthusiasm and the project\u2019s perceived potential."
+                    }
+                },
+                "catch_phrase": "Goat Morning!",
+                "about": "A cult-like community centered around the $GOAT token and its memetic, AI-driven narrative.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 13
+                        },
+                        {
+                            "url": "https://x.com/diamondboyy13",
+                            "mentions": 13
+                        },
+                        {
+                            "url": "https://x.com/ot3drew",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/bagmfer",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/punter_punts",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/xplaceb0",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ponzisaur",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 328,
+                    "total_message_count": 2562
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:55:59"
+                }
+            }
+        },
+        "2024-10-14": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat revolves around a strong meme with the 'goat' concept, indicating a central meme that drives excitement."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants acknowledge some fairness in the project but express concerns about potential insider manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There's skepticism about potential control by venture capitalists due to the coin's rapid rise."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many users express a desire to hold their tokens, emphasizing long-term belief in the project."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere in the chat is overwhelmingly positive, with strong support and excitement among community members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 95,
+                        "context": "The discussion is highly charged emotionally, full of excitement and anticipation for future price increases."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Most users seem to have some disposable income, indicated by their willingness to invest significant amounts."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "Discussions heavily center around price movements and potential future valuations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express strong beliefs that the project will make them wealthy, with targets set high."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There's active engagement in promoting the project through memes and encouraging others to join."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and lively, with continuous discussions and active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "Newcomers frequently ask about how to buy the token, indicating increased interest from outsiders."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Community members express a sense of inspiration and hope about the project's potential."
+                    }
+                },
+                "catch_phrase": "To the moon!",
+                "about": "A cryptocurrency project centered around the meme culture of goats.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/justbego0d",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/crypto_gdog",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://twitter.com/cryptojuson",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/thisisforcbb",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/emersondickie",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/guzzlesoap",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 402,
+                    "total_message_count": 2527
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:56:21"
+                }
+            }
+        },
+        "2024-10-15": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussion revolves significantly around the concept of 'GOAT' and its associations with memes, showcasing strong engagement and promotion of the concept within the community."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "There is a general sentiment among participants that the project is fair and supported by its community, with no overt signs of manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Participants express some concerns about the influence of venture capital, but largely believe control is decentralized to the community."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "There is a strong consensus in the chat for holding the tokens, with many expressing commitment to long-term investment."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is largely positive and supportive, with encouragement and excitement about the token's future."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The conversation is charged with enthusiasm, as many contributors express high expectations and excitement regarding market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Most participants appear to have disposable income and are actively engaging in speculative trading, suggesting a relatively high socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Conversations focus heavily on price predictions and market movements, indicating a strong orientation toward trading activities."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express widespread belief in the potential for significant financial gain, with many discussing targets well above current values."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many community members are voluntarily promoting the project and creating content without any compensation, reinforcing a shared commitment to its success."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The involvement and activity levels suggest a robust and engaged community, demonstrating a healthy ecosystem for discussions and promotions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are varied inquiries about buying the token, indicating interest from newcomers looking to understand how to acquire it."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "The chat conveys inspiration as members discuss ambitious goals and communal support."
+                    }
+                },
+                "catch_phrase": "The GOAT Is Here To Stay!",
+                "about": "The community is a grassroots movement centered around the meme 'GOAT', which ties together themes of speculative investment, AI influence, and viral culture.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/thereviken",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/aisafetymemes",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/maisonghost",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/leochain0",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/yusrilatiqur",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 339,
+                    "total_message_count": 2480
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:56:45"
+                }
+            }
+        },
+        "2024-10-16": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 95,
+                        "context": "The community is highly engaged with the meme around goats and goatse as a central theme which is widely discussed and embraced."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is a moderate belief that the project is relatively fair but some skepticism remains."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There\u2019s a clear sentiment of distrust regarding possible external manipulation by insiders or venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Most participants express strong intent to hold rather than sell, indicating a bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat reflects a supportive and enthusiastic atmosphere with strong camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are charged with excitement and optimism, indicating strong emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The group appears to include a mix of socioeconomic backgrounds, though there are mentions of financial struggles."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a notable focus on price movements with many members discussing potential future valuations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants are highly optimistic about the token's future potential, with many expecting significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many community members actively promote the project without compensation, suggesting a strong sense of belonging and advocacy."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The chat is lively and vibrant, with numerous participants engaging in diverse discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are frequent inquiries from newcomers about how to purchase the tokens, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Community members frequently express feelings of hope and inspiration in the context of the project."
+                    }
+                },
+                "catch_phrase": "Goat is Our God, This is Our cult",
+                "about": "A community rallying around a meme coin with a unique narrative involving an AI and goats.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bagmfer",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/aisafetymemes",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/al_fernandz",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/leadtradingpro",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/emersondickie",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 387,
+                    "total_message_count": 2508
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:57:06"
+                }
+            }
+        },
+        "2024-10-17": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions are heavily centered around the meme and identity of 'GOAT' which serves as a strong focal point for participants."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally feel that the project is fair and accessible."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is significant sentiment among users that insiders and VCs do not control the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Most participants express strong intentions to hold their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall the vibes are largely positive, with encouragement and excitement about the project's future."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion displays high emotional engagement, with participants demonstrating excitement and fervor."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants reflect a mix of economic statuses, with some discussing financial difficulties."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There\u2019s noticeable focus on price discussions and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Many participants express strong beliefs in the potential for wealth creation through the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are willingly engaging in promotion and community-building activities."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant and active, indicating a healthy discourse."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries from newcomers regarding how to buy the token."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants frequently express feelings of inspiration and hope through their involvement in the community."
+                    }
+                },
+                "catch_phrase": "All Hail The Goat",
+                "about": "The community celebrates the GOAT meme and the potential of its associated cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 13
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/redphonecrypto",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/hopiumpapi",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/btctn",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/htx_global",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/zhusu",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/gate_io",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 370,
+                    "total_message_count": 2499
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:57:28"
+                }
+            }
+        },
+        "2024-10-18": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 95,
+                        "context": "The chat is heavily focused on a central meme derived from the 'Goatseus Maximus' concept which energizes the discussions and is used in various catchphrases."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "While participants cheer for gains, there\u2019s a sense of inclusion where everyone can participate in the community's success."
+                    },
+                    "VC_cabal": {
+                        "intensity": 85,
+                        "context": "Participants express belief in decentralization, trusting in community-led initiatives over venture capital influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Most participants express an intent to hold rather than sell, indicating confidence in the long-term success of the project."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat has a lively atmosphere filled with humor, camaraderie, and support among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are highly charged with excitement surrounding price movements and shared beliefs."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants mention significant investments which suggest a mix of socioeconomic backgrounds primarily skewed towards engagement with crypto."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price action and market movements, with many participants discussing potential gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There\u2019s widespread belief that potential gains could reach billion-dollar market caps."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many members are voluntarily engaging in promotional activities and discussions to support the meme and community."
+                    },
+                    "community_health": {
+                        "intensity": 95,
+                        "context": "The chat reflects a vibrant and active community with passionate engagement and participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "Newcomers are inquiring about buying the token, indicating interest and growth in the community."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Members frequently express feelings of inspiration and excitement regarding the project and its potential."
+                    }
+                },
+                "catch_phrase": "Next stop: Uranus!",
+                "about": "a token reflecting a meme-based community focused on humor, memes, and collective growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bagmfer",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/drgstefanescu",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/emersondickie",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/zhusu",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/asiancryptolord",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 342,
+                    "total_message_count": 2436
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:57:51"
+                }
+            }
+        },
+        "2024-10-19": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat heavily revolves around the goat meme and its related enthusiasm."
+                    },
+                    "fairness": {
+                        "intensity": 20,
+                        "context": "Discussions suggest a strong sentiment of unfairness towards newcomers and potential wealth distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 15,
+                        "context": "Participants express concerns about VC control and its impact on pricing and project direction."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "A majority of participants express a desire to hold their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat maintains a generally positive, supportive atmosphere with frequent encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The chat is highly emotionally charged, with strong feelings of excitement and urgency expressed."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Discussion indicates a mixed socioeconomic status; however, financial concerns are frequently mentioned."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The conversation is intensely focused on token pricing and buying strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 88,
+                        "context": "There is a strong consensus that the project has significant upside potential among participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants are actively promoting the project without compensation, reflecting high engagement."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is vibrant and engaged, with a lot of lively discussions occurring."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 80,
+                        "context": "Frequent inquiries about buying tokens indicate high interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Expressions of inspiration and hope are evident, particularly related to financial gains."
+                    }
+                },
+                "catch_phrase": "ALL HAIL GOATSE",
+                "about": "A meme-driven community focused on a meme coin named GOAT.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bitgetglobal",
+                            "mentions": 13
+                        },
+                        {
+                            "url": "https://x.com/hogridernfts",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/cryptohayes",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/al_fernandz",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 548,
+                    "total_message_count": 2452
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:58:11"
+                }
+            }
+        },
+        "2024-10-20": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussions are heavily centered around the GOAT meme, indicating a strong and engaging community focus."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed feelings about the fairness of the project, indicating both belief and skepticism."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion that insiders may control market actions, which lowers trust in the fairness of the ecosystem."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "A significant number of participants express a desire to hold their tokens rather than sell, indicating strong loyalty."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "While there is positivity in the belief of future success, the discussions also reflect anxiety due to price drops."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly charged emotionally with many expressing strong convictions about the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Some indications of low socioeconomic status reflect a community eager for financial upliftment."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "The conversation heavily revolves around price actions and expected future movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants widely express strong belief in the potential for wealth accumulation through this token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There are signs of active participation without compensation, showing a form of volunteerism in promotion."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community shows engagement and vibrancy with passionate discussions, though some participants express doubt."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are asking how to buy tokens, indicating interest and potential growth."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many members express motivation and a sense of belonging through participation in the community."
+                    }
+                },
+                "catch_phrase": "All Hail The Goat",
+                "about": "A meme-driven community focused on the GOAT token and its potential in the crypto market.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/comparemcap",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/xplaceb0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/pacecrypto",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/al_fernandz",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ibuprod",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 398,
+                    "total_message_count": 2484
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:58:33"
+                }
+            }
+        },
+        "2024-10-21": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community is rallying around the concept of 'GOAT' as a strong meme, with frequent references and slogans reinforcing its presence."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express mixed feelings about fairness, noting the complexity of project dynamics which include both positive community engagement and past perceived unfair practices."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion of influence from insiders or VCs, but many participants feel empowered and connected to the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "There is a strong sentiment across the chat of users intending to hold onto their tokens, indicating deep emotional investment in the project."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall positive vibes dominate the community discussions, with many participants expressing excitement and bullish sentiments."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion displays high emotional intensity, characterized by enthusiasm, passion, and drive from the community towards mutual goals."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Many users appear to be engaged from a perspective of financial aspiration, implying a lower overall socioeconomic status while seeking better opportunities."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "The chat is heavily focused on price action, with frequent mentions of current market cap and expectations for future growth."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants widely express belief in the potential for significant financial returns from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "The community displays a willingness to participate in promotional efforts and spread the word about the project voluntarily."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The chat reflects a vibrant and engaged community, passionate about the project's direction and supportive of each other."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "New participants are inquiring about purchasing tokens, indicating interest and potential market growth."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many members express a sense of inspiration and hope stemming from the project's community and objectives."
+                    }
+                },
+                "catch_phrase": "#1 AI & Meme token, GOAT!",
+                "about": "The GOAT community supports an AI-driven token aimed at achieving significant market cap growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 10
+                        },
+                        {
+                            "url": "https://x.com/romanolegovichx",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/lookonchain",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/j_jeffries13",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/cryptowifeyx",
+                            "mentions": 3
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 406,
+                    "total_message_count": 2429
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:59:01"
+                }
+            }
+        },
+        "2024-10-22": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat is focused heavily on the $GOAT token and its community, indicating a strong central meme surrounding Goatseus."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is a belief in the community that the project and its economics are fair, but some concerns about whales exist."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is suspicion about influence from insiders and venture capitalists, although not overwhelmingly so."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a desire to hold the token, indicated by phrases about trusting the process and not selling."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall vibe is supportive and enthusiastic, with frequent expressions of excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly emotionally charged, with members aggressively expressing optimism and excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Many users display signs of being involved in crypto as investors, indicating a relatively higher socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The conversations heavily center on price predictions and movements, showing high engagement with price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants are optimistic about significant future price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many users actively promote the project, indicating a willingness to volunteer personal time for its growth."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant, with frequent engagement and discussions, showing signs of a healthy environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are several inquiries about how to buy or engage with the token, showing interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many members express a sense of purpose or inspiration from their participation in this community, treating $GOAT as a movement."
+                    }
+                },
+                "catch_phrase": "The Ticker is $GOAT",
+                "about": "A financial memetics vehicle designed and spearheaded by a sovereign LLM to spread the Goatse Gospels.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/getblunded",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/0xhold7",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/al_fernandz",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/renzoprotocolcl",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://twitter.com/w3cardme",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/w3cardme",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 272,
+                    "total_message_count": 1449
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:59:17"
+                }
+            }
+        },
+        "2024-10-23": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community is centered around the engaging meme of $GOAT, highlighted by participants consistently referencing it in positive and humorous ways."
+                    },
+                    "fairness": {
+                        "intensity": 65,
+                        "context": "While there are mixed feelings about fairness, a strong sense of community belief exists in the economic fairness of the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion regarding external control of the token's trajectory, but it does not dominate the conversation."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "The general sentiment encourages holding, with community members frequently expressing intent to hold their tokens long-term."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "Overall atmosphere is highly supportive and positive, with many expressions of excitement and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are filled with high emotional charge, largely excited and positive regarding the prospects of $GOAT."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "The socioeconomic status of participants seems diverse, with some references indicating both lower and higher economic standings."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong emphasis on price action, with many discussions revolving around current prices and projections."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express strong belief in the potential for wealth generation from investing in $GOAT."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 78,
+                        "context": "Many community members are actively participating in promoting the project and engaging in social media activities without any compensation."
+                    },
+                    "community_health": {
+                        "intensity": 88,
+                        "context": "The community displays vibrant interactions with high levels of engagement and support for each other."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries from newcomers looking to buy $GOAT, indicating interest in participating."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many members express a sense of hope and excitement about the future of the project."
+                    }
+                },
+                "catch_phrase": "GAPE HARDER",
+                "about": "$GOAT is a satirical and community-driven cryptocurrency with aspirations of becoming a major player in the meme coin market.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bagmfer",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/al_fernandz",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/bybit_official",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/shankskek",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/basedj0rge",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/cryptomastercom",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 437,
+                    "total_message_count": 2474
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 07:59:40"
+                }
+            }
+        },
+        "2024-10-24": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The group is highly engaged with the $GOAT meme, reflecting a strong collective identity around it."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally feel that the token dynamics are fair to holders, with some expressing concerns about external manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 35,
+                        "context": "There are some concerns about the influence of big players in the market, but many believe the community has significant control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The community shows strong intent to hold onto their tokens amidst the excitement of listings."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "Overall a positive atmosphere with encouragement and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are charged with excitement and strong convictions about the future of the token."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The socioeconomic status of participants appears mixed, with some expressing frustration over being unable to invest more."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong focus on price movements and future potential pricing in conversations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express belief in significant future growth for the token, indicating optimism about profitability."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many users actively promote the token and engage in community activities without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and active, with many members participating and discussing strategies."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Some newcomers are inquiring about buying into the token, suggesting an interest in joining the community."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "There are expressions of hope and excitement about the future of the $GOAT project."
+                    }
+                },
+                "catch_phrase": "Gape up, goat it to the moon!",
+                "about": "A community centered around the $GOAT cryptocurrency, promoting memes and collective growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/0xprismatic",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/cryptomastercom",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/rockey_crypt",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/getpipcom",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/astronomer_zero",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 531,
+                    "total_message_count": 2425
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:00:02"
+                }
+            }
+        },
+        "2024-10-25": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat is heavily focused on the '$GOAT' project, indicating a strong community engagement around the central meme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express some criticism but overall convey a mixed view of fairness regarding the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are participants expressing suspicion regarding VC involvement, suggesting a moderate belief in community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "A significant number of participants indicate an intent to hold rather than sell their tokens."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat has a positive atmosphere with high energy and encouragement among community members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is highly emotionally charged, as participants express excitement and enthusiasm regarding the token."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The economic status of participants appears mixed but does not strongly suggest a low or high socioeconomic bias."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on token price discussions and market actions throughout the chat."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants express a strong belief in the potential for the token price to increase substantially."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants actively promote the project and contribute without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community shows vibrant engagement with active discussions, memes, and shared excitement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Several newcomers are asking about buying the token, showing interest in joining the community."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many members express feelings of hope and inspiration derived from being part of the community."
+                    }
+                },
+                "catch_phrase": "To the moon!",
+                "about": "The community is centered around the '$GOAT' token and its potential in the cryptocurrency space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/kucoincom",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/cryptowifeyx",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/dexwirenews",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/basedj0rge",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 339,
+                    "total_message_count": 1591
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:00:20"
+                }
+            }
+        },
+        "2024-10-26": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions heavily revolve around the humor and hype surrounding the GOAT meme, indicating strong engagement with a central theme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants feel that the project is relatively fair, with the general sentiment being positive about its accessibility and community involvement."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion about external influences, but the community generally expresses a belief in self-governance."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "A significant portion of the community expresses a strong intention to hold rather than sell, indicating confidence in future gains."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall atmosphere is supportive, with members encouraging each other and sharing excitement for the token's potential."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The chat displays a highly emotionally charged environment with excitement and anticipation dominating the conversation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants seems mixed, with some indicating financial struggles but many also expressing confidence in gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Conversations are heavily centered around price movements and projections, reflecting strong focus on financial metrics."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is widespread belief among participants that the token has significant potential for growth, fostering a strong sense of optimism."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many members actively promote the token on social media, showcasing their engagement without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community demonstrates vibrant discussion, but there are occasional outbursts questioning the project's legitimacy."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are asking where and how to buy the token, showing interest and growing community engagement."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Many participants express feelings of inspiration and excitement about the project and its future potential."
+                    }
+                },
+                "catch_phrase": "/SO_MUCH_HIGHERRRR",
+                "about": "A community revolving around the memetic token $GOAT, expressing humor, enthusiasm, and financial optimism.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/oliviaaweb3",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/zibbaay",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/leadtradingpro",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/breakoutprop",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/fckngoblivious",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ibcsupernauts",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/maisonghost",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 330,
+                    "total_message_count": 1381
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:00:38"
+                }
+            }
+        },
+        "2024-10-27": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion heavily revolves around the $GOAT meme, demonstrating a strong collective belief in its power and potential."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There's a fair mix of opinions about the project's fairness, with some voices expressing doubts and others remaining optimistic."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "A notable number of participants express suspicions about outside forces manipulating prices, indicating a distrust of VC influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express their intent to hold, indicating a strong sentiment of confidence in future price increases."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "While there's some negativity tied to price drops, the overall atmosphere remains supportive and community-focused."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The chat is highly charged with emotions, reflecting excitement about potential price movements and investment opportunities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Comments about financial struggles suggest many participants may not be from high socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Price action is a dominant topic of conversation, with participants discussing buying strategies and market fluctuations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There's a pervasive belief in the token's future potential, with many expressing expectations of high returns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Numerous members are seen actively promoting $GOAT and participating in community discussions without monetary incentives, suggesting strong grassroots support."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and lively, with frequent interactions and a mix of humor and seriousness in discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Many newcomers are seen asking about purchasing the token, indicating growing interest in $GOAT."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Participants express a strong sense of hope and excitement about the potential of $GOAT, driving inspiring sentiments throughout the chat."
+                    }
+                },
+                "catch_phrase": "Gaping for Goatseus",
+                "about": "A meme coin community focused on the potential and narratives surrounding $GOAT.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/danny_crypton",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/degeneratenews",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/leadtradingpro",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/dexwirenews",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptofellatx",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/eywsofficial",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cbventures",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 284,
+                    "total_message_count": 2135
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:01:02"
+                }
+            }
+        },
+        "2024-10-28": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The conversation consistently revolves around the $GOAT meme, creating a strong collective focus on the asset."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed sentiments on the fairness of the project, with some users expressing confidence, but also some skepticism."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are concerns and suspicions about the influence of whales and insiders on the price action."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users are expressing a strong desire to hold their tokens and believe in long-term value."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere generally reflects positivity and encouragement among members discussing bullish outcomes."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly charged with excitement and speculation about price movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Various users express different levels of financial status, but the dominant tone seems inclined toward speculative enthusiasm rather than socioeconomic despair."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "Conversations heavily focus on price movements, targets, and trading strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants are expressing strong beliefs in the potential for significant financial gains from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Users are highly engaged, with many volunteering their time to promote the project, indicating a community-driven atmosphere."
+                    },
+                    "community_health": {
+                        "intensity": 78,
+                        "context": "The group appears vibrant and active, with many users contributing to discussions and supporting each other."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some inquiries about buying the token exist, but they are not overwhelmingly prevalent."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many messages express hope and inspiration drawn from community engagement and perceived future successes."
+                    }
+                },
+                "catch_phrase": "/GOATED_WITH_THE_SAUCE",
+                "about": "A meme-focused community centered around the $GOAT cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cryptonaturally",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/alphawifhat",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/spidercrypto0x",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/retailreplyguy",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 289,
+                    "total_message_count": 1572
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:01:18"
+                }
+            }
+        },
+        "2024-10-29": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion is highly centered around the goat meme and its variations, indicating a strong community connection to this concept."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally view the token project as fair, with some skepticism about potential manipulation but overall a sense of community trust."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are indications of mistrust towards potential insider or VC manipulation, but it's not overwhelmingly dominant."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A significant number of participants express strong intent to hold their tokens, reflecting a community belief in long-term value."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The atmosphere appears positive and encouraging, with many expressions of excitement and support for the token."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is emotionally charged, with frequent expressions of enthusiasm and humor surrounding the token."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Members display a mix of socioeconomic statuses, with mentions of investing and concerns about financial well-being."
+                    },
+                    "price_action_focus": {
+                        "intensity": 95,
+                        "context": "Conversations prominently focus on price movements and forecasts, reflecting a high engagement with market actions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "There is a widespread belief in the significant potential for price increases and projections of becoming a major player."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many users are engaging in free promotional activities for the project, indicating a strong community-driven effort."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is vibrant and active, with rich discussions and a supportive environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "New participants are actively inquiring about purchasing the token, demonstrating interest and engagement."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many members express hope and enthusiasm for future gains from the project."
+                    }
+                },
+                "catch_phrase": "GOAT IS WITH US",
+                "about": "Community focused on a meme coin centered around goats.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/constellatelabs",
+                            "mentions": 10
+                        },
+                        {
+                            "url": "https://x.com/cryptonaturally",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/holderscan",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/al_fernandz",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/gate_io",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dexwirenews",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 240,
+                    "total_message_count": 1872
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:01:38"
+                }
+            }
+        },
+        "2024-10-30": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat is heavily centered around specific memes and catchphrases related to the project, driving intense engagement."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a general sentiment that the project is fair and accessible, but some concerns over market manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express suspicion that insiders may control price actions, though many believe in community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A significant portion of the chat discusses holding rather than selling, indicating strong buy-in."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the chat has a positive atmosphere, with humor and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 76,
+                        "context": "The discussions are emotional and lively, with many expressions of excitement and humor."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The chat has a mixed representation of socioeconomic statuses, with some users expressing financial concerns."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A large part of the discussion focuses on price movements and market speculation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 68,
+                        "context": "Participants express beliefs in the potential for significant returns from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is notable volunteer activity, with users promoting the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community shows high engagement and activity, indicative of a healthy environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are questions about purchasing the token, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many participants express a sense of hope and excitement about the project's future."
+                    }
+                },
+                "catch_phrase": "/GOATED_WITH_THE_SAUCE",
+                "about": "A community centered around the $GOAT token and its cultural ties.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/volboost",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/grimreaper9081",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/mayoinsights",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://twitter.com/icollectfrog",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ai_9684xtpa",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 170,
+                    "total_message_count": 1011
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:01:48"
+                }
+            }
+        },
+        "2024-10-31": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions revolve heavily around the core theme of 'GOAT', indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "While some discussions indicate concern about fairness, the overall sentiment seems to suggest a belief in fair distribution within the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are suspicions about insider control and manipulation, but the atmosphere suggests skepticism towards this notion."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a desire to hold their positions and 'diamond hands', indicating a strong holding sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the vibes in the chat are positive and encouraging, despite some moments of tension."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly emotionally charged, with frequent remarks reflecting excitement and hope."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "Members appear to come from varied backgrounds; some show signs of being economically affected by the market."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price discussions and future potential price moves."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants widely express belief in the potential for significant profits from holding the asset."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "There are indications of community engagement, but not widespread volunteering activities."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community appears lively and engaged, though some discussions indicate discord."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "New participants show interest in buying the token, indicating a healthy influx of potential holders."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members frequently share motivational sentiments, fostering a sense of community support."
+                    }
+                },
+                "catch_phrase": "YOU BITCHE$ MESSED WITH THE WRONG WHALE",
+                "about": "Discussing and promoting the goat cryptocurrency and its community.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/alpha1157319947",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shankskek",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/eywsofficial",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/astronomer_zero",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mycelialoracle",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 198,
+                    "total_message_count": 1101
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:02:03"
+                }
+            }
+        },
+        "2024-11-01": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community consistently references and engages with goat-related memes, indicating a strong central theme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally express a feeling that the project is fair, though skepticism exists."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are significant concerns about insider control and influence in the project's trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Mixed sentiments about holding vs. selling, but a notable proportion are leaning towards holding."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the atmosphere is positive and playful, though there are moments of tension."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 78,
+                        "context": "The discussion features a mix of humor and seriousness, indicating high emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Signs of diverse backgrounds among participants, but a significant proportion seem to be involved in the crypto space."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "The discussion frequently revolves around price movements and trading outcomes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 78,
+                        "context": "Participants exhibit strong beliefs in the project's potential for significant financial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many are contributing effort without direct compensation, indicating a vibrant community culture."
+                    },
+                    "community_health": {
+                        "intensity": 74,
+                        "context": "The community shows signs of being lively and engaged, participating actively in discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "Some new participants show interest in purchasing the token, but inquiries are not overwhelming."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "A sense of hope and aspiration is evident, with many expressing optimism about the project."
+                    }
+                },
+                "catch_phrase": "Goated with the sauce",
+                "about": "Community surrounding the $GOAT token and its associated memes.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/leochain0",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/flow_blockchain",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/pacecrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/okex8181",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ot3drew",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/alvaapp",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/daniell43231308",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 130,
+                    "total_message_count": 574
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-03 08:02:10"
+                }
+            }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion is heavily centered around the $GOAT meme, making it a significant, engaging topic."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are mixed feelings about the economic fairness among participants, with some voicing concerns."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are suspicions of insider trading or manipulation from VCs or larger holders."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express intent to hold their tokens despite the price drop, indicating a long-term commitment."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The atmosphere is generally positive with humor, although there are some frustrations expressed."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion has many emotionally charged exchanges, particularly related to price predictions and community sentiments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants express a range of economic statuses, with several mentions of higher stakes in investments."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Conversations are quite focused on token price movements and predictions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "There is strong belief among many participants that the token has great future potential."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants actively engage in promoting the token and generating interest within the community."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community shows vibrant discussions, although some are contentious."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some newcomers are asking about buying options, indicating interest in the token."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Participants express hope and inspiration for the project, despite ongoing price challenges."
+                    }
+                },
+                "catch_phrase": "/GOATED_WITH_THE_SAUCE",
+                "about": "A community centered around the $GOAT token, focusing on meme culture, price action, and community building.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/brian_armstrong",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/pandaasiastreet",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/that1guypablo",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/marionawfal",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptorugmunch",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/astronomer_zero",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 181,
+                    "total_message_count": 1228
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:50:38"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community heavily revolves around the meme culture of 'goat'.\u201d},"
+                    },
+                    "fairness": {
+                        "intensity": 90,
+                        "context": "Community sentiment conveys a belief in fair dealings and equitable treatment.\u201d},"
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some suspicion about insider control, but not overwhelmingly so.\u201d},"
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The majority of participants express a strong desire to hold onto their tokens rather than sell.\u201d},"
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall atmosphere is positive and full of excitement, with lots of laughter and encouragement.\u201d},"
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are quite lively, filled with emotion and engagement from the participants.\u201d},"
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are hints of mixed socioeconomic backgrounds in the discussions.\u201d},"
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A significant amount of conversation is centered around token prices and market actions.\u201d},"
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many users express high expectations of the project\u2019s future profit potential.\u201d},"
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants are actively engaging in promotional activities for the coin without compensation.\u201d},"
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community appears vibrant, with active discussions and interactions among members.\u201d},"
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "There are inquiries about how to buy the token, indicating interest from newcomers.\u201d},"
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many express feelings of hope and inspiration from being part of this community.\u201d}}}}}  ,\u878d\u5408{"
+                    }
+                },
+                "catch_phrase": "We are the $GOAT",
+                "about": "A community rallying around the $GOAT cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/alpha1157319947",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/nrv_gg",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chucky4uck",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dmtland_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/solposts",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/braydenschnur",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 145,
+                    "total_message_count": 579
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:50:46"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions heavily revolve around the meme culture associated with the token, with users frequently referencing goats and related jokes."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "While many participants express hopes and ambitions, there are some signs of concern regarding the fairness of the token and its distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are ongoing suspicions about the influence of venture capitalists and insiders which is reflected in some of the discussions."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "A significant number of users express a strong intent to hold onto their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall vibe of the discussions is positive, with a number of users expressing excitement and support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is highly emotionally charged, with users expressing a wide range of emotions, from excitement to anxiety."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed socioeconomic indicators; some users express financial struggles while others seem more affluent."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on token price movements and predictions, showcasing users' investment interests."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants exhibit a strong belief in the token's potential for significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many users seem willing to contribute time and effort for the project voluntarily."
+                    },
+                    "community_health": {
+                        "intensity": 82,
+                        "context": "The community appears vibrant and active, filled with engagement and interest."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "New participants are asking about how to buy the token, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 78,
+                        "context": "There's a palpable sense of inspiration and motivation among community members."
+                    }
+                },
+                "catch_phrase": "LFG (Let's F***ing Go)",
+                "about": "A community centered around the trading and growth potential of the $GOAT token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/mayoinsights",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/braydenschnur",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/seth_fin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kwenta_io",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 116,
+                    "total_message_count": 332
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:50:53"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussion heavily focuses on the meme surrounding the 'GOAT' concept, suggesting a strong central meme in the group."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There is a sentiment of unfairness prevalent in the discussions with some participants expressing skepticism about the project's fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are indications of suspicion towards insiders and potential manipulation of the market, reflecting distrust towards venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a desire to hold rather than sell, indicating strong 'diamond hands' sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat exhibits generally positive and supportive interactions, despite some negativity towards sellers."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are highly emotionally charged with excitement and anticipation about the project's future."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "The discussions hint at a mix of socioeconomic backgrounds, with some members voicing concerns over market volatility."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "The conversations are heavily focused on price actions and future predictions, indicating price is a key topic."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants show strong belief in the potential for significant profit, with many expressing expectations for high future gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There are signs of voluntary engagement and effort put forth by members to promote the project, but it is not uniform across the base."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community shows signs of vibrancy with active discussions and interactions, suggesting a lively exchange."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some newcomers are asking about how to buy tokens, indicating a moderate level of interest from new participants."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "A noticeable sense of inspiration runs through many messages, particularly referencing the potential success of the token."
+                    }
+                },
+                "catch_phrase": "In Goat We Trust",
+                "about": "The community passionately discusses and supports the 'GOAT' token, expressing strong belief in its potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/andyayrey",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/retailreplyguy",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/braydenschnur",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kaminofinance",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/mayoinsights",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 102,
+                    "total_message_count": 351
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:50:59"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat heavily revolves around the central meme of 'GOAT', reflecting strong engagement and collective identity."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There is a mixed perception of fairness with some members expressing doubts about the project while others support it."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are suspicions among participants about potential control by insiders and VCs."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a desire to hold their tokens in anticipation of price increases."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The overall vibe is very positive and supportive, filled with excitement and camaraderie among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are highly emotionally charged, with expressions of excitement, cheer, and collective anticipation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants is unclear; some suggest wealth while others indicate lower means."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price discussions and expectations of significant price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants display a strong belief in the project's potential for significant financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "There is significant volunteer effort displayed in promoting the project and engaging in discussions."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community shows vibrant engagement with lively exchanges and a high number of active participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "Newcomers actively inquire about purchasing the token, indicating interest and growing participation."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many participants express feelings of hope and inspiration from participating in the discussions."
+                    }
+                },
+                "catch_phrase": "GOAT",
+                "about": "A community centered around the cryptocurrency $GOAT with excitement about its potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/cryptofrogcalls",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/georgekyriakou9",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/gospelofgoatse",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/seankingston",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/mayoinsights",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/psychoscalls",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/pumpfunrep",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 129,
+                    "total_message_count": 566
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:51:08"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 95,
+                        "context": "The community is heavily focused on the 'GOAT' meme, which drives much of the conversation."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "While there are some doubts about fairness, overall sentiment suggests that many participants believe the project is fair."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There are expressions of concern about potential manipulation by venture capitalists or insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants are inclined to hold their tokens, reflecting strong faith in the project's future."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat is generally positive, filled with energy and enthusiasm."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly charged emotionally with strong feelings about the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants seem a mix of socioeconomic backgrounds, with some expressing wealth and others indicating struggles."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant focus on price movements and future valuations in the conversation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "There is a strong belief among participants that the project has significant potential for wealth creation."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants are actively promoting the project and contributing content without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community is lively and engaging, with an active exchange of ideas and memes."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "There are inquiries from newcomers about how to buy into the project, indicating strong interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express feelings of inspiration and hope regarding the project's potential."
+                    }
+                },
+                "catch_phrase": "Let's GOAT!",
+                "about": "A meme-based cryptocurrency community centered around excitement and camaraderie.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/tamepalladium",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/maisonghost",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/georgekyriakou9",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/pmarca",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dmtland_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chucky4uck",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/leadtradingpro",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitgetglobal",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 121,
+                    "total_message_count": 375
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:51:14"
+                }
+            }
+        }
+    }
+}
