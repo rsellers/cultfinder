@@ -22957,6 +22957,450 @@
                     "date_process": "2024-11-02 19:20:22"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "There are several messages centered around events and rewards suggesting a strong core idea of community engagement through contests and trading activities."
+                    },
+                    "fairness": {
+                        "intensity": 20,
+                        "context": "Participants express distrust towards the project, with comments about scams and lack of belief in the project's fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion regarding control over the token by insiders, as indicated by comments referring to scams and a lack of trust in leadership."
+                    },
+                    "hold_intent": {
+                        "intensity": 30,
+                        "context": "The conversation includes a mix of supporting the project and expressing skepticism, indicating some desire to hold tokens but also a prevailing sentiment to sell."
+                    },
+                    "vibes": {
+                        "intensity": 25,
+                        "context": "The atmosphere appears generally negative with significant skepticism about the project's sustainability and active users expressing disappointment."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "While some parts of the discussion are lively and engaging, the tone often shifts towards skepticism and criticism."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants appear to come from varied socioeconomic backgrounds, with some posts indicating a mix of promotional solicitations and questions addressing financial opportunities."
+                    },
+                    "price_action_focus": {
+                        "intensity": 40,
+                        "context": "There is some discussion of price-related topics, but it is overshadowed by greater concerns about legitimacy and project viability."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 35,
+                        "context": "Mixed sentiments about potential profit exist, but skepticism about reaching targets tempers optimistic views."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 20,
+                        "context": "There are low indications of voluntary participation in promoting the project aside from promotional exchanges."
+                    },
+                    "community_health": {
+                        "intensity": 30,
+                        "context": "The community appears somewhat fractured, with members discussing the emergence of new groups over perceived 'dead' old ones."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 15,
+                        "context": "There are minimal inquiries about buying into the token, indicating a lack of new interest."
+                    },
+                    "inspiration": {
+                        "intensity": 20,
+                        "context": "Expressions of inspiration are low, primarily overshadowed by negative comments regarding project integrity."
+                    }
+                },
+                "catch_phrase": "Join the ANALOSARMY!",
+                "about": "Community engaging in trading and promotional events.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 21,
+                    "total_message_count": 44
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:30:32"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The constant promotion of the 'New Limited Game by Tether' creates a strong central theme, resulting in high meme strength."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There's a noticeable skepticism regarding the fairness of these promotions, reflected in comments raising concerns about scams."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express some suspicion regarding control by insiders or scammers, particularly in the context of shared links."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "While there are efforts to engage users in activities promoting token holding, the overall sentiment reflects a mix of holding and selling intentions."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The atmosphere is somewhat positive, with users expressing excitement about games and rewards amidst some skepticism."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is quite emotionally charged, driven largely by excitement around promotions and games."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants display a varied socioeconomic background, with some discussions hinting at financial needs."
+                    },
+                    "price_action_focus": {
+                        "intensity": 45,
+                        "context": "There is moderate focus on price implications related to game outcomes and player rewards."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many participants seem optimistic about the potential for significant rewards and gains from engaging in promotional events."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "There is a high level of voluntary engagement observable through the constant promotion and participation in games."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears lively, with many discussions around promotional events, although tempered by concerns about scams."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Newcomers appear curious about token acquisition, passing inquiries mixed with promotional outreach."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "There are expressions of motivation and optimism among members regarding the potential community impact."
+                    }
+                },
+                "catch_phrase": "Spin the wheel and WIN $USDT!",
+                "about": "The community is promoting a reward-based game linked to the TON ecosystem.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 31,
+                    "total_message_count": 63
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:30:39"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The repeated promotion of a limited game indicates a strong central meme around the rewards and referral system."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Mixed sentiments about fairness; some participants are promoting rewards while others suspect scams."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express suspicion regarding control by insiders or cabals, especially in response to scam claims."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Several users express long-term holding intentions and hopes for future gains, indicating a desire to hold."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "A mixture of supportive messages and signs of fatigue; general encouragement is present, but negativity also emerges."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 50,
+                        "context": "The discussion ranges from excitement about games and rewards to moments of frustration and tiredness."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Participants occasionally refer to financial motivations, but the overall socioeconomic status is unclear."
+                    },
+                    "price_action_focus": {
+                        "intensity": 50,
+                        "context": "Price discussions are interspersed among promotional messages; there is a moderate focus on financial outcomes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Several users express expectations for significant gains, contributing to a generally optimistic outlook."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "High participation in promotional activities without compensation indicates strong community engagement."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community shows vibrancy through high participation, although some discussions indicate fatigue."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 55,
+                        "context": "Some users inquire about buying opportunities, showing interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "There are expressions of hope and camaraderie among members, particularly in support of long-term goals."
+                    }
+                },
+                "catch_phrase": "Claim your rewards now!",
+                "about": "Community focused on token rewards, games, and long-term holding.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 21,
+                    "total_message_count": 68
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:30:46"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "Participants actively share promotions and games, indicating a strong central theme around token incentives and community engagement."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There are signs of participants feeling uncertain about fairness, especially with mentions of scams and a focus on high-stakes transactions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is some sentiment of concern regarding the influence of insiders, as indicated by discussions around dips and suspicious activities."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Several participants express aiming to hold tokens long-term, as seen in comments about waiting for positive market movements."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The atmosphere is mixed; while some express optimism, others show concern or express feelings of disappointment."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 55,
+                        "context": "The conversation has moments of high energy, especially around promotions, but also has periods of doubt and uncertainty."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants hint at varied socioeconomic backgrounds through discussions on affordability and promotions."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a noticeable focus on price movements and market reactions, especially around events like the election."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 45,
+                        "context": "Some participants express potential for gains, but skepticism exists, suggesting mixed sentiments about getting rich."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 30,
+                        "context": "While there are promotions and calls to action, the community lacks substantial volunteer engagement beyond promotional activities."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community shows signs of vibrancy with active discussions and a mix of supportive and promotional messages."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "While some newcomers inquire about participation, the frequency is not overwhelming, indicating a moderate level of interest."
+                    },
+                    "inspiration": {
+                        "intensity": 55,
+                        "context": "There are expressions of hope and positivity from participants about the community's potential and strength."
+                    }
+                },
+                "catch_phrase": "#CoinWEarn",
+                "about": "Discussion centered on token promotions, community events, and market dynamics.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 25,
+                    "total_message_count": 34
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:30:51"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The anniversary celebration and community perks are engaging and festive, suggesting a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants seem to believe in the value of the community perks, indicating a decent perception of fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of distrust towards centralized control of the market, suggesting some participants feel that insiders may influence outcomes."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "The tone favoring holding onto tokens is evident, indicated by expressions of optimism and anticipation of gains."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is positive and encouraging, with many expressing optimism and support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "Discussions are emotionally charged, especially regarding gains and community involvement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The chat shows a mix of socioeconomic backgrounds with a hint towards some members discussing financial opportunities."
+                    },
+                    "price_action_focus": {
+                        "intensity": 68,
+                        "context": "There is a strong focus on price movements, particularly with discussions around BTC gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express belief in significant upside potential, especially with reference to gaining profit."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Participants are engaged in activities that promote the community, but not all are deeply invested in non-compensated efforts."
+                    },
+                    "community_health": {
+                        "intensity": 60,
+                        "context": "The community shows vibrancy through diverse discussions, although there are mentions of another community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are casual inquiries about token purchasing which indicates some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many members express inspiration and a hopeful outlook towards reaching new heights together."
+                    }
+                },
+                "catch_phrase": "Celebrate Our 7th Anniversary with a Chance to Win Up to 2,000 USDT!",
+                "about": "Celebrating CoinW's anniversary with community-driven rewards and opportunities.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 16,
+                    "total_message_count": 23
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:30:56"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The conversations reflect a strong collective belief in shared ideas like the potential for the Analos token, reflected in members discussing growth and community."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are indications of skepticism surrounding the fairness of the project, as members mention the transition to a new community and concerns about scams."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express sentiments of suspicion towards the influence of insider groups or VCs in the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "A notable portion of the group expresses intent to hold their tokens despite some concern about price increases."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The overall atmosphere is generally supportive, with members encouraging each other, although there are moments of anxiety regarding potential losses."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is emotionally charged with prominent sentiments of hope and excitement, as well as anxiety about price movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants is mixed, as some posts reflect a broader concern about affordability and market access."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on price action and market conditions, as many members discuss current price levels and expected movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "Mixed opinions about potential profitability exist, with some expressing skepticism while others are optimistic."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "There is participation in promotional activities without monetary compensation, indicating some level of voluntary engagement."
+                    },
+                    "community_health": {
+                        "intensity": 45,
+                        "context": "The community shows signs of fragmentation with discussions about transitioning to a new community suggesting some discontent."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There is some inquiry regarding purchasing tokens, indicating a moderate level of interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Participants express some inspiration and motivation to engage with the community despite concerns."
+                    }
+                },
+                "catch_phrase": "Join @analosx for updates",
+                "about": "A community focused on trading and developing the Analos token",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 29,
+                    "total_message_count": 55
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:31:00"
+                }
+            }
         }
     }
 }

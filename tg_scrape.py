@@ -1173,21 +1173,25 @@ if __name__ == '__main__':
     # asyncio.run(check_telegram_activity(group_name))    
     # asyncio.run(check_telegram_activity_loop())
     # analyze_coins_ini()
-    date_start = datetime(2024, 10, 15, tzinfo=timezone.utc)
-    date_end = datetime(2024, 11, 1, tzinfo=timezone.utc)
     # max_filtered_filesize = 1024 * 1024  # 150 KB
 
-    #dir_list = ['habibi-sol','wawa-cat','whiskey','spx6900','retardio','analos','shoggoth','maga-again','asteroid-shiba','dinolfg','k9-finance-dao','pollen','lookbro','TEST','pepe-trump','fairfun','poupe','hoge-finance','jesus-coin','samoyedcoin','goat','osaka-protocol','misha','inferno-2','sigma','catwifhat-2','cafe','hund','pundu','zyn','4trump','michi','orc','lfgo','max2049','lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin','brainrot']
-    # dir_list = ['pepe-trump','fairfun','poupe','hoge-finance','jesus-coin','samoyedcoin','goat','osaka-protocol','misha','inferno-2','sigma','catwifhat-2','cafe','hund','pundu','zyn','4trump','michi','orc','lfgo','max2049','lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin','brainrot']
-    dir_list_batch1 = ['habibi-sol','wawa-cat','whiskey','spx6900','retardio']
-    dir_list_batch2 = ['analos','shoggoth','maga-again','asteroid-shiba','dinolfg']
-    dir_list_batch3 = ['k9-finance-dao','lookbro','pepe-trump','fairfun']
-    dir_list_batch4 = ['poupe','hoge-finance','jesus-coin','samoyedcoin','goat']
-    dir_list_batch5 = ['osaka-protocol','misha','inferno-2','sigma','catwifhat-2']
-    dir_list_batch6 = ['cafe','hund','pundu','4trump','michi','orc','lfgo']
-    dir_list_batch7 = ['lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin']
+    date_start = datetime(2024, 11, 2, tzinfo=timezone.utc)
+    date_end = datetime(2024, 11, 7, tzinfo=timezone.utc)
 
-    for group_name in dir_list_batch1:
+    dir_list1 = ['habibi-sol','wawa-cat','whiskey','spx6900','retardio','analos']
+    dir_list1 = ['shoggoth','maga-again','asteroid-shiba','dinolfg','k9-finance-dao','pollen','lookbro']
+    dir_list2 = ['pepe-trump','fairfun','poupe','hoge-finance','jesus-coin','samoyedcoin','goat','osaka-protocol','misha','inferno-2','sigma','catwifhat-2','cafe','hund','pundu','zyn','4trump','michi','orc','lfgo','max2049','lol-3','remilia','venko']
+    dir_list3 = ['cheese-2','mellow-man','dogwifcoin','brainrot']
+    
+    # dir_list_batch1 = ['habibi-sol','wawa-cat','whiskey','spx6900','retardio']
+    # dir_list_batch2 = ['analos','shoggoth','maga-again','asteroid-shiba','dinolfg']
+    # dir_list_batch3 = ['k9-finance-dao','lookbro','pepe-trump','fairfun']
+    # dir_list_batch4 = ['poupe','hoge-finance','jesus-coin','samoyedcoin','goat']
+    # dir_list_batch5 = ['osaka-protocol','misha','inferno-2','sigma','catwifhat-2']
+    # dir_list_batch6 = ['cafe','hund','pundu','4trump','michi','orc','lfgo']
+    # dir_list_batch7 = ['lol-3','remilia','venko','cheese-2','mellow-man','dogwifcoin']
+
+    for group_name in dir_list3:
 
         # Run the fetching function within the event loop
         # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
@@ -1195,17 +1199,18 @@ if __name__ == '__main__':
         #     date_start=date_start,
         #     date_end=date_end
         # ))
-        process_chat_logs(group_name, date_min='2024-1-1', date_max='2024-11-1', model=openai_version)
-        rollup_project_data(group_name, 'gpt-4o-mini', __version__)
+        #process_chat_logs(group_name, date_min='2024-11-2', date_max='2024-11-7', model=openai_version)
+        #rollup_project_data(group_name, 'gpt-4o-mini', __version__)
         fetch_price_data(group_name)
 
-    # group_name = 'samoyedcoin'
+    # group_name = 'nailong'
+    
     # asyncio.run(fetch_telegram_messages_for_date_range_fill_in_blanks_json(
     #     group=group_name,
     #     date_start=date_start,
     #     date_end=date_end
     # ))
-    # print("Finished fetching Telegram messages.")
+    print("Finished fetching Telegram messages.")
   
 
     ############################

@@ -8,6 +8,7 @@ from dash.dependencies import Input, Output, State
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import dash_table  # For data tables
+import configparser  # For reading coins.ini
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
@@ -53,7 +54,7 @@ app.layout = html.Div([
                     dcc.Checklist(
                         id='metrics-checklist',
                         options=[],  # Options will be populated via callback
-                        value=[],    # Value will be preserved
+                        value=['fairness'],    # Default to ['fairness']
                         labelStyle={'display': 'inline-block', 'margin-right': '10px'}
                     ),
                     html.Label('SMOOTH'),
@@ -103,20 +104,23 @@ app.layout = html.Div([
     ]),
 ])
 
+
+# Callback to update the metrics options based on selected project
 # Callback to update the metrics options based on selected project
 @app.callback(
-    Output('metrics-checklist', 'options'),
+    [Output('metrics-checklist', 'options'),
+     Output('metrics-checklist', 'value')],
     [Input('project-dropdown', 'value')],
     [State('metrics-checklist', 'value')]
 )
 def update_metrics_options(selected_rollup_file, current_value):
     if selected_rollup_file is None:
-        return []
+        return [], []
 
     rollup_file = selected_rollup_file
 
     if not os.path.exists(rollup_file):
-        return []
+        return [], []
 
     # Load the rollup data to get metrics options
     try:
@@ -124,11 +128,11 @@ def update_metrics_options(selected_rollup_file, current_value):
             rollup_data = json.load(f)
     except Exception as e:
         print(f"Error loading rollup file: {e}")
-        return []
+        return [], []
 
     date_data = rollup_data.get('date_data', {})
     if not date_data:
-        return []
+        return [], []
 
     # Prepare metrics from 'emotional_metrics'
     sample_day_data = next(iter(date_data.values()))
@@ -148,7 +152,18 @@ def update_metrics_options(selected_rollup_file, current_value):
     # Create metrics options
     metrics_options = [{'label': metric, 'value': metric} for metric in metrics]
 
-    return metrics_options
+    # Set default value to 'fairness' if it's available
+    if 'fairness' in [option['value'] for option in metrics_options]:
+        default_value = ['fairness']
+    else:
+        default_value = [metrics_options[0]['value']] if metrics_options else []
+
+    # Preserve current selections if possible
+    preserved_value = [val for val in current_value if val in [opt['value'] for opt in metrics_options]]
+    if not preserved_value:
+        preserved_value = default_value
+
+    return metrics_options, preserved_value
 
 # Callback to update the graph based on selected metrics and smoothing
 @app.callback(
@@ -371,6 +386,10 @@ def update_emotion_content(selected_rollup_file):
     if not os.path.exists(rollup_file):
         return []
 
+    # Extract the project folder and project name from the rollup_file path
+    project_folder = os.path.dirname(rollup_file)
+    project_name = os.path.basename(project_folder)
+
     # Load the rollup data
     try:
         with open(rollup_file, 'r', encoding='utf-8') as f:
@@ -433,6 +452,27 @@ def update_emotion_content(selected_rollup_file):
     # Build the catchphrases table data
     catchphrase_table_data = [{'Total occurrences': count, 'Catchphrase': phrase} for phrase, count in sorted_catchphrases]
 
+    # --- New code for Coin Info ---
+    # Read coins.ini
+    config = configparser.ConfigParser()
+    coins_ini_path = os.path.join(os.getcwd(), 'coins.ini')
+    if not os.path.exists(coins_ini_path):
+        print(f"coins.ini file not found at {coins_ini_path}")
+        coin_info_table_data = [{'Attribute': 'Error', 'Value': 'coins.ini not found'}]
+    else:
+        config.read(coins_ini_path)
+        if project_name in config.sections():
+            coin_info = config[project_name]
+            # Extract required fields
+            coin_attributes = ['api_id', 'chain', 'ca', 'twitter', 'tg']
+            coin_info_table_data = []
+            for attr in coin_attributes:
+                value = coin_info.get(attr, 'N/A')
+                coin_info_table_data.append({'Attribute': attr, 'Value': value})
+        else:
+            print(f"Project '{project_name}' not found in coins.ini")
+            coin_info_table_data = [{'Attribute': 'Error', 'Value': f"Project '{project_name}' not found in coins.ini"}]
+
     # Build the content
     content = [
         html.H2('Catchphrase & Socials'),
@@ -444,8 +484,10 @@ def update_emotion_content(selected_rollup_file):
                 {'name': 'Social media account', 'id': 'Social media account', 'presentation': 'markdown'}
             ],
             data=socials_table_data,
-            style_cell={'textAlign': 'left'},
+            style_cell={'textAlign': 'left', 'padding': '5px'},
             style_as_list_view=True,
+            style_header={'backgroundColor': 'white', 'fontWeight': 'bold'},
+            style_table={'margin': '0', 'padding': '0', 'border': 'none'}
         ),
         html.H3('Top 10 Catchphrases'),
         dash_table.DataTable(
@@ -455,6 +497,19 @@ def update_emotion_content(selected_rollup_file):
                 {'name': 'Catchphrase', 'id': 'Catchphrase'}
             ],
             data=catchphrase_table_data,
+            style_cell={'textAlign': 'left', 'padding': '5px'},
+            style_as_list_view=True,
+            style_header={'backgroundColor': 'white', 'fontWeight': 'bold'},
+            style_table={'margin': '0', 'padding': '0', 'border': 'none'}
+        ),
+        html.H3('Coin Info'),
+        dash_table.DataTable(
+            id='coin-info-table',
+            columns=[
+                {'name': 'Attribute', 'id': 'Attribute'},
+                {'name': 'Value', 'id': 'Value'}
+            ],
+            data=coin_info_table_data,
             style_cell={'textAlign': 'left'},
             style_as_list_view=True,
         ),

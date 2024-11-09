@@ -21045,6 +21045,512 @@
                     "date_process": "2024-11-02 17:11:15"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The ongoing use of 'Habibi' and related phrases indicates a strong central meme that unites the participants."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some discussions suggest optimism about token distribution, yet underlying concerns persist."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is significant suspicion regarding control by insiders or venture capitalists, as some messages express concern over external influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many messages reflect a strong intent to hold tokens and a belief in future growth."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere is overwhelmingly supportive, encouraging, and engaged with numerous affirmations and uplifting messages."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "There is a lively emotional exchange among participants, fueled by excitement about future market activity."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "The discussions indicate a mixed socioeconomic background among members, though many express optimism about wealth."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A significant amount of discourse revolves around price and token activity, reflecting a strong focus on market movement."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants express an overwhelming belief in the potential for wealth accumulation through holding their tokens."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "There is enthusiastic volunteer engagement in activities like raiding, indicating productive community participation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community appears very active and vibrant, with engaging discussions and frequent participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about purchasing tokens, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many messages exhibit a strong sense of hope and inspiration within the community as they encourage each other."
+                    }
+                },
+                "catch_phrase": "Habibi",
+                "about": "A community centered around the Habibi token, discussing its potential and market dynamics.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/habibixyz_sol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/memeticscapital",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/traderzs1",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 65,
+                    "total_message_count": 272
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:23:44"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion mostly revolves around the central theme of 'Habibi' as a cultural symbol."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants generally express belief that the project is fair and inclusive."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is a moderate suspicion of external control but not widespread."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Most participants express intent to hold their tokens and support the project."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat has an overall positive atmosphere with participants supporting each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion has moments of excitement and anticipation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Most participants express a mix of economic backgrounds but there are indications of some wealth."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a strong focus on token price with several mentions and inquiries about buying."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express a belief in potential gains from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is engagement in community activities and discussions promoting the project."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and lively with rich discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are frequent questions about buying the token."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express a sense of inspiration and hope about the project's potential."
+                    }
+                },
+                "catch_phrase": "Yalla Habibi",
+                "about": "Habibi is a Solana-based community token celebrating brotherhood and the culture of the Middle East.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/habibixyz_sol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bobthewhisperer",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 58,
+                    "total_message_count": 261
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:23:49"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "There is a strong sense of community around the concept of 'habibi' as a meme, reflecting enthusiasm among participants."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express mixed feelings about fairness, with some considering the project as offering opportunities, while others share concerns regarding scams."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There seems to be neutrality towards the influence of insiders and venture capitalists, with no strong sentiment indicating control by either side."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "The conversation indicates a strong inclination among participants to hold onto their tokens rather than sell, with many expressing optimism about future gains."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The overall vibe is supportive and encouraging, though there are moments of tension related to scams."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 55,
+                        "context": "The discussion is moderately emotionally charged, with varying expressions of excitement and frustration."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Clues indicate a need for financial caution among some members, suggesting varying but generally lower socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a balanced focus on price discussions, with participants actively discussing market movements and their strategies."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "A strong belief exists that participants can achieve great financial success through the project, with many expressing confidence in upward price potential."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There is some evidence of participants volunteering time and effort for the project, although the extent varies."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The discussion appears to be vibrant and lively, with high engagement levels from various participants."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There's a moderate level of inquiry about purchasing tokens, indicating some newcomers in the group."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants frequently express a sense of hope and inspiration from their involvement with the community."
+                    }
+                },
+                "catch_phrase": "Habibi",
+                "about": "A memecoin and community where participants are optimistic about financial gains.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/habibixyz_sol",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/dogoenthusiast",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 66,
+                    "total_message_count": 257
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:23:54"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The discussions frequently revolve around the Habibi meme and its implications in the crypto market."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some participants express doubts about fairness but there is a general understanding of the situation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are some concerns raised about potential market manipulation but it appears that the community maintains a belief in their power."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Most participants exhibit a strong intention to hold their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is supportive and encouraging, with many expressing excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is characterized by high emotional engagement, particularly around the subject of price movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Members exhibit a mix of socioeconomic perspectives, with a general awareness of market impacts."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "The conversations heavily center around price discussions and the potential effects of external events."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "There is a widespread belief among participants that holding Habibi could yield significant profits."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Participants actively engage and promote the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and lively, with rich discussions ongoing throughout the day."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "New members are inquiring about purchasing tokens, indicating active interest."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "There is a sense of hope and inspiration, particularly tied to potential market movements around the election."
+                    }
+                },
+                "catch_phrase": "Make Habibi - Not War",
+                "about": "The community celebrates the Habibi token, focusing on its cultural significance and profitability.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/maximili0n",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/traderzs1",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/thebabylonbee",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 77,
+                    "total_message_count": 365
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:24:01"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The strong repeated references to 'habibi' and the excitement around a potential market increase show that there's a central theme and meme among participants."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants believe in the fairness of the project as they express enthusiasm and camaraderie, suggesting they feel part of a community with shared goals."
+                    },
+                    "VC_cabal": {
+                        "intensity": 70,
+                        "context": "There is a feeling of optimism about control being in the hands of the community rather than external investors, particularly in light of the recent election outcome."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The overwhelming sentiment among participants is to hold on to their tokens, buoyed by the hope of a market surge."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat is filled with positivity, excitement, and hope among the members, creating an overall supportive atmosphere."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The emotional charge is high with participants expressing strong feelings of excitement and anticipation regarding market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Conversational cues suggest that many participants are hopeful for significant financial returns, indicating a relatively low socioeconomic background."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a significant focus on price movements and potential gains, with members frequently discussing price action and market expectations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants clearly express strong beliefs regarding the potential for substantial gains from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Members are actively engaged and motivated to promote the project without monetary compensation, showing high levels of community participation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community appears vigorous and lively, with rich discussion and engagement among the members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are inquiries about buying the token, reflecting interest from new participants wanting to get involved."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "There are numerous expressions of inspiration and hope from participants regarding their investments."
+                    }
+                },
+                "catch_phrase": "HABIBI",
+                "about": "Discussion surrounding the recent electoral events and their impact on the cryptocurrency market.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dogoenthusiast",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/bobthewhisperer",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 65,
+                    "total_message_count": 389
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:24:10"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The group is centered around a strong meme culture with frequent references to 'habibi' and shared community slogans."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "General sentiment indicates participants feel the project is fair and supportive with a sense of solidarity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Mixed feelings about possible insider control; some users express skepticism about external influences."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "A strong desire to hold onto assets, with many participants expressing their commitment to the project."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat maintains a positive and supportive atmosphere, characterized by encouragement and camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is lively and charged with anticipation, reflecting excitement about market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The group's socioeconomic status appears mixed, with hints of both wealth and struggle present."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a significant focus on price discussions, reflecting participants\u2019 keen interest in market dynamics."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants are optimistic about the potential for significant gains from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants are actively engaging in promotional activities and discussions without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The chat appears very vibrant and healthy with active participation and diverse discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about buying, suggesting newcomers and existing members are contemplating investment."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members express feelings of hope and motivation, supported by community enthusiasm."
+                    }
+                },
+                "catch_phrase": "/HOLD_HABIBI_TOGETHER_WAGMI_TOGETHER",
+                "about": "A vibrant community centered around the cryptocurrency 'Habibi' with strong cultural ties and hopes for market success.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/tradersheisty",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/maximili0n",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 56,
+                    "total_message_count": 245
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:24:17"
+                }
+            }
         }
     }
 }

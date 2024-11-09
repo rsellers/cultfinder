@@ -8558,6 +8558,496 @@
                     "date_process": "2024-11-03 10:53:15"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat revolves around a strong and engaging meme about the election and the token's potential."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There's a general belief that the project is fair, though some skepticism exists."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There's a moderate suspicion that insiders may be influencing the market."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Participants express a strong desire to hold their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The atmosphere is positive, with a sense of camaraderie and support among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are highly emotionally charged, particularly around the upcoming election and the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "Participants mostly appear to be of moderate to high socioeconomic status based on the context."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There's a significant focus on price movements and strategies to capitalize on them."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants express strong belief in the project's potential profitability."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many are actively engaging in promoting and supporting the project voluntarily."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and involved, with rich discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are newcomers showing interest in how to buy the token."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express inspiration and hope for the project's future."
+                    }
+                },
+                "catch_phrase": "#4WIN, #4TRUMP",
+                "about": "A community supporting the 4WIN token in the context of the upcoming election.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/_kryptoboy",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/4trump_4win",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 24,
+                    "total_message_count": 864
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:00:02"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat log features frequent references to the idea of a 'crypto president,' indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Participants expressed skepticism about the fairness of the election and governance, indicating a belief that the situation is unfair."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "The discussion reflects a expectation of voting irregularities, indicating a pervasive belief that insiders are trying to control outcomes."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Participants consistently encouraged holding tokens and shared optimism about the future, indicating strong hold intent."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat maintained a generally positive tone with humor and encouragement among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The conversation is charged with emotions related to current events, the election, and financial opportunities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There were mixed signals about socioeconomic status, with both strategic discussions about wealth and awareness of economic disparities."
+                    },
+                    "price_action_focus": {
+                        "intensity": 95,
+                        "context": "Conversations were predominantly focused on price and token movements, indicating a high price action focus."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "A strong belief in the potential for profit from the crypto investment was expressed repeatedly."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants engaged in collective efforts like raids, showcasing volunteer efforts to promote the cryptocurrency."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat exhibited a vibrant atmosphere with active participation and community bonding."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There were inquiries about buying into the token, indicating interest from new and existing members."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Frequent expressions of hope and enthusiasm regarding the future of the token and the election."
+                    }
+                },
+                "catch_phrase": "4WIN to the moon!",
+                "about": "A community dedicated to advocating for a cryptocurrency linked to perceived political leadership.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/hunterraids",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/unknowndesignr",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 25,
+                    "total_message_count": 1035
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:00:14"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The members are actively using memes and slang, indicating a shared understanding and narrative typical of meme-based projects."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "While there is some recognition of issues, overall beliefs support fairness among participants."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is suspicion regarding the influence of whales and insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Participants are encouraging others to hold rather than sell, suggesting a strong hold intent."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The atmosphere is generally positive and supportive, fostering strong community ties."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is charged with emotion, particularly regarding the upcoming election."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "There is a mixture of users, some expressing anxiety about financial situations, others more affluent."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "The chat is heavily focused on price discussions, particularly in light of the recent drop."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "There is significant optimism about future price increases after the upcoming election."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "Members are promoting and engaging widely with the project, suggesting a level of voluntary enthusiasm."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant, with a lot of interactions and support for one another."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "New participants are showing interest in buying the token, though it may not be as widespread yet."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "There are expressions of belief in the project and its future potential, motivating participants."
+                    }
+                },
+                "catch_phrase": "4WIN to the moon!",
+                "about": "A community centered around the $4WIN token and political memes supporting Trump.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/unknowndesignr",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/hunterraids",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/_kryptoboy",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 41,
+                    "total_message_count": 1276
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:00:27"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "Discussion revolves around the meme of supporting Trump and the $4WIN token, which is a strong central theme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "The project is perceived as fair within the community, with many participants expressing confidence in its potential."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There's a moderate suspicion regarding control by insiders, but many feel the community has a strong role."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A strong inclination to hold and not sell tokens is consistently expressed by participants."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The chat has positive vibes with community support, excitement for the election, and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is highly emotionally charged, particularly concerning the election outcome and investment expectations."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Members discuss financial opportunities, indicating a mix of socioeconomic statuses."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a strong focus on price movement and buying tokens in light of potential election outcomes."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants widely express belief in significant potential profit from holding $4WIN."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There are signs of voluntary engagement and promotion of the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant with ongoing discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about buying tokens, indicating high interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express a sense of inspiration and hope regarding the project's prospects and the electoral outcome."
+                    }
+                },
+                "catch_phrase": "LFG!!!",
+                "about": "Supporting Trump and $4WIN token in the context of the elections.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/unknowndesignr",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 29,
+                    "total_message_count": 941
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:00:39"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community is heavily engaged with the central theme of supporting Trump and the associated cryptocurrency."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally believe in the fairness of the project, feeling involved in a successful initiative."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some suspicion remains about control by insiders, but overall there's a sense of community-led direction."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "There is a strong sentiment towards holding the token rather than selling, with members expressing a commitment to long-term investment."
+                    },
+                    "vibes": {
+                        "intensity": 95,
+                        "context": "The atmosphere is overwhelmingly positive, with encouraging messages and excitement about Trump's victory."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is quite emotionally charged as participants engage passionately about the election results and cryptocurrency."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants appear to have mixed socioeconomic backgrounds, some expressing concerns about finance but mostly discussing investment with optimism."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is considerable discussion around price action due to Trump's election success affecting the perceived value of their tokens."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants express a strong belief in the potential for significant financial gains from the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Various participants are contributing effort into community engagement and promotion of the token without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community appears vibrant with frequent engagement and ongoing discussions among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are inquiries from newcomers about how to buy the token, indicating interest in joining the community."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "There are visible expressions of hope and inspiration related to both the election outcome and the token's future."
+                    }
+                },
+                "catch_phrase": "To the moon!",
+                "about": "A community-driven token supporting Trump, focusing on political engagement through cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/georgekyriakou9",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 47,
+                    "total_message_count": 1063
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:00:52"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on the #4WIN token and its potential, indicating a central meme for the group."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally feel the project is fair, with discussions indicating a sense of shared benefit and collective effort."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is moderate awareness of potential influence from insiders, but many participants feel empowered and in control."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "There is a strong consensus among members to hold their tokens rather than sell, evident through encouraging comments about not selling."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The overall atmosphere is very positive, with lots of enthusiasm, encouragement, and humor."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are emotionally charged with a mix of excitement about the token and political events."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "There are indications of mixed socioeconomic backgrounds, but overall optimism in the discussions."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A strong focus on price discussion, particularly regarding the #4WIN token's anticipated performance."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Widespread belief in considerable potential for financial gain from holding #4WIN tokens."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants are actively sharing information and promoting the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant and engaged, with diverse discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are inquiries about buying tokens, showing interest from both new and current participants."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express inspiration and hope tied to both the project and political events."
+                    }
+                },
+                "catch_phrase": "To the Moon!",
+                "about": "Support for the #4WIN token and the political campaign of Donald Trump.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/georgekyriakou9",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 25,
+                    "total_message_count": 837
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:01:01"
+                }
+            }
         }
     }
 }

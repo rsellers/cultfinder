@@ -6569,6 +6569,511 @@
                     "date_process": "2024-11-03 08:53:49"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The community revolves around several meme references and catchphrases related to their tokens and progress."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There is some conversation hinting at doubts about fairness, but generally not overwhelmingly negative."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express concerns and suspicions regarding the influence of insiders and venture capitalists."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "The majority seem to favor holding onto their investments rather than selling, especially amid ongoing developments."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The atmosphere has a mix of excitement and humor, with some tension regarding market movements."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussion is charged with various emotions related to market conditions and shared aspirations."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Participants show indications of being from lower to middle socioeconomic backgrounds, driven by investment desires."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on price actions and discussions surrounding market dynamics."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Many express belief in substantial future gains, contributing to an overall hopeful environment."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Several users appear to engage in activities that promote the community, suggesting active contribution without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The conversation is lively and varied, indicating a healthy and vibrant community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries about purchasing but not overwhelmingly frequent, suggesting new interest is present."
+                    },
+                    "inspiration": {
+                        "intensity": 55,
+                        "context": "There are mixed expressions of hope and support, suggesting some inspirative aspects."
+                    }
+                },
+                "catch_phrase": "LFG fam!",
+                "about": "A cryptocurrency community focused on trading insights, project updates, and community engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/_lokoto5000",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/guugod777",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 20,
+                    "total_message_count": 54
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:53:56"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions center around the $TITANX meme and its community-building efforts."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally feel that the project is fair, with many supportive of the token's potential."
+                    },
+                    "VC_cabal": {
+                        "intensity": 25,
+                        "context": "There are expressions of concern regarding the influence of venture capitalists, indicating a belief that insiders might control the trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Members are predominantly expressing a strong intent to hold onto their tokens long-term."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat exhibits a positive and supportive atmosphere conducive to community engagement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion contains significant emotional engagement around the token's performance and community activities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "While there are mentions of financial struggles, the predominant sentiment suggests mixed or moderately higher socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "Conversations reflect an active focus on pricing and market actions surrounding the token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "There is a strong belief among participants that investing will lead to significant profits."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are volunteering time and energy to promote and support the project without financial compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is vibrant and lively with ongoing discussions and support."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "New participants are showing interest in purchasing the token, indicating active engagement."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members express feelings of inspiration and hope regarding the project's future."
+                    }
+                },
+                "catch_phrase": "Inferno for life!!",
+                "about": "The community revolves around the $TITANX token and its growth potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/irishcrypto4",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 15,
+                    "total_message_count": 30
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:54:00"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community exhibits a strong central meme of supporting the Inferno token with enthusiasm."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "There is a general sentiment that the environment is fair, with many discussions around collective participation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 80,
+                        "context": "Participants largely express confidence that the community is in control rather than insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "There is a strong inclination towards holding tokens among participants, promoting long-term investment."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The vibes within the chat are very positive, filled with encouragement and excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The overall discussion is highly emotionally charged, with participants expressing strong enthusiasm."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Some participants express ideas of investing and community effort, suggesting a mixed socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on price action, with numerous mentions of price trends and the desire for increases."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants frequently discuss expectations of potential wealth from their investments in the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is a decent level of volunteer effort being discussed and encouraged."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and lively, with rich discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are few inquiries about how to buy tokens, indicating a relatively stable understanding among current holders."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express feelings of inspiration and hope regarding the project and its future."
+                    }
+                },
+                "catch_phrase": "LFG bulls",
+                "about": "A community focused on the Inferno token and its potential in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ppong9876",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/bujaa08area",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/guugod777",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/easternpablo",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 19,
+                    "total_message_count": 53
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:54:03"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The discussions reveal strong engagement around memes and concepts related to the project, indicating a central theme driving conversation."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings regarding fairness, with some participants expressing confidence while others remain skeptical about equity in token distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants display suspicion towards potential control by insiders or venture capitalists, reflecting concerns about price manipulation."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A significant number of messages indicate a strong desire among participants to hold tokens, highlighted by phrases like 'holding strong'."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is supportive and positive, with members exchanging encouragement and sharing excitement about the project."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is charged with enthusiasm and emotional exchanges, evidenced by numerous exclamation marks and expressions of excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "It's unclear if the community members belong to low or high socioeconomic backgrounds based on the chat; sentiments appear varied."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There is a moderate focus on the token price, with a few participants expressing excitement over price changes in the ongoing conversations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many participants express a strong belief in the potential for significant profits, reflecting optimism about the project's future."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 40,
+                        "context": "While some individuals discuss collaborative efforts, there is less indication of widespread volunteer activity aimed at promoting the project."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears lively and engaging, with diverse discussions indicating a healthy group dynamic."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Interest in purchasing tokens is present, but unsure whether there are high levels of inquiry from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Several messages reflect feelings of inspiration and hope among community members due to various project developments."
+                    }
+                },
+                "catch_phrase": "Inferno bullish",
+                "about": "Participants are engaged in discussions surrounding crypto projects and community-related activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/guugod777",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bujaa08area",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/infernobullwin",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/weaponheadsnft",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 19,
+                    "total_message_count": 36
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:54:09"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "There is a strong central meme around the 'Inferno' project which drives most discussions."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some users express concern about unequal access to tokens, but the overall sentiment shows a belief in fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is a moderate level of suspicion about potential control by insiders, particularly among new members."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Most participants express a desire to hold their tokens rather than sell them, indicating confidence in future gains."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat is overwhelmingly positive, with users expressing excitement and camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly charged with positive emotions, anticipation of price increases, and community support."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "Most users seem to be of moderate socioeconomic status, balancing optimism with some expressions of concern about holdings."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a significant focus on price discussions as users speculate on potential gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express a strong belief that holding the token could lead to wealth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There are indications of community members contributing time and efforts voluntarily to promote the project."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community appears vibrant and engaged, with lively discussions and exchanges among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about buying the token, but they are not widespread."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express inspiration and hope for the future development of the Inferno project."
+                    }
+                },
+                "catch_phrase": "Let's take it to the moon!",
+                "about": "A community focused on the Inferno token and its ecosystem.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/maxkane0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/bujaa08area",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/infernobullwin",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 23,
+                    "total_message_count": 40
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:54:14"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "The chat focuses on price speculation and future launches, indicating a central meme exists but is not fully engaged."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "Participants express some feelings of unfairness in the market dynamics, but it's not a dominant sentiment."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a noted suspicion regarding influencers or insiders possibly controlling discussions around token price."
+                    },
+                    "hold_intent": {
+                        "intensity": 50,
+                        "context": "Discussions imply a mixed sentiment with some wanting to hold while others indicate intentions to sell when opportunities arise."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The chat exhibits a neutral vibe; some participants express concern about engagement while others encourage activity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 45,
+                        "context": "The discussions are moderately charged with excitement about future events, but there's also resignation about current quietness."
+                    },
+                    "socioeconomic": {
+                        "intensity": 65,
+                        "context": "The tone of discussions suggests a mix of socioeconomic backgrounds, with some urgency to acquire more tokens indicating lower socioeconomic sentiments."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Most chat messages reflect a strong focus on price actions and future projections."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 55,
+                        "context": "Some participants express anticipation about future gains, but this belief is juxtaposed with a sense of caution."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 30,
+                        "context": "Limited evidence of volunteer participation for community efforts, focusing more on personal investment."
+                    },
+                    "community_health": {
+                        "intensity": 50,
+                        "context": "The community shows signs of life but with varying levels of participant engagement, indicating moderate health."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "Low engagement from newcomers asking about how to buy the token, suggesting a lack of influx of new participants."
+                    },
+                    "inspiration": {
+                        "intensity": 40,
+                        "context": "There are some expressions of hope and motivation, but not widespread."
+                    }
+                },
+                "catch_phrase": "Keep the chat active!",
+                "about": "A community focused on trading and investment in a specific cryptocurrency project.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 10,
+                    "total_message_count": 14
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:54:18"
+                }
+            }
         }
     }
 }

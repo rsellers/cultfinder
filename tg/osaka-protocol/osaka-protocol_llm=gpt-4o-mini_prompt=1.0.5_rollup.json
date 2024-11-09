@@ -30761,6 +30761,628 @@
                     "date_process": "2024-11-03 08:32:45"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussion shows strong engagement around the '$OSAK' project, with many users rallying and promoting it through motivational messages."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a general sentiment that the project is fair, with encouragement for community participation and engagement."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "While there are some suspicions about external control, the community mostly feels empowered to make decisions."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many participants express a desire to hold onto their tokens, emphasizing community solidarity and long-term investment."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is generally positive and energetic, with many participants exchanging greetings and support for one another."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is charged with excitement and enthusiasm, especially around community activities and promotions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "The socioeconomic status appears varied, with no clear indicators of low income broadly shared within this group."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a notable focus on activities that could affect the price and a clear interest in raiding and promoting the token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants frequently express optimism about future gains, particularly with references to community projects and promotions."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are actively engaging in promotional activities without compensation, showcasing strong community spirit."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant and lively, with a rich exchange of messages and engagement around shared goals."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are showing interest in the project, asking questions related to buying tokens."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Community members express inspiration and motivation through collaborative efforts and supportive messages."
+                    }
+                },
+                "catch_phrase": "Raid for your bags!",
+                "about": "Community focused on promoting and engaging with the $OSAK token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/neverexpectmuch",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/theresearchor",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/osakaprotocol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dailyosak",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 26,
+                    "total_message_count": 68
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:51:49"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussion revolves around a strong meme with members frequently expressing enthusiasm and supportive language around the token."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed sentiments regarding fairness, with some participants expressing concerns but overall a moderate belief in economic fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There's a notable sentiment of distrust towards insiders and VCs, with some discussions hinting at concerns over control of token price."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A large number of participants express intent to hold tokens rather than sell, suggesting a strong belief in future upward price movement."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat log demonstrates a very positive and supportive atmosphere overall, with many expressions of excitement and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly emotionally charged, with many participants actively sharing excitement and motivation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants is varied and ambiguous in the exchanges, with no clear indicators of high or low status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There is a moderate focus on price action, indicating that while participants are concerned about price, they also engage in other types of discussion."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Members often express strong optimism about the token's potential to yield profits, indicating belief in prospective gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants seem willing to engage in activities that promote the token without compensation, reflecting communal support and grassroots efforts."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and lively with diverse discussions and engagement from members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some inquiries about buying the token exist, suggesting a moderate interest from newcomers or members trying to inform themselves."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "There are significant expressions of inspiration and hope among community members, encouraging each other to hold and stay positive."
+                    }
+                },
+                "catch_phrase": "Let's go!",
+                "about": "The community focuses on the token and its potential, encouraging buy and hold strategies.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/andrewgolarabtc",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/orz893osak",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/roaringkitty",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kabdulabdulk",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/blakto4",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/_cryptico_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptomarsalek",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 34,
+                    "total_message_count": 78
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:51:54"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "Discussion revolves around the core idea of raiding and community participation."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a belief that the project is fairly distributed and rewarding."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some suspicion exists about potential insider influence, but overall sentiment leans towards community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "A high number of participants express the intent to hold tokens for the long term."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat has a very supportive and encouraging atmosphere, with many positive interactions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are emotionally charged and enthusiastic, particularly regarding raids and support."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Moderate indications of socioeconomic diversity among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a significant focus on token performance and trading actions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Widespread belief among participants that holding tokens will lead to wealth."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many participants are willingly engaging in promotional activities without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community appears lively and vibrant, demonstrating a diversity of discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers show interest in acquiring tokens, indicating a level of market curiosity."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express inspiration and motivating sentiments towards their actions and community goals."
+                    }
+                },
+                "catch_phrase": "Let's raid!",
+                "about": "Community working together to promote and support the OSAK token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/theresearchor",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/roaringkitty",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/osaszewski",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/gogrokyourself",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/orz893osak",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptoemdarks",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/andrewgolarabtc",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 35,
+                    "total_message_count": 101
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:51:59"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat shows strong engagement in raiding actions and supporting the community's presence online, indicating a powerful central meme of community involvement."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants appear divided regarding the fairness of the project, with some expressing concerns about potential scams and manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "There are suspicions about the influence of external actors (like venture capitalists) on the token\u2019s trajectory, though not overwhelmingly expressed."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Overall, there is a notable inclination to hold tokens long-term as community members express optimism for future gains."
+                    },
+                    "vibes": {
+                        "intensity": 78,
+                        "context": "The chat maintains a generally supportive and enthusiastic atmosphere with many positive interactions and the use of celebratory emojis."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is highly emotionally charged, characterized by excitement and engagement over future prospects and shared activities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed signals regarding the socioeconomic status of participants; some express enthusiasm about potential profit, while others caution against scams."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "Conversations reflect a moderate focus on price discussions, particularly regarding market movements and future price expectations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 77,
+                        "context": "Many participants express a strong belief in the potential for significant gains, particularly around the upcoming elections."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "There is significant volunteer-driven activity, as community members engage in raids and promote posts enthusiastically."
+                    },
+                    "community_health": {
+                        "intensity": 82,
+                        "context": "The chat appears vibrant and active, with diverse discussions and a sense of community and shared purpose."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are inquiries about purchasing the token, indicating interest from both newcomers and existing members."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Participants express moderate feelings of inspiration and hope, connecting their activities to a greater vision within the community."
+                    }
+                },
+                "catch_phrase": "Raid and Smash the Dips!",
+                "about": "A community focused on supporting the Osaka Protocol and engaging in collective promotional activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/theresearchor",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/andrewgolarabtc",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/shineyd1111",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/timozimmerman15",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/gogrokyourself",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/corleonescrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/okx",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 42,
+                    "total_message_count": 145
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:52:05"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat is heavily focused on raiding, which showcases a strong collective meme of aggression and excitement within the group."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are mixed feelings about fairness, with some suggesting positive community engagement while others mention possible manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a noticeable suspicion regarding outside control, particularly from venture capitalists or insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Most participants express a desire to hold and support the token, showing commitment to the project."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "Overall, the community exudes positivity and encouragement, with participants expressing energy and enthusiasm."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is high in emotional charge, with many participants expressing excitement and aggressiveness towards upcoming events and raids."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are indications of diverse socioeconomic backgrounds amongst participants, but no overwhelming evidence favors one side."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price action with many mentions of tokens and market conditions reflecting anticipation about price movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants frequently express optimistic beliefs regarding potential financial gains from the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many users are actively involved in promoting and participating in community activities, indicating high levels of volunteer engagement."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community seems vibrant and active, with a continuous flow of participation and rich discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about how to buy tokens, indicating a balanced level of interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants show signs of being inspired by the potential of the project and the community's unity."
+                    }
+                },
+                "catch_phrase": "Let's raid",
+                "about": "An enthusiastic community focused on cryptocurrency raiding activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/theresearchor",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/feed_alert",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/neverexpectmuch",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/_cryptico_",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/orz893osak",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/watcherguru",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bitcoinmagazine",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 58,
+                    "total_message_count": 178
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:52:10"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community is actively discussing and promoting memes and gifs related to the Osak project, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a sense of fairness in the project, as seen in supportive messages about building a better future together."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are sentiments that outsiders may influence token price, as indicated by warnings about scams, but the community still asserts their control."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Many messages reflect a strong hold intent and encouragement to 'raid' and support the token."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere in the chat is largely positive, with members expressing excitement and motivation."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The conversation is emotionally charged with strong engagement from participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of participants appears mixed; some express confidence while others share concerns."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "There is a moderate focus on token price, with participants discussing market conditions and updates."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Many participants express strong belief in the future potential of the project, with references to significant market capitalization."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Participants are volunteering significant time and effort promoting the project through raids and social media."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears vibrant with diverse discussions and active engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are some inquiries about buying the token, suggesting interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members frequently express hope and determination, motivating one another."
+                    }
+                },
+                "catch_phrase": "I feel better",
+                "about": "The community is focused on the Osak token and is heavily engaged in meme culture and promotional activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/gogrokyourself",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/3phasess",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/blakto4",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/joker_on_eth",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/neverexpectmuch",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/tradercobb",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 48,
+                    "total_message_count": 113
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:52:14"
+                }
+            }
         }
     }
 }

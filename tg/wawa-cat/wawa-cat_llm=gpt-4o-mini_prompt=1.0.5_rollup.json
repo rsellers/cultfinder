@@ -4261,6 +4261,596 @@
                     "date_process": "2024-11-02 17:18:22"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The community frequently uses references to 'wawa' creating a strong central theme of excitement and engagement."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed feelings about the fairness of the project content, with some participants expressing concern about the need for new holders."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Some sentiment exists suggesting insiders or VCs influence the token's trajectory, indicating distrust among community members."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Most participants express a desire to hold onto their tokens rather than sell, indicating confidence in future growth."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is generally supportive and enthusiastic, with ongoing encouragement to participate and raiding efforts."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussions are highly emotionally charged, mainly filled with enthusiasm and motivation among the participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "While some members show confidence in the project, there are hints that others may be struggling financially due to the market conditions."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is significant focus on price discussions, with participants eager to discuss price movements and potential gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Many participants convey a strong belief in the potential for significant financial gain from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Participants are actively volunteering their time and effort, particularly in raiding efforts and community engagement."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and connected, with lively discussions and a strong sense of camaraderie."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "Newcomers express interest in learning how to buy tokens, signifying a growing community."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Members frequently express feelings of hope and inspiration regarding the project's future and their involvement."
+                    }
+                },
+                "catch_phrase": "Wawa",
+                "about": "A community focused on supporting and promoting the $WAWA token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/idrawline",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 28,
+                    "total_message_count": 245
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:26:11"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat reflects a strong engagement and excitement around the concept of the project, with many references to memes and community phrases."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "While some believe in the fairness of the project, there's an undercurrent of skepticism regarding market manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express concern that insiders could manipulate token prices, indicating a mixed sentiment."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants express a desire to hold and accumulate tokens, reflecting a positive outlook for the long-term."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall tone is supportive and positive with high enthusiasm among members, especially around community activities."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The conversation is highly charged with excitement and anticipation regarding the future of the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "There are hints at varying economic backgrounds but no definitive statements about socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a notable focus on price movements and discussions about buying and holding, though balanced by community encouragement."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Many participants express belief in the significant potential for returns, showing optimism about the future value of the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Members are engaging in promotional activities like raids, indicating some level of voluntary contribution."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant with frequent engagement and support among members."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about buying and some excitement about investment opportunities, suggesting a healthy newcomer interest."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Members express motivation and excitement, which fosters a hopeful community atmosphere."
+                    }
+                },
+                "catch_phrase": "Wawaaaa",
+                "about": "A community focused on promoting the $WAWA token and building a strong social platform.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/idrawline",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/bigowenmorgan",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/usemoonshot",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/vale09733470817",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 44,
+                    "total_message_count": 289
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:26:18"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussions are centered around a strong meme culture related to WAWA, with a clear excitement about upcoming events and a bullish outlook."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally believe the project is fair, with discussions implying community involvement and shared goals rather than exploitation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There are mentions of manipulating forces, yet a strong belief exists in community control, suggesting a moderate concern about VC influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Most participants express intent to hold their tokens, reflecting a bullish sentiment towards future growth."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere is overwhelmingly positive with frequent expressions of excitement and encouragement throughout the discussions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly charged with excitement and anticipation regarding raids and community events."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "The chat reflects a mixture of socioeconomic statuses, with some users expressing confidence about accumulating wealth through the project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There's a strong focus on price movements, especially with encouragements to buy during dips."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants frequently express beliefs that the project has high potential, with aspirations for significant returns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 85,
+                        "context": "A large number of members are actively engaging in promotional activities for the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community demonstrates a lively, vibrant interaction with active discussions and high participation rates."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are mentions of new participants showing interest in buying the token, reflecting a healthy inquiry about the project."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "The community expresses strong feelings of inspiration and hope regarding their collective goal and project potential."
+                    }
+                },
+                "catch_phrase": "LFG!!!",
+                "about": "Community focused on promoting and supporting the WAWA token.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/bullish_solg",
+                            "mentions": 16
+                        },
+                        {
+                            "url": "https://x.com/wawa_cto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/hodldomains",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/igazsagot",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/vale09733470817",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/comparemcap",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 33,
+                    "total_message_count": 469
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:26:26"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community strongly revolves around the meme associated with $Wawa, with many memes and phrases consistently used."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally believe that the project is economically fair, although there are some hints of concern regarding token holders."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is noticeable suspicion among participants about potential influence from VCs or insiders, suggesting a lack of trust."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Most participants express a strong desire to hold their tokens, with many reinforcing the idea of 'diamond hands'."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere is overwhelmingly positive, with participants encouraging each other and sharing excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 95,
+                        "context": "The discussion is highly emotionally charged, with frequent use of exclamations and phrases that express enthusiasm."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed indicators of socioeconomic status among participants, though many seem to be striving for gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a strong focus on the token's price movement, especially during discussions about raids."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Many participants express a strong belief in the potential for large gains from holding $Wawa."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 85,
+                        "context": "Many members are actively participating and contributing without compensation, indicating a large amount of voluntary involvement."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and active, with ongoing discussions and numerous participants chiming in."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries from new participants about buying the token, suggesting new interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many members express feelings of inspiration and hope related to the community and its potential."
+                    }
+                },
+                "catch_phrase": "Lfg! Wawa!",
+                "about": "The community is focused on driving the success of the $Wawa token through engagement, raiding, and meme culture.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/extrin_",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/vale09733470817",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/trencheddreav",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/wawa_cto",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/kgtradez",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/danbiyi1",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/bullish_solg",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/blackgokusei",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 48,
+                    "total_message_count": 599
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:26:34"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The conversation heavily revolves around the WAWA meme and associated community spirit."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants express a belief that the project is fair to its holders and contributors."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There are sentiments indicating community control, contrasting with VC or insider manipulation."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The majority of messages reflect a strong desire to hold and support the token."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "Overall, the chat demonstrates high spirits, encouragement, and enthusiasm."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 95,
+                        "context": "The chat is intensely positive, filled with excitement and motivation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Some users mention financial concerns, but the overall sentiment indicates mixed statuses."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "A significant number of discussions center around price increases and future projections."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 95,
+                        "context": "Widespread belief that the project has substantial potential to increase in value."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 90,
+                        "context": "Many users express a willingness to volunteer their time and creativity for the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is active, lively, and engaged throughout the chat."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are inquiries about purchasing, demonstrating interest from both new and existing members."
+                    },
+                    "inspiration": {
+                        "intensity": 90,
+                        "context": "The interaction fosters feelings of inspiration and excitement among participants."
+                    }
+                },
+                "catch_phrase": "Wawa to the moon!",
+                "about": "A vibrant community centered around the WAWA token and its growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/extrin_",
+                            "mentions": 10
+                        },
+                        {
+                            "url": "https://x.com/vale09733470817",
+                            "mentions": 10
+                        },
+                        {
+                            "url": "https://x.com/_zorro_6",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/bullish_solg",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/mrshelbysol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/holdore",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/arpad_im",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/marton_alpha",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 81,
+                    "total_message_count": 909
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:26:44"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "Discussion revolves around a central meme of 'wawa' and its potential."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants express a generally positive view about the fairness of the project."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There is some suspicion regarding insider control, but it is not the predominant sentiment."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Many are expressing intent to hold rather than sell, indicating strong community support."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "Overall, the vibes within the chat are highly positive and supportive."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "Discussion is highly emotionally charged with exuberance and excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "A mixed socioeconomic background with noticeable enthusiasm from members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong and prevalent focus on price discussions and expectations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There's widespread belief in the potential for significant financial gains from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are volunteering time and effort for community building and promotion."
+                    },
+                    "community_health": {
+                        "intensity": 95,
+                        "context": "The community appears to be vibrant and active with rich discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "There is minimal inquiry from newcomers about purchasing the token."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Members express feelings of inspiration and hope for the project's future."
+                    }
+                },
+                "catch_phrase": "WAAAAAA",
+                "about": "Wawa project and its community",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/_zorro_6",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/mrshelbysol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/vale09733470817",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/maxbidpro",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/bullish_solg",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/kidfranks111",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/heycaptain0719",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/grownftb",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 45,
+                    "total_message_count": 535
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:26:50"
+                }
+            }
         }
     }
 }

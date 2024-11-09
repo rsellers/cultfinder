@@ -25870,6 +25870,492 @@
                     "date_process": "2024-11-02 23:04:42"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussion strongly revolves around the Jesus Coin project, indicating a central meme of community support and investment."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants largely express confidence in the fairness of the project, with open discussions about donations and community contributions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is some suspicion about external influences, but the prevailing sentiment is that the community retains control over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many participants express intentions to hold onto their Jesus Coin investments, indicating a strong 'hold forever' mentality."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The overall atmosphere is very positive and supportive, with participants encouraging one another."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is emotionally charged but balanced with practical discussions about the project and community activities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While some participants express a more casual interest in financial aspects, generally they appear more engaged with community and spiritual factors."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a focus on price discussions, especially regarding the potential for future growth and market interest."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express a strong belief in the project's potential for significant financial upside."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "There is a noticeable involvement of participants contributing to the project without compensation, indicating strong community engagement."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The discussion displays vibrant and lively exchanges, reflecting a healthy community dynamic."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are inquiries about purchasing the tokens, but they are not overly dominant, suggesting some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 90,
+                        "context": "Many messages reflect inspiration and a sense of purpose derived from the community, with testimonials about spiritual growth."
+                    }
+                },
+                "catch_phrase": "Hodl'rs Unite!",
+                "about": "A community celebrating faith and investment through Jesus Coin.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/afsorbello",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 29,
+                    "total_message_count": 80
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:47:23"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 60,
+                        "context": "There is some meme presence, particularly with the $JESUS token culture, but it isn't the primary focus of the discussion."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are mentions of volatility and selling, indicating some skepticism about fairness in the market."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express some level of suspicion regarding market control, evidenced by comments on selling and liquidity pools."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants seem to favor holding tokens, especially with expressions of optimism regarding liquidity."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The general atmosphere is positive, with expressions of community and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is emotionally charged, with humor, optimism, and concern balanced throughout."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are hints of varying socioeconomic statuses among participants, but overall neither extreme is dominant."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a strong focus on price actions and market trends, reflecting a significant interest in token performance."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 55,
+                        "context": "Participants show some belief in potential growth, albeit with mixed levels of confidence."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "There are offers of service and contributions, but it's unclear how widespread unpaid labor is."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and active, with frequent interactions and a sense of camaraderie."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries about buying, but they are not widespread or frequent."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Widespread expressions of encouragement and inspiration suggest a deep sense of hope within the community."
+                    }
+                },
+                "catch_phrase": "$JESUS is King",
+                "about": "A crypto community focused on the $JESUS token and discussions surrounding it.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ahlqvistit",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 23,
+                    "total_message_count": 62
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:47:27"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The community engages around the central theme of Jesus Coin, indicating a strong meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants show moderate belief that the project is fair, though concerns may remain."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are indications of skepticism towards potential insider manipulation."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants express intent to hold tokens, indicating strong community confidence."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "Overall, community interactions reflect positivity and encouragement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussions reflect a moderately high level of emotional investment and excitement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of members seems varied, with no strong indicators favoring one end."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a notable focus on price discussions, indicating concern for market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "High levels of optimism exist about potential profits from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many participants are volunteering time for community activities, suggesting engagement."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears active and vibrant, with numerous engaging discussions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about purchasing the token, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants express high levels of hope and inspiration from being part of the community."
+                    }
+                },
+                "catch_phrase": "Gm everyone",
+                "about": "A community centered around Jesus Coin, fostering positivity and engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/jesustokens",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/0xbeehive",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 13,
+                    "total_message_count": 35
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:47:31"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "Members engage with a central theme around crypto and community, particularly referencing 'Jesus Coin' and associated sentiments."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There is mixed sentiment about fairness, with users discussing the project without clear consensus on economic equity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express concerns about underlying influences of venture capitalists and insiders on the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a moderate sentiment towards holding assets within the community, despite dips in price associated with external events."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall vibes are positive with many supportive messages and emojis indicating a sense of camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is charged with emotional expressions, reflecting both optimism and some concerns."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Some indicators suggest a diverse socioeconomic background among participants, but not overwhelmingly negative."
+                    },
+                    "price_action_focus": {
+                        "intensity": 50,
+                        "context": "There is a moderate focus on token prices amid discussions of external events like elections."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Many participants express a belief in the potential of strong returns from the project or token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Participants show willingness to volunteer their skills for the community, suggesting a strong cult-like involvement."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and active with frequent interactions and exchanges of support."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 20,
+                        "context": "There is low inquiry about purchasing the token, indicating existing members are more engaged than newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Many messages share themes of inspiration, especially linking to positivity around the token and community activities."
+                    }
+                },
+                "catch_phrase": "JESUS IS KING!",
+                "about": "A community surrounding the development and promotion of 'Jesus Coin' and related crypto projects.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/0xmakerlee",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 19,
+                    "total_message_count": 74
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:47:35"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat is heavily focused on a central theme surrounding 'Jesus Coin', creating a strong sense of community and shared purpose."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants believe the project is fair, with discussions supporting the idea of equal opportunity within the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of skepticism regarding outsider control, indicating a belief that insiders may influence the project's trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Most participants express a strong intent to hold the token, suggesting optimism about its future."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat maintains a positive and supportive atmosphere, with members encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "Emotions run high, especially with the all-time high of BTC inspiring excitement among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are mixed signals, with some references suggesting participants come from diverse socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is significant focus on price action, particularly around the conversation of BTC's all-time highs."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express a strong belief in the potential for substantial gains from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are engaging in supportive activities for the project without any expectation of compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "There is lively discussion and a nurturing atmosphere, indicating a vibrant community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "Newcomers are actively inquiring about how to buy the token, showing strong interest."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many messages convey inspiration and collective hope derived from being part of the community."
+                    }
+                },
+                "catch_phrase": "JESUS WINS!",
+                "about": "A community dedicated to promoting and rallying around 'Jesus Coin'.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/wrkhrd4it",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 23,
+                    "total_message_count": 94
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:47:39"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The chat shows strong references to the community name and emotional symbols (\ud83d\udc51, \u2728) indicating a solid collective meme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express faith in the project but also acknowledge concerns about fairness regarding exchanges and operations."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are discussions about manipulation by exchanges, suggesting some suspicion about external control."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "There is a strong sentiment among participants to hold their tokens, indicated by supportive messages and community focus."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is generally positive with expressions of support and encouragement among community members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "Discussions are quite charged with various emotional expressions, particularly excitement and hope."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "No strong indicators of low socioeconomic status, mixed discussions about financial savviness."
+                    },
+                    "price_action_focus": {
+                        "intensity": 55,
+                        "context": "There is some conversation about price and market activity, but it's mixed in with community building messages."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 70,
+                        "context": "Participants express belief in the token's potential for value growth, fostering a sense of hope."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Members are actively promoting the coin without direct compensation indicating a strong volunteer effort."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is lively with diverse discussions and enthusiastic participation indicating a healthy engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are a few inquiries about purchasing, but not overwhelming, indicating moderate interest from new members."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many participants express inspiration from their involvement, connecting it to broader beliefs and values."
+                    }
+                },
+                "catch_phrase": "GOT $JESUS? \ud83d\udc51\u2728",
+                "about": "This community is focused on the $JESUS token, emphasizing shared beliefs and crypto engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/honducrypto777",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jesustokens",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 32,
+                    "total_message_count": 184
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:47:46"
+                }
+            }
         }
     }
 }

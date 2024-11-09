@@ -1,0 +1,968 @@
+{
+    "project_name": "spx6900",
+    "date_data": {
+        "2024-10-12": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The conversation heavily revolves around the meme culture of the token, demonstrating a strong and engaged core idea that acts as a catalyst for discussion."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a general sentiment that the token distribution and project are perceived as fair, with participants discussing equitable aspects of the token's economics."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There are some suspicions about insider trading and control, but the sentiment is not overwhelmingly negative, suggesting some trust in common funding."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "The majority of participants show a strong desire to hold the token long-term, indicating a strong 'diamond hands' mentality."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall tone of the chat is supportive, energetic, and optimistic, fostering positive interactions among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is highly emotionally charged, with many members expressing excitement and commitment to the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Members appear to span various socioeconomic backgrounds, with some expressing financial aspirations linked to the token."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "The chat heavily focuses on the price action and market movements related to the token, indicating active engagement in price speculation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is a widespread belief among participants that the potential for wealth generation from the token is high, with many expressing dreams of upcoming riches."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many participants are volunteering their time and efforts for community building and promotion without any form of compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and alive, characterized by active participation and creative exchanges."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "Newcomers are actively inquiring about purchasing the token, suggesting a growing interest and incoming members."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "There are notable expressions of hope and inspiration from community stories and shared experiences."
+                    }
+                },
+                "catch_phrase": "Believe in something!",
+                "about": "Community driven token aiming to flip traditional fiat and stock market structures with memetic power.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 9
+                        },
+                        {
+                            "url": "https://x.com/roaringkitty",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/cryptonadine",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/aquaresss",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/spx6900",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/8o8heart",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/user_baproll",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 281,
+                    "total_message_count": 2374
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:23:09"
+                }
+            }
+        },
+        "2024-10-13": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion heavily revolves around a central meme concept which is well-engaged, as participants consistently reference and promote the meme and its associated projects."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "There is a general sentiment that the project is considered fair among most participants, indicated by the lack of complaints about unfairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There are some mixed sentiments; while a portion feels that the project is community-driven, others have expressed suspicions regarding outside influences."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A significant portion of the participants expresses a strong intent to hold onto their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat environment is overwhelmingly positive and supportive, with many expressions of camaraderie and excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is charged with emotions with an overall atmosphere of excitement and anticipation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are references indicating a mix of both lower and higher socioeconomic status among members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a notable focus on price discussions, often related to anticipated increases."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Many participants express strong optimism regarding the potential for significant financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "A considerable amount of voluntary participation in community activities and promotions is observed, indicating community investment."
+                    },
+                    "community_health": {
+                        "intensity": 88,
+                        "context": "The community appears vibrant with active discussions and a high level of engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "Numerous newcomers are seen asking how to buy tokens, indicating a healthy interest in investment."
+                    },
+                    "inspiration": {
+                        "intensity": 78,
+                        "context": "Participants frequently express feelings of hope and inspiration derived from community engagement."
+                    }
+                },
+                "catch_phrase": "RAID HARD",
+                "about": "A vibrant community centered around SPX6900, memes, and proactive engagement in cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 20
+                        },
+                        {
+                            "url": "https://x.com/crypto_navi",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/tanzcho",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/chuma",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/scribeofmurad",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/ayooocousin",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/bitcoinmlk",
+                            "mentions": 5
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 312,
+                    "total_message_count": 2343
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:23:33"
+                }
+            }
+        },
+        "2024-10-14": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The group displays a strong adherence to a meme culture surrounding SPX6900, suggesting it is a central theme in their discussions."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Participants express mixed beliefs about the fairness of the project, indicating some concerns about equity and distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are suspicions among members regarding potential control by venture capitalists or insiders, though they express a desire for community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Participants show a strong intent to hold onto their tokens, with many discussions around long-term support."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The atmosphere is generally positive and supportive, with expressions of excitement and camaraderie among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussions are emotionally charged, with a mix of excitement, humor, and some frustrations evident."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Many participants mention personal financial situations implicitly, indicating a range of socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price movement within the discussions, reflecting a key interest in market positioning."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express a strong belief in the future profitability of their investments in the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There is a high level of voluntary participation and labor for the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community demonstrates healthy engagement with lively discussions and shared interests."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about purchasing tokens, but they are not widespread in this log."
+                    },
+                    "inspiration": {
+                        "intensity": 66,
+                        "context": "Overall, there are widespread expressions of hope and inspiration within the community."
+                    }
+                },
+                "catch_phrase": "Flip the Stock Market",
+                "about": "The SPX6900 project, its memes, tokens, and community empowerment.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/crypto_navi",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/legendarydegn",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/manablade",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/wenmoon",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/wrldgodeth",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 315,
+                    "total_message_count": 2048
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:23:54"
+                }
+            }
+        },
+        "2024-10-15": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat sessions feature consistent references to SPX6900, indicating a strong meme culture around the token."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants express optimism about the project's fairness, especially with new exchange listings."
+                    },
+                    "VC_cabal": {
+                        "intensity": 50,
+                        "context": "There are mixed sentiments about whether VC's influence SPX6900 pricing."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "A significant number of users express intentions to hold, suggesting a supportive community environment."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall vibe of the chat is positive, with frequent support and encouragement among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are emotionally charged, focusing on belief and community involvement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Discussions hint that members come from diverse economic backgrounds, with some indicating struggles."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "While there is some focus on potential price rises, it is often overshadowed by discussions on community building."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Many participants express high expectations for the token's future value."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many users engage voluntarily in community activities such as memes and activism for the project."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant and actively engaged in discussions and support for one another."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "New users are asking about the purchasing process for SPX6900, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Members share inspirational sentiments and encourage community support for future growth."
+                    }
+                },
+                "catch_phrase": "Flip the Stock Market!",
+                "about": "SPX6900 is a meme token aiming to disrupt traditional finance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/ayooocousin",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/electronfarmer3",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/crypto_navi",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/coinwofficial",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/spx6900informer",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 291,
+                    "total_message_count": 2420
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:24:20"
+                }
+            }
+        },
+        "2024-10-16": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions heavily revolve around a central meme related to flipping the stock market, indicating strong engagement."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants generally feel the project has a fair distribution and opportunities for everyone, despite some skepticism."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There's a sense of doubt regarding the involvement of venture capitalists and insiders in controlling the token pricing."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "The majority of participants express a strong intention to hold their tokens, with many advocating for buying more."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere in the chat is generally positive and supportive, with participants uplifting each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly emotionally charged, with excitement about the project, community support, and memes driving the conversation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Participants seem to be from diverse economic backgrounds, with some expressing intent to invest significant sums."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a considerable focus on price trends and market movements, correlating with excitement over new listing announcements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants express strong belief in the potential for wealth generation through this project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many participants are investing time into promoting the project without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The discussions reflect a lively and engaged community, with participants actively participating in memes and encouraging each other."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are inquiries about buying the token, though it seems that many already know where to purchase."
+                    },
+                    "inspiration": {
+                        "intensity": 78,
+                        "context": "Many community members express feelings of hope and inspiration from the project's potential."
+                    }
+                },
+                "catch_phrase": "Flip the Stock Market!",
+                "about": "SPX6900 is a memecoin aimed at disrupting traditional finance and engaging community participation.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/crypto_navi",
+                            "mentions": 7
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/itsover_eth",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/tanzcho",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ethetician",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/notsick_eth",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 261,
+                    "total_message_count": 2047
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:24:42"
+                }
+            }
+        },
+        "2024-10-17": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "There is a strong consensus about the meme culture surrounding SPX6900, which drives excitement and active participation."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "General sentiment suggests that the project is regarded as fair among members, but some express concerns about market dynamics."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "Participants express skepticism about the influence of venture capitalists and large holders, suggesting a feeling that insiders manipulate the market."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants indicate a desire to hold their tokens for the long term, suggesting confidence in future price increases."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere in the chat is generally positive, with participants expressing encouragement and humor."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "There is a high level of emotional engagement, with passionate discussions around potential price movements and community support."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed indications of socioeconomic status among participants, suggesting a diverse group."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Significant discussion revolves around price action and predictions, demonstrating a focus on market trends."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Widespread belief exists among participants that the project has significant upside potential, with many expressing confidence in future price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many participants are actively working on community initiatives and promotions without direct compensation, indicating strong community spirit."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears vibrant and active, with numerous discussions and exchanges of ideas."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some newcomers inquire about buying the token, indicating ongoing interest in SPX6900."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "There is a sense of inspiration and hope among participants regarding the project and its future potential."
+                    }
+                },
+                "catch_phrase": "DCA (Dollar Cost Average) into SPX6900!",
+                "about": "SPX6900 represents the intersection of meme culture and financial empowerment against traditional finance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/crypto_navi",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/rootsie143",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/8o8heart",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/ethetician",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tanzcho",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/legendarydegn",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 233,
+                    "total_message_count": 1580
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:25:02"
+                }
+            }
+        },
+        "2024-10-18": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat is heavily focused on the SPX6900 meme and strongly believes in its potential."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "There are some concerns about fairness, but overall, participants feel the project has potential."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express some suspicion towards outside influence on the token's trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a desire to hold onto their tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "A generally positive and supportive atmosphere is present in the chat."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "Discussion is emotionally charged, reflecting excitement and engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Participants appear to have a mixed socioeconomic background."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price discussions and market speculation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express high optimism about the token\u2019s potential for significant gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many members participate in promotional activities and community support without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The discussion is vibrant and engaged across multiple topics."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers are showing interest in purchasing tokens."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants frequently express feelings of inspiration and motivation stemming from the community."
+                    }
+                },
+                "catch_phrase": "#FlipTheStockMarket",
+                "about": "A community centered around the SPX6900 crypto project.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/rootsie143",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/crypto_navi",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/tanzcho",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/antichrisdoteth",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/sov6900",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 199,
+                    "total_message_count": 1083
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:25:12"
+                }
+            }
+        },
+        "2024-10-19": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "Discussion revolves heavily around the SPX6900 as a central meme and movement."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express some skepticism about the project being fair, as indicated by discussion about manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Some users express distrust towards potential influence from venture capitalists and insiders."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "A majority of users demonstrate a strong intent to hold the token long-term."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is positive, with expressions of excitement and support among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "Discussion features numerous emotionally charged exchanges about the token's potential and community engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Members exhibit a mixed socioeconomic background, with a blend of both confident investors and others struggling financially."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Participants frequently discuss price movements and projections related to SPX6900."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Strong belief exists among participants about the potential for significant financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Many participants are actively promoting the project and engaging in community activities without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat appears vibrant with many active discussions and user engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Newcomers are asking about purchasing the token, signaling interest in buying."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express feelings of hope and inspiration related to the project's goals."
+                    }
+                },
+                "catch_phrase": "Flip the Stock Market!",
+                "about": "A community focused on the SPX6900 token and its potential to disrupt traditional finance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 10
+                        },
+                        {
+                            "url": "https://x.com/rootsie143",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/11digitnumber",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/0xsuperdad",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/geezah_",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/altern8super8",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 190,
+                    "total_message_count": 1100
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:25:25"
+                }
+            }
+        },
+        "2024-10-20": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The conversation has a consistent focus on the SPX6900 meme, with participants actively engaging and promoting it."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Some discussions mention the fairness of the project, but there are mixed feelings among participants."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants express some suspicion about external influences, such as VCs, affecting the project's future."
+                    },
+                    "hold_intent": {
+                        "intensity": 65,
+                        "context": "The overall sentiment indicates a stronger desire among participants to hold rather than sell SPX6900."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The vibe within the chat is largely positive and supportive, with participants encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is emotionally charged, with enthusiastic and sometimes exaggerated expressions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "There are mixed signals on socioeconomic status, with some users showing variability in background."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "A high focus on price movements and expectations for future gains is present."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express a strong belief in the potential rise in value of SPX6900."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants are engaged in activities that promote the token without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community appears vibrant with a lot of discussions, sharing, and engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Some newcomers are asking about purchasing the token, indicating a growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "Several participants express inspiration and hope regarding the community and its potential."
+                    }
+                },
+                "catch_phrase": "Shilling SPX6900!",
+                "about": "A community focused on the SPX6900 token and actively discussing its market performance.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/muststopmurad",
+                            "mentions": 8
+                        },
+                        {
+                            "url": "https://x.com/techfocused",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/sindat5",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/rootsie143",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/user_starcraft2",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ninja_namek",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ardayo4",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/0xsuperdad",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 200,
+                    "total_message_count": 1161
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-02 17:25:43"
+                }
+            }
+        }
+    }
+}

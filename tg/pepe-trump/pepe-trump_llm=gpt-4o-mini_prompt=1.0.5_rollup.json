@@ -19088,6 +19088,624 @@
                     "date_process": "2024-11-02 22:03:44"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussion revolves around a strong central meme related to the token's branding and political connections."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express some belief in fairness, but there are undercurrents of concern regarding market pricing and control."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a general suspicion that insiders or VCs might be influencing outcomes, as discussions hint at centralized control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Most participants express strong intent to hold their tokens, supported by bullish sentiments."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall atmosphere is positive and supportive, with many encouraging each other to raid and hold."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is emotionally charged, with excitement about upcoming market movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are hints at varying socioeconomic backgrounds, but the overall sentiment is mixed."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "A significant focus on price actions and expectations around the listings and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Strong beliefs that the project will yield significant returns post-election, leading to speculative excitement."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "Participants are actively engaging in promotional activities, showing a willingness to volunteer for the project."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears vibrant and actively engaged in discussions and plans."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "While there is a moderate level of interest, inquiries on purchasing are not widespread in this log."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express feelings of hope and inspiration, particularly around the upcoming events."
+                    }
+                },
+                "catch_phrase": "Hold the line",
+                "about": "A politically themed token community pushing for engagement and promotional activities.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/8kraken8",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/soljakey",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/_irrational_the",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/jhuntermav",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/spunkypatriot_",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 12,
+                    "total_message_count": 105
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:42:29"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "Participants frequently reference the ongoing token and its progress, indicating a strong collective engagement with the project's meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Most participants express optimism regarding the token's potential and fairness, with some skepticism that remains in the background."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There are concerns expressed about possible control by insiders or whales, but confidence in the community remains strong."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many members are enthusiastic about holding their tokens, reinforcing the sentiment of 'holding long'."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The group exhibits a supportive and enthusiastic atmosphere, driven by shared goals and aspirations."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The chat shows signs of being emotionally charged with numerous expressions of encouragement and motivation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Some discussions hint at a varied socioeconomic background, yet the emphasis remains on potential growth and optimism."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "A significant focus on price discussions with remarks on past and future potential prices."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Strong belief in the project's future wealth generation capabilities is prevalent among participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many participants are actively engaging in promoting the project, volunteering their time and effort."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The community is vibrant, with numerous discussions and high activity reflecting a healthy engagement."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Moderate interest in buying the token, though less visible than holding sentiment."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "The discussions regularly express feelings of hope and motivation among the community members."
+                    }
+                },
+                "catch_phrase": "LFG!!!!",
+                "about": "The community is rallying around a crypto token associated with Pepe Trump.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/pepetrumpsol_",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://twitter.com/proroketh",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/therealdubbleoo",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/therealdubbleoo",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/yokanks",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://twitter.com/kek0x",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 17,
+                    "total_message_count": 107
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:42:33"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The community shows a strong adherence to the 'PepeTrump' meme, with consistent references and engagement."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "There are mixed sentiments on fairness, but there isn't overwhelming negativity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of concern regarding insider control, but not a dominant sentiment."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Members express a predominantly strong intent to hold tokens, with frequent calls for action."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is largely positive with encouragement and engagement among members."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussions are charged with excitement and anticipation around the upcoming election."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are mentions that suggest a mix of socioeconomic backgrounds among members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a significant focus on price discussions, especially around upcoming events."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 95,
+                        "context": "A widespread belief exists that members expect substantial profits from holding PTRUMP."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Community members are actively participating in promotional activities without monetary compensation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The chat indicates a vibrant and lively community with active participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about purchasing, but it's not the main focus."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "A significant sense of inspiration and motivation is expressed within the community."
+                    }
+                },
+                "catch_phrase": "Pepe Trump",
+                "about": "The community is focused on promoting PTRUMP linked to Trump and meme culture.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/erwinsius29",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/yokanks",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/azkyrie",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/lokal_nana",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/pepetrumpsol_",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ehbusett21",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/zuiski1",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/thoughtsbyyoung",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 61,
+                    "total_message_count": 413
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:42:39"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The conversation revolves heavily around the persistently repeated memes related to 'Trump' and 'PTRUMP', indicating a strong and engaging central idea."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a belief that the project has economic fairness, with sentiments suggesting equitable opportunities."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a mistrust of potential insider manipulation among participants, projecting a sense of community control over token price."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Predominantly, participants show an intent to hold and not sell, implying confidence in the token's future."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The overall mood of the chat is overwhelmingly positive, filled with excitement and encouragement among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion conveys high emotional energy, prompted by significant external events influencing member sentiments."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "Many users reference economic concerns, indicating a mixed socioeconomic status among community members."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "There is a strong focus on price action and its relation to future buying and selling, revealing the conversation's trading orientation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Widespread belief exists among participants that significant profits can be made, with many expressing certainty about future price increases."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "A considerable number of participants are contributing time and energy to promote and support the project without financial incentives."
+                    },
+                    "community_health": {
+                        "intensity": 95,
+                        "context": "The community appears vibrant and lively with rich discussions and active participation, highlighting a healthy community dynamic."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "There are frequent inquiries regarding where and how to buy 'PTRUMP', showcasing interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Many participants express hope and inspiration through their communications, driving positivity for the project's future."
+                    }
+                },
+                "catch_phrase": "TRUMP WINS PTRUMP MOONS",
+                "about": "Enthusiastic support for the PTRUMP token relating to political events.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/1suarezjc",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/zapakutonkiller",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/joshwaga44701",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/ivaaangamerx",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/mmmoney01",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/papitrumpo",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/jhuntermav",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 91,
+                    "total_message_count": 1016
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:42:52"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The discussion continually references the Pepe Trump meme and its significance, suggesting a strong central meme driving engagement."
+                    },
+                    "fairness": {
+                        "intensity": 75,
+                        "context": "Participants generally express positive sentiments about the economic potential of the token, indicating a belief in its fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "There are concerns about insiders and whales in control of price action, as discussed in multiple messages."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A significant number of messages encourage holding the token and not selling, indicating a strong hold sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "Overall, the chat displays a highly positive, encouraging atmosphere with most users expressing excitement and anticipation."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The conversation is filled with urgent and passionate calls to action, showing high emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Participants have mixed socioeconomic references, but a few express hope for financial gain."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Many users focus on price momentum and discuss predictions about price increases, pointing to a significant interest in price action."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is widespread belief among participants that the project will lead to substantial financial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many users actively engage in promoting the project through memes and raids, indicating a strong voluntary engagement."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "Active discussion and strong community involvement signal a healthy and vibrant community environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are some inquiries about buying the token, but they are overshadowed by more seasoned holders."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Members express hope and belief in the community's potential to thrive and overcome challenges."
+                    }
+                },
+                "catch_phrase": "LFG!",
+                "about": "The community is fervently supporting the PTRUMP cryptocurrency, particularly in context of recent political events.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/1suarezjc",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/therealdubbleoo",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/xerias_x",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/pepetrumpsol_",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/randpank_12",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/_gfly",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/devondadeer",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 80,
+                    "total_message_count": 579
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:43:02"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "Discussions are centered around a strong and recognizable meme related to Trump's election but there are mixed opinions about its uniqueness."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Participants express concerns about the fairness of contest entries and prize allocations, indicating a belief that the process may not be equitable."
+                    },
+                    "VC_cabal": {
+                        "intensity": 55,
+                        "context": "There are mixed sentiments, some expressing confidence in the community's control over the project while others hint at possible insider influences."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "The overall sentiment leans towards holding tokens, with many users discussing long-term potential despite some expressing anxiety about price fluctuations."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "There is a generally positive atmosphere, with encouragement and enthusiastic discussions, despite some isolated complaints."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The conversation is charged with excitement and passionate discussions around the meme contest and potential price movements."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "There are indications of diverse socioeconomic backgrounds, with some users showing signs of financial anxieties and others expressing confidence in wealth creation."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "A significant amount of discussion is focused on price movements and predictions, indicating a strong connection to market sentiment."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants widely believe in the potential for substantial profits from holding $PTRUMP, highlighting a strong desire for wealth accumulation."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Many participants seem enthusiastic about volunteering time for activities like raiding and promoting the token, although not everyone is equally involved."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears vibrant and active, with numerous lively discussions and a sense of camaraderie, though some concerns about specific disputes exist."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "While there are inquiries about how to acquire tokens, the level of new interest appears moderate compared to previous engagement."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many members express feelings of inspiration and motivation, looking forward to community initiatives and project success."
+                    }
+                },
+                "catch_phrase": "/PTRUMP_TO_BILLIONS_KEK",
+                "about": "A community supporting the political meme coin related to Trump.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/kingoneth",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/chinesexiaolu",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/favak819",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/8kraken8",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/katiesindelar",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/azkyrie",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/beingancient",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 38,
+                    "total_message_count": 169
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:43:07"
+                }
+            }
         }
     }
 }

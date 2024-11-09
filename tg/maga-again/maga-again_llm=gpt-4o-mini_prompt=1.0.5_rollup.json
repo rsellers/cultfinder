@@ -13180,6 +13180,511 @@
                     "date_process": "2024-11-02 20:42:50"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "Discussions are heavily centered around MAGAA and related catchphrases, indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a general belief in the fairness of the project and that the team operates ethically."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Participants express some suspicion of outside manipulation but predominantly believe the community is in control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "The majority of participants express a strong intent to hold rather than sell their tokens."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat has a positive and supportive atmosphere with many encouraging messages."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The conversation is energetic with high enthusiasm regarding MAGAA."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are mixed indications of socioeconomic status among participants."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "While there is some focus on price action, it is not as dominant as the discussion on community and project support."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There is widespread belief that participants will benefit significantly from holding MAGAA."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many participants are actively promoting the token and engaging with the community without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The community appears lively and engaged with ongoing conversations."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are asking about how to buy in, indicating interest in the token."
+                    },
+                    "inspiration": {
+                        "intensity": 70,
+                        "context": "Participants express hope and inspiration about the project's future and its ties to the political context."
+                    }
+                },
+                "catch_phrase": "Lets make America great again again",
+                "about": "A community focused on the MAGAA token and its potential involvement with political events.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/magaatoken",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/realamvoice",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 20,
+                    "total_message_count": 130
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:33:07"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The conversation shows a strong engagement with the project's core ideas, particularly around political themes and community mobilization."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a sentiment that the project is fair with participants expressing confidence in the team's integrity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "While there are some discussions around manipulation, the overall sentiment leans towards community control rather than external influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many users are expressing a clear intent to hold their tokens in anticipation of future gains."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The atmosphere is generally positive with encouragement and excitement about potential future events."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 78,
+                        "context": "The discussion is emotionally charged with excitement and anticipation for the future of the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There's a mix of users, indicating a range of socioeconomic backgrounds with no clear dominance."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong focus on potential price movements and achieving significant profits."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants express a high belief in potential gains from the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There's notable volunteer activity observed, indicating a level of commitment from the community."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The chat reflects a vibrant discussion, suggesting a healthy and active community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "Limited inquiries on how to buy tokens, suggesting less activity among new potential participants."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Participants express a sense of hope and inspiration driven by the community dynamics."
+                    }
+                },
+                "catch_phrase": "MAGAA",
+                "about": "A community centered around political engagement and economic opportunity related to cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 17,
+                    "total_message_count": 59
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:33:11"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussions frequently reference phrases associated with the MAGAA meme and rallying around shared slogans, which indicates a strong engagement with the core meme."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There are sentiments expressed about unfairness and skepticism regarding insiders' control and motivations."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "The discussions feature mentions of suspicion towards potential insider manipulations and the presence of whales."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many users express a desire to hold onto their tokens instead of selling, indicating a positive sentiment towards holding."
+                    },
+                    "vibes": {
+                        "intensity": 65,
+                        "context": "The overall tone includes excitement and a mix of optimism for upcoming events, even with pockets of negativity."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The chat shows heightened emotions with many users expressing excitement, worries, and anticipation regarding events related to their interests."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "There are varied references among participants that suggest a range of socioeconomic backgrounds, making it difficult to pinpoint an extreme."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Discussion around the token's price and anticipation of price movements are prevalent throughout the conversation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "There are strong beliefs among participants about the potential for significant gains with their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Participants seem eager to engage in promoting the project actively, indicative of voluntary contribution."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community discussion shows vigorous and diverse interactions with various participants contributing frequently."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "Some participants are inquiring about how to buy, indicating interest but not overwhelming eagerness."
+                    },
+                    "inspiration": {
+                        "intensity": 60,
+                        "context": "There are expressions among participants suggesting hope and inspiration drawn from their collective efforts."
+                    }
+                },
+                "catch_phrase": "Super Space",
+                "about": "A community rallying around support for the MAGA AGAIN project ($MAGAA) and upcoming events.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/carl_boyyy",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/magaatoken",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 45,
+                    "total_message_count": 219
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:33:17"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "Discussion revolves around the MAGAA project, leveraging connections to Donald Trump and political events."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Participants express distrust regarding the fairness and integrity of the project, especially in light of political connections."
+                    },
+                    "VC_cabal": {
+                        "intensity": 45,
+                        "context": "There are mixed opinions, but some suspicions about insider manipulation exist."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "A significant number of participants express a desire to hold the token long-term, driven by belief in eventual price increases."
+                    },
+                    "vibes": {
+                        "intensity": 60,
+                        "context": "The atmosphere is mixed; while there is some excitement, segments of negativity and FUD do emerge."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The discussion is emotionally charged, heavily tied to the political climate and investor sentiment."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Averages indicate a mix of socioeconomic backgrounds, though some references suggest frustration with high taxes."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong and ongoing focus on price movements related to the token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Confidence in significant upside potential is high, especially with Trump-related marketing."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "There is a notable volunteer effort to promote the project on social media."
+                    },
+                    "community_health": {
+                        "intensity": 70,
+                        "context": "The community appears active and engaged, though some participants express concerns about market manipulation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "While some new inquiries are made regarding purchases, the majority of chatter focuses on existing holders."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Members express a sense of hope tied to political events, particularly Trump's influence on the project."
+                    }
+                },
+                "catch_phrase": "Make America Great Again, Again",
+                "about": "A community focused on promoting the MAGAA token, leveraging political ties and events.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/carl_boyyy",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/magaatoken",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/elonmusk",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/jakegagain",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/donaldjtrumpjr",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 37,
+                    "total_message_count": 287
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:33:23"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 95,
+                        "context": "The conversations are highly centered around the MAGAA meme, especially with multiple mentions and sentiments expressing enthusiasm for Trump's victory."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are mixed sentiments regarding fairness, with some participants expressing doubt about the token's integrity and distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is significant suspicion about insiders and influences, particularly regarding the control over the token's trajectory."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "While many participants express intent to hold the token, there are notable mentions of doubt and potential selling."
+                    },
+                    "vibes": {
+                        "intensity": 70,
+                        "context": "The general atmosphere is supportive and enthusiastic, but there are moments of negativity and frustration among some participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "Discussions are charged with excitement, particularly around Trump's victory and the implications for the MAGAA token."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Many comments reflect a working-class sentiment, with some participants mentioning financial struggles."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong focus on price action and its connection to the current political events."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Participants frequently express belief in significant potential upside for the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "Many members seem eager to do unpaid promotional work for the token, especially surrounding events connected to Trump."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community appears active and engaged, but issues of doubt do arise."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about how to purchase the token, but they're not widespread."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Members express strong inspiration linked to Trump\u2019s victory and the community\u2019s initiatives."
+                    }
+                },
+                "catch_phrase": "/MAKE_AMERICA_GREAT_AGAIN_AGAIN",
+                "about": "A community centered around a cryptocurrency related to Trump's political movement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/cb_doge",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/magaatoken",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/naiivememe",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 50,
+                    "total_message_count": 294
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:33:29"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "There is a strong reference to MAGAA and its relationship with Trump, indicating a solid meme or theme for the discussions."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "There is an expression of discontent and suspicion about the fairness of the project, particularly regarding insider activities."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants seem to express some concern about the influence of insiders, although it's not the dominant sentiment."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "There is a noticeable intent to hold on to the token, with calls for patience from several participants."
+                    },
+                    "vibes": {
+                        "intensity": 45,
+                        "context": "The atmosphere displays a mixture of hope and frustration, as participants express both bullish sentiments and concerns regarding market performance."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The exchanges are charged with emotions ranging from hope to frustration, indicating a lively discussion."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Participants exhibit signs of low disposable income and economic distress, suggesting a predominantly low socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Numerous messages are concerned with the price movements of the token, reflecting a strong focus on its financial performance."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 60,
+                        "context": "While there is some skepticism, many believe in the potential for significant gains from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "Engagement in volunteer activities and community building is present, although not universal."
+                    },
+                    "community_health": {
+                        "intensity": 40,
+                        "context": "Overall community health seems moderate, with some messages indicating despair over losses and declines in membership."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries regarding new investors and buying opportunities, suggesting a mix of interest and confusion."
+                    },
+                    "inspiration": {
+                        "intensity": 45,
+                        "context": "Participants occasionally express hope for the future of the project, but this sentiment is tempered by current frustrations."
+                    }
+                },
+                "catch_phrase": "Make America Great Again",
+                "about": "A community centered on a token related to MAGA and political support.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/magaatoken",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/donaldjtrumpjr",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 30,
+                    "total_message_count": 141
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:33:34"
+                }
+            }
         }
     }
 }

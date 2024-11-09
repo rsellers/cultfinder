@@ -21993,6 +21993,474 @@
                     "date_process": "2024-11-03 10:17:32"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The discussions heavily revolve around the token $HUND, showcasing a strong community meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There is a generally positive sentiment about the token's fairness among the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some community members express trust in the community rather than in VC control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many users clearly express a desire to hold onto their $HUND tokens for the long term."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The overall atmosphere is supportive and positive, with members encouraging each other."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is quite lively and charged emotionally, especially around $HUND's potential."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "The community appears to have a mix of socioeconomic backgrounds, but leaning towards higher engagement."
+                    },
+                    "price_action_focus": {
+                        "intensity": 90,
+                        "context": "There is a strong focus on price action in discussions, particularly aiming for significant gains."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Participants show a strong belief in the potential for high returns with $HUND."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 60,
+                        "context": "There are expressions of community-driven efforts to support and promote $HUND."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The discussions reflect a vibrant and engaged community with frequent interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about purchasing $HUND, but not overwhelmingly prominent."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Members express a sense of hope and inspiration regarding the future of $HUND."
+                    }
+                },
+                "catch_phrase": "/HUND_SKY_ROCKET",
+                "about": "The Hund community is focused on the $HUND token and its potential in the market.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/murocrypto",
+                            "mentions": 2
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 17,
+                    "total_message_count": 101
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:56:58"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "The discussion revolves around the $HUND token, indicating a strong central theme."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants seem to believe in a fair economic structure but express some skepticism about overall fairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of concerns that large players may have control over token price, but the community also expresses agency."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a desire to hold onto their tokens, suggesting strong optimism."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "Overall, the community is supportive and positive with lots of encouragement exchanged."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is emotionally charged, with frequent expressions of excitement and positivity."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "The group appears diverse in socioeconomic backgrounds, though there are mentions of economic aspiration."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a significant focus on the price of $HUND and its potential future value."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 75,
+                        "context": "Many participants express belief in the potential for significant gains from holding $HUND."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There are volunteers actively promoting and discussing the project, indicating community-driven efforts."
+                    },
+                    "community_health": {
+                        "intensity": 80,
+                        "context": "The community is vibrant and lively, with a lot of interaction and discussions occurring."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries about how to buy $HUND, indicating interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 90,
+                        "context": "Many messages indicate a strong sense of hope and inspiration among community members."
+                    }
+                },
+                "catch_phrase": "$HUND to the moon!",
+                "about": "A community supporting the $HUND token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 18,
+                    "total_message_count": 75
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:57:03"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "There is strong engagement around the Hund project and its related activities, and many messages use the token's meme."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants believe that the project is fair and economically accessible, indicated by welcoming remarks to new members and discussions about inclusivity."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There is some suspicion of outside influence but overall a belief that the community has agency over the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Most participants express a desire to hold onto their tokens, suggesting optimism and long-term confidence in the project."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat exudes positivity with many supportive messages, acknowledging others' efforts and encouraging participation."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussion is lively and charged with excitement, particularly about upcoming game testing and community activities."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "The socioeconomic status of the participants seems mixed, indicated by various discussions about investing and personal circumstances."
+                    },
+                    "price_action_focus": {
+                        "intensity": 65,
+                        "context": "There is a noticeable focus on price discussions, with multiple mentions aimed at boosting confidence and intentions to invest more."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 80,
+                        "context": "Participants express strong belief in the potential for financial success with the project and the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "There is significant volunteering for promotional activities, particularly in engaging new members and promoting the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community is vibrant and active, with many discussions and welcoming messages indicating strong health and participation."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "There are few inquiries from newcomers about purchasing tokens, indicating a stable but possibly reluctant interest from new members."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants frequently convey inspirational sentiments, aiming to uplift and empower one another amid discussions."
+                    }
+                },
+                "catch_phrase": "HUND_GOD_LIKE_GREEN_CANDLE_IS_LOADING",
+                "about": "The community is focused on the Hund project aimed at building a metaverse and ecosystem, particularly in game testing and engagement.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/instinctcrypto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/altcoindailyio",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 19,
+                    "total_message_count": 70
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:57:09"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The chat is filled with enthusiastic phrases and memes about $HUND, indicating a strong central idea driving conversations."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There are positive affirmations about the community and its fairness, suggesting some beliefs in equitable participation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "While there are occasional suspicions, the overall tone suggests that the community feels more in control than at the mercy of external investors."
+                    },
+                    "hold_intent": {
+                        "intensity": 75,
+                        "context": "Many participants express a desire to hold their tokens longer, indicating confidence in the project."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The chat expresses a supportively vibrant atmosphere with celebratory emotions dominating the discussion."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The messages are filled with excitement about price movements and community growth, indicating a high emotional charge."
+                    },
+                    "socioeconomic": {
+                        "intensity": 50,
+                        "context": "Discussions do not provide strong indicators of socioeconomic status, thus a neutral reading."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "Content heavily revolves around anticipated price changes and the corresponding excitement."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 85,
+                        "context": "Strong feelings of optimism about potential returns are evident among participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Users are actively engaging without compensation, emphasizing community-driven growth."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "High levels of interaction and welcoming new members indicate a dynamic and healthy community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "While there are some inquiries, they are not overwhelming, suggesting fair awareness rather than urgent interest."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Numerous expressions of hope and inspiration from community members regarding future developments."
+                    }
+                },
+                "catch_phrase": "/HUND_IS_SET_TO_EXPLODE_VERY_SOON",
+                "about": "A community centered around excitement for the $HUND token and its potential growth.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/murocrypto",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 16,
+                    "total_message_count": 72
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:57:15"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussions heavily center around the $HUND token, indicating a strong central meme that drives engagement."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There appears to be a belief among participants that the project is economically fair and benefits the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants express some suspicion that outsiders may have influence, but it's not overwhelmingly strong."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "A majority of participants express a strong intent to hold onto their tokens, demonstrating a bullish sentiment."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere is very positive and supportive, with users encouraging one another."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is highly charged with enthusiastic expressions of excitement and optimism."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "There are hints of varying socioeconomic statuses, though many appear to be optimistic about financial gains."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a strong ongoing discussion around the price, particularly regarding future expectations."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants widely believe in the potential for significant financial gain from holding $HUND."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many members are voluntarily engaging in activities that promote the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The discussion is vibrant and lively, indicating a healthy community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "While there are some inquiries about buying the token, they aren\u2019t prevalent compared to general excitement."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "There is a strong feeling of inspiration among community members regarding the potential of their project."
+                    }
+                },
+                "catch_phrase": "/HUND_GOD_LIKE_GREEN_CANDLE_IS_LOADING",
+                "about": "Community encouraging each other around the $HUND token and its potential.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 23,
+                    "total_message_count": 93
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:57:19"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The participants frequently refer to the 'HUND' token and express enthusiasm, indicating a strong central meme and shared belief in its potential."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "There are positive sentiments regarding the token's potential and ongoing developments, suggesting a belief in fairness and equity within the community."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "While there are hints of concern about market control, the overall sentiment suggests a community feel, with less suspicion of outside control."
+                    },
+                    "hold_intent": {
+                        "intensity": 90,
+                        "context": "Much of the discussion revolves around holding and accumulating the token, indicating strong hold intent among participants."
+                    },
+                    "vibes": {
+                        "intensity": 95,
+                        "context": "The chat reflects a very positive atmosphere filled with encouragement and excitement, showcasing high community support."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussions are highly charged with excitement and optimism about the token's future potential."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "The participants seem to exhibit aspirations of wealth with mentions of financial potential, indicating a mix of socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "Discussions frequently highlight price movements and future price expectations, indicating a strong focus on token pricing."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 95,
+                        "context": "There are numerous expressions of belief in substantial potential gains, with some members hypothesizing extremely high returns."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Participants are actively engaging in spreading the word and supporting community initiatives without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 90,
+                        "context": "The chat shows vibrant participation with frequent member interactions and welcomes for new users, indicating a healthy community."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 70,
+                        "context": "There are inquiries about how to purchase the token, suggesting a healthy interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Many participants express excitement and inspiration from being part of the community, showcasing a hopeful outlook."
+                    }
+                },
+                "catch_phrase": "/HUND_GOD_LIKE_GREEN_CANDLE_IS_LOADING",
+                "about": "The community is centered around the HUND token, promoting investment and engagement with its developments.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/murocrypto",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 20,
+                    "total_message_count": 87
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 20:57:25"
+                }
+            }
         }
     }
 }

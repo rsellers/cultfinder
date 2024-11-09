@@ -16365,6 +16365,632 @@
                     "date_process": "2024-11-02 16:01:54"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 90,
+                        "context": "The chat log has a strong focus on the $ROT token, showing a collective enthusiasm and engagement with the meme."
+                    },
+                    "fairness": {
+                        "intensity": 80,
+                        "context": "Participants expressed confidence in the fairness of the project, indicating general acceptance."
+                    },
+                    "VC_cabal": {
+                        "intensity": 70,
+                        "context": "There is a moderate belief that the community has control over the trajectory of the token, with less emphasis on insider manipulation."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Most participants seem to express a desire to hold their tokens, reflecting optimism about future increases."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere in the chat is highly positive, with active encouragement and supportive messages."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 85,
+                        "context": "The discussion is quite emotionally charged, with many expressions of excitement and anticipation."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are indications that participants may not be from a very high socioeconomic status, but many are engaging positively."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is significant conversation focused on the token price, indicating its central importance to the discussion."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants are expressing strong beliefs in the potential for significant profits from holding the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Many participants are engaging in promotional activities voluntarily, showing dedication to the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community appears vibrant and active, with continuous discussion and interaction."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 40,
+                        "context": "There are few inquiries about how to buy the token, indicating established familiarity among participants."
+                    },
+                    "inspiration": {
+                        "intensity": 85,
+                        "context": "Many participants express feelings of inspiration and hope for the project's future."
+                    }
+                },
+                "catch_phrase": "Let\u2019s SMASHMAXX",
+                "about": "The community is focused on promoting and supporting the token $ROT.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/reningate",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/void7th",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/nftdc0001",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/tamiix_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptorollls",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/kenruth7",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptobread8",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/brainrot_sol",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 33,
+                    "total_message_count": 210
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:24:56"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 85,
+                        "context": "The discussion heavily revolves around a central meme or concept ('smash' and '$ROT'), exhibiting strong engagement among participants."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants generally express a belief that the token project is fair and accessible, though there are some skeptics."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "There are mixed sentiments regarding control; while some participants feel community-driven, others hint at potential insider influence."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "A significant portion of the conversation indicates a strong intent to hold onto tokens, reflecting commitment and confidence."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The overall chat atmosphere is highly positive, with abundant encouragement and support among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 75,
+                        "context": "The discussions are charged with enthusiasm and excitement, particularly around the potential of the token."
+                    },
+                    "socioeconomic": {
+                        "intensity": 40,
+                        "context": "While socioeconomic status isn't overtly discussed, the overall tone suggests a mix of participants, some of whom appear financially optimistic."
+                    },
+                    "price_action_focus": {
+                        "intensity": 85,
+                        "context": "Conversations heavily focus on price discussions and market action related to the token."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express strong beliefs in the potential for significant financial gains from the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 80,
+                        "context": "Many participants are engaging in promotional activities voluntarily, indicating strong community participation."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The chat exhibits vibrant interactions and high community engagement, suggesting a healthy discussion environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 75,
+                        "context": "There are noticeable inquiries about purchasing opportunities, indicating interest from potential newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 95,
+                        "context": "Widespread expressions of hope and motivation are present, with many participants feeling inspired about the project."
+                    }
+                },
+                "catch_phrase": "W smash",
+                "about": "A community passionately engaged with the $ROT token and its potential.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/brainrot_sol",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/printgems",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/cryptodiill",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/t4tang0",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/rotterminal",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/cryptorollls",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/softwareminer1",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/the__solstice",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 32,
+                    "total_message_count": 260
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:25:01"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The chat revolves heavily around a few memes and phrases, particularly '/THOSE_WHO_KNOW' and 'W smash', indicating a strong central meme."
+                    },
+                    "fairness": {
+                        "intensity": 70,
+                        "context": "Participants express a feeling that the community and project are fair, with some skepticism about market manipulation."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of suspicion regarding outside influence, but overall focus on community control."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many users express intent to hold, creating a sentiment of commitment to the project."
+                    },
+                    "vibes": {
+                        "intensity": 75,
+                        "context": "The atmosphere is generally positive and supportive, indicated by expressions of confidence and camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The chat is highly emotionally charged, with frequent expressions of excitement and community involvement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 55,
+                        "context": "The socioeconomic status appears mixed; some references suggest struggles but most users are invested in a profitable project."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is significant discussion about price and potential profits, although it is not the sole focus."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Participants express strong belief in potential for significant profit, indicating high optimism."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 65,
+                        "context": "There is evidence of community members putting in unpaid effort into promotion and support of the project."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The group appears vibrant and active, with diverse discussions and interactions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are some inquiries but not a significant volume, indicating moderate interest from new members."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Expressions of hope and motivation are prevalent, indicating inspiration among members."
+                    }
+                },
+                "catch_phrase": "W smash",
+                "about": "A decentralized community focused on a trading bot and cryptocurrency.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/brainrot_sol",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/pemakanracun",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/printgems",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/maxbidpro",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/reningate",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/nft_brewer",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/justineth86256",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 35,
+                    "total_message_count": 274
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:25:06"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussions show strong references to the 'brainrot' meme and a shared understanding among users, indicating the meme's core role in the group's culture."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express a moderate belief in the fairness of the project, with mentions of holding strategies and community engagement implying a somewhat equitable distribution."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are some suspicions about outside influence, particularly regarding venture capitalists and insiders, but it is not overwhelmingly strong in the conversation."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Many messages indicate a strong intent to hold onto tokens, with users expressing confidence in their long-term value."
+                    },
+                    "vibes": {
+                        "intensity": 90,
+                        "context": "The atmosphere in the discussions is overwhelmingly positive and supportive, reflecting enthusiasm about the project and mutual encouragement among participants."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 80,
+                        "context": "The conversation is highly emotionally charged, with participants expressing a lot of excitement and enthusiasm about the project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Clues in the chat suggest that many members might be from lower socioeconomic backgrounds, indicated by discussions about investing and sentiment of community support."
+                    },
+                    "price_action_focus": {
+                        "intensity": 80,
+                        "context": "There is a significant focus on the token's price movements, with users discussing bids and market actions frequently."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Widespread belief in the potential for significant financial gain, with users expressing confidence in the future price of the token."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Participants actively engage in promotional efforts for the project, indicating a strong culture of volunteering and community-building."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The discussions reflect a vibrant community with lively interactions, showcasing active participation from multiple users."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "Some inquiries are made about buying the token, indicating interest from newcomers although it is not the dominant theme."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Many users express inspiration and motivation to be part of the community and project."
+                    }
+                },
+                "catch_phrase": "W smash",
+                "about": "A community centered around the 'brainrot' meme and cryptocurrency investment optimism.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/reningate",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/holderscan",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/brainrot_sol",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/cryptobread8",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chas1ngdream5",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 30,
+                    "total_message_count": 242
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:25:13"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The chat is filled with references to memes and shared drop culture, indicating a strong central meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 60,
+                        "context": "Participants express differing opinions on economic fairness, with some showing confidence in communal strategies."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are hints of skepticism regarding insider control, but the overall sentiment leans toward community ownership."
+                    },
+                    "hold_intent": {
+                        "intensity": 80,
+                        "context": "Many participants express a strong desire to hold their tokens long-term, indicating commitment."
+                    },
+                    "vibes": {
+                        "intensity": 85,
+                        "context": "The chat has a generally positive vibe, with encouragement and excitement prevalent throughout."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The discussion is highly charged with excitement, anticipation, and emotional engagement among participants."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "Members demonstrate a mix of socioeconomic backgrounds, with some indicating lower disposable income."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Conversations frequently revolve around price action and investment strategies, indicating a strong focus."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "There's a widespread belief among participants that holding the token could lead to significant financial gain."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 75,
+                        "context": "Several messages indicate a high level of voluntary engagement and value-creation within the community."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The chat reflects a vibrant community with rich dialogue and diverse contributions."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are occasional inquiries about purchasing the token, but no widespread curiosity among newer members."
+                    },
+                    "inspiration": {
+                        "intensity": 80,
+                        "context": "Participants frequently express hope and enthusiasm, indicating a sense of inspiration drawn from the community."
+                    }
+                },
+                "catch_phrase": "W smash",
+                "about": "Community focused on investment and meme-culture in the cryptocurrency space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/reningate",
+                            "mentions": 5
+                        },
+                        {
+                            "url": "https://x.com/brainrot_sol",
+                            "mentions": 4
+                        },
+                        {
+                            "url": "https://x.com/cryptodiill",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/nft_brewer",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/effdog_",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/senditdrstone",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/rotterminal",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ngsjj124",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 39,
+                    "total_message_count": 389
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:25:21"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "The discussion is centered around the 'brainrot' and related memes, indicating a strong meme presence."
+                    },
+                    "fairness": {
+                        "intensity": 65,
+                        "context": "There seems to be a general belief that the project is relatively fair, with some participants expressing optimism."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "Participants seem to suspect that outside influences like VCs might be controlling market movements."
+                    },
+                    "hold_intent": {
+                        "intensity": 85,
+                        "context": "Most comments indicate a strong desire to hold onto tokens rather than sell."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat exudes positivity and support with frequent expressions of joy and excitement."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 90,
+                        "context": "The conversations are highly charged with enthusiasm and urgency, indicating strong emotional engagement."
+                    },
+                    "socioeconomic": {
+                        "intensity": 30,
+                        "context": "The community appears to consist mainly of individuals who express opportunities and excitement, suggesting a mix of socioeconomic backgrounds."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "There is a significant focus on price movements and potential gains in the discussions."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 90,
+                        "context": "Many participants express a strong belief in the potential for significant financial gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 70,
+                        "context": "Many members are actively participating in promotional activities, suggesting a strong communal effort."
+                    },
+                    "community_health": {
+                        "intensity": 85,
+                        "context": "The community demonstrates a lively and vibrant discussion environment."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are new participants eagerly asking about buying opportunities."
+                    },
+                    "inspiration": {
+                        "intensity": 75,
+                        "context": "Many messages reflect a sense of inspiration and hope about the project and its future."
+                    }
+                },
+                "catch_phrase": "W smash",
+                "about": "A community centered around the 'brainrot' project and its memes.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/reningate",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/deadskycrypto",
+                            "mentions": 6
+                        },
+                        {
+                            "url": "https://x.com/printgems",
+                            "mentions": 3
+                        },
+                        {
+                            "url": "https://x.com/cryptobread8",
+                            "mentions": 2
+                        },
+                        {
+                            "url": "https://x.com/w_kraken_",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/orangie",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/ngsjj124",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/alygg77",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 57,
+                    "total_message_count": 418
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:25:27"
+                }
+            }
         }
     }
 }

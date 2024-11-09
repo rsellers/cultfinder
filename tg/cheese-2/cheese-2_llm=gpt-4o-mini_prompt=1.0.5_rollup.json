@@ -18120,6 +18120,495 @@
                     "date_process": "2024-11-03 13:09:32"
                 }
             }
+        },
+        "2024-11-02": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 75,
+                        "context": "Participants show a strong focus on cheese-related concepts, indicating a central meme around cheese."
+                    },
+                    "fairness": {
+                        "intensity": 65,
+                        "context": "The conversation hints at a generally positive view of the project's fairness, especially in the context of community contributions."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There is a moderate suspicion that external investors might have influence over developments."
+                    },
+                    "hold_intent": {
+                        "intensity": 70,
+                        "context": "Many participants express a desire to hold their tokens rather than sell them."
+                    },
+                    "vibes": {
+                        "intensity": 80,
+                        "context": "The chat reflects an overall supportive and encouraging atmosphere with joking and camaraderie."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is lively and charged, reflecting excitement about the project's future."
+                    },
+                    "socioeconomic": {
+                        "intensity": 45,
+                        "context": "There are some indicators of varied socioeconomic backgrounds, yet it does not strongly favor one end."
+                    },
+                    "price_action_focus": {
+                        "intensity": 50,
+                        "context": "There is a moderate level of discussion about price action interspersed with general conversation."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 60,
+                        "context": "Participants express a belief in the potential for significant profits from their investments."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "There are various references to community engagement and voluntary contributions towards the project."
+                    },
+                    "community_health": {
+                        "intensity": 75,
+                        "context": "The chat space appears active and engaging, with participants frequently interacting and contributing."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "Newcomers are inquiring about buying and transferring tokens, indicating growing interest."
+                    },
+                    "inspiration": {
+                        "intensity": 65,
+                        "context": "Messages show an underlying sense of hope and inspiration among participants about the project's future."
+                    }
+                },
+                "catch_phrase": "Let's get the mcap back above 5m!",
+                "about": "Community centered around a token named after cheese.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dexerto",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/chubesonchain",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 18,
+                    "total_message_count": 35
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:16:11"
+                }
+            }
+        },
+        "2024-11-03": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 70,
+                        "context": "There is a significant focus on the 'cheese' concept within the discussions, with users actively referencing it as a meme."
+                    },
+                    "fairness": {
+                        "intensity": 40,
+                        "context": "There are complaints regarding the project and discussions about delayed bridging, indicating perceived unfairness."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "Participants show suspicion towards venture capitalists or insiders possibly controlling the project."
+                    },
+                    "hold_intent": {
+                        "intensity": 60,
+                        "context": "Many users express intent to hold tokens, although some discuss frustration with delays in bridging."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The atmosphere contains mixed feelings, with moments of humor but also frustration regarding project issues."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 65,
+                        "context": "The discussion is charged with emotions, particularly frustration, humor, and some excitement around the cheese project."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "There are hints at lower socioeconomic status based on mentions of delayed transactions and project challenges."
+                    },
+                    "price_action_focus": {
+                        "intensity": 70,
+                        "context": "Price action is mentioned frequently, showing a strong focus on market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 60,
+                        "context": "Participants express optimism about the project's potential to yield profits despite current frustrations."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 55,
+                        "context": "There are discussions around volunteering efforts, indicating a reasonable level of community participation."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community is lively with various discussions, indicating a vibrant atmosphere despite some negativity."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 50,
+                        "context": "There are inquiries about purchasing tokens, suggesting interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 55,
+                        "context": "Participants share some excitement and belief in the project, particularly in its potential."
+                    }
+                },
+                "catch_phrase": "We\u2019re making history here, don\u2019t miss out",
+                "about": "The community is centered around the 'cheese' token and its prospects in the crypto market.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dacheeseslice",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/fckrndfindrnd",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/truth_terminal",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/layerofcheese",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 25,
+                    "total_message_count": 70
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:16:15"
+                }
+            }
+        },
+        "2024-11-04": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 45,
+                        "context": "Participants are engaging humorously with the cheese theme but it's not a central focus of the discussions."
+                    },
+                    "fairness": {
+                        "intensity": 10,
+                        "context": "There are sentiments of frustration and unfairness expressed, especially regarding the state of the crypto market."
+                    },
+                    "VC_cabal": {
+                        "intensity": 20,
+                        "context": "Participants show suspicion towards insiders and their influence over crypto prices."
+                    },
+                    "hold_intent": {
+                        "intensity": 30,
+                        "context": "Several messages indicate uncertainty about holding or selling tokens, with hints of panic selling."
+                    },
+                    "vibes": {
+                        "intensity": 25,
+                        "context": "The atmosphere is negative overall, with instances of aggressive comments and bleak predictions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 55,
+                        "context": "The discussion includes both humorous and serious tones, but a strong emotional charge is present due to grim topics."
+                    },
+                    "socioeconomic": {
+                        "intensity": 75,
+                        "context": "Comments suggest participants are concerned about economic security and potentially lower socioeconomic status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 60,
+                        "context": "Many messages reflect anxiety around price changes and market behaviors."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 25,
+                        "context": "There appears to be a lack of belief in positive future for crypto, as expressed by participants."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 15,
+                        "context": "There's minimal evidence of volunteers contributing efforts for the community without compensation."
+                    },
+                    "community_health": {
+                        "intensity": 45,
+                        "context": "The community shows some vibrancy, but tension and negativity are prevalent."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 10,
+                        "context": "There are few inquiries about buying, indicating a lack of new interest in the token."
+                    },
+                    "inspiration": {
+                        "intensity": 5,
+                        "context": "Expressions of inspiration and hope are largely absent, mostly replaced by despairing remarks."
+                    }
+                },
+                "catch_phrase": "Cheesy Conversations",
+                "about": "Discussions revolving around the absurdity of crypto prices and themes of cheese.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/dacheeseslice",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 19,
+                    "total_message_count": 52
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:16:19"
+                }
+            }
+        },
+        "2024-11-05": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 55,
+                        "context": "There is an emerging central theme around 'cheese' in multiple messages, suggesting a moderate engagement with a meme."
+                    },
+                    "fairness": {
+                        "intensity": 30,
+                        "context": "Discussions suggest a belief that the project or token may not be fair to all participants, as indicated by complaints and concerns."
+                    },
+                    "VC_cabal": {
+                        "intensity": 40,
+                        "context": "There are suspicions regarding outside influence or control over the project, but it's not severely pronounced in the chat."
+                    },
+                    "hold_intent": {
+                        "intensity": 45,
+                        "context": "There are participants both wanting to sell and buy, suggesting mixed sentiments about holding."
+                    },
+                    "vibes": {
+                        "intensity": 45,
+                        "context": "The chat includes both lighthearted moments and frustration, indicating an overall mixed vibe."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The conversations show a reasonable amount of emotional charge, especially around the absurdity of discussions."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Hints of socioeconomic issues appear, particularly with some comments reflecting frustration about financial status."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "There is a significant focus on price and trading issues, with many participants discussing transactions and trading experiences."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 50,
+                        "context": "Participants show a mixed belief about the potential profitability of the project."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 40,
+                        "context": "While some users post helpful information, there is a lack of strong volunteer-based engagement."
+                    },
+                    "community_health": {
+                        "intensity": 50,
+                        "context": "The community is somewhat lively with various discussions but also shows signs of frustration and confusion."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 60,
+                        "context": "There are inquiries about purchasing tokens, showing interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 30,
+                        "context": "Inspirational sentiments are limited, often overshadowed by practical concerns in the discussions."
+                    }
+                },
+                "catch_phrase": "Cheese is life",
+                "about": "This community reflects discussions on trading tokens, particularly under the theme of 'cheese', blending humor with financial discourse.",
+                "socials": {
+                    "top_mentioned_accounts": []
+                },
+                "user_stats": {
+                    "unique_user_count": 12,
+                    "total_message_count": 40
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:16:23"
+                }
+            }
+        },
+        "2024-11-06": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 80,
+                        "context": "The community is engaging with the central meme of cheese, indicating strong resonance and focus on this playful theme."
+                    },
+                    "fairness": {
+                        "intensity": 50,
+                        "context": "Mixed sentiments about fairness in the project, with some arguing about its value and others dismissing concerns."
+                    },
+                    "VC_cabal": {
+                        "intensity": 30,
+                        "context": "There is a noticeable suspicion that insiders or external forces may influence the project, reflected in frustration and complaints."
+                    },
+                    "hold_intent": {
+                        "intensity": 55,
+                        "context": "There are indications of both holding and selling intentions among participants, with a slight lean towards holding."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The atmosphere is tinged with both humor and negativity, particularly regarding frustration over market conditions."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 60,
+                        "context": "The discussions contain moderate emotional charge, driven by banter, frustrations, and playful exchanges."
+                    },
+                    "socioeconomic": {
+                        "intensity": 70,
+                        "context": "Discussions hint at a relatively low socioeconomic status among participants, indicated by frustrations with price and value."
+                    },
+                    "price_action_focus": {
+                        "intensity": 40,
+                        "context": "There is some focus on market conditions and future price actions, but it's not the primary concern."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 45,
+                        "context": "Participants express some belief in potential profits, mixing humor with skepticism about actual gains."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 50,
+                        "context": "There is a moderate level of volunteer participation in community efforts without direct compensation."
+                    },
+                    "community_health": {
+                        "intensity": 65,
+                        "context": "The community displays signs of vitality through its active discussions and humor, despite some negativity."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 30,
+                        "context": "Few inquiries about buying the token suggest limited interest from newcomers regarding the purchase process."
+                    },
+                    "inspiration": {
+                        "intensity": 40,
+                        "context": "While there are moments of positivity, overall inspiration and hope are not strongly evident among participants."
+                    }
+                },
+                "catch_phrase": "MAKE CHEESE GRATE AGAIN",
+                "about": "This community revolves around playful discussions centered on a whimsical token theme, emphasizing cheese and humor in the crypto space.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/vardcrypto",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 17,
+                    "total_message_count": 32
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:16:28"
+                }
+            }
+        },
+        "2024-11-07": {
+            "metrics": {
+                "emotional_metrics": {
+                    "meme_strength": {
+                        "intensity": 40,
+                        "context": "Discussions around memes and humor are present, but they don't dominate the conversation."
+                    },
+                    "fairness": {
+                        "intensity": 20,
+                        "context": "Many messages express frustration with the market and a sense that insiders might be skewing outcomes."
+                    },
+                    "VC_cabal": {
+                        "intensity": 60,
+                        "context": "Some participants are suspicious of inside manipulation, but there are mixed sentiments regarding control of prices."
+                    },
+                    "hold_intent": {
+                        "intensity": 30,
+                        "context": "Indications of selling are present, with several users expressing an intent to sell their tokens."
+                    },
+                    "vibes": {
+                        "intensity": 50,
+                        "context": "The overall vibe fluctuates between humor and frustration, with mixed reactions to the market."
+                    },
+                    "emotional_intensity": {
+                        "intensity": 70,
+                        "context": "The discussion is emotionally charged, with a blend of optimism, sarcasm, and frustration evident."
+                    },
+                    "socioeconomic": {
+                        "intensity": 60,
+                        "context": "References made to low disposable income and frustrations with current earnings suggest a mostly lower socioeconomic engagement."
+                    },
+                    "price_action_focus": {
+                        "intensity": 75,
+                        "context": "The conversation heavily revolves around token prices and market movements."
+                    },
+                    "perceived_maximum_upside": {
+                        "intensity": 40,
+                        "context": "Some participants express belief in potential gains, but there's skepticism among others regarding actual outcomes."
+                    },
+                    "free_cult_labor": {
+                        "intensity": 30,
+                        "context": "Limited indication of significant voluntary work for the project visible in the chat."
+                    },
+                    "community_health": {
+                        "intensity": 45,
+                        "context": "The community seems to be somewhat active but lacks cohesive direction or enthusiasm."
+                    },
+                    "buy_inquiry": {
+                        "intensity": 65,
+                        "context": "There are numerous inquiries about buying the token, indicating some interest from newcomers."
+                    },
+                    "inspiration": {
+                        "intensity": 25,
+                        "context": "Expressions of hope and inspiration are low, with many participants showing signs of frustration."
+                    }
+                },
+                "catch_phrase": "Cheese is the word!",
+                "about": "A community focused on the trading and bridging of crypto tokens around Cheese and its ecosystem.",
+                "socials": {
+                    "top_mentioned_accounts": [
+                        {
+                            "url": "https://x.com/fckrndfindrnd",
+                            "mentions": 1
+                        },
+                        {
+                            "url": "https://x.com/dacheeseslice",
+                            "mentions": 1
+                        }
+                    ]
+                },
+                "user_stats": {
+                    "unique_user_count": 38,
+                    "total_message_count": 110
+                },
+                "llm": {
+                    "llm_version": "gpt-4o-mini",
+                    "prompt_version": "1.0.5"
+                },
+                "date": {
+                    "date_process": "2024-11-07 21:16:34"
+                }
+            }
         }
     }
 }
