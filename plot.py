@@ -11,8 +11,9 @@ import dash_table  # For data tables
 import configparser  # For reading coins.ini
 
 # Initialize the Dash app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, suppress_callback_exceptions=True)
 server = app.server  # Expose the Flask server
+
 
 # Path to the 'tg' directory containing project folders
 TG_DIR = 'tg'
@@ -42,70 +43,215 @@ options.sort(key=lambda x: x['label'])
 app.layout = html.Div([
     html.H1('Telegram Project Dashboard'),
     dcc.Tabs(id='tabs', value='emotion', children=[
-        dcc.Tab(label='Emotion', value='emotion', children=[
-            html.Div([
-                html.Label('Select a Project Rollup:'),
-                dcc.Dropdown(
-                    id='project-dropdown',
-                    options=options,
-                    value=options[0]['value'] if options else None
-                ),
-                html.Div([
-                    dcc.Checklist(
-                        id='metrics-checklist',
-                        options=[],  # Options will be populated via callback
-                        value=['fairness'],    # Default to ['fairness']
-                        labelStyle={'display': 'inline-block', 'margin-right': '10px'}
-                    ),
-                    html.Label('SMOOTH'),
-                    dcc.Checklist(
-                        id='smooth-checklist',
-                        options=[{'label': '', 'value': 'smooth'}],
-                        value=['smooth'],  # Default to 'smooth' on
-                        labelStyle={'display': 'inline-block', 'margin-left': '10px'}
-                    ),
-                    html.Label('Number of days to smooth:'),
-                    dcc.Input(
-                        id='smoothing-days',
-                        type='number',
-                        min=1,
-                        value=3,  # Default value of 3
-                        style={'width': '60px', 'margin-left': '10px'}
-                    ),
-                ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '10px'}),
-            ]),
-            dcc.Graph(id='metrics-graph'),
-            html.Div(id='emotion-content'),
-        ]),
-        dcc.Tab(label='Leaderboard', value='leaderboard', children=[
-            html.Div([
-                html.Label('Window (days):'),
-                dcc.Input(
-                    id='leaderboard-window',
-                    type='number',
-                    min=1,
-                    value=30,
-                    style={'width': '80px', 'margin-right': '20px'}
-                ),
-                html.Label('Show #:'),
-                dcc.Input(
-                    id='leaderboard-show-n',
-                    type='number',
-                    min=1,
-                    value=5,
-                    style={'width': '80px'}
-                ),
-            ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '20px'}),
-            html.Div(id='leaderboard-tables'),
-        ]),
-        dcc.Tab(label='About', value='about', children=[
-            html.Div(id='about-content'),
-        ]),
+        dcc.Tab(label='Emotion', value='emotion'),
+        dcc.Tab(label='Leaderboard', value='leaderboard'),
+        dcc.Tab(label='About', value='about'),
     ]),
+    html.Div(id='tabs-content')
 ])
+@app.callback(
+    Output('tabs-content', 'children'),
+    [Input('tabs', 'value')]
+)
+def render_content(tab):
+    if tab == 'emotion':
+        return render_emotion_tab()
+    elif tab == 'leaderboard':
+        return render_leaderboard_tab()
+    elif tab == 'about':
+        return render_about_tab()
+    else:
+        return []
+
+def get_leaderboard_metrics_options():
+    collected_metrics = set()
+    for rollup_file in rollup_files:
+        try:
+            with open(rollup_file, 'r', encoding='utf-8') as f:
+                rollup_data = json.load(f)
+            date_data = rollup_data.get('date_data', {})
+            if not date_data:
+                continue
+            sample_day_data = next(iter(date_data.values()))
+            # Extract emotional_metrics
+            if 'metrics' in sample_day_data and 'emotional_metrics' in sample_day_data['metrics']:
+                emotional_metrics_keys = sample_day_data['metrics']['emotional_metrics'].keys()
+                collected_metrics.update(emotional_metrics_keys)
+            # Extract user_stats metrics
+            if 'metrics' in sample_day_data and 'user_stats' in sample_day_data['metrics']:
+                user_stats_keys = sample_day_data['metrics']['user_stats'].keys()
+                collected_metrics.update(user_stats_keys)
+        except Exception as e:
+            print(f"Error processing rollup file '{rollup_file}': {e}")
+            continue
+    # Create metrics options
+    metrics_options = [{'label': metric, 'value': metric} for metric in sorted(collected_metrics)]
+    return metrics_options
+
+def render_leaderboard_tab():
+    metrics_options = get_leaderboard_metrics_options()
+    content = [
+        html.Div([
+            html.Label('Window (days):'),
+            dcc.Input(
+                id='leaderboard-window',
+                type='number',
+                min=1,
+                value=30,
+                style={'width': '80px', 'margin-right': '20px'}
+            ),
+            html.Label('Show #:'),
+            dcc.Input(
+                id='leaderboard-show-n',
+                type='number',
+                min=1,
+                value=5,
+                style={'width': '80px', 'margin-right': '20px'}
+            ),
+        ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '10px'}),
+        html.Div([
+            html.Label('Select Metrics:'),
+            dcc.Checklist(
+                id='leaderboard-metrics-checklist',
+                options=metrics_options,
+                value=[],    # Default to empty, user selects
+                labelStyle={'display': 'inline-block', 'margin-right': '10px'}
+            ),
+        ], style={'margin-bottom': '20px'}),
+        html.Div(id='leaderboard-tables')
+    ]
+    return content
+
+def render_emotion_tab():
+    return html.Div([
+        html.Div([
+            html.Label('Select a Project Rollup:'),
+            dcc.Dropdown(
+                id='project-dropdown',
+                options=options,
+                value=options[0]['value'] if options else None
+            ),
+            html.Div([
+                dcc.Checklist(
+                    id='metrics-checklist',
+                    options=[],  # Options will be populated via callback
+                    value=['fairness'],    # Default to ['fairness']
+                    labelStyle={'display': 'inline-block', 'margin-right': '10px'}
+                ),
+                html.Label('SMOOTH'),
+                dcc.Checklist(
+                    id='smooth-checklist',
+                    options=[{'label': '', 'value': 'smooth'}],
+                    value=['smooth'],  # Default to 'smooth' on
+                    labelStyle={'display': 'inline-block', 'margin-left': '10px'}
+                ),
+                html.Label('Number of days to smooth:'),
+                dcc.Input(
+                    id='smoothing-days',
+                    type='number',
+                    min=1,
+                    value=3,  # Default value of 3
+                    style={'width': '60px', 'margin-left': '10px'}
+                ),
+            ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '10px'}),
+        ]),
+        dcc.Graph(id='metrics-graph'),
+        html.Div(id='emotion-content'),
+    ])
+
+def render_about_tab():
+    content = [
+        html.H2('About'),
+        html.P('This viewer is designed to provide insights into the emotional metrics of various Telegram project communities. It allows users to explore and compare different projects based on sentiment analysis and community engagement metrics derived from chat logs.'),
+        html.H2('Emotional Metrics'),
+    ]
+
+    # Descriptions for each metric
+    metrics_descriptions = {
+        "meme_strength": {
+            "description": "How powerful and engaging is the core idea or meme of the project?",
+            "low_score": "Low score (bearish): The members do not have a central meme.",
+            "high_score": "High score (bullish): Discussion revolves around a central meme."
+        },
+        "fairness": {
+            "description": "Is the token or project fair to the participants?",
+            "low_score": "Low score (bearish): Widespread belief the project is unfair.",
+            "high_score": "High score (bullish): The project is widely accepted as being economically fair and evenly distributed."
+        },
+        "VC_cabal": {
+            "description": "Is there sentiment that insiders, venture capitalists, or cabals are in control of the trajectory of the token price?",
+            "low_score": "Low score (bearish): Widespread suspicion or complaints that venture capitalists, insiders, whales, or cabals are in control.",
+            "high_score": "High score (bullish): Widespread belief that the community, not insiders, is in control."
+        },
+        "hold_intent": {
+            "description": "Are people holding or selling tokens?",
+            "low_score": "Low score (bearish): Everybody wants to sell the token.",
+            "high_score": "High score (bullish): Everybody wants to 'hold forever' or have 'diamond hands'."
+        },
+        "vibes": {
+            "description": "How good are the vibes within the chat log?",
+            "low_score": "Low score (bearish): Widespread negativity, unsupportiveness, and harshness.",
+            "high_score": "High score (bullish): An atmosphere of general support, encouragement, and generosity."
+        },
+        "emotional_intensity": {
+            "description": "Is the discussion highly emotionally charged?",
+            "low_score": "Low score (bearish): Flat, dry, technical, or matter-of-fact discussion.",
+            "high_score": "High score (bullish): A highly emotionally charged environment across all participants."
+        },
+        "socioeconomic": {
+            "description": "Are members of this group of high or low socioeconomic status?",
+            "low_score": "Low score (bearish): All users are wealthy and well-connected elites.",
+            "high_score": "High score (bullish): All users are of low socioeconomic status."
+        },
+        "price_action_focus": {
+            "description": "Is there a strong focus on the token price in the conversations?",
+            "low_score": "Low score (bearish): Absence of price discussion.",
+            "high_score": "High score (bullish): Conversation revolves around price discussion."
+        },
+        "perceived_maximum_upside": {
+            "description": "Do the participants express a strong belief in the potential of the project making them rich?",
+            "low_score": "Low score (bearish): Nobody believes they will get rich.",
+            "high_score": "High score (bullish): Widespread belief users will become rich after holding this token."
+        },
+        "free_cult_labor": {
+            "description": "Are people volunteering significant time and effort for the project without compensation?",
+            "low_score": "Low score (bearish): People are not participating in value-accretive activities whatsoever.",
+            "high_score": "High score (bullish): Widespread value-accretive participation across all participants."
+        },
+        "community_health": {
+            "description": "Does this appear to be a vibrant and lively discussion or is the community dead?",
+            "low_score": "Low score (bearish): An anemic 'dead' community with little interesting discussion.",
+            "high_score": "High score (bullish): A vibrant, diverse, healthy community with rich discussion."
+        },
+        "buy_inquiry": {
+            "description": "Are newcomers asking where or how they can buy the token?",
+            "low_score": "Low score (bearish): Nobody is asking where to buy the token.",
+            "high_score": "High score (bullish): Widespread inquiries about where or how to purchase."
+        },
+        "inspiration": {
+            "description": "Do community members get a sense of inspiration and hope from the community?",
+            "low_score": "Low score (bearish): Nobody is expressing inspiration and hope.",
+            "high_score": "High score (bullish): Widespread expressions of inspiration and hope gained from participating in the group."
+        }
+    }
+
+    # For each metric, add the description and low/high score points
+    for metric, info in metrics_descriptions.items():
+        content.append(html.H3(metric))
+        content.append(html.P(info['description']))
+        content.append(html.Ul([
+            html.Li([
+                html.Strong('Low score (bearish):'),
+                f' {info["low_score"].split(": ")[1]}'
+            ]),
+            html.Li([
+                html.Strong('High score (bullish):'),
+                f' {info["high_score"].split(": ")[1]}'
+            ])
+        ]))
+    return content
 
 
-# Callback to update the metrics options based on selected project
 # Callback to update the metrics options based on selected project
 @app.callback(
     [Output('metrics-checklist', 'options'),
@@ -517,49 +663,25 @@ def update_emotion_content(selected_rollup_file):
 
     return content
 
-def render_leaderboard_tab():
-    # Build the content for the Leaderboard tab
-    content = [
-        html.Div([
-            html.Label('Window (days):'),
-            dcc.Input(
-                id='leaderboard-window',
-                type='number',
-                min=1,
-                value=30,
-                style={'width': '80px', 'margin-right': '20px'}
-            ),
-            html.Label('Show #:'),
-            dcc.Input(
-                id='leaderboard-show-n',
-                type='number',
-                min=1,
-                value=5,
-                style={'width': '80px'}
-            ),
-        ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '20px'}),
-        html.Div(id='leaderboard-tables')
-    ]
-    return content
 
-# Callback to update the Leaderboard tables
 @app.callback(
     Output('leaderboard-tables', 'children'),
     [Input('leaderboard-window', 'value'),
-     Input('leaderboard-show-n', 'value')]
+     Input('leaderboard-show-n', 'value'),
+     Input('leaderboard-metrics-checklist', 'value')]
 )
-def update_leaderboard(window_days, show_n):
+def update_leaderboard(window_days, show_n, selected_metrics):
     # Ensure window_days and show_n are valid
     window_days = max(1, int(window_days) if window_days else 30)
     show_n = max(1, int(show_n) if show_n else 5)
 
-    # Initialize dictionaries to hold the scores for each metric
-    metrics_scores = {}  # Key: metric name, Value: list of (project_name, average_score)
+    if not selected_metrics:
+        return html.Div("Please select at least one metric to display the leaderboard.")
 
-    # Collect list of all metrics
-    all_metrics = set()
+    # Initialize dictionary to hold the average scores for each project
+    project_scores = {}  # Key: project_name, Value: average_score
 
-    # For each rollup file
+    # Iterate over each rollup file to compute scores
     for rollup_file in rollup_files:
         # Extract the project folder and project name from the rollup_file path
         project_folder = os.path.dirname(rollup_file)
@@ -582,7 +704,11 @@ def update_leaderboard(window_days, show_n):
         dates = sorted(date_data.keys())
         # Get the most recent date
         most_recent_date_str = dates[-1]
-        most_recent_date = datetime.strptime(most_recent_date_str, '%Y-%m-%d')
+        try:
+            most_recent_date = datetime.strptime(most_recent_date_str, '%Y-%m-%d')
+        except ValueError:
+            print(f"Invalid date format '{most_recent_date_str}' in '{rollup_file}'. Skipping.")
+            continue
 
         # Determine the start date for the window
         start_date = most_recent_date - timedelta(days=window_days - 1)
@@ -593,86 +719,94 @@ def update_leaderboard(window_days, show_n):
         if not window_dates:
             continue  # No data within the window
 
-        # Initialize dictionaries to sum the metrics
-        metrics_sums = {}
+        # Initialize list to collect metric values
+        metric_values = {metric: [] for metric in selected_metrics}
         for date in window_dates:
             day_data = date_data[date]
 
             # Get emotional_metrics
             emotional_metrics = day_data.get('metrics', {}).get('emotional_metrics', {})
-            for metric, metric_data in emotional_metrics.items():
-                value = metric_data.get('intensity')
-                if value is not None:
-                    all_metrics.add(metric)
-                    metrics_sums.setdefault(metric, []).append(value)
+            for metric in selected_metrics:
+                if metric in emotional_metrics:
+                    value = emotional_metrics[metric].get('intensity')
+                    if value is not None:
+                        metric_values[metric].append(value)
 
             # Get user_stats
             user_stats = day_data.get('metrics', {}).get('user_stats', {})
-            for metric in ['unique_user_count', 'total_message_count']:
-                value = user_stats.get(metric)
-                if value is not None:
-                    all_metrics.add(metric)
-                    metrics_sums.setdefault(metric, []).append(value)
+            for metric in selected_metrics:
+                if metric in user_stats:
+                    value = user_stats.get(metric)
+                    if value is not None:
+                        metric_values[metric].append(value)
 
-        # Compute averages for this project
-        for metric in metrics_sums:
-            values = metrics_sums[metric]
-            average_value = sum(values) / len(values)
-            if metric not in metrics_scores:
-                metrics_scores[metric] = []
-            metrics_scores[metric].append((project_label, average_value))
+        # Compute average for the selected metrics
+        total_score = 0
+        count = 0
+        for metric in selected_metrics:
+            values = metric_values.get(metric, [])
+            if values:
+                average_value = sum(values) / len(values)
+                total_score += average_value
+                count += 1
+        if count > 0:
+            project_scores[project_label] = total_score / count
 
-    # Now, for each metric, sort the projects and create the tables
+    if not project_scores:
+        return html.Div("No data available for the selected metrics and window.")
+
+    # Sort the projects based on the average score
+    sorted_scores = sorted(project_scores.items(), key=lambda x: x[1], reverse=True)
+
+    # Prepare data for top N
+    top_n_projects = sorted_scores[:show_n]
+    top_n_data = []
+    rank = 1
+    for project_label, score in top_n_projects:
+        top_n_data.append({'Rank': rank, 'Project': project_label, 'Score': round(score, 2)})
+        rank += 1
+
+    # Prepare data for bottom N
+    bottom_n_projects = sorted_scores[-show_n:]
+    bottom_n_projects = list(reversed(bottom_n_projects))  # So that rank is from worst to better
+    bottom_n_data = []
+    rank = len(sorted_scores) - show_n + 1
+    for project_label, score in bottom_n_projects:
+        bottom_n_data.append({'Rank': rank, 'Project': project_label, 'Score': round(score, 2)})
+        rank += 1
+
+    # Create tables
     tables = []
-    for metric in sorted(all_metrics):
-        if metric not in metrics_scores:
-            continue
-        # Sort the projects based on the average score for this metric
-        metric_scores = metrics_scores[metric]
-        metric_scores_sorted = sorted(metric_scores, key=lambda x: x[1], reverse=True)
+    metric_label = ', '.join(selected_metrics)
+    tables.append(html.H3(f'Top {show_n} Projects for {metric_label}'))
+    tables.append(dash_table.DataTable(
+        columns=[
+            {'name': 'Rank', 'id': 'Rank'},
+            {'name': 'Project', 'id': 'Project'},
+            {'name': 'Score', 'id': 'Score', 'type': 'numeric', 'format': {'specifier': '.2f'}}
+        ],
+        data=top_n_data,
+        style_cell={'textAlign': 'left', 'padding': '5px'},
+        style_as_list_view=True,
+        style_header={'backgroundColor': 'white', 'fontWeight': 'bold'},
+        style_table={'margin': '0', 'padding': '0', 'border': 'none'}
+    ))
 
-        # Prepare data for top N
-        top_n_projects = metric_scores_sorted[:show_n]
-        top_n_data = []
-        rank = 1
-        for project_label, score in top_n_projects:
-            top_n_data.append({'Rank': rank, 'Project': project_label, 'Score': round(score, 2)})
-            rank += 1
-
-        # Prepare data for bottom N
-        bottom_n_projects = metric_scores_sorted[-show_n:]
-        bottom_n_projects = list(reversed(bottom_n_projects))  # So that rank is from worst to better
-        bottom_n_data = []
-        rank = len(metric_scores_sorted) - show_n + 1
-        for project_label, score in bottom_n_projects:
-            bottom_n_data.append({'Rank': rank, 'Project': project_label, 'Score': round(score, 2)})
-            rank += 1
-
-        # Create tables
-        tables.append(html.H3(f'Top {show_n} Projects for {metric}'))
-        tables.append(dash_table.DataTable(
-            columns=[
-                {'name': 'Rank', 'id': 'Rank'},
-                {'name': 'Project', 'id': 'Project'},
-                {'name': 'Score', 'id': 'Score', 'type': 'numeric', 'format': {'specifier': '.2f'}}
-            ],
-            data=top_n_data,
-            style_cell={'textAlign': 'left'},
-            style_as_list_view=True,
-        ))
-
-        tables.append(html.H3(f'Bottom {show_n} Projects for {metric}'))
-        tables.append(dash_table.DataTable(
-            columns=[
-                {'name': 'Rank', 'id': 'Rank'},
-                {'name': 'Project', 'id': 'Project'},
-                {'name': 'Score', 'id': 'Score', 'type': 'numeric', 'format': {'specifier': '.2f'}}
-            ],
-            data=bottom_n_data,
-            style_cell={'textAlign': 'left'},
-            style_as_list_view=True,
-        ))
+    tables.append(html.H3(f'Bottom {show_n} Projects for {metric_label}'))
+    tables.append(dash_table.DataTable(
+        columns=[
+            {'name': 'Rank', 'id': 'Rank'},
+            {'name': 'Project', 'id': 'Project'},
+            {'name': 'Score', 'id': 'Score', 'type': 'numeric', 'format': {'specifier': '.2f'}}
+        ],
+        data=bottom_n_data,
+        style_cell={'textAlign': 'left', 'padding': '5px'},
+        style_as_list_view=True,
+        style_header={'backgroundColor': 'white', 'fontWeight': 'bold'},
+        style_table={'margin': '0', 'padding': '0', 'border': 'none'}
+    ))
     return tables
+
 
 # Callback to render content based on selected tab
 @app.callback(
@@ -684,98 +818,6 @@ def render_about_content(tab):
         return render_about_tab()
     else:
         return []
-
-def render_about_tab():
-    content = [
-        html.H2('About'),
-        html.P('This viewer is designed to provide insights into the emotional metrics of various Telegram project communities. It allows users to explore and compare different projects based on sentiment analysis and community engagement metrics derived from chat logs.'),
-        html.H2('Emotional Metrics'),
-    ]
-
-    # Descriptions for each metric
-    metrics_descriptions = {
-        "fairness": {
-            "description": "Is the token or project fair to the participants?",
-            "low_score": "Low score (bearish): Widespread belief the project is unfair.",
-            "high_score": "High score (bullish): The project is widely accepted as being economically fair and evenly distributed."
-        },
-        "meme_strength": {
-            "description": "How powerful and engaging is the core idea or meme of the project?",
-            "low_score": "Low score (bearish): The members do not have a central meme.",
-            "high_score": "High score (bullish): Discussion revolves around a central meme."
-        },
-        "VC_cabal": {
-            "description": "Is there sentiment that insiders, venture capitalists, or cabals are in control of the trajectory of the token price?",
-            "low_score": "Low score (bearish): Widespread suspicion or complaints that venture capitalists, insiders, whales, or cabals are in control.",
-            "high_score": "High score (bullish): Widespread belief that the community, not insiders, is in control."
-        },
-        "hold_intent": {
-            "description": "Are people holding or selling tokens?",
-            "low_score": "Low score (bearish): Everybody wants to sell the token.",
-            "high_score": "High score (bullish): Everybody wants to 'hold forever' or have 'diamond hands'."
-        },
-        "vibes": {
-            "description": "How good are the vibes within the chat log?",
-            "low_score": "Low score (bearish): Widespread negativity, unsupportiveness, and harshness.",
-            "high_score": "High score (bullish): An atmosphere of general support, encouragement, and generosity."
-        },
-        "emotional_intensity": {
-            "description": "Is the discussion highly emotionally charged?",
-            "low_score": "Low score (bearish): Flat, dry, technical, or matter-of-fact discussion.",
-            "high_score": "High score (bullish): A highly emotionally charged environment across all participants."
-        },
-        "socioeconomic": {
-            "description": "Are members of this group of high or low socioeconomic status?",
-            "low_score": "Low score (bearish): All users are wealthy and well-connected elites.",
-            "high_score": "High score (bullish): All users are of low socioeconomic status."
-        },
-        "price_action_focus": {
-            "description": "Is there a strong focus on the token price in the conversations?",
-            "low_score": "Low score (bearish): Absence of price discussion.",
-            "high_score": "High score (bullish): Conversation revolves around price discussion."
-        },
-        "perceived_maximum_upside": {
-            "description": "Do the participants express a strong belief in the potential of the project making them rich?",
-            "low_score": "Low score (bearish): Nobody believes they will get rich.",
-            "high_score": "High score (bullish): Widespread belief users will become rich after holding this token."
-        },
-        "free_cult_labor": {
-            "description": "Are people volunteering significant time and effort for the project without compensation?",
-            "low_score": "Low score (bearish): People are not participating in value-accretive activities whatsoever.",
-            "high_score": "High score (bullish): Widespread value-accretive participation across all participants."
-        },
-        "community_health": {
-            "description": "Does this appear to be a vibrant and lively discussion or is the community dead?",
-            "low_score": "Low score (bearish): An anemic 'dead' community with little interesting discussion.",
-            "high_score": "High score (bullish): A vibrant, diverse, healthy community with rich discussion."
-        },
-        "buy_inquiry": {
-            "description": "Are newcomers asking where or how they can buy the token?",
-            "low_score": "Low score (bearish): Nobody is asking where to buy the token.",
-            "high_score": "High score (bullish): Widespread inquiries about where or how to purchase."
-        },
-        "inspiration": {
-            "description": "Do community members get a sense of inspiration and hope from the community?",
-            "low_score": "Low score (bearish): Nobody is expressing inspiration and hope.",
-            "high_score": "High score (bullish): Widespread expressions of inspiration and hope gained from participating in the group."
-        }
-    }
-
-    # For each metric, add the description and low/high score points with the specified formatting
-    for metric, info in metrics_descriptions.items():
-        content.append(html.H3(metric))
-        content.append(html.P(info['description']))
-        content.append(html.Ul([
-            html.Li([
-                html.Strong('Low score (bearish):'),
-                f' {info["low_score"].split(": ")[1]}'
-            ]),
-            html.Li([
-                html.Strong('High score (bullish):'),
-                f' {info["high_score"].split(": ")[1]}'
-            ])
-        ]))
-    return content
 
 
 if __name__ == '__main__':
